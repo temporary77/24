@@ -1,2 +1,3 @@
 # 24
-project that i decided not to push until now
+school project  
+decided not to push until now
