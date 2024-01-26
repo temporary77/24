@@ -41,6 +41,7 @@ public class Interactive {
     	for (int i = Constants.start; i <= Constants.end; ++i) {
 			// System.out.println("solving i = "+i+" ...");
 			for (int j = i; j <= Constants.end; ++j) {
+				// System.out.println("solving j = "+j+" ...");
 				for (int k = j; k <= Constants.end; ++k) {
 					for (int l = k; l <= Constants.end; ++l) {
 						// if ((i == j && j == k) || (j == k && k == l))continue;
