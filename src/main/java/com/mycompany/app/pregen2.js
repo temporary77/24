@@ -68,6 +68,27 @@ function writeExpression(name, a, b, c, d) {
 
 document.write("public class Expressions2 {<br>");
 
+// a + 0 == a - 0
+// writeExpression("EXP_0ABC","0","a","b","c");
+// writeExpression("EXP_0AAB","0","a","a","b");
+// writeExpression("EXP_0AAA","0","a","a","a");
+// writeExpression("EXP_00AB","0","0","a","b");
+// writeExpression("EXP_00AA","0","0","a","a");
+// writeExpression("EXP_000A","0","0","0","a");
+
+// // a * 1 == a / 1
+// writeExpression("EXP_1ABC","1","a","b","c");
+// writeExpression("EXP_1AAB","1","a","a","b");
+// writeExpression("EXP_1AAA","1","a","a","a");
+// writeExpression("EXP_11AB","1","1","a","b");
+// writeExpression("EXP_11AA","1","1","a","a");
+// writeExpression("EXP_111A","1","1","1","a"); // 1+1-1 = 1*1*1
+
+// writeExpression("EXP_01AB","0","1","a","b");
+// writeExpression("EXP_01AA","0","1","a","a");
+// writeExpression("EXP_001A","0","0","1","a");
+// writeExpression("EXP_011A","0","1","1","a");
+
 // 2 + 2 == 2 * 2
 writeExpression("EXP_22AB","2","2","a","b");
 writeExpression("EXP_22AA","2","2","a","a");

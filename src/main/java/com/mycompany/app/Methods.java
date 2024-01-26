@@ -1,2314 +1,2314 @@
 public class Methods {
 	public static double _LLaAbRAcRAd(double a, double b, double c, double d) {return ((a+b)+c)+d;}
 	public static double _LLaAbRAcRSd(double a, double b, double c, double d) {return ((a+b)+c)-d;}
+	public static double _LLaAbRAdRSc(double a, double b, double c, double d) {return ((a+b)+d)-c;}
+	public static double _LLaAcRAdRSb(double a, double b, double c, double d) {return ((a+c)+d)-b;}
+	public static double _LLbAcRAdRSa(double a, double b, double c, double d) {return ((b+c)+d)-a;}
 	public static double _LLaAbRAcRMd(double a, double b, double c, double d) {return ((a+b)+c)*d;}
+	public static double _LLaAbRAdRMc(double a, double b, double c, double d) {return ((a+b)+d)*c;}
+	public static double _LLaAcRAdRMb(double a, double b, double c, double d) {return ((a+c)+d)*b;}
+	public static double _LLbAcRAdRMa(double a, double b, double c, double d) {return ((b+c)+d)*a;}
 	public static double _LLaAbRAcRDd(double a, double b, double c, double d) {return ((a+b)+c)/d;}
-	public static double _LLaAbRScRAd(double a, double b, double c, double d) {return ((a+b)-c)+d;}
+	public static double _LLaAbRAdRDc(double a, double b, double c, double d) {return ((a+b)+d)/c;}
+	public static double _LLaAcRAdRDb(double a, double b, double c, double d) {return ((a+c)+d)/b;}
+	public static double _LLbAcRAdRDa(double a, double b, double c, double d) {return ((b+c)+d)/a;}
 	public static double _LLaAbRScRSd(double a, double b, double c, double d) {return ((a+b)-c)-d;}
+	public static double _LLaAcRSbRSd(double a, double b, double c, double d) {return ((a+c)-b)-d;}
+	public static double _LLaAdRSbRSc(double a, double b, double c, double d) {return ((a+d)-b)-c;}
+	public static double _LLbAcRSaRSd(double a, double b, double c, double d) {return ((b+c)-a)-d;}
+	public static double _LLbAdRSaRSc(double a, double b, double c, double d) {return ((b+d)-a)-c;}
+	public static double _LLcAdRSaRSb(double a, double b, double c, double d) {return ((c+d)-a)-b;}
 	public static double _LLaAbRScRMd(double a, double b, double c, double d) {return ((a+b)-c)*d;}
+	public static double _LLaAbRSdRMc(double a, double b, double c, double d) {return ((a+b)-d)*c;}
+	public static double _LLaAcRSbRMd(double a, double b, double c, double d) {return ((a+c)-b)*d;}
+	public static double _LLaAcRSdRMb(double a, double b, double c, double d) {return ((a+c)-d)*b;}
+	public static double _LLaAdRSbRMc(double a, double b, double c, double d) {return ((a+d)-b)*c;}
+	public static double _LLaAdRScRMb(double a, double b, double c, double d) {return ((a+d)-c)*b;}
+	public static double _LLbAcRSaRMd(double a, double b, double c, double d) {return ((b+c)-a)*d;}
+	public static double _LLbAcRSdRMa(double a, double b, double c, double d) {return ((b+c)-d)*a;}
+	public static double _LLbAdRSaRMc(double a, double b, double c, double d) {return ((b+d)-a)*c;}
+	public static double _LLbAdRScRMa(double a, double b, double c, double d) {return ((b+d)-c)*a;}
+	public static double _LLcAdRSaRMb(double a, double b, double c, double d) {return ((c+d)-a)*b;}
+	public static double _LLcAdRSbRMa(double a, double b, double c, double d) {return ((c+d)-b)*a;}
 	public static double _LLaAbRScRDd(double a, double b, double c, double d) {return ((a+b)-c)/d;}
+	public static double _LLaAbRSdRDc(double a, double b, double c, double d) {return ((a+b)-d)/c;}
+	public static double _LLaAcRSbRDd(double a, double b, double c, double d) {return ((a+c)-b)/d;}
+	public static double _LLaAcRSdRDb(double a, double b, double c, double d) {return ((a+c)-d)/b;}
+	public static double _LLaAdRSbRDc(double a, double b, double c, double d) {return ((a+d)-b)/c;}
+	public static double _LLaAdRScRDb(double a, double b, double c, double d) {return ((a+d)-c)/b;}
+	public static double _LLbAcRSaRDd(double a, double b, double c, double d) {return ((b+c)-a)/d;}
+	public static double _LLbAcRSdRDa(double a, double b, double c, double d) {return ((b+c)-d)/a;}
+	public static double _LLbAdRSaRDc(double a, double b, double c, double d) {return ((b+d)-a)/c;}
+	public static double _LLbAdRScRDa(double a, double b, double c, double d) {return ((b+d)-c)/a;}
+	public static double _LLcAdRSaRDb(double a, double b, double c, double d) {return ((c+d)-a)/b;}
+	public static double _LLcAdRSbRDa(double a, double b, double c, double d) {return ((c+d)-b)/a;}
 	public static double _LLaAbRMcRAd(double a, double b, double c, double d) {return ((a+b)*c)+d;}
+	public static double _LLaAbRMdRAc(double a, double b, double c, double d) {return ((a+b)*d)+c;}
+	public static double _LLaAcRMbRAd(double a, double b, double c, double d) {return ((a+c)*b)+d;}
+	public static double _LLaAcRMdRAb(double a, double b, double c, double d) {return ((a+c)*d)+b;}
+	public static double _LLaAdRMbRAc(double a, double b, double c, double d) {return ((a+d)*b)+c;}
+	public static double _LLaAdRMcRAb(double a, double b, double c, double d) {return ((a+d)*c)+b;}
+	public static double _LLbAcRMaRAd(double a, double b, double c, double d) {return ((b+c)*a)+d;}
+	public static double _LLbAcRMdRAa(double a, double b, double c, double d) {return ((b+c)*d)+a;}
+	public static double _LLbAdRMaRAc(double a, double b, double c, double d) {return ((b+d)*a)+c;}
+	public static double _LLbAdRMcRAa(double a, double b, double c, double d) {return ((b+d)*c)+a;}
+	public static double _LLcAdRMaRAb(double a, double b, double c, double d) {return ((c+d)*a)+b;}
+	public static double _LLcAdRMbRAa(double a, double b, double c, double d) {return ((c+d)*b)+a;}
 	public static double _LLaAbRMcRSd(double a, double b, double c, double d) {return ((a+b)*c)-d;}
+	public static double _LLaAbRMdRSc(double a, double b, double c, double d) {return ((a+b)*d)-c;}
+	public static double _LLaAcRMbRSd(double a, double b, double c, double d) {return ((a+c)*b)-d;}
+	public static double _LLaAcRMdRSb(double a, double b, double c, double d) {return ((a+c)*d)-b;}
+	public static double _LLaAdRMbRSc(double a, double b, double c, double d) {return ((a+d)*b)-c;}
+	public static double _LLaAdRMcRSb(double a, double b, double c, double d) {return ((a+d)*c)-b;}
+	public static double _LLbAcRMaRSd(double a, double b, double c, double d) {return ((b+c)*a)-d;}
+	public static double _LLbAcRMdRSa(double a, double b, double c, double d) {return ((b+c)*d)-a;}
+	public static double _LLbAdRMaRSc(double a, double b, double c, double d) {return ((b+d)*a)-c;}
+	public static double _LLbAdRMcRSa(double a, double b, double c, double d) {return ((b+d)*c)-a;}
+	public static double _LLcAdRMaRSb(double a, double b, double c, double d) {return ((c+d)*a)-b;}
+	public static double _LLcAdRMbRSa(double a, double b, double c, double d) {return ((c+d)*b)-a;}
 	public static double _LLaAbRMcRMd(double a, double b, double c, double d) {return ((a+b)*c)*d;}
+	public static double _LLaAcRMbRMd(double a, double b, double c, double d) {return ((a+c)*b)*d;}
+	public static double _LLaAdRMbRMc(double a, double b, double c, double d) {return ((a+d)*b)*c;}
+	public static double _LLbAcRMaRMd(double a, double b, double c, double d) {return ((b+c)*a)*d;}
+	public static double _LLbAdRMaRMc(double a, double b, double c, double d) {return ((b+d)*a)*c;}
+	public static double _LLcAdRMaRMb(double a, double b, double c, double d) {return ((c+d)*a)*b;}
 	public static double _LLaAbRMcRDd(double a, double b, double c, double d) {return ((a+b)*c)/d;}
+	public static double _LLaAbRMdRDc(double a, double b, double c, double d) {return ((a+b)*d)/c;}
+	public static double _LLaAcRMbRDd(double a, double b, double c, double d) {return ((a+c)*b)/d;}
+	public static double _LLaAcRMdRDb(double a, double b, double c, double d) {return ((a+c)*d)/b;}
+	public static double _LLaAdRMbRDc(double a, double b, double c, double d) {return ((a+d)*b)/c;}
+	public static double _LLaAdRMcRDb(double a, double b, double c, double d) {return ((a+d)*c)/b;}
+	public static double _LLbAcRMaRDd(double a, double b, double c, double d) {return ((b+c)*a)/d;}
+	public static double _LLbAcRMdRDa(double a, double b, double c, double d) {return ((b+c)*d)/a;}
+	public static double _LLbAdRMaRDc(double a, double b, double c, double d) {return ((b+d)*a)/c;}
+	public static double _LLbAdRMcRDa(double a, double b, double c, double d) {return ((b+d)*c)/a;}
+	public static double _LLcAdRMaRDb(double a, double b, double c, double d) {return ((c+d)*a)/b;}
+	public static double _LLcAdRMbRDa(double a, double b, double c, double d) {return ((c+d)*b)/a;}
 	public static double _LLaAbRDcRAd(double a, double b, double c, double d) {return ((a+b)/c)+d;}
+	public static double _LLaAbRDdRAc(double a, double b, double c, double d) {return ((a+b)/d)+c;}
+	public static double _LLaAcRDbRAd(double a, double b, double c, double d) {return ((a+c)/b)+d;}
+	public static double _LLaAcRDdRAb(double a, double b, double c, double d) {return ((a+c)/d)+b;}
+	public static double _LLaAdRDbRAc(double a, double b, double c, double d) {return ((a+d)/b)+c;}
+	public static double _LLaAdRDcRAb(double a, double b, double c, double d) {return ((a+d)/c)+b;}
+	public static double _LLbAcRDaRAd(double a, double b, double c, double d) {return ((b+c)/a)+d;}
+	public static double _LLbAcRDdRAa(double a, double b, double c, double d) {return ((b+c)/d)+a;}
+	public static double _LLbAdRDaRAc(double a, double b, double c, double d) {return ((b+d)/a)+c;}
+	public static double _LLbAdRDcRAa(double a, double b, double c, double d) {return ((b+d)/c)+a;}
+	public static double _LLcAdRDaRAb(double a, double b, double c, double d) {return ((c+d)/a)+b;}
+	public static double _LLcAdRDbRAa(double a, double b, double c, double d) {return ((c+d)/b)+a;}
 	public static double _LLaAbRDcRSd(double a, double b, double c, double d) {return ((a+b)/c)-d;}
-	public static double _LLaAbRDcRMd(double a, double b, double c, double d) {return ((a+b)/c)*d;}
+	public static double _LLaAbRDdRSc(double a, double b, double c, double d) {return ((a+b)/d)-c;}
+	public static double _LLaAcRDbRSd(double a, double b, double c, double d) {return ((a+c)/b)-d;}
+	public static double _LLaAcRDdRSb(double a, double b, double c, double d) {return ((a+c)/d)-b;}
+	public static double _LLaAdRDbRSc(double a, double b, double c, double d) {return ((a+d)/b)-c;}
+	public static double _LLaAdRDcRSb(double a, double b, double c, double d) {return ((a+d)/c)-b;}
+	public static double _LLbAcRDaRSd(double a, double b, double c, double d) {return ((b+c)/a)-d;}
+	public static double _LLbAcRDdRSa(double a, double b, double c, double d) {return ((b+c)/d)-a;}
+	public static double _LLbAdRDaRSc(double a, double b, double c, double d) {return ((b+d)/a)-c;}
+	public static double _LLbAdRDcRSa(double a, double b, double c, double d) {return ((b+d)/c)-a;}
+	public static double _LLcAdRDaRSb(double a, double b, double c, double d) {return ((c+d)/a)-b;}
+	public static double _LLcAdRDbRSa(double a, double b, double c, double d) {return ((c+d)/b)-a;}
 	public static double _LaAbRDLcMdR(double a, double b, double c, double d) {return (a+b)/(c*d);}
-	public static double _LLaSbRAcRAd(double a, double b, double c, double d) {return ((a-b)+c)+d;}
-	public static double _LLaSbRAcRSd(double a, double b, double c, double d) {return ((a-b)+c)-d;}
-	public static double _LLaSbRAcRMd(double a, double b, double c, double d) {return ((a-b)+c)*d;}
-	public static double _LLaSbRAcRDd(double a, double b, double c, double d) {return ((a-b)+c)/d;}
-	public static double _LLaSbRScRAd(double a, double b, double c, double d) {return ((a-b)-c)+d;}
+	public static double _LaAcRDLbMdR(double a, double b, double c, double d) {return (a+c)/(b*d);}
+	public static double _LaAdRDLbMcR(double a, double b, double c, double d) {return (a+d)/(b*c);}
+	public static double _LbAcRDLaMdR(double a, double b, double c, double d) {return (b+c)/(a*d);}
+	public static double _LbAdRDLaMcR(double a, double b, double c, double d) {return (b+d)/(a*c);}
+	public static double _LcAdRDLaMbR(double a, double b, double c, double d) {return (c+d)/(a*b);}
 	public static double _LLaSbRScRSd(double a, double b, double c, double d) {return ((a-b)-c)-d;}
+	public static double _LLbSaRScRSd(double a, double b, double c, double d) {return ((b-a)-c)-d;}
+	public static double _LLcSaRSbRSd(double a, double b, double c, double d) {return ((c-a)-b)-d;}
+	public static double _LLdSaRSbRSc(double a, double b, double c, double d) {return ((d-a)-b)-c;}
 	public static double _LLaSbRScRMd(double a, double b, double c, double d) {return ((a-b)-c)*d;}
+	public static double _LLaSbRSdRMc(double a, double b, double c, double d) {return ((a-b)-d)*c;}
+	public static double _LLaScRSdRMb(double a, double b, double c, double d) {return ((a-c)-d)*b;}
+	public static double _LLbSaRScRMd(double a, double b, double c, double d) {return ((b-a)-c)*d;}
+	public static double _LLbSaRSdRMc(double a, double b, double c, double d) {return ((b-a)-d)*c;}
+	public static double _LLbScRSdRMa(double a, double b, double c, double d) {return ((b-c)-d)*a;}
+	public static double _LLcSaRSbRMd(double a, double b, double c, double d) {return ((c-a)-b)*d;}
+	public static double _LLcSaRSdRMb(double a, double b, double c, double d) {return ((c-a)-d)*b;}
+	public static double _LLcSbRSdRMa(double a, double b, double c, double d) {return ((c-b)-d)*a;}
+	public static double _LLdSaRSbRMc(double a, double b, double c, double d) {return ((d-a)-b)*c;}
+	public static double _LLdSaRScRMb(double a, double b, double c, double d) {return ((d-a)-c)*b;}
+	public static double _LLdSbRScRMa(double a, double b, double c, double d) {return ((d-b)-c)*a;}
 	public static double _LLaSbRScRDd(double a, double b, double c, double d) {return ((a-b)-c)/d;}
+	public static double _LLaSbRSdRDc(double a, double b, double c, double d) {return ((a-b)-d)/c;}
+	public static double _LLaScRSdRDb(double a, double b, double c, double d) {return ((a-c)-d)/b;}
+	public static double _LLbSaRScRDd(double a, double b, double c, double d) {return ((b-a)-c)/d;}
+	public static double _LLbSaRSdRDc(double a, double b, double c, double d) {return ((b-a)-d)/c;}
+	public static double _LLbScRSdRDa(double a, double b, double c, double d) {return ((b-c)-d)/a;}
+	public static double _LLcSaRSbRDd(double a, double b, double c, double d) {return ((c-a)-b)/d;}
+	public static double _LLcSaRSdRDb(double a, double b, double c, double d) {return ((c-a)-d)/b;}
+	public static double _LLcSbRSdRDa(double a, double b, double c, double d) {return ((c-b)-d)/a;}
+	public static double _LLdSaRSbRDc(double a, double b, double c, double d) {return ((d-a)-b)/c;}
+	public static double _LLdSaRScRDb(double a, double b, double c, double d) {return ((d-a)-c)/b;}
+	public static double _LLdSbRScRDa(double a, double b, double c, double d) {return ((d-b)-c)/a;}
 	public static double _LLaSbRMcRAd(double a, double b, double c, double d) {return ((a-b)*c)+d;}
+	public static double _LLaSbRMdRAc(double a, double b, double c, double d) {return ((a-b)*d)+c;}
+	public static double _LLaScRMbRAd(double a, double b, double c, double d) {return ((a-c)*b)+d;}
+	public static double _LLaScRMdRAb(double a, double b, double c, double d) {return ((a-c)*d)+b;}
+	public static double _LLaSdRMbRAc(double a, double b, double c, double d) {return ((a-d)*b)+c;}
+	public static double _LLaSdRMcRAb(double a, double b, double c, double d) {return ((a-d)*c)+b;}
+	public static double _LLbSaRMcRAd(double a, double b, double c, double d) {return ((b-a)*c)+d;}
+	public static double _LLbSaRMdRAc(double a, double b, double c, double d) {return ((b-a)*d)+c;}
+	public static double _LLbScRMaRAd(double a, double b, double c, double d) {return ((b-c)*a)+d;}
+	public static double _LLbScRMdRAa(double a, double b, double c, double d) {return ((b-c)*d)+a;}
+	public static double _LLbSdRMaRAc(double a, double b, double c, double d) {return ((b-d)*a)+c;}
+	public static double _LLbSdRMcRAa(double a, double b, double c, double d) {return ((b-d)*c)+a;}
+	public static double _LLcSaRMbRAd(double a, double b, double c, double d) {return ((c-a)*b)+d;}
+	public static double _LLcSaRMdRAb(double a, double b, double c, double d) {return ((c-a)*d)+b;}
+	public static double _LLcSbRMaRAd(double a, double b, double c, double d) {return ((c-b)*a)+d;}
+	public static double _LLcSbRMdRAa(double a, double b, double c, double d) {return ((c-b)*d)+a;}
+	public static double _LLcSdRMaRAb(double a, double b, double c, double d) {return ((c-d)*a)+b;}
+	public static double _LLcSdRMbRAa(double a, double b, double c, double d) {return ((c-d)*b)+a;}
+	public static double _LLdSaRMbRAc(double a, double b, double c, double d) {return ((d-a)*b)+c;}
+	public static double _LLdSaRMcRAb(double a, double b, double c, double d) {return ((d-a)*c)+b;}
+	public static double _LLdSbRMaRAc(double a, double b, double c, double d) {return ((d-b)*a)+c;}
+	public static double _LLdSbRMcRAa(double a, double b, double c, double d) {return ((d-b)*c)+a;}
+	public static double _LLdScRMaRAb(double a, double b, double c, double d) {return ((d-c)*a)+b;}
+	public static double _LLdScRMbRAa(double a, double b, double c, double d) {return ((d-c)*b)+a;}
 	public static double _LLaSbRMcRSd(double a, double b, double c, double d) {return ((a-b)*c)-d;}
+	public static double _LLaSbRMdRSc(double a, double b, double c, double d) {return ((a-b)*d)-c;}
+	public static double _LLaScRMbRSd(double a, double b, double c, double d) {return ((a-c)*b)-d;}
+	public static double _LLaScRMdRSb(double a, double b, double c, double d) {return ((a-c)*d)-b;}
+	public static double _LLaSdRMbRSc(double a, double b, double c, double d) {return ((a-d)*b)-c;}
+	public static double _LLaSdRMcRSb(double a, double b, double c, double d) {return ((a-d)*c)-b;}
+	public static double _LLbSaRMcRSd(double a, double b, double c, double d) {return ((b-a)*c)-d;}
+	public static double _LLbSaRMdRSc(double a, double b, double c, double d) {return ((b-a)*d)-c;}
+	public static double _LLbScRMaRSd(double a, double b, double c, double d) {return ((b-c)*a)-d;}
+	public static double _LLbScRMdRSa(double a, double b, double c, double d) {return ((b-c)*d)-a;}
+	public static double _LLbSdRMaRSc(double a, double b, double c, double d) {return ((b-d)*a)-c;}
+	public static double _LLbSdRMcRSa(double a, double b, double c, double d) {return ((b-d)*c)-a;}
+	public static double _LLcSaRMbRSd(double a, double b, double c, double d) {return ((c-a)*b)-d;}
+	public static double _LLcSaRMdRSb(double a, double b, double c, double d) {return ((c-a)*d)-b;}
+	public static double _LLcSbRMaRSd(double a, double b, double c, double d) {return ((c-b)*a)-d;}
+	public static double _LLcSbRMdRSa(double a, double b, double c, double d) {return ((c-b)*d)-a;}
+	public static double _LLcSdRMaRSb(double a, double b, double c, double d) {return ((c-d)*a)-b;}
+	public static double _LLcSdRMbRSa(double a, double b, double c, double d) {return ((c-d)*b)-a;}
+	public static double _LLdSaRMbRSc(double a, double b, double c, double d) {return ((d-a)*b)-c;}
+	public static double _LLdSaRMcRSb(double a, double b, double c, double d) {return ((d-a)*c)-b;}
+	public static double _LLdSbRMaRSc(double a, double b, double c, double d) {return ((d-b)*a)-c;}
+	public static double _LLdSbRMcRSa(double a, double b, double c, double d) {return ((d-b)*c)-a;}
+	public static double _LLdScRMaRSb(double a, double b, double c, double d) {return ((d-c)*a)-b;}
+	public static double _LLdScRMbRSa(double a, double b, double c, double d) {return ((d-c)*b)-a;}
 	public static double _LLaSbRMcRMd(double a, double b, double c, double d) {return ((a-b)*c)*d;}
+	public static double _LLaScRMbRMd(double a, double b, double c, double d) {return ((a-c)*b)*d;}
+	public static double _LLaSdRMbRMc(double a, double b, double c, double d) {return ((a-d)*b)*c;}
+	public static double _LLbSaRMcRMd(double a, double b, double c, double d) {return ((b-a)*c)*d;}
+	public static double _LLbScRMaRMd(double a, double b, double c, double d) {return ((b-c)*a)*d;}
+	public static double _LLbSdRMaRMc(double a, double b, double c, double d) {return ((b-d)*a)*c;}
+	public static double _LLcSaRMbRMd(double a, double b, double c, double d) {return ((c-a)*b)*d;}
+	public static double _LLcSbRMaRMd(double a, double b, double c, double d) {return ((c-b)*a)*d;}
+	public static double _LLcSdRMaRMb(double a, double b, double c, double d) {return ((c-d)*a)*b;}
+	public static double _LLdSaRMbRMc(double a, double b, double c, double d) {return ((d-a)*b)*c;}
+	public static double _LLdSbRMaRMc(double a, double b, double c, double d) {return ((d-b)*a)*c;}
+	public static double _LLdScRMaRMb(double a, double b, double c, double d) {return ((d-c)*a)*b;}
 	public static double _LLaSbRMcRDd(double a, double b, double c, double d) {return ((a-b)*c)/d;}
+	public static double _LLaSbRMdRDc(double a, double b, double c, double d) {return ((a-b)*d)/c;}
+	public static double _LLaScRMbRDd(double a, double b, double c, double d) {return ((a-c)*b)/d;}
+	public static double _LLaScRMdRDb(double a, double b, double c, double d) {return ((a-c)*d)/b;}
+	public static double _LLaSdRMbRDc(double a, double b, double c, double d) {return ((a-d)*b)/c;}
+	public static double _LLaSdRMcRDb(double a, double b, double c, double d) {return ((a-d)*c)/b;}
+	public static double _LLbSaRMcRDd(double a, double b, double c, double d) {return ((b-a)*c)/d;}
+	public static double _LLbSaRMdRDc(double a, double b, double c, double d) {return ((b-a)*d)/c;}
+	public static double _LLbScRMaRDd(double a, double b, double c, double d) {return ((b-c)*a)/d;}
+	public static double _LLbScRMdRDa(double a, double b, double c, double d) {return ((b-c)*d)/a;}
+	public static double _LLbSdRMaRDc(double a, double b, double c, double d) {return ((b-d)*a)/c;}
+	public static double _LLbSdRMcRDa(double a, double b, double c, double d) {return ((b-d)*c)/a;}
+	public static double _LLcSaRMbRDd(double a, double b, double c, double d) {return ((c-a)*b)/d;}
+	public static double _LLcSaRMdRDb(double a, double b, double c, double d) {return ((c-a)*d)/b;}
+	public static double _LLcSbRMaRDd(double a, double b, double c, double d) {return ((c-b)*a)/d;}
+	public static double _LLcSbRMdRDa(double a, double b, double c, double d) {return ((c-b)*d)/a;}
+	public static double _LLcSdRMaRDb(double a, double b, double c, double d) {return ((c-d)*a)/b;}
+	public static double _LLcSdRMbRDa(double a, double b, double c, double d) {return ((c-d)*b)/a;}
+	public static double _LLdSaRMbRDc(double a, double b, double c, double d) {return ((d-a)*b)/c;}
+	public static double _LLdSaRMcRDb(double a, double b, double c, double d) {return ((d-a)*c)/b;}
+	public static double _LLdSbRMaRDc(double a, double b, double c, double d) {return ((d-b)*a)/c;}
+	public static double _LLdSbRMcRDa(double a, double b, double c, double d) {return ((d-b)*c)/a;}
+	public static double _LLdScRMaRDb(double a, double b, double c, double d) {return ((d-c)*a)/b;}
+	public static double _LLdScRMbRDa(double a, double b, double c, double d) {return ((d-c)*b)/a;}
 	public static double _LLaSbRDcRAd(double a, double b, double c, double d) {return ((a-b)/c)+d;}
+	public static double _LLaSbRDdRAc(double a, double b, double c, double d) {return ((a-b)/d)+c;}
+	public static double _LLaScRDbRAd(double a, double b, double c, double d) {return ((a-c)/b)+d;}
+	public static double _LLaScRDdRAb(double a, double b, double c, double d) {return ((a-c)/d)+b;}
+	public static double _LLaSdRDbRAc(double a, double b, double c, double d) {return ((a-d)/b)+c;}
+	public static double _LLaSdRDcRAb(double a, double b, double c, double d) {return ((a-d)/c)+b;}
+	public static double _LLbSaRDcRAd(double a, double b, double c, double d) {return ((b-a)/c)+d;}
+	public static double _LLbSaRDdRAc(double a, double b, double c, double d) {return ((b-a)/d)+c;}
+	public static double _LLbScRDaRAd(double a, double b, double c, double d) {return ((b-c)/a)+d;}
+	public static double _LLbScRDdRAa(double a, double b, double c, double d) {return ((b-c)/d)+a;}
+	public static double _LLbSdRDaRAc(double a, double b, double c, double d) {return ((b-d)/a)+c;}
+	public static double _LLbSdRDcRAa(double a, double b, double c, double d) {return ((b-d)/c)+a;}
+	public static double _LLcSaRDbRAd(double a, double b, double c, double d) {return ((c-a)/b)+d;}
+	public static double _LLcSaRDdRAb(double a, double b, double c, double d) {return ((c-a)/d)+b;}
+	public static double _LLcSbRDaRAd(double a, double b, double c, double d) {return ((c-b)/a)+d;}
+	public static double _LLcSbRDdRAa(double a, double b, double c, double d) {return ((c-b)/d)+a;}
+	public static double _LLcSdRDaRAb(double a, double b, double c, double d) {return ((c-d)/a)+b;}
+	public static double _LLcSdRDbRAa(double a, double b, double c, double d) {return ((c-d)/b)+a;}
+	public static double _LLdSaRDbRAc(double a, double b, double c, double d) {return ((d-a)/b)+c;}
+	public static double _LLdSaRDcRAb(double a, double b, double c, double d) {return ((d-a)/c)+b;}
+	public static double _LLdSbRDaRAc(double a, double b, double c, double d) {return ((d-b)/a)+c;}
+	public static double _LLdSbRDcRAa(double a, double b, double c, double d) {return ((d-b)/c)+a;}
+	public static double _LLdScRDaRAb(double a, double b, double c, double d) {return ((d-c)/a)+b;}
+	public static double _LLdScRDbRAa(double a, double b, double c, double d) {return ((d-c)/b)+a;}
 	public static double _LLaSbRDcRSd(double a, double b, double c, double d) {return ((a-b)/c)-d;}
-	public static double _LLaSbRDcRMd(double a, double b, double c, double d) {return ((a-b)/c)*d;}
+	public static double _LLaSbRDdRSc(double a, double b, double c, double d) {return ((a-b)/d)-c;}
+	public static double _LLaScRDbRSd(double a, double b, double c, double d) {return ((a-c)/b)-d;}
+	public static double _LLaScRDdRSb(double a, double b, double c, double d) {return ((a-c)/d)-b;}
+	public static double _LLaSdRDbRSc(double a, double b, double c, double d) {return ((a-d)/b)-c;}
+	public static double _LLaSdRDcRSb(double a, double b, double c, double d) {return ((a-d)/c)-b;}
+	public static double _LLbSaRDcRSd(double a, double b, double c, double d) {return ((b-a)/c)-d;}
+	public static double _LLbSaRDdRSc(double a, double b, double c, double d) {return ((b-a)/d)-c;}
+	public static double _LLbScRDaRSd(double a, double b, double c, double d) {return ((b-c)/a)-d;}
+	public static double _LLbScRDdRSa(double a, double b, double c, double d) {return ((b-c)/d)-a;}
+	public static double _LLbSdRDaRSc(double a, double b, double c, double d) {return ((b-d)/a)-c;}
+	public static double _LLbSdRDcRSa(double a, double b, double c, double d) {return ((b-d)/c)-a;}
+	public static double _LLcSaRDbRSd(double a, double b, double c, double d) {return ((c-a)/b)-d;}
+	public static double _LLcSaRDdRSb(double a, double b, double c, double d) {return ((c-a)/d)-b;}
+	public static double _LLcSbRDaRSd(double a, double b, double c, double d) {return ((c-b)/a)-d;}
+	public static double _LLcSbRDdRSa(double a, double b, double c, double d) {return ((c-b)/d)-a;}
+	public static double _LLcSdRDaRSb(double a, double b, double c, double d) {return ((c-d)/a)-b;}
+	public static double _LLcSdRDbRSa(double a, double b, double c, double d) {return ((c-d)/b)-a;}
+	public static double _LLdSaRDbRSc(double a, double b, double c, double d) {return ((d-a)/b)-c;}
+	public static double _LLdSaRDcRSb(double a, double b, double c, double d) {return ((d-a)/c)-b;}
+	public static double _LLdSbRDaRSc(double a, double b, double c, double d) {return ((d-b)/a)-c;}
+	public static double _LLdSbRDcRSa(double a, double b, double c, double d) {return ((d-b)/c)-a;}
+	public static double _LLdScRDaRSb(double a, double b, double c, double d) {return ((d-c)/a)-b;}
+	public static double _LLdScRDbRSa(double a, double b, double c, double d) {return ((d-c)/b)-a;}
 	public static double _LaSbRDLcMdR(double a, double b, double c, double d) {return (a-b)/(c*d);}
+	public static double _LaScRDLbMdR(double a, double b, double c, double d) {return (a-c)/(b*d);}
+	public static double _LaSdRDLbMcR(double a, double b, double c, double d) {return (a-d)/(b*c);}
+	public static double _LbSaRDLcMdR(double a, double b, double c, double d) {return (b-a)/(c*d);}
+	public static double _LbScRDLaMdR(double a, double b, double c, double d) {return (b-c)/(a*d);}
+	public static double _LbSdRDLaMcR(double a, double b, double c, double d) {return (b-d)/(a*c);}
+	public static double _LcSaRDLbMdR(double a, double b, double c, double d) {return (c-a)/(b*d);}
+	public static double _LcSbRDLaMdR(double a, double b, double c, double d) {return (c-b)/(a*d);}
+	public static double _LcSdRDLaMbR(double a, double b, double c, double d) {return (c-d)/(a*b);}
+	public static double _LdSaRDLbMcR(double a, double b, double c, double d) {return (d-a)/(b*c);}
+	public static double _LdSbRDLaMcR(double a, double b, double c, double d) {return (d-b)/(a*c);}
+	public static double _LdScRDLaMbR(double a, double b, double c, double d) {return (d-c)/(a*b);}
 	public static double _LLaMbRAcRAd(double a, double b, double c, double d) {return ((a*b)+c)+d;}
+	public static double _LLaMcRAbRAd(double a, double b, double c, double d) {return ((a*c)+b)+d;}
+	public static double _LLaMdRAbRAc(double a, double b, double c, double d) {return ((a*d)+b)+c;}
+	public static double _LLbMcRAaRAd(double a, double b, double c, double d) {return ((b*c)+a)+d;}
+	public static double _LLbMdRAaRAc(double a, double b, double c, double d) {return ((b*d)+a)+c;}
+	public static double _LLcMdRAaRAb(double a, double b, double c, double d) {return ((c*d)+a)+b;}
 	public static double _LLaMbRAcRSd(double a, double b, double c, double d) {return ((a*b)+c)-d;}
+	public static double _LLaMbRAdRSc(double a, double b, double c, double d) {return ((a*b)+d)-c;}
+	public static double _LLaMcRAbRSd(double a, double b, double c, double d) {return ((a*c)+b)-d;}
+	public static double _LLaMcRAdRSb(double a, double b, double c, double d) {return ((a*c)+d)-b;}
+	public static double _LLaMdRAbRSc(double a, double b, double c, double d) {return ((a*d)+b)-c;}
+	public static double _LLaMdRAcRSb(double a, double b, double c, double d) {return ((a*d)+c)-b;}
+	public static double _LLbMcRAaRSd(double a, double b, double c, double d) {return ((b*c)+a)-d;}
+	public static double _LLbMcRAdRSa(double a, double b, double c, double d) {return ((b*c)+d)-a;}
+	public static double _LLbMdRAaRSc(double a, double b, double c, double d) {return ((b*d)+a)-c;}
+	public static double _LLbMdRAcRSa(double a, double b, double c, double d) {return ((b*d)+c)-a;}
+	public static double _LLcMdRAaRSb(double a, double b, double c, double d) {return ((c*d)+a)-b;}
+	public static double _LLcMdRAbRSa(double a, double b, double c, double d) {return ((c*d)+b)-a;}
 	public static double _LLaMbRAcRMd(double a, double b, double c, double d) {return ((a*b)+c)*d;}
+	public static double _LLaMbRAdRMc(double a, double b, double c, double d) {return ((a*b)+d)*c;}
+	public static double _LLaMcRAbRMd(double a, double b, double c, double d) {return ((a*c)+b)*d;}
+	public static double _LLaMcRAdRMb(double a, double b, double c, double d) {return ((a*c)+d)*b;}
+	public static double _LLaMdRAbRMc(double a, double b, double c, double d) {return ((a*d)+b)*c;}
+	public static double _LLaMdRAcRMb(double a, double b, double c, double d) {return ((a*d)+c)*b;}
+	public static double _LLbMcRAaRMd(double a, double b, double c, double d) {return ((b*c)+a)*d;}
+	public static double _LLbMcRAdRMa(double a, double b, double c, double d) {return ((b*c)+d)*a;}
+	public static double _LLbMdRAaRMc(double a, double b, double c, double d) {return ((b*d)+a)*c;}
+	public static double _LLbMdRAcRMa(double a, double b, double c, double d) {return ((b*d)+c)*a;}
+	public static double _LLcMdRAaRMb(double a, double b, double c, double d) {return ((c*d)+a)*b;}
+	public static double _LLcMdRAbRMa(double a, double b, double c, double d) {return ((c*d)+b)*a;}
 	public static double _LLaMbRAcRDd(double a, double b, double c, double d) {return ((a*b)+c)/d;}
-	public static double _LLaMbRScRAd(double a, double b, double c, double d) {return ((a*b)-c)+d;}
+	public static double _LLaMbRAdRDc(double a, double b, double c, double d) {return ((a*b)+d)/c;}
+	public static double _LLaMcRAbRDd(double a, double b, double c, double d) {return ((a*c)+b)/d;}
+	public static double _LLaMcRAdRDb(double a, double b, double c, double d) {return ((a*c)+d)/b;}
+	public static double _LLaMdRAbRDc(double a, double b, double c, double d) {return ((a*d)+b)/c;}
+	public static double _LLaMdRAcRDb(double a, double b, double c, double d) {return ((a*d)+c)/b;}
+	public static double _LLbMcRAaRDd(double a, double b, double c, double d) {return ((b*c)+a)/d;}
+	public static double _LLbMcRAdRDa(double a, double b, double c, double d) {return ((b*c)+d)/a;}
+	public static double _LLbMdRAaRDc(double a, double b, double c, double d) {return ((b*d)+a)/c;}
+	public static double _LLbMdRAcRDa(double a, double b, double c, double d) {return ((b*d)+c)/a;}
+	public static double _LLcMdRAaRDb(double a, double b, double c, double d) {return ((c*d)+a)/b;}
+	public static double _LLcMdRAbRDa(double a, double b, double c, double d) {return ((c*d)+b)/a;}
 	public static double _LLaMbRScRSd(double a, double b, double c, double d) {return ((a*b)-c)-d;}
+	public static double _LLaMcRSbRSd(double a, double b, double c, double d) {return ((a*c)-b)-d;}
+	public static double _LLaMdRSbRSc(double a, double b, double c, double d) {return ((a*d)-b)-c;}
+	public static double _LLbMcRSaRSd(double a, double b, double c, double d) {return ((b*c)-a)-d;}
+	public static double _LLbMdRSaRSc(double a, double b, double c, double d) {return ((b*d)-a)-c;}
+	public static double _LLcMdRSaRSb(double a, double b, double c, double d) {return ((c*d)-a)-b;}
 	public static double _LLaMbRScRMd(double a, double b, double c, double d) {return ((a*b)-c)*d;}
+	public static double _LLaMbRSdRMc(double a, double b, double c, double d) {return ((a*b)-d)*c;}
+	public static double _LLaMcRSbRMd(double a, double b, double c, double d) {return ((a*c)-b)*d;}
+	public static double _LLaMcRSdRMb(double a, double b, double c, double d) {return ((a*c)-d)*b;}
+	public static double _LLaMdRSbRMc(double a, double b, double c, double d) {return ((a*d)-b)*c;}
+	public static double _LLaMdRScRMb(double a, double b, double c, double d) {return ((a*d)-c)*b;}
+	public static double _LLbMcRSaRMd(double a, double b, double c, double d) {return ((b*c)-a)*d;}
+	public static double _LLbMcRSdRMa(double a, double b, double c, double d) {return ((b*c)-d)*a;}
+	public static double _LLbMdRSaRMc(double a, double b, double c, double d) {return ((b*d)-a)*c;}
+	public static double _LLbMdRScRMa(double a, double b, double c, double d) {return ((b*d)-c)*a;}
+	public static double _LLcMdRSaRMb(double a, double b, double c, double d) {return ((c*d)-a)*b;}
+	public static double _LLcMdRSbRMa(double a, double b, double c, double d) {return ((c*d)-b)*a;}
 	public static double _LLaMbRScRDd(double a, double b, double c, double d) {return ((a*b)-c)/d;}
+	public static double _LLaMbRSdRDc(double a, double b, double c, double d) {return ((a*b)-d)/c;}
+	public static double _LLaMcRSbRDd(double a, double b, double c, double d) {return ((a*c)-b)/d;}
+	public static double _LLaMcRSdRDb(double a, double b, double c, double d) {return ((a*c)-d)/b;}
+	public static double _LLaMdRSbRDc(double a, double b, double c, double d) {return ((a*d)-b)/c;}
+	public static double _LLaMdRScRDb(double a, double b, double c, double d) {return ((a*d)-c)/b;}
+	public static double _LLbMcRSaRDd(double a, double b, double c, double d) {return ((b*c)-a)/d;}
+	public static double _LLbMcRSdRDa(double a, double b, double c, double d) {return ((b*c)-d)/a;}
+	public static double _LLbMdRSaRDc(double a, double b, double c, double d) {return ((b*d)-a)/c;}
+	public static double _LLbMdRScRDa(double a, double b, double c, double d) {return ((b*d)-c)/a;}
+	public static double _LLcMdRSaRDb(double a, double b, double c, double d) {return ((c*d)-a)/b;}
+	public static double _LLcMdRSbRDa(double a, double b, double c, double d) {return ((c*d)-b)/a;}
 	public static double _LLaMbRMcRAd(double a, double b, double c, double d) {return ((a*b)*c)+d;}
+	public static double _LLaMbRMdRAc(double a, double b, double c, double d) {return ((a*b)*d)+c;}
+	public static double _LLaMcRMdRAb(double a, double b, double c, double d) {return ((a*c)*d)+b;}
+	public static double _LLbMcRMdRAa(double a, double b, double c, double d) {return ((b*c)*d)+a;}
 	public static double _LLaMbRMcRSd(double a, double b, double c, double d) {return ((a*b)*c)-d;}
+	public static double _LLaMbRMdRSc(double a, double b, double c, double d) {return ((a*b)*d)-c;}
+	public static double _LLaMcRMdRSb(double a, double b, double c, double d) {return ((a*c)*d)-b;}
+	public static double _LLbMcRMdRSa(double a, double b, double c, double d) {return ((b*c)*d)-a;}
 	public static double _LLaMbRMcRMd(double a, double b, double c, double d) {return ((a*b)*c)*d;}
 	public static double _LLaMbRMcRDd(double a, double b, double c, double d) {return ((a*b)*c)/d;}
+	public static double _LLaMbRMdRDc(double a, double b, double c, double d) {return ((a*b)*d)/c;}
+	public static double _LLaMcRMdRDb(double a, double b, double c, double d) {return ((a*c)*d)/b;}
+	public static double _LLbMcRMdRDa(double a, double b, double c, double d) {return ((b*c)*d)/a;}
 	public static double _LLaMbRDcRAd(double a, double b, double c, double d) {return ((a*b)/c)+d;}
-	public static double _LLaMbRDcRSd(double a, double b, double c, double d) {return ((a*b)/c)-d;}
-	public static double _LLaMbRDcRMd(double a, double b, double c, double d) {return ((a*b)/c)*d;}
-	public static double _LaDLcMdRRMb(double a, double b, double c, double d) {return (a/(c*d))*b;}
-	public static double _LLaDbRAcRAd(double a, double b, double c, double d) {return ((a/b)+c)+d;}
-	public static double _LLaDbRAcRSd(double a, double b, double c, double d) {return ((a/b)+c)-d;}
-	public static double _LLaDbRAcRMd(double a, double b, double c, double d) {return ((a/b)+c)*d;}
-	public static double _LLaDbRAcRDd(double a, double b, double c, double d) {return ((a/b)+c)/d;}
-	public static double _LLaDbRScRAd(double a, double b, double c, double d) {return ((a/b)-c)+d;}
-	public static double _LLaDbRScRSd(double a, double b, double c, double d) {return ((a/b)-c)-d;}
-	public static double _LLaDbRScRMd(double a, double b, double c, double d) {return ((a/b)-c)*d;}
-	public static double _LLaDbRScRDd(double a, double b, double c, double d) {return ((a/b)-c)/d;}
-	public static double _LLaDbRMcRAd(double a, double b, double c, double d) {return ((a/b)*c)+d;}
-	public static double _LLaDbRMcRSd(double a, double b, double c, double d) {return ((a/b)*c)-d;}
-	public static double _LLaDbRMcRMd(double a, double b, double c, double d) {return ((a/b)*c)*d;}
-	public static double _LaDLbMdRRMc(double a, double b, double c, double d) {return (a/(b*d))*c;}
-	public static double _LaDLbMcRRAd(double a, double b, double c, double d) {return (a/(b*c))+d;}
-	public static double _LaDLbMcRRSd(double a, double b, double c, double d) {return (a/(b*c))-d;}
-	public static double _LaDLbMcRRMd(double a, double b, double c, double d) {return (a/(b*c))*d;}
-	public static double _aDLLbMcRMdR(double a, double b, double c, double d) {return a/((b*c)*d);}
-	public static double _LLaAbRAdRMc(double a, double b, double c, double d) {return ((a+b)+d)*c;}
-	public static double _LLaAbRAdRDc(double a, double b, double c, double d) {return ((a+b)+d)/c;}
-	public static double _LLaAbRSdRMc(double a, double b, double c, double d) {return ((a+b)-d)*c;}
-	public static double _LLaAbRSdRDc(double a, double b, double c, double d) {return ((a+b)-d)/c;}
-	public static double _LLaAbRMdRAc(double a, double b, double c, double d) {return ((a+b)*d)+c;}
-	public static double _LLaAbRMdRSc(double a, double b, double c, double d) {return ((a+b)*d)-c;}
-	public static double _LLaAbRDdRAc(double a, double b, double c, double d) {return ((a+b)/d)+c;}
-	public static double _LLaAbRDdRSc(double a, double b, double c, double d) {return ((a+b)/d)-c;}
-	public static double _LLaSbRAdRMc(double a, double b, double c, double d) {return ((a-b)+d)*c;}
-	public static double _LLaSbRAdRDc(double a, double b, double c, double d) {return ((a-b)+d)/c;}
-	public static double _LLaSbRSdRMc(double a, double b, double c, double d) {return ((a-b)-d)*c;}
-	public static double _LLaSbRSdRDc(double a, double b, double c, double d) {return ((a-b)-d)/c;}
-	public static double _LLaSbRMdRAc(double a, double b, double c, double d) {return ((a-b)*d)+c;}
-	public static double _LLaSbRMdRSc(double a, double b, double c, double d) {return ((a-b)*d)-c;}
-	public static double _LLaSbRDdRAc(double a, double b, double c, double d) {return ((a-b)/d)+c;}
-	public static double _LLaSbRDdRSc(double a, double b, double c, double d) {return ((a-b)/d)-c;}
-	public static double _LLaMbRAdRMc(double a, double b, double c, double d) {return ((a*b)+d)*c;}
-	public static double _LLaMbRAdRDc(double a, double b, double c, double d) {return ((a*b)+d)/c;}
-	public static double _LLaMbRSdRMc(double a, double b, double c, double d) {return ((a*b)-d)*c;}
-	public static double _LLaMbRSdRDc(double a, double b, double c, double d) {return ((a*b)-d)/c;}
-	public static double _LLaMbRMdRAc(double a, double b, double c, double d) {return ((a*b)*d)+c;}
-	public static double _LLaMbRMdRSc(double a, double b, double c, double d) {return ((a*b)*d)-c;}
 	public static double _LLaMbRDdRAc(double a, double b, double c, double d) {return ((a*b)/d)+c;}
-	public static double _LLaMbRDdRSc(double a, double b, double c, double d) {return ((a*b)/d)-c;}
-	public static double _LLaDbRAdRMc(double a, double b, double c, double d) {return ((a/b)+d)*c;}
-	public static double _LLaDbRAdRDc(double a, double b, double c, double d) {return ((a/b)+d)/c;}
-	public static double _LLaDbRSdRMc(double a, double b, double c, double d) {return ((a/b)-d)*c;}
-	public static double _LLaDbRSdRDc(double a, double b, double c, double d) {return ((a/b)-d)/c;}
-	public static double _LLaDbRMdRAc(double a, double b, double c, double d) {return ((a/b)*d)+c;}
-	public static double _LLaDbRMdRSc(double a, double b, double c, double d) {return ((a/b)*d)-c;}
-	public static double _LaDLbMdRRAc(double a, double b, double c, double d) {return (a/(b*d))+c;}
-	public static double _LaDLbMdRRSc(double a, double b, double c, double d) {return (a/(b*d))-c;}
-	public static double _LLaAcRMbRAd(double a, double b, double c, double d) {return ((a+c)*b)+d;}
-	public static double _LLaAcRMbRSd(double a, double b, double c, double d) {return ((a+c)*b)-d;}
-	public static double _LLaAcRMbRMd(double a, double b, double c, double d) {return ((a+c)*b)*d;}
-	public static double _LLaAcRMbRDd(double a, double b, double c, double d) {return ((a+c)*b)/d;}
-	public static double _LLaAcRDbRAd(double a, double b, double c, double d) {return ((a+c)/b)+d;}
-	public static double _LLaAcRDbRSd(double a, double b, double c, double d) {return ((a+c)/b)-d;}
-	public static double _LLaAcRDbRMd(double a, double b, double c, double d) {return ((a+c)/b)*d;}
-	public static double _LaAcRDLbMdR(double a, double b, double c, double d) {return (a+c)/(b*d);}
-	public static double _LLaScRMbRAd(double a, double b, double c, double d) {return ((a-c)*b)+d;}
-	public static double _LLaScRMbRSd(double a, double b, double c, double d) {return ((a-c)*b)-d;}
-	public static double _LLaScRMbRMd(double a, double b, double c, double d) {return ((a-c)*b)*d;}
-	public static double _LLaScRMbRDd(double a, double b, double c, double d) {return ((a-c)*b)/d;}
-	public static double _LLaScRDbRAd(double a, double b, double c, double d) {return ((a-c)/b)+d;}
-	public static double _LLaScRDbRSd(double a, double b, double c, double d) {return ((a-c)/b)-d;}
-	public static double _LLaScRDbRMd(double a, double b, double c, double d) {return ((a-c)/b)*d;}
-	public static double _LaScRDLbMdR(double a, double b, double c, double d) {return (a-c)/(b*d);}
-	public static double _LLaMcRAbRAd(double a, double b, double c, double d) {return ((a*c)+b)+d;}
-	public static double _LLaMcRAbRSd(double a, double b, double c, double d) {return ((a*c)+b)-d;}
-	public static double _LLaMcRAbRMd(double a, double b, double c, double d) {return ((a*c)+b)*d;}
-	public static double _LLaMcRAbRDd(double a, double b, double c, double d) {return ((a*c)+b)/d;}
-	public static double _LLaMcRSbRAd(double a, double b, double c, double d) {return ((a*c)-b)+d;}
-	public static double _LLaMcRSbRSd(double a, double b, double c, double d) {return ((a*c)-b)-d;}
-	public static double _LLaMcRSbRMd(double a, double b, double c, double d) {return ((a*c)-b)*d;}
-	public static double _LLaMcRSbRDd(double a, double b, double c, double d) {return ((a*c)-b)/d;}
-	public static double _LLaDcRAbRAd(double a, double b, double c, double d) {return ((a/c)+b)+d;}
-	public static double _LLaDcRAbRSd(double a, double b, double c, double d) {return ((a/c)+b)-d;}
-	public static double _LLaDcRAbRMd(double a, double b, double c, double d) {return ((a/c)+b)*d;}
-	public static double _LLaDcRAbRDd(double a, double b, double c, double d) {return ((a/c)+b)/d;}
-	public static double _LLaDcRSbRAd(double a, double b, double c, double d) {return ((a/c)-b)+d;}
-	public static double _LLaDcRSbRSd(double a, double b, double c, double d) {return ((a/c)-b)-d;}
-	public static double _LLaDcRSbRMd(double a, double b, double c, double d) {return ((a/c)-b)*d;}
-	public static double _LLaDcRSbRDd(double a, double b, double c, double d) {return ((a/c)-b)/d;}
-	public static double _LLaAcRAdRMb(double a, double b, double c, double d) {return ((a+c)+d)*b;}
-	public static double _LLaAcRAdRDb(double a, double b, double c, double d) {return ((a+c)+d)/b;}
-	public static double _LLaAcRSdRMb(double a, double b, double c, double d) {return ((a+c)-d)*b;}
-	public static double _LLaAcRSdRDb(double a, double b, double c, double d) {return ((a+c)-d)/b;}
-	public static double _LLaAcRMdRAb(double a, double b, double c, double d) {return ((a+c)*d)+b;}
-	public static double _LLaAcRMdRSb(double a, double b, double c, double d) {return ((a+c)*d)-b;}
-	public static double _LLaAcRDdRAb(double a, double b, double c, double d) {return ((a+c)/d)+b;}
-	public static double _LLaAcRDdRSb(double a, double b, double c, double d) {return ((a+c)/d)-b;}
-	public static double _LLaScRAdRMb(double a, double b, double c, double d) {return ((a-c)+d)*b;}
-	public static double _LLaScRAdRDb(double a, double b, double c, double d) {return ((a-c)+d)/b;}
-	public static double _LLaScRSdRMb(double a, double b, double c, double d) {return ((a-c)-d)*b;}
-	public static double _LLaScRSdRDb(double a, double b, double c, double d) {return ((a-c)-d)/b;}
-	public static double _LLaScRMdRAb(double a, double b, double c, double d) {return ((a-c)*d)+b;}
-	public static double _LLaScRMdRSb(double a, double b, double c, double d) {return ((a-c)*d)-b;}
-	public static double _LLaScRDdRAb(double a, double b, double c, double d) {return ((a-c)/d)+b;}
-	public static double _LLaScRDdRSb(double a, double b, double c, double d) {return ((a-c)/d)-b;}
-	public static double _LLaMcRAdRMb(double a, double b, double c, double d) {return ((a*c)+d)*b;}
-	public static double _LLaMcRAdRDb(double a, double b, double c, double d) {return ((a*c)+d)/b;}
-	public static double _LLaMcRSdRMb(double a, double b, double c, double d) {return ((a*c)-d)*b;}
-	public static double _LLaMcRSdRDb(double a, double b, double c, double d) {return ((a*c)-d)/b;}
-	public static double _LLaMcRMdRAb(double a, double b, double c, double d) {return ((a*c)*d)+b;}
-	public static double _LLaMcRMdRSb(double a, double b, double c, double d) {return ((a*c)*d)-b;}
+	public static double _LLaMcRDbRAd(double a, double b, double c, double d) {return ((a*c)/b)+d;}
 	public static double _LLaMcRDdRAb(double a, double b, double c, double d) {return ((a*c)/d)+b;}
-	public static double _LLaMcRDdRSb(double a, double b, double c, double d) {return ((a*c)/d)-b;}
-	public static double _LLaDcRAdRMb(double a, double b, double c, double d) {return ((a/c)+d)*b;}
-	public static double _LLaDcRAdRDb(double a, double b, double c, double d) {return ((a/c)+d)/b;}
-	public static double _LLaDcRSdRMb(double a, double b, double c, double d) {return ((a/c)-d)*b;}
-	public static double _LLaDcRSdRDb(double a, double b, double c, double d) {return ((a/c)-d)/b;}
-	public static double _LLaDcRMdRAb(double a, double b, double c, double d) {return ((a/c)*d)+b;}
-	public static double _LLaDcRMdRSb(double a, double b, double c, double d) {return ((a/c)*d)-b;}
-	public static double _LaDLcMdRRAb(double a, double b, double c, double d) {return (a/(c*d))+b;}
-	public static double _LaDLcMdRRSb(double a, double b, double c, double d) {return (a/(c*d))-b;}
-	public static double _LLaAdRMbRAc(double a, double b, double c, double d) {return ((a+d)*b)+c;}
-	public static double _LLaAdRMbRSc(double a, double b, double c, double d) {return ((a+d)*b)-c;}
-	public static double _LLaAdRMbRMc(double a, double b, double c, double d) {return ((a+d)*b)*c;}
-	public static double _LLaAdRMbRDc(double a, double b, double c, double d) {return ((a+d)*b)/c;}
-	public static double _LLaAdRDbRAc(double a, double b, double c, double d) {return ((a+d)/b)+c;}
-	public static double _LLaAdRDbRSc(double a, double b, double c, double d) {return ((a+d)/b)-c;}
-	public static double _LLaAdRDbRMc(double a, double b, double c, double d) {return ((a+d)/b)*c;}
-	public static double _LaAdRDLbMcR(double a, double b, double c, double d) {return (a+d)/(b*c);}
-	public static double _LLaSdRMbRAc(double a, double b, double c, double d) {return ((a-d)*b)+c;}
-	public static double _LLaSdRMbRSc(double a, double b, double c, double d) {return ((a-d)*b)-c;}
-	public static double _LLaSdRMbRMc(double a, double b, double c, double d) {return ((a-d)*b)*c;}
-	public static double _LLaSdRMbRDc(double a, double b, double c, double d) {return ((a-d)*b)/c;}
-	public static double _LLaSdRDbRAc(double a, double b, double c, double d) {return ((a-d)/b)+c;}
-	public static double _LLaSdRDbRSc(double a, double b, double c, double d) {return ((a-d)/b)-c;}
-	public static double _LLaSdRDbRMc(double a, double b, double c, double d) {return ((a-d)/b)*c;}
-	public static double _LaSdRDLbMcR(double a, double b, double c, double d) {return (a-d)/(b*c);}
-	public static double _LLaMdRAbRAc(double a, double b, double c, double d) {return ((a*d)+b)+c;}
-	public static double _LLaMdRAbRSc(double a, double b, double c, double d) {return ((a*d)+b)-c;}
-	public static double _LLaMdRAbRMc(double a, double b, double c, double d) {return ((a*d)+b)*c;}
-	public static double _LLaMdRAbRDc(double a, double b, double c, double d) {return ((a*d)+b)/c;}
-	public static double _LLaMdRSbRAc(double a, double b, double c, double d) {return ((a*d)-b)+c;}
-	public static double _LLaMdRSbRSc(double a, double b, double c, double d) {return ((a*d)-b)-c;}
-	public static double _LLaMdRSbRMc(double a, double b, double c, double d) {return ((a*d)-b)*c;}
-	public static double _LLaMdRSbRDc(double a, double b, double c, double d) {return ((a*d)-b)/c;}
-	public static double _LLaDdRAbRAc(double a, double b, double c, double d) {return ((a/d)+b)+c;}
-	public static double _LLaDdRAbRSc(double a, double b, double c, double d) {return ((a/d)+b)-c;}
-	public static double _LLaDdRAbRMc(double a, double b, double c, double d) {return ((a/d)+b)*c;}
-	public static double _LLaDdRAbRDc(double a, double b, double c, double d) {return ((a/d)+b)/c;}
-	public static double _LLaDdRSbRAc(double a, double b, double c, double d) {return ((a/d)-b)+c;}
-	public static double _LLaDdRSbRSc(double a, double b, double c, double d) {return ((a/d)-b)-c;}
-	public static double _LLaDdRSbRMc(double a, double b, double c, double d) {return ((a/d)-b)*c;}
-	public static double _LLaDdRSbRDc(double a, double b, double c, double d) {return ((a/d)-b)/c;}
-	public static double _LLaAdRMcRAb(double a, double b, double c, double d) {return ((a+d)*c)+b;}
-	public static double _LLaAdRMcRSb(double a, double b, double c, double d) {return ((a+d)*c)-b;}
-	public static double _LLaAdRDcRAb(double a, double b, double c, double d) {return ((a+d)/c)+b;}
-	public static double _LLaAdRDcRSb(double a, double b, double c, double d) {return ((a+d)/c)-b;}
-	public static double _LLaSdRMcRAb(double a, double b, double c, double d) {return ((a-d)*c)+b;}
-	public static double _LLaSdRMcRSb(double a, double b, double c, double d) {return ((a-d)*c)-b;}
-	public static double _LLaSdRDcRAb(double a, double b, double c, double d) {return ((a-d)/c)+b;}
-	public static double _LLaSdRDcRSb(double a, double b, double c, double d) {return ((a-d)/c)-b;}
-	public static double _LLaMdRAcRMb(double a, double b, double c, double d) {return ((a*d)+c)*b;}
-	public static double _LLaMdRAcRDb(double a, double b, double c, double d) {return ((a*d)+c)/b;}
-	public static double _LLaMdRScRMb(double a, double b, double c, double d) {return ((a*d)-c)*b;}
-	public static double _LLaMdRScRDb(double a, double b, double c, double d) {return ((a*d)-c)/b;}
-	public static double _LLaDdRAcRMb(double a, double b, double c, double d) {return ((a/d)+c)*b;}
-	public static double _LLaDdRAcRDb(double a, double b, double c, double d) {return ((a/d)+c)/b;}
-	public static double _LLaDdRScRMb(double a, double b, double c, double d) {return ((a/d)-c)*b;}
-	public static double _LLaDdRScRDb(double a, double b, double c, double d) {return ((a/d)-c)/b;}
-	public static double _LLbSaRAcRAd(double a, double b, double c, double d) {return ((b-a)+c)+d;}
-	public static double _LLbSaRAcRSd(double a, double b, double c, double d) {return ((b-a)+c)-d;}
-	public static double _LLbSaRAcRMd(double a, double b, double c, double d) {return ((b-a)+c)*d;}
-	public static double _LLbSaRAcRDd(double a, double b, double c, double d) {return ((b-a)+c)/d;}
-	public static double _LLbSaRScRAd(double a, double b, double c, double d) {return ((b-a)-c)+d;}
-	public static double _LLbSaRScRSd(double a, double b, double c, double d) {return ((b-a)-c)-d;}
-	public static double _LLbSaRScRMd(double a, double b, double c, double d) {return ((b-a)-c)*d;}
-	public static double _LLbSaRScRDd(double a, double b, double c, double d) {return ((b-a)-c)/d;}
-	public static double _LLbSaRMcRAd(double a, double b, double c, double d) {return ((b-a)*c)+d;}
-	public static double _LLbSaRMcRSd(double a, double b, double c, double d) {return ((b-a)*c)-d;}
-	public static double _LLbSaRMcRMd(double a, double b, double c, double d) {return ((b-a)*c)*d;}
-	public static double _LLbSaRMcRDd(double a, double b, double c, double d) {return ((b-a)*c)/d;}
-	public static double _LLbSaRDcRAd(double a, double b, double c, double d) {return ((b-a)/c)+d;}
-	public static double _LLbSaRDcRSd(double a, double b, double c, double d) {return ((b-a)/c)-d;}
-	public static double _LLbSaRDcRMd(double a, double b, double c, double d) {return ((b-a)/c)*d;}
-	public static double _LbSaRDLcMdR(double a, double b, double c, double d) {return (b-a)/(c*d);}
-	public static double _LLbDaRAcRAd(double a, double b, double c, double d) {return ((b/a)+c)+d;}
-	public static double _LLbDaRAcRSd(double a, double b, double c, double d) {return ((b/a)+c)-d;}
-	public static double _LLbDaRAcRMd(double a, double b, double c, double d) {return ((b/a)+c)*d;}
-	public static double _LLbDaRAcRDd(double a, double b, double c, double d) {return ((b/a)+c)/d;}
-	public static double _LLbDaRScRAd(double a, double b, double c, double d) {return ((b/a)-c)+d;}
-	public static double _LLbDaRScRSd(double a, double b, double c, double d) {return ((b/a)-c)-d;}
-	public static double _LLbDaRScRMd(double a, double b, double c, double d) {return ((b/a)-c)*d;}
-	public static double _LLbDaRScRDd(double a, double b, double c, double d) {return ((b/a)-c)/d;}
-	public static double _LLbDaRMcRAd(double a, double b, double c, double d) {return ((b/a)*c)+d;}
-	public static double _LLbDaRMcRSd(double a, double b, double c, double d) {return ((b/a)*c)-d;}
-	public static double _LLbDaRMcRMd(double a, double b, double c, double d) {return ((b/a)*c)*d;}
-	public static double _LbDLaMdRRMc(double a, double b, double c, double d) {return (b/(a*d))*c;}
-	public static double _LbDLaMcRRAd(double a, double b, double c, double d) {return (b/(a*c))+d;}
-	public static double _LbDLaMcRRSd(double a, double b, double c, double d) {return (b/(a*c))-d;}
-	public static double _LbDLaMcRRMd(double a, double b, double c, double d) {return (b/(a*c))*d;}
-	public static double _bDLLaMcRMdR(double a, double b, double c, double d) {return b/((a*c)*d);}
-	public static double _LLbSaRAdRMc(double a, double b, double c, double d) {return ((b-a)+d)*c;}
-	public static double _LLbSaRAdRDc(double a, double b, double c, double d) {return ((b-a)+d)/c;}
-	public static double _LLbSaRSdRMc(double a, double b, double c, double d) {return ((b-a)-d)*c;}
-	public static double _LLbSaRSdRDc(double a, double b, double c, double d) {return ((b-a)-d)/c;}
-	public static double _LLbSaRMdRAc(double a, double b, double c, double d) {return ((b-a)*d)+c;}
-	public static double _LLbSaRMdRSc(double a, double b, double c, double d) {return ((b-a)*d)-c;}
-	public static double _LLbSaRDdRAc(double a, double b, double c, double d) {return ((b-a)/d)+c;}
-	public static double _LLbSaRDdRSc(double a, double b, double c, double d) {return ((b-a)/d)-c;}
-	public static double _LLbDaRAdRMc(double a, double b, double c, double d) {return ((b/a)+d)*c;}
-	public static double _LLbDaRAdRDc(double a, double b, double c, double d) {return ((b/a)+d)/c;}
-	public static double _LLbDaRSdRMc(double a, double b, double c, double d) {return ((b/a)-d)*c;}
-	public static double _LLbDaRSdRDc(double a, double b, double c, double d) {return ((b/a)-d)/c;}
-	public static double _LLbDaRMdRAc(double a, double b, double c, double d) {return ((b/a)*d)+c;}
-	public static double _LLbDaRMdRSc(double a, double b, double c, double d) {return ((b/a)*d)-c;}
-	public static double _LbDLaMdRRAc(double a, double b, double c, double d) {return (b/(a*d))+c;}
-	public static double _LbDLaMdRRSc(double a, double b, double c, double d) {return (b/(a*d))-c;}
-	public static double _LLbAcRMaRAd(double a, double b, double c, double d) {return ((b+c)*a)+d;}
-	public static double _LLbAcRMaRSd(double a, double b, double c, double d) {return ((b+c)*a)-d;}
-	public static double _LLbAcRMaRMd(double a, double b, double c, double d) {return ((b+c)*a)*d;}
-	public static double _LLbAcRMaRDd(double a, double b, double c, double d) {return ((b+c)*a)/d;}
-	public static double _LLbAcRDaRAd(double a, double b, double c, double d) {return ((b+c)/a)+d;}
-	public static double _LLbAcRDaRSd(double a, double b, double c, double d) {return ((b+c)/a)-d;}
-	public static double _LLbAcRDaRMd(double a, double b, double c, double d) {return ((b+c)/a)*d;}
-	public static double _LbAcRDLaMdR(double a, double b, double c, double d) {return (b+c)/(a*d);}
-	public static double _LLbScRMaRAd(double a, double b, double c, double d) {return ((b-c)*a)+d;}
-	public static double _LLbScRMaRSd(double a, double b, double c, double d) {return ((b-c)*a)-d;}
-	public static double _LLbScRMaRMd(double a, double b, double c, double d) {return ((b-c)*a)*d;}
-	public static double _LLbScRMaRDd(double a, double b, double c, double d) {return ((b-c)*a)/d;}
-	public static double _LLbScRDaRAd(double a, double b, double c, double d) {return ((b-c)/a)+d;}
-	public static double _LLbScRDaRSd(double a, double b, double c, double d) {return ((b-c)/a)-d;}
-	public static double _LLbScRDaRMd(double a, double b, double c, double d) {return ((b-c)/a)*d;}
-	public static double _LbScRDLaMdR(double a, double b, double c, double d) {return (b-c)/(a*d);}
-	public static double _LLbMcRAaRAd(double a, double b, double c, double d) {return ((b*c)+a)+d;}
-	public static double _LLbMcRAaRSd(double a, double b, double c, double d) {return ((b*c)+a)-d;}
-	public static double _LLbMcRAaRMd(double a, double b, double c, double d) {return ((b*c)+a)*d;}
-	public static double _LLbMcRAaRDd(double a, double b, double c, double d) {return ((b*c)+a)/d;}
-	public static double _LLbMcRSaRAd(double a, double b, double c, double d) {return ((b*c)-a)+d;}
-	public static double _LLbMcRSaRSd(double a, double b, double c, double d) {return ((b*c)-a)-d;}
-	public static double _LLbMcRSaRMd(double a, double b, double c, double d) {return ((b*c)-a)*d;}
-	public static double _LLbMcRSaRDd(double a, double b, double c, double d) {return ((b*c)-a)/d;}
-	public static double _LLbDcRAaRAd(double a, double b, double c, double d) {return ((b/c)+a)+d;}
-	public static double _LLbDcRAaRSd(double a, double b, double c, double d) {return ((b/c)+a)-d;}
-	public static double _LLbDcRAaRMd(double a, double b, double c, double d) {return ((b/c)+a)*d;}
-	public static double _LLbDcRAaRDd(double a, double b, double c, double d) {return ((b/c)+a)/d;}
-	public static double _LLbDcRSaRAd(double a, double b, double c, double d) {return ((b/c)-a)+d;}
-	public static double _LLbDcRSaRSd(double a, double b, double c, double d) {return ((b/c)-a)-d;}
-	public static double _LLbDcRSaRMd(double a, double b, double c, double d) {return ((b/c)-a)*d;}
-	public static double _LLbDcRSaRDd(double a, double b, double c, double d) {return ((b/c)-a)/d;}
-	public static double _LLbAcRAdRMa(double a, double b, double c, double d) {return ((b+c)+d)*a;}
-	public static double _LLbAcRAdRDa(double a, double b, double c, double d) {return ((b+c)+d)/a;}
-	public static double _LLbAcRSdRMa(double a, double b, double c, double d) {return ((b+c)-d)*a;}
-	public static double _LLbAcRSdRDa(double a, double b, double c, double d) {return ((b+c)-d)/a;}
-	public static double _LLbAcRMdRAa(double a, double b, double c, double d) {return ((b+c)*d)+a;}
-	public static double _LLbAcRMdRSa(double a, double b, double c, double d) {return ((b+c)*d)-a;}
-	public static double _LLbAcRDdRAa(double a, double b, double c, double d) {return ((b+c)/d)+a;}
-	public static double _LLbAcRDdRSa(double a, double b, double c, double d) {return ((b+c)/d)-a;}
-	public static double _LLbScRAdRMa(double a, double b, double c, double d) {return ((b-c)+d)*a;}
-	public static double _LLbScRAdRDa(double a, double b, double c, double d) {return ((b-c)+d)/a;}
-	public static double _LLbScRSdRMa(double a, double b, double c, double d) {return ((b-c)-d)*a;}
-	public static double _LLbScRSdRDa(double a, double b, double c, double d) {return ((b-c)-d)/a;}
-	public static double _LLbScRMdRAa(double a, double b, double c, double d) {return ((b-c)*d)+a;}
-	public static double _LLbScRMdRSa(double a, double b, double c, double d) {return ((b-c)*d)-a;}
-	public static double _LLbScRDdRAa(double a, double b, double c, double d) {return ((b-c)/d)+a;}
-	public static double _LLbScRDdRSa(double a, double b, double c, double d) {return ((b-c)/d)-a;}
-	public static double _LLbMcRAdRMa(double a, double b, double c, double d) {return ((b*c)+d)*a;}
-	public static double _LLbMcRAdRDa(double a, double b, double c, double d) {return ((b*c)+d)/a;}
-	public static double _LLbMcRSdRMa(double a, double b, double c, double d) {return ((b*c)-d)*a;}
-	public static double _LLbMcRSdRDa(double a, double b, double c, double d) {return ((b*c)-d)/a;}
-	public static double _LLbMcRMdRAa(double a, double b, double c, double d) {return ((b*c)*d)+a;}
-	public static double _LLbMcRMdRSa(double a, double b, double c, double d) {return ((b*c)*d)-a;}
+	public static double _LLaMdRDbRAc(double a, double b, double c, double d) {return ((a*d)/b)+c;}
+	public static double _LLaMdRDcRAb(double a, double b, double c, double d) {return ((a*d)/c)+b;}
+	public static double _LLbMcRDaRAd(double a, double b, double c, double d) {return ((b*c)/a)+d;}
 	public static double _LLbMcRDdRAa(double a, double b, double c, double d) {return ((b*c)/d)+a;}
+	public static double _LLbMdRDaRAc(double a, double b, double c, double d) {return ((b*d)/a)+c;}
+	public static double _LLbMdRDcRAa(double a, double b, double c, double d) {return ((b*d)/c)+a;}
+	public static double _LLcMdRDaRAb(double a, double b, double c, double d) {return ((c*d)/a)+b;}
+	public static double _LLcMdRDbRAa(double a, double b, double c, double d) {return ((c*d)/b)+a;}
+	public static double _LLaMbRDcRSd(double a, double b, double c, double d) {return ((a*b)/c)-d;}
+	public static double _LLaMbRDdRSc(double a, double b, double c, double d) {return ((a*b)/d)-c;}
+	public static double _LLaMcRDbRSd(double a, double b, double c, double d) {return ((a*c)/b)-d;}
+	public static double _LLaMcRDdRSb(double a, double b, double c, double d) {return ((a*c)/d)-b;}
+	public static double _LLaMdRDbRSc(double a, double b, double c, double d) {return ((a*d)/b)-c;}
+	public static double _LLaMdRDcRSb(double a, double b, double c, double d) {return ((a*d)/c)-b;}
+	public static double _LLbMcRDaRSd(double a, double b, double c, double d) {return ((b*c)/a)-d;}
 	public static double _LLbMcRDdRSa(double a, double b, double c, double d) {return ((b*c)/d)-a;}
-	public static double _LLbDcRAdRMa(double a, double b, double c, double d) {return ((b/c)+d)*a;}
-	public static double _LLbDcRAdRDa(double a, double b, double c, double d) {return ((b/c)+d)/a;}
-	public static double _LLbDcRSdRMa(double a, double b, double c, double d) {return ((b/c)-d)*a;}
-	public static double _LLbDcRSdRDa(double a, double b, double c, double d) {return ((b/c)-d)/a;}
-	public static double _LLbDcRMdRAa(double a, double b, double c, double d) {return ((b/c)*d)+a;}
-	public static double _LLbDcRMdRSa(double a, double b, double c, double d) {return ((b/c)*d)-a;}
-	public static double _LbDLcMdRRAa(double a, double b, double c, double d) {return (b/(c*d))+a;}
-	public static double _LbDLcMdRRSa(double a, double b, double c, double d) {return (b/(c*d))-a;}
-	public static double _LLbAdRMaRAc(double a, double b, double c, double d) {return ((b+d)*a)+c;}
-	public static double _LLbAdRMaRSc(double a, double b, double c, double d) {return ((b+d)*a)-c;}
-	public static double _LLbAdRMaRMc(double a, double b, double c, double d) {return ((b+d)*a)*c;}
-	public static double _LLbAdRMaRDc(double a, double b, double c, double d) {return ((b+d)*a)/c;}
-	public static double _LLbAdRDaRAc(double a, double b, double c, double d) {return ((b+d)/a)+c;}
-	public static double _LLbAdRDaRSc(double a, double b, double c, double d) {return ((b+d)/a)-c;}
-	public static double _LLbAdRDaRMc(double a, double b, double c, double d) {return ((b+d)/a)*c;}
-	public static double _LbAdRDLaMcR(double a, double b, double c, double d) {return (b+d)/(a*c);}
-	public static double _LLbSdRMaRAc(double a, double b, double c, double d) {return ((b-d)*a)+c;}
-	public static double _LLbSdRMaRSc(double a, double b, double c, double d) {return ((b-d)*a)-c;}
-	public static double _LLbSdRMaRMc(double a, double b, double c, double d) {return ((b-d)*a)*c;}
-	public static double _LLbSdRMaRDc(double a, double b, double c, double d) {return ((b-d)*a)/c;}
-	public static double _LLbSdRDaRAc(double a, double b, double c, double d) {return ((b-d)/a)+c;}
-	public static double _LLbSdRDaRSc(double a, double b, double c, double d) {return ((b-d)/a)-c;}
-	public static double _LLbSdRDaRMc(double a, double b, double c, double d) {return ((b-d)/a)*c;}
-	public static double _LbSdRDLaMcR(double a, double b, double c, double d) {return (b-d)/(a*c);}
-	public static double _LLbMdRAaRAc(double a, double b, double c, double d) {return ((b*d)+a)+c;}
-	public static double _LLbMdRAaRSc(double a, double b, double c, double d) {return ((b*d)+a)-c;}
-	public static double _LLbMdRAaRMc(double a, double b, double c, double d) {return ((b*d)+a)*c;}
-	public static double _LLbMdRAaRDc(double a, double b, double c, double d) {return ((b*d)+a)/c;}
-	public static double _LLbMdRSaRAc(double a, double b, double c, double d) {return ((b*d)-a)+c;}
-	public static double _LLbMdRSaRSc(double a, double b, double c, double d) {return ((b*d)-a)-c;}
-	public static double _LLbMdRSaRMc(double a, double b, double c, double d) {return ((b*d)-a)*c;}
-	public static double _LLbMdRSaRDc(double a, double b, double c, double d) {return ((b*d)-a)/c;}
-	public static double _LLbDdRAaRAc(double a, double b, double c, double d) {return ((b/d)+a)+c;}
-	public static double _LLbDdRAaRSc(double a, double b, double c, double d) {return ((b/d)+a)-c;}
-	public static double _LLbDdRAaRMc(double a, double b, double c, double d) {return ((b/d)+a)*c;}
-	public static double _LLbDdRAaRDc(double a, double b, double c, double d) {return ((b/d)+a)/c;}
-	public static double _LLbDdRSaRAc(double a, double b, double c, double d) {return ((b/d)-a)+c;}
-	public static double _LLbDdRSaRSc(double a, double b, double c, double d) {return ((b/d)-a)-c;}
-	public static double _LLbDdRSaRMc(double a, double b, double c, double d) {return ((b/d)-a)*c;}
-	public static double _LLbDdRSaRDc(double a, double b, double c, double d) {return ((b/d)-a)/c;}
-	public static double _LLbAdRMcRAa(double a, double b, double c, double d) {return ((b+d)*c)+a;}
-	public static double _LLbAdRMcRSa(double a, double b, double c, double d) {return ((b+d)*c)-a;}
-	public static double _LLbAdRDcRAa(double a, double b, double c, double d) {return ((b+d)/c)+a;}
-	public static double _LLbAdRDcRSa(double a, double b, double c, double d) {return ((b+d)/c)-a;}
-	public static double _LLbSdRMcRAa(double a, double b, double c, double d) {return ((b-d)*c)+a;}
-	public static double _LLbSdRMcRSa(double a, double b, double c, double d) {return ((b-d)*c)-a;}
-	public static double _LLbSdRDcRAa(double a, double b, double c, double d) {return ((b-d)/c)+a;}
-	public static double _LLbSdRDcRSa(double a, double b, double c, double d) {return ((b-d)/c)-a;}
-	public static double _LLbMdRAcRMa(double a, double b, double c, double d) {return ((b*d)+c)*a;}
-	public static double _LLbMdRAcRDa(double a, double b, double c, double d) {return ((b*d)+c)/a;}
-	public static double _LLbMdRScRMa(double a, double b, double c, double d) {return ((b*d)-c)*a;}
-	public static double _LLbMdRScRDa(double a, double b, double c, double d) {return ((b*d)-c)/a;}
-	public static double _LLbDdRAcRMa(double a, double b, double c, double d) {return ((b/d)+c)*a;}
-	public static double _LLbDdRAcRDa(double a, double b, double c, double d) {return ((b/d)+c)/a;}
-	public static double _LLbDdRScRMa(double a, double b, double c, double d) {return ((b/d)-c)*a;}
-	public static double _LLbDdRScRDa(double a, double b, double c, double d) {return ((b/d)-c)/a;}
-	public static double _LLcSaRSbRAd(double a, double b, double c, double d) {return ((c-a)-b)+d;}
-	public static double _LLcSaRSbRSd(double a, double b, double c, double d) {return ((c-a)-b)-d;}
-	public static double _LLcSaRSbRMd(double a, double b, double c, double d) {return ((c-a)-b)*d;}
-	public static double _LLcSaRSbRDd(double a, double b, double c, double d) {return ((c-a)-b)/d;}
-	public static double _LLcSaRMbRAd(double a, double b, double c, double d) {return ((c-a)*b)+d;}
-	public static double _LLcSaRMbRSd(double a, double b, double c, double d) {return ((c-a)*b)-d;}
-	public static double _LLcSaRMbRMd(double a, double b, double c, double d) {return ((c-a)*b)*d;}
-	public static double _LLcSaRMbRDd(double a, double b, double c, double d) {return ((c-a)*b)/d;}
-	public static double _LLcSaRDbRAd(double a, double b, double c, double d) {return ((c-a)/b)+d;}
-	public static double _LLcSaRDbRSd(double a, double b, double c, double d) {return ((c-a)/b)-d;}
-	public static double _LLcSaRDbRMd(double a, double b, double c, double d) {return ((c-a)/b)*d;}
-	public static double _LcSaRDLbMdR(double a, double b, double c, double d) {return (c-a)/(b*d);}
-	public static double _LLcDaRAbRAd(double a, double b, double c, double d) {return ((c/a)+b)+d;}
-	public static double _LLcDaRAbRSd(double a, double b, double c, double d) {return ((c/a)+b)-d;}
-	public static double _LLcDaRAbRMd(double a, double b, double c, double d) {return ((c/a)+b)*d;}
-	public static double _LLcDaRAbRDd(double a, double b, double c, double d) {return ((c/a)+b)/d;}
-	public static double _LLcDaRSbRAd(double a, double b, double c, double d) {return ((c/a)-b)+d;}
-	public static double _LLcDaRSbRSd(double a, double b, double c, double d) {return ((c/a)-b)-d;}
-	public static double _LLcDaRSbRMd(double a, double b, double c, double d) {return ((c/a)-b)*d;}
-	public static double _LLcDaRSbRDd(double a, double b, double c, double d) {return ((c/a)-b)/d;}
-	public static double _LcDLaMbRRAd(double a, double b, double c, double d) {return (c/(a*b))+d;}
-	public static double _LcDLaMbRRSd(double a, double b, double c, double d) {return (c/(a*b))-d;}
+	public static double _LLbMdRDaRSc(double a, double b, double c, double d) {return ((b*d)/a)-c;}
+	public static double _LLbMdRDcRSa(double a, double b, double c, double d) {return ((b*d)/c)-a;}
+	public static double _LLcMdRDaRSb(double a, double b, double c, double d) {return ((c*d)/a)-b;}
+	public static double _LLcMdRDbRSa(double a, double b, double c, double d) {return ((c*d)/b)-a;}
+	public static double _LaDLcMdRRMb(double a, double b, double c, double d) {return (a/(c*d))*b;}
+	public static double _LaDLbMdRRMc(double a, double b, double c, double d) {return (a/(b*d))*c;}
+	public static double _LaDLbMcRRMd(double a, double b, double c, double d) {return (a/(b*c))*d;}
+	public static double _LbDLaMdRRMc(double a, double b, double c, double d) {return (b/(a*d))*c;}
+	public static double _LbDLaMcRRMd(double a, double b, double c, double d) {return (b/(a*c))*d;}
 	public static double _LcDLaMbRRMd(double a, double b, double c, double d) {return (c/(a*b))*d;}
-	public static double _cDLLaMbRMdR(double a, double b, double c, double d) {return c/((a*b)*d);}
-	public static double _LLcSaRAdRMb(double a, double b, double c, double d) {return ((c-a)+d)*b;}
-	public static double _LLcSaRAdRDb(double a, double b, double c, double d) {return ((c-a)+d)/b;}
-	public static double _LLcSaRSdRMb(double a, double b, double c, double d) {return ((c-a)-d)*b;}
-	public static double _LLcSaRSdRDb(double a, double b, double c, double d) {return ((c-a)-d)/b;}
-	public static double _LLcSaRMdRAb(double a, double b, double c, double d) {return ((c-a)*d)+b;}
-	public static double _LLcSaRMdRSb(double a, double b, double c, double d) {return ((c-a)*d)-b;}
-	public static double _LLcSaRDdRAb(double a, double b, double c, double d) {return ((c-a)/d)+b;}
-	public static double _LLcSaRDdRSb(double a, double b, double c, double d) {return ((c-a)/d)-b;}
-	public static double _LLcDaRAdRMb(double a, double b, double c, double d) {return ((c/a)+d)*b;}
-	public static double _LLcDaRAdRDb(double a, double b, double c, double d) {return ((c/a)+d)/b;}
-	public static double _LLcDaRSdRMb(double a, double b, double c, double d) {return ((c/a)-d)*b;}
-	public static double _LLcDaRSdRDb(double a, double b, double c, double d) {return ((c/a)-d)/b;}
-	public static double _LLcDaRMdRAb(double a, double b, double c, double d) {return ((c/a)*d)+b;}
-	public static double _LLcDaRMdRSb(double a, double b, double c, double d) {return ((c/a)*d)-b;}
-	public static double _LcDLaMdRRAb(double a, double b, double c, double d) {return (c/(a*d))+b;}
-	public static double _LcDLaMdRRSb(double a, double b, double c, double d) {return (c/(a*d))-b;}
-	public static double _LLcSbRMaRAd(double a, double b, double c, double d) {return ((c-b)*a)+d;}
-	public static double _LLcSbRMaRSd(double a, double b, double c, double d) {return ((c-b)*a)-d;}
-	public static double _LLcSbRMaRMd(double a, double b, double c, double d) {return ((c-b)*a)*d;}
-	public static double _LLcSbRMaRDd(double a, double b, double c, double d) {return ((c-b)*a)/d;}
-	public static double _LLcSbRDaRAd(double a, double b, double c, double d) {return ((c-b)/a)+d;}
-	public static double _LLcSbRDaRSd(double a, double b, double c, double d) {return ((c-b)/a)-d;}
-	public static double _LLcSbRDaRMd(double a, double b, double c, double d) {return ((c-b)/a)*d;}
-	public static double _LcSbRDLaMdR(double a, double b, double c, double d) {return (c-b)/(a*d);}
+	public static double _LLaDbRAcRAd(double a, double b, double c, double d) {return ((a/b)+c)+d;}
+	public static double _LLaDcRAbRAd(double a, double b, double c, double d) {return ((a/c)+b)+d;}
+	public static double _LLaDdRAbRAc(double a, double b, double c, double d) {return ((a/d)+b)+c;}
+	public static double _LLbDaRAcRAd(double a, double b, double c, double d) {return ((b/a)+c)+d;}
+	public static double _LLbDcRAaRAd(double a, double b, double c, double d) {return ((b/c)+a)+d;}
+	public static double _LLbDdRAaRAc(double a, double b, double c, double d) {return ((b/d)+a)+c;}
+	public static double _LLcDaRAbRAd(double a, double b, double c, double d) {return ((c/a)+b)+d;}
 	public static double _LLcDbRAaRAd(double a, double b, double c, double d) {return ((c/b)+a)+d;}
-	public static double _LLcDbRAaRSd(double a, double b, double c, double d) {return ((c/b)+a)-d;}
-	public static double _LLcDbRAaRMd(double a, double b, double c, double d) {return ((c/b)+a)*d;}
-	public static double _LLcDbRAaRDd(double a, double b, double c, double d) {return ((c/b)+a)/d;}
-	public static double _LLcDbRSaRAd(double a, double b, double c, double d) {return ((c/b)-a)+d;}
-	public static double _LLcDbRSaRSd(double a, double b, double c, double d) {return ((c/b)-a)-d;}
-	public static double _LLcDbRSaRMd(double a, double b, double c, double d) {return ((c/b)-a)*d;}
-	public static double _LLcDbRSaRDd(double a, double b, double c, double d) {return ((c/b)-a)/d;}
-	public static double _LLcSbRAdRMa(double a, double b, double c, double d) {return ((c-b)+d)*a;}
-	public static double _LLcSbRAdRDa(double a, double b, double c, double d) {return ((c-b)+d)/a;}
-	public static double _LLcSbRSdRMa(double a, double b, double c, double d) {return ((c-b)-d)*a;}
-	public static double _LLcSbRSdRDa(double a, double b, double c, double d) {return ((c-b)-d)/a;}
-	public static double _LLcSbRMdRAa(double a, double b, double c, double d) {return ((c-b)*d)+a;}
-	public static double _LLcSbRMdRSa(double a, double b, double c, double d) {return ((c-b)*d)-a;}
-	public static double _LLcSbRDdRAa(double a, double b, double c, double d) {return ((c-b)/d)+a;}
-	public static double _LLcSbRDdRSa(double a, double b, double c, double d) {return ((c-b)/d)-a;}
-	public static double _LLcDbRAdRMa(double a, double b, double c, double d) {return ((c/b)+d)*a;}
-	public static double _LLcDbRAdRDa(double a, double b, double c, double d) {return ((c/b)+d)/a;}
-	public static double _LLcDbRSdRMa(double a, double b, double c, double d) {return ((c/b)-d)*a;}
-	public static double _LLcDbRSdRDa(double a, double b, double c, double d) {return ((c/b)-d)/a;}
-	public static double _LLcDbRMdRAa(double a, double b, double c, double d) {return ((c/b)*d)+a;}
-	public static double _LLcDbRMdRSa(double a, double b, double c, double d) {return ((c/b)*d)-a;}
-	public static double _LcDLbMdRRAa(double a, double b, double c, double d) {return (c/(b*d))+a;}
-	public static double _LcDLbMdRRSa(double a, double b, double c, double d) {return (c/(b*d))-a;}
-	public static double _LLcAdRMaRAb(double a, double b, double c, double d) {return ((c+d)*a)+b;}
-	public static double _LLcAdRMaRSb(double a, double b, double c, double d) {return ((c+d)*a)-b;}
-	public static double _LLcAdRMaRMb(double a, double b, double c, double d) {return ((c+d)*a)*b;}
-	public static double _LLcAdRMaRDb(double a, double b, double c, double d) {return ((c+d)*a)/b;}
-	public static double _LLcAdRDaRAb(double a, double b, double c, double d) {return ((c+d)/a)+b;}
-	public static double _LLcAdRDaRSb(double a, double b, double c, double d) {return ((c+d)/a)-b;}
-	public static double _LLcAdRDaRMb(double a, double b, double c, double d) {return ((c+d)/a)*b;}
-	public static double _LcAdRDLaMbR(double a, double b, double c, double d) {return (c+d)/(a*b);}
-	public static double _LLcSdRMaRAb(double a, double b, double c, double d) {return ((c-d)*a)+b;}
-	public static double _LLcSdRMaRSb(double a, double b, double c, double d) {return ((c-d)*a)-b;}
-	public static double _LLcSdRMaRMb(double a, double b, double c, double d) {return ((c-d)*a)*b;}
-	public static double _LLcSdRMaRDb(double a, double b, double c, double d) {return ((c-d)*a)/b;}
-	public static double _LLcSdRDaRAb(double a, double b, double c, double d) {return ((c-d)/a)+b;}
-	public static double _LLcSdRDaRSb(double a, double b, double c, double d) {return ((c-d)/a)-b;}
-	public static double _LLcSdRDaRMb(double a, double b, double c, double d) {return ((c-d)/a)*b;}
-	public static double _LcSdRDLaMbR(double a, double b, double c, double d) {return (c-d)/(a*b);}
-	public static double _LLcMdRAaRAb(double a, double b, double c, double d) {return ((c*d)+a)+b;}
-	public static double _LLcMdRAaRSb(double a, double b, double c, double d) {return ((c*d)+a)-b;}
-	public static double _LLcMdRAaRMb(double a, double b, double c, double d) {return ((c*d)+a)*b;}
-	public static double _LLcMdRAaRDb(double a, double b, double c, double d) {return ((c*d)+a)/b;}
-	public static double _LLcMdRSaRAb(double a, double b, double c, double d) {return ((c*d)-a)+b;}
-	public static double _LLcMdRSaRSb(double a, double b, double c, double d) {return ((c*d)-a)-b;}
-	public static double _LLcMdRSaRMb(double a, double b, double c, double d) {return ((c*d)-a)*b;}
-	public static double _LLcMdRSaRDb(double a, double b, double c, double d) {return ((c*d)-a)/b;}
 	public static double _LLcDdRAaRAb(double a, double b, double c, double d) {return ((c/d)+a)+b;}
-	public static double _LLcDdRAaRSb(double a, double b, double c, double d) {return ((c/d)+a)-b;}
-	public static double _LLcDdRAaRMb(double a, double b, double c, double d) {return ((c/d)+a)*b;}
-	public static double _LLcDdRAaRDb(double a, double b, double c, double d) {return ((c/d)+a)/b;}
-	public static double _LLcDdRSaRAb(double a, double b, double c, double d) {return ((c/d)-a)+b;}
-	public static double _LLcDdRSaRSb(double a, double b, double c, double d) {return ((c/d)-a)-b;}
-	public static double _LLcDdRSaRMb(double a, double b, double c, double d) {return ((c/d)-a)*b;}
-	public static double _LLcDdRSaRDb(double a, double b, double c, double d) {return ((c/d)-a)/b;}
-	public static double _LLcAdRMbRAa(double a, double b, double c, double d) {return ((c+d)*b)+a;}
-	public static double _LLcAdRMbRSa(double a, double b, double c, double d) {return ((c+d)*b)-a;}
-	public static double _LLcAdRDbRAa(double a, double b, double c, double d) {return ((c+d)/b)+a;}
-	public static double _LLcAdRDbRSa(double a, double b, double c, double d) {return ((c+d)/b)-a;}
-	public static double _LLcSdRMbRAa(double a, double b, double c, double d) {return ((c-d)*b)+a;}
-	public static double _LLcSdRMbRSa(double a, double b, double c, double d) {return ((c-d)*b)-a;}
-	public static double _LLcSdRDbRAa(double a, double b, double c, double d) {return ((c-d)/b)+a;}
-	public static double _LLcSdRDbRSa(double a, double b, double c, double d) {return ((c-d)/b)-a;}
-	public static double _LLcMdRAbRMa(double a, double b, double c, double d) {return ((c*d)+b)*a;}
-	public static double _LLcMdRAbRDa(double a, double b, double c, double d) {return ((c*d)+b)/a;}
-	public static double _LLcMdRSbRMa(double a, double b, double c, double d) {return ((c*d)-b)*a;}
-	public static double _LLcMdRSbRDa(double a, double b, double c, double d) {return ((c*d)-b)/a;}
-	public static double _LLcDdRAbRMa(double a, double b, double c, double d) {return ((c/d)+b)*a;}
-	public static double _LLcDdRAbRDa(double a, double b, double c, double d) {return ((c/d)+b)/a;}
-	public static double _LLcDdRSbRMa(double a, double b, double c, double d) {return ((c/d)-b)*a;}
-	public static double _LLcDdRSbRDa(double a, double b, double c, double d) {return ((c/d)-b)/a;}
-	public static double _LLdSaRSbRSc(double a, double b, double c, double d) {return ((d-a)-b)-c;}
-	public static double _LLdSaRSbRMc(double a, double b, double c, double d) {return ((d-a)-b)*c;}
-	public static double _LLdSaRSbRDc(double a, double b, double c, double d) {return ((d-a)-b)/c;}
-	public static double _LLdSaRMbRAc(double a, double b, double c, double d) {return ((d-a)*b)+c;}
-	public static double _LLdSaRMbRSc(double a, double b, double c, double d) {return ((d-a)*b)-c;}
-	public static double _LLdSaRMbRMc(double a, double b, double c, double d) {return ((d-a)*b)*c;}
-	public static double _LLdSaRMbRDc(double a, double b, double c, double d) {return ((d-a)*b)/c;}
-	public static double _LLdSaRDbRAc(double a, double b, double c, double d) {return ((d-a)/b)+c;}
-	public static double _LLdSaRDbRSc(double a, double b, double c, double d) {return ((d-a)/b)-c;}
-	public static double _LLdSaRDbRMc(double a, double b, double c, double d) {return ((d-a)/b)*c;}
-	public static double _LdSaRDLbMcR(double a, double b, double c, double d) {return (d-a)/(b*c);}
 	public static double _LLdDaRAbRAc(double a, double b, double c, double d) {return ((d/a)+b)+c;}
-	public static double _LLdDaRAbRSc(double a, double b, double c, double d) {return ((d/a)+b)-c;}
-	public static double _LLdDaRAbRMc(double a, double b, double c, double d) {return ((d/a)+b)*c;}
-	public static double _LLdDaRAbRDc(double a, double b, double c, double d) {return ((d/a)+b)/c;}
-	public static double _LLdDaRSbRAc(double a, double b, double c, double d) {return ((d/a)-b)+c;}
-	public static double _LLdDaRSbRSc(double a, double b, double c, double d) {return ((d/a)-b)-c;}
-	public static double _LLdDaRSbRMc(double a, double b, double c, double d) {return ((d/a)-b)*c;}
-	public static double _LLdDaRSbRDc(double a, double b, double c, double d) {return ((d/a)-b)/c;}
-	public static double _LdDLaMbRRAc(double a, double b, double c, double d) {return (d/(a*b))+c;}
-	public static double _LdDLaMbRRSc(double a, double b, double c, double d) {return (d/(a*b))-c;}
-	public static double _dDLLaMbRMcR(double a, double b, double c, double d) {return d/((a*b)*c);}
-	public static double _LLdSaRScRMb(double a, double b, double c, double d) {return ((d-a)-c)*b;}
-	public static double _LLdSaRScRDb(double a, double b, double c, double d) {return ((d-a)-c)/b;}
-	public static double _LLdSaRMcRAb(double a, double b, double c, double d) {return ((d-a)*c)+b;}
-	public static double _LLdSaRMcRSb(double a, double b, double c, double d) {return ((d-a)*c)-b;}
-	public static double _LLdSaRDcRAb(double a, double b, double c, double d) {return ((d-a)/c)+b;}
-	public static double _LLdSaRDcRSb(double a, double b, double c, double d) {return ((d-a)/c)-b;}
-	public static double _LLdDaRAcRMb(double a, double b, double c, double d) {return ((d/a)+c)*b;}
-	public static double _LLdDaRAcRDb(double a, double b, double c, double d) {return ((d/a)+c)/b;}
-	public static double _LLdDaRScRMb(double a, double b, double c, double d) {return ((d/a)-c)*b;}
-	public static double _LLdDaRScRDb(double a, double b, double c, double d) {return ((d/a)-c)/b;}
-	public static double _LdDLaMcRRAb(double a, double b, double c, double d) {return (d/(a*c))+b;}
-	public static double _LdDLaMcRRSb(double a, double b, double c, double d) {return (d/(a*c))-b;}
-	public static double _LLdSbRMaRAc(double a, double b, double c, double d) {return ((d-b)*a)+c;}
-	public static double _LLdSbRMaRSc(double a, double b, double c, double d) {return ((d-b)*a)-c;}
-	public static double _LLdSbRMaRMc(double a, double b, double c, double d) {return ((d-b)*a)*c;}
-	public static double _LLdSbRMaRDc(double a, double b, double c, double d) {return ((d-b)*a)/c;}
-	public static double _LLdSbRDaRAc(double a, double b, double c, double d) {return ((d-b)/a)+c;}
-	public static double _LLdSbRDaRSc(double a, double b, double c, double d) {return ((d-b)/a)-c;}
-	public static double _LLdSbRDaRMc(double a, double b, double c, double d) {return ((d-b)/a)*c;}
-	public static double _LdSbRDLaMcR(double a, double b, double c, double d) {return (d-b)/(a*c);}
 	public static double _LLdDbRAaRAc(double a, double b, double c, double d) {return ((d/b)+a)+c;}
-	public static double _LLdDbRAaRSc(double a, double b, double c, double d) {return ((d/b)+a)-c;}
-	public static double _LLdDbRAaRMc(double a, double b, double c, double d) {return ((d/b)+a)*c;}
-	public static double _LLdDbRAaRDc(double a, double b, double c, double d) {return ((d/b)+a)/c;}
-	public static double _LLdDbRSaRAc(double a, double b, double c, double d) {return ((d/b)-a)+c;}
-	public static double _LLdDbRSaRSc(double a, double b, double c, double d) {return ((d/b)-a)-c;}
-	public static double _LLdDbRSaRMc(double a, double b, double c, double d) {return ((d/b)-a)*c;}
-	public static double _LLdDbRSaRDc(double a, double b, double c, double d) {return ((d/b)-a)/c;}
-	public static double _LLdSbRScRMa(double a, double b, double c, double d) {return ((d-b)-c)*a;}
-	public static double _LLdSbRScRDa(double a, double b, double c, double d) {return ((d-b)-c)/a;}
-	public static double _LLdSbRMcRAa(double a, double b, double c, double d) {return ((d-b)*c)+a;}
-	public static double _LLdSbRMcRSa(double a, double b, double c, double d) {return ((d-b)*c)-a;}
-	public static double _LLdSbRDcRAa(double a, double b, double c, double d) {return ((d-b)/c)+a;}
-	public static double _LLdSbRDcRSa(double a, double b, double c, double d) {return ((d-b)/c)-a;}
-	public static double _LLdDbRAcRMa(double a, double b, double c, double d) {return ((d/b)+c)*a;}
-	public static double _LLdDbRAcRDa(double a, double b, double c, double d) {return ((d/b)+c)/a;}
-	public static double _LLdDbRScRMa(double a, double b, double c, double d) {return ((d/b)-c)*a;}
-	public static double _LLdDbRScRDa(double a, double b, double c, double d) {return ((d/b)-c)/a;}
-	public static double _LdDLbMcRRAa(double a, double b, double c, double d) {return (d/(b*c))+a;}
-	public static double _LdDLbMcRRSa(double a, double b, double c, double d) {return (d/(b*c))-a;}
-	public static double _LLdScRMaRAb(double a, double b, double c, double d) {return ((d-c)*a)+b;}
-	public static double _LLdScRMaRSb(double a, double b, double c, double d) {return ((d-c)*a)-b;}
-	public static double _LLdScRMaRMb(double a, double b, double c, double d) {return ((d-c)*a)*b;}
-	public static double _LLdScRMaRDb(double a, double b, double c, double d) {return ((d-c)*a)/b;}
-	public static double _LLdScRDaRAb(double a, double b, double c, double d) {return ((d-c)/a)+b;}
-	public static double _LLdScRDaRSb(double a, double b, double c, double d) {return ((d-c)/a)-b;}
-	public static double _LLdScRDaRMb(double a, double b, double c, double d) {return ((d-c)/a)*b;}
-	public static double _LdScRDLaMbR(double a, double b, double c, double d) {return (d-c)/(a*b);}
 	public static double _LLdDcRAaRAb(double a, double b, double c, double d) {return ((d/c)+a)+b;}
+	public static double _LLaDbRAcRSd(double a, double b, double c, double d) {return ((a/b)+c)-d;}
+	public static double _LLaDbRAdRSc(double a, double b, double c, double d) {return ((a/b)+d)-c;}
+	public static double _LLaDcRAbRSd(double a, double b, double c, double d) {return ((a/c)+b)-d;}
+	public static double _LLaDcRAdRSb(double a, double b, double c, double d) {return ((a/c)+d)-b;}
+	public static double _LLaDdRAbRSc(double a, double b, double c, double d) {return ((a/d)+b)-c;}
+	public static double _LLaDdRAcRSb(double a, double b, double c, double d) {return ((a/d)+c)-b;}
+	public static double _LLbDaRAcRSd(double a, double b, double c, double d) {return ((b/a)+c)-d;}
+	public static double _LLbDaRAdRSc(double a, double b, double c, double d) {return ((b/a)+d)-c;}
+	public static double _LLbDcRAaRSd(double a, double b, double c, double d) {return ((b/c)+a)-d;}
+	public static double _LLbDcRAdRSa(double a, double b, double c, double d) {return ((b/c)+d)-a;}
+	public static double _LLbDdRAaRSc(double a, double b, double c, double d) {return ((b/d)+a)-c;}
+	public static double _LLbDdRAcRSa(double a, double b, double c, double d) {return ((b/d)+c)-a;}
+	public static double _LLcDaRAbRSd(double a, double b, double c, double d) {return ((c/a)+b)-d;}
+	public static double _LLcDaRAdRSb(double a, double b, double c, double d) {return ((c/a)+d)-b;}
+	public static double _LLcDbRAaRSd(double a, double b, double c, double d) {return ((c/b)+a)-d;}
+	public static double _LLcDbRAdRSa(double a, double b, double c, double d) {return ((c/b)+d)-a;}
+	public static double _LLcDdRAaRSb(double a, double b, double c, double d) {return ((c/d)+a)-b;}
+	public static double _LLcDdRAbRSa(double a, double b, double c, double d) {return ((c/d)+b)-a;}
+	public static double _LLdDaRAbRSc(double a, double b, double c, double d) {return ((d/a)+b)-c;}
+	public static double _LLdDaRAcRSb(double a, double b, double c, double d) {return ((d/a)+c)-b;}
+	public static double _LLdDbRAaRSc(double a, double b, double c, double d) {return ((d/b)+a)-c;}
+	public static double _LLdDbRAcRSa(double a, double b, double c, double d) {return ((d/b)+c)-a;}
 	public static double _LLdDcRAaRSb(double a, double b, double c, double d) {return ((d/c)+a)-b;}
+	public static double _LLdDcRAbRSa(double a, double b, double c, double d) {return ((d/c)+b)-a;}
+	public static double _LLaDbRAcRMd(double a, double b, double c, double d) {return ((a/b)+c)*d;}
+	public static double _LLaDbRAdRMc(double a, double b, double c, double d) {return ((a/b)+d)*c;}
+	public static double _LLaDcRAbRMd(double a, double b, double c, double d) {return ((a/c)+b)*d;}
+	public static double _LLaDcRAdRMb(double a, double b, double c, double d) {return ((a/c)+d)*b;}
+	public static double _LLaDdRAbRMc(double a, double b, double c, double d) {return ((a/d)+b)*c;}
+	public static double _LLaDdRAcRMb(double a, double b, double c, double d) {return ((a/d)+c)*b;}
+	public static double _LLbDaRAcRMd(double a, double b, double c, double d) {return ((b/a)+c)*d;}
+	public static double _LLbDaRAdRMc(double a, double b, double c, double d) {return ((b/a)+d)*c;}
+	public static double _LLbDcRAaRMd(double a, double b, double c, double d) {return ((b/c)+a)*d;}
+	public static double _LLbDcRAdRMa(double a, double b, double c, double d) {return ((b/c)+d)*a;}
+	public static double _LLbDdRAaRMc(double a, double b, double c, double d) {return ((b/d)+a)*c;}
+	public static double _LLbDdRAcRMa(double a, double b, double c, double d) {return ((b/d)+c)*a;}
+	public static double _LLcDaRAbRMd(double a, double b, double c, double d) {return ((c/a)+b)*d;}
+	public static double _LLcDaRAdRMb(double a, double b, double c, double d) {return ((c/a)+d)*b;}
+	public static double _LLcDbRAaRMd(double a, double b, double c, double d) {return ((c/b)+a)*d;}
+	public static double _LLcDbRAdRMa(double a, double b, double c, double d) {return ((c/b)+d)*a;}
+	public static double _LLcDdRAaRMb(double a, double b, double c, double d) {return ((c/d)+a)*b;}
+	public static double _LLcDdRAbRMa(double a, double b, double c, double d) {return ((c/d)+b)*a;}
+	public static double _LLdDaRAbRMc(double a, double b, double c, double d) {return ((d/a)+b)*c;}
+	public static double _LLdDaRAcRMb(double a, double b, double c, double d) {return ((d/a)+c)*b;}
+	public static double _LLdDbRAaRMc(double a, double b, double c, double d) {return ((d/b)+a)*c;}
+	public static double _LLdDbRAcRMa(double a, double b, double c, double d) {return ((d/b)+c)*a;}
 	public static double _LLdDcRAaRMb(double a, double b, double c, double d) {return ((d/c)+a)*b;}
-	public static double _LLdDcRAaRDb(double a, double b, double c, double d) {return ((d/c)+a)/b;}
-	public static double _LLdDcRSaRAb(double a, double b, double c, double d) {return ((d/c)-a)+b;}
-	public static double _LLdDcRSaRSb(double a, double b, double c, double d) {return ((d/c)-a)-b;}
-	public static double _LLdDcRSaRMb(double a, double b, double c, double d) {return ((d/c)-a)*b;}
-	public static double _LLdDcRSaRDb(double a, double b, double c, double d) {return ((d/c)-a)/b;}
-	public static double _LLdScRMbRAa(double a, double b, double c, double d) {return ((d-c)*b)+a;}
-	public static double _LLdScRMbRSa(double a, double b, double c, double d) {return ((d-c)*b)-a;}
-	public static double _LLdScRDbRAa(double a, double b, double c, double d) {return ((d-c)/b)+a;}
-	public static double _LLdScRDbRSa(double a, double b, double c, double d) {return ((d-c)/b)-a;}
 	public static double _LLdDcRAbRMa(double a, double b, double c, double d) {return ((d/c)+b)*a;}
+	public static double _LLaDbRAcRDd(double a, double b, double c, double d) {return ((a/b)+c)/d;}
+	public static double _LLaDbRAdRDc(double a, double b, double c, double d) {return ((a/b)+d)/c;}
+	public static double _LLaDcRAbRDd(double a, double b, double c, double d) {return ((a/c)+b)/d;}
+	public static double _LLaDcRAdRDb(double a, double b, double c, double d) {return ((a/c)+d)/b;}
+	public static double _LLaDdRAbRDc(double a, double b, double c, double d) {return ((a/d)+b)/c;}
+	public static double _LLaDdRAcRDb(double a, double b, double c, double d) {return ((a/d)+c)/b;}
+	public static double _LLbDaRAcRDd(double a, double b, double c, double d) {return ((b/a)+c)/d;}
+	public static double _LLbDaRAdRDc(double a, double b, double c, double d) {return ((b/a)+d)/c;}
+	public static double _LLbDcRAaRDd(double a, double b, double c, double d) {return ((b/c)+a)/d;}
+	public static double _LLbDcRAdRDa(double a, double b, double c, double d) {return ((b/c)+d)/a;}
+	public static double _LLbDdRAaRDc(double a, double b, double c, double d) {return ((b/d)+a)/c;}
+	public static double _LLbDdRAcRDa(double a, double b, double c, double d) {return ((b/d)+c)/a;}
+	public static double _LLcDaRAbRDd(double a, double b, double c, double d) {return ((c/a)+b)/d;}
+	public static double _LLcDaRAdRDb(double a, double b, double c, double d) {return ((c/a)+d)/b;}
+	public static double _LLcDbRAaRDd(double a, double b, double c, double d) {return ((c/b)+a)/d;}
+	public static double _LLcDbRAdRDa(double a, double b, double c, double d) {return ((c/b)+d)/a;}
+	public static double _LLcDdRAaRDb(double a, double b, double c, double d) {return ((c/d)+a)/b;}
+	public static double _LLcDdRAbRDa(double a, double b, double c, double d) {return ((c/d)+b)/a;}
+	public static double _LLdDaRAbRDc(double a, double b, double c, double d) {return ((d/a)+b)/c;}
+	public static double _LLdDaRAcRDb(double a, double b, double c, double d) {return ((d/a)+c)/b;}
+	public static double _LLdDbRAaRDc(double a, double b, double c, double d) {return ((d/b)+a)/c;}
+	public static double _LLdDbRAcRDa(double a, double b, double c, double d) {return ((d/b)+c)/a;}
+	public static double _LLdDcRAaRDb(double a, double b, double c, double d) {return ((d/c)+a)/b;}
 	public static double _LLdDcRAbRDa(double a, double b, double c, double d) {return ((d/c)+b)/a;}
+	public static double _LLaDbRScRSd(double a, double b, double c, double d) {return ((a/b)-c)-d;}
+	public static double _LLaDcRSbRSd(double a, double b, double c, double d) {return ((a/c)-b)-d;}
+	public static double _LLaDdRSbRSc(double a, double b, double c, double d) {return ((a/d)-b)-c;}
+	public static double _LLbDaRScRSd(double a, double b, double c, double d) {return ((b/a)-c)-d;}
+	public static double _LLbDcRSaRSd(double a, double b, double c, double d) {return ((b/c)-a)-d;}
+	public static double _LLbDdRSaRSc(double a, double b, double c, double d) {return ((b/d)-a)-c;}
+	public static double _LLcDaRSbRSd(double a, double b, double c, double d) {return ((c/a)-b)-d;}
+	public static double _LLcDbRSaRSd(double a, double b, double c, double d) {return ((c/b)-a)-d;}
+	public static double _LLcDdRSaRSb(double a, double b, double c, double d) {return ((c/d)-a)-b;}
+	public static double _LLdDaRSbRSc(double a, double b, double c, double d) {return ((d/a)-b)-c;}
+	public static double _LLdDbRSaRSc(double a, double b, double c, double d) {return ((d/b)-a)-c;}
+	public static double _LLdDcRSaRSb(double a, double b, double c, double d) {return ((d/c)-a)-b;}
+	public static double _LLaDbRScRMd(double a, double b, double c, double d) {return ((a/b)-c)*d;}
+	public static double _LLaDbRSdRMc(double a, double b, double c, double d) {return ((a/b)-d)*c;}
+	public static double _LLaDcRSbRMd(double a, double b, double c, double d) {return ((a/c)-b)*d;}
+	public static double _LLaDcRSdRMb(double a, double b, double c, double d) {return ((a/c)-d)*b;}
+	public static double _LLaDdRSbRMc(double a, double b, double c, double d) {return ((a/d)-b)*c;}
+	public static double _LLaDdRScRMb(double a, double b, double c, double d) {return ((a/d)-c)*b;}
+	public static double _LLbDaRScRMd(double a, double b, double c, double d) {return ((b/a)-c)*d;}
+	public static double _LLbDaRSdRMc(double a, double b, double c, double d) {return ((b/a)-d)*c;}
+	public static double _LLbDcRSaRMd(double a, double b, double c, double d) {return ((b/c)-a)*d;}
+	public static double _LLbDcRSdRMa(double a, double b, double c, double d) {return ((b/c)-d)*a;}
+	public static double _LLbDdRSaRMc(double a, double b, double c, double d) {return ((b/d)-a)*c;}
+	public static double _LLbDdRScRMa(double a, double b, double c, double d) {return ((b/d)-c)*a;}
+	public static double _LLcDaRSbRMd(double a, double b, double c, double d) {return ((c/a)-b)*d;}
+	public static double _LLcDaRSdRMb(double a, double b, double c, double d) {return ((c/a)-d)*b;}
+	public static double _LLcDbRSaRMd(double a, double b, double c, double d) {return ((c/b)-a)*d;}
+	public static double _LLcDbRSdRMa(double a, double b, double c, double d) {return ((c/b)-d)*a;}
+	public static double _LLcDdRSaRMb(double a, double b, double c, double d) {return ((c/d)-a)*b;}
+	public static double _LLcDdRSbRMa(double a, double b, double c, double d) {return ((c/d)-b)*a;}
+	public static double _LLdDaRSbRMc(double a, double b, double c, double d) {return ((d/a)-b)*c;}
+	public static double _LLdDaRScRMb(double a, double b, double c, double d) {return ((d/a)-c)*b;}
+	public static double _LLdDbRSaRMc(double a, double b, double c, double d) {return ((d/b)-a)*c;}
+	public static double _LLdDbRScRMa(double a, double b, double c, double d) {return ((d/b)-c)*a;}
+	public static double _LLdDcRSaRMb(double a, double b, double c, double d) {return ((d/c)-a)*b;}
 	public static double _LLdDcRSbRMa(double a, double b, double c, double d) {return ((d/c)-b)*a;}
+	public static double _LLaDbRScRDd(double a, double b, double c, double d) {return ((a/b)-c)/d;}
+	public static double _LLaDbRSdRDc(double a, double b, double c, double d) {return ((a/b)-d)/c;}
+	public static double _LLaDcRSbRDd(double a, double b, double c, double d) {return ((a/c)-b)/d;}
+	public static double _LLaDcRSdRDb(double a, double b, double c, double d) {return ((a/c)-d)/b;}
+	public static double _LLaDdRSbRDc(double a, double b, double c, double d) {return ((a/d)-b)/c;}
+	public static double _LLaDdRScRDb(double a, double b, double c, double d) {return ((a/d)-c)/b;}
+	public static double _LLbDaRScRDd(double a, double b, double c, double d) {return ((b/a)-c)/d;}
+	public static double _LLbDaRSdRDc(double a, double b, double c, double d) {return ((b/a)-d)/c;}
+	public static double _LLbDcRSaRDd(double a, double b, double c, double d) {return ((b/c)-a)/d;}
+	public static double _LLbDcRSdRDa(double a, double b, double c, double d) {return ((b/c)-d)/a;}
+	public static double _LLbDdRSaRDc(double a, double b, double c, double d) {return ((b/d)-a)/c;}
+	public static double _LLbDdRScRDa(double a, double b, double c, double d) {return ((b/d)-c)/a;}
+	public static double _LLcDaRSbRDd(double a, double b, double c, double d) {return ((c/a)-b)/d;}
+	public static double _LLcDaRSdRDb(double a, double b, double c, double d) {return ((c/a)-d)/b;}
+	public static double _LLcDbRSaRDd(double a, double b, double c, double d) {return ((c/b)-a)/d;}
+	public static double _LLcDbRSdRDa(double a, double b, double c, double d) {return ((c/b)-d)/a;}
+	public static double _LLcDdRSaRDb(double a, double b, double c, double d) {return ((c/d)-a)/b;}
+	public static double _LLcDdRSbRDa(double a, double b, double c, double d) {return ((c/d)-b)/a;}
+	public static double _LLdDaRSbRDc(double a, double b, double c, double d) {return ((d/a)-b)/c;}
+	public static double _LLdDaRScRDb(double a, double b, double c, double d) {return ((d/a)-c)/b;}
+	public static double _LLdDbRSaRDc(double a, double b, double c, double d) {return ((d/b)-a)/c;}
+	public static double _LLdDbRScRDa(double a, double b, double c, double d) {return ((d/b)-c)/a;}
+	public static double _LLdDcRSaRDb(double a, double b, double c, double d) {return ((d/c)-a)/b;}
 	public static double _LLdDcRSbRDa(double a, double b, double c, double d) {return ((d/c)-b)/a;}
+	public static double _LaDLbMcRRAd(double a, double b, double c, double d) {return (a/(b*c))+d;}
+	public static double _LaDLbMdRRAc(double a, double b, double c, double d) {return (a/(b*d))+c;}
+	public static double _LaDLcMdRRAb(double a, double b, double c, double d) {return (a/(c*d))+b;}
+	public static double _LbDLaMcRRAd(double a, double b, double c, double d) {return (b/(a*c))+d;}
+	public static double _LbDLaMdRRAc(double a, double b, double c, double d) {return (b/(a*d))+c;}
+	public static double _LbDLcMdRRAa(double a, double b, double c, double d) {return (b/(c*d))+a;}
+	public static double _LcDLaMbRRAd(double a, double b, double c, double d) {return (c/(a*b))+d;}
+	public static double _LcDLaMdRRAb(double a, double b, double c, double d) {return (c/(a*d))+b;}
+	public static double _LcDLbMdRRAa(double a, double b, double c, double d) {return (c/(b*d))+a;}
+	public static double _LdDLaMbRRAc(double a, double b, double c, double d) {return (d/(a*b))+c;}
+	public static double _LdDLaMcRRAb(double a, double b, double c, double d) {return (d/(a*c))+b;}
+	public static double _LdDLbMcRRAa(double a, double b, double c, double d) {return (d/(b*c))+a;}
+	public static double _LaDLbMcRRSd(double a, double b, double c, double d) {return (a/(b*c))-d;}
+	public static double _LaDLbMdRRSc(double a, double b, double c, double d) {return (a/(b*d))-c;}
+	public static double _LaDLcMdRRSb(double a, double b, double c, double d) {return (a/(c*d))-b;}
+	public static double _LbDLaMcRRSd(double a, double b, double c, double d) {return (b/(a*c))-d;}
+	public static double _LbDLaMdRRSc(double a, double b, double c, double d) {return (b/(a*d))-c;}
+	public static double _LbDLcMdRRSa(double a, double b, double c, double d) {return (b/(c*d))-a;}
+	public static double _LcDLaMbRRSd(double a, double b, double c, double d) {return (c/(a*b))-d;}
+	public static double _LcDLaMdRRSb(double a, double b, double c, double d) {return (c/(a*d))-b;}
+	public static double _LcDLbMdRRSa(double a, double b, double c, double d) {return (c/(b*d))-a;}
+	public static double _LdDLaMbRRSc(double a, double b, double c, double d) {return (d/(a*b))-c;}
+	public static double _LdDLaMcRRSb(double a, double b, double c, double d) {return (d/(a*c))-b;}
+	public static double _LdDLbMcRRSa(double a, double b, double c, double d) {return (d/(b*c))-a;}
+	public static double _aDLLbMcRMdR(double a, double b, double c, double d) {return a/((b*c)*d);}
+	public static double _bDLLaMcRMdR(double a, double b, double c, double d) {return b/((a*c)*d);}
+	public static double _cDLLaMbRMdR(double a, double b, double c, double d) {return c/((a*b)*d);}
+	public static double _dDLLaMbRMcR(double a, double b, double c, double d) {return d/((a*b)*c);}
 	public static double _LaSLbMcRRAd(double a, double b, double c, double d) {return (a-(b*c))+d;}
-	public static double _LaSLbMcRRSd(double a, double b, double c, double d) {return (a-(b*c))-d;}
-	public static double _LaSLbMcRRMd(double a, double b, double c, double d) {return (a-(b*c))*d;}
-	public static double _LaSLbMcRRDd(double a, double b, double c, double d) {return (a-(b*c))/d;}
-	public static double _LaSLbDcRRAd(double a, double b, double c, double d) {return (a-(b/c))+d;}
-	public static double _LaSLbDcRRSd(double a, double b, double c, double d) {return (a-(b/c))-d;}
-	public static double _LaSLbDcRRMd(double a, double b, double c, double d) {return (a-(b/c))*d;}
-	public static double _LaSLbDcRRDd(double a, double b, double c, double d) {return (a-(b/c))/d;}
-	public static double _LaDLbAcRRAd(double a, double b, double c, double d) {return (a/(b+c))+d;}
-	public static double _LaDLbAcRRSd(double a, double b, double c, double d) {return (a/(b+c))-d;}
-	public static double _LaDLbAcRRMd(double a, double b, double c, double d) {return (a/(b+c))*d;}
-	public static double _aDLLbAcRMdR(double a, double b, double c, double d) {return a/((b+c)*d);}
-	public static double _LaDLbScRRAd(double a, double b, double c, double d) {return (a/(b-c))+d;}
-	public static double _LaDLbScRRSd(double a, double b, double c, double d) {return (a/(b-c))-d;}
-	public static double _LaDLbScRRMd(double a, double b, double c, double d) {return (a/(b-c))*d;}
-	public static double _aDLLbScRMdR(double a, double b, double c, double d) {return a/((b-c)*d);}
 	public static double _LaSLbMdRRAc(double a, double b, double c, double d) {return (a-(b*d))+c;}
-	public static double _LaSLbMdRRSc(double a, double b, double c, double d) {return (a-(b*d))-c;}
-	public static double _LaSLbMdRRMc(double a, double b, double c, double d) {return (a-(b*d))*c;}
-	public static double _LaSLbMdRRDc(double a, double b, double c, double d) {return (a-(b*d))/c;}
-	public static double _LaSLbDdRRAc(double a, double b, double c, double d) {return (a-(b/d))+c;}
-	public static double _LaSLbDdRRSc(double a, double b, double c, double d) {return (a-(b/d))-c;}
-	public static double _LaSLbDdRRMc(double a, double b, double c, double d) {return (a-(b/d))*c;}
-	public static double _LaSLbDdRRDc(double a, double b, double c, double d) {return (a-(b/d))/c;}
-	public static double _LaDLbAdRRAc(double a, double b, double c, double d) {return (a/(b+d))+c;}
-	public static double _LaDLbAdRRSc(double a, double b, double c, double d) {return (a/(b+d))-c;}
-	public static double _LaDLbAdRRMc(double a, double b, double c, double d) {return (a/(b+d))*c;}
-	public static double _aDLLbAdRMcR(double a, double b, double c, double d) {return a/((b+d)*c);}
-	public static double _LaDLbSdRRAc(double a, double b, double c, double d) {return (a/(b-d))+c;}
-	public static double _LaDLbSdRRSc(double a, double b, double c, double d) {return (a/(b-d))-c;}
-	public static double _LaDLbSdRRMc(double a, double b, double c, double d) {return (a/(b-d))*c;}
-	public static double _aDLLbSdRMcR(double a, double b, double c, double d) {return a/((b-d)*c);}
-	public static double _LaSLcDbRRAd(double a, double b, double c, double d) {return (a-(c/b))+d;}
-	public static double _LaSLcDbRRSd(double a, double b, double c, double d) {return (a-(c/b))-d;}
-	public static double _LaSLcDbRRMd(double a, double b, double c, double d) {return (a-(c/b))*d;}
-	public static double _LaSLcDbRRDd(double a, double b, double c, double d) {return (a-(c/b))/d;}
-	public static double _LaDLcSbRRAd(double a, double b, double c, double d) {return (a/(c-b))+d;}
-	public static double _LaDLcSbRRSd(double a, double b, double c, double d) {return (a/(c-b))-d;}
-	public static double _LaDLcSbRRMd(double a, double b, double c, double d) {return (a/(c-b))*d;}
-	public static double _aDLLcSbRMdR(double a, double b, double c, double d) {return a/((c-b)*d);}
 	public static double _LaSLcMdRRAb(double a, double b, double c, double d) {return (a-(c*d))+b;}
-	public static double _LaSLcMdRRSb(double a, double b, double c, double d) {return (a-(c*d))-b;}
-	public static double _LaSLcMdRRMb(double a, double b, double c, double d) {return (a-(c*d))*b;}
-	public static double _LaSLcMdRRDb(double a, double b, double c, double d) {return (a-(c*d))/b;}
-	public static double _LaSLcDdRRAb(double a, double b, double c, double d) {return (a-(c/d))+b;}
-	public static double _LaSLcDdRRSb(double a, double b, double c, double d) {return (a-(c/d))-b;}
-	public static double _LaSLcDdRRMb(double a, double b, double c, double d) {return (a-(c/d))*b;}
-	public static double _LaSLcDdRRDb(double a, double b, double c, double d) {return (a-(c/d))/b;}
-	public static double _LaDLcAdRRAb(double a, double b, double c, double d) {return (a/(c+d))+b;}
-	public static double _LaDLcAdRRSb(double a, double b, double c, double d) {return (a/(c+d))-b;}
-	public static double _LaDLcAdRRMb(double a, double b, double c, double d) {return (a/(c+d))*b;}
-	public static double _aDLLcAdRMbR(double a, double b, double c, double d) {return a/((c+d)*b);}
-	public static double _LaDLcSdRRAb(double a, double b, double c, double d) {return (a/(c-d))+b;}
-	public static double _LaDLcSdRRSb(double a, double b, double c, double d) {return (a/(c-d))-b;}
-	public static double _LaDLcSdRRMb(double a, double b, double c, double d) {return (a/(c-d))*b;}
-	public static double _aDLLcSdRMbR(double a, double b, double c, double d) {return a/((c-d)*b);}
-	public static double _LaSLdDbRRAc(double a, double b, double c, double d) {return (a-(d/b))+c;}
-	public static double _LaSLdDbRRSc(double a, double b, double c, double d) {return (a-(d/b))-c;}
-	public static double _LaSLdDbRRMc(double a, double b, double c, double d) {return (a-(d/b))*c;}
-	public static double _LaSLdDbRRDc(double a, double b, double c, double d) {return (a-(d/b))/c;}
-	public static double _LaDLdSbRRAc(double a, double b, double c, double d) {return (a/(d-b))+c;}
-	public static double _LaDLdSbRRSc(double a, double b, double c, double d) {return (a/(d-b))-c;}
-	public static double _LaDLdSbRRMc(double a, double b, double c, double d) {return (a/(d-b))*c;}
-	public static double _aDLLdSbRMcR(double a, double b, double c, double d) {return a/((d-b)*c);}
-	public static double _LaSLdDcRRAb(double a, double b, double c, double d) {return (a-(d/c))+b;}
-	public static double _LaSLdDcRRSb(double a, double b, double c, double d) {return (a-(d/c))-b;}
-	public static double _LaSLdDcRRMb(double a, double b, double c, double d) {return (a-(d/c))*b;}
-	public static double _LaSLdDcRRDb(double a, double b, double c, double d) {return (a-(d/c))/b;}
-	public static double _LaDLdScRRAb(double a, double b, double c, double d) {return (a/(d-c))+b;}
-	public static double _LaDLdScRRSb(double a, double b, double c, double d) {return (a/(d-c))-b;}
-	public static double _LaDLdScRRMb(double a, double b, double c, double d) {return (a/(d-c))*b;}
-	public static double _aDLLdScRMbR(double a, double b, double c, double d) {return a/((d-c)*b);}
 	public static double _LbSLaMcRRAd(double a, double b, double c, double d) {return (b-(a*c))+d;}
-	public static double _LbSLaMcRRSd(double a, double b, double c, double d) {return (b-(a*c))-d;}
-	public static double _LbSLaMcRRMd(double a, double b, double c, double d) {return (b-(a*c))*d;}
-	public static double _LbSLaMcRRDd(double a, double b, double c, double d) {return (b-(a*c))/d;}
-	public static double _LbSLaDcRRAd(double a, double b, double c, double d) {return (b-(a/c))+d;}
-	public static double _LbSLaDcRRSd(double a, double b, double c, double d) {return (b-(a/c))-d;}
-	public static double _LbSLaDcRRMd(double a, double b, double c, double d) {return (b-(a/c))*d;}
-	public static double _LbSLaDcRRDd(double a, double b, double c, double d) {return (b-(a/c))/d;}
-	public static double _LbDLaAcRRAd(double a, double b, double c, double d) {return (b/(a+c))+d;}
-	public static double _LbDLaAcRRSd(double a, double b, double c, double d) {return (b/(a+c))-d;}
-	public static double _LbDLaAcRRMd(double a, double b, double c, double d) {return (b/(a+c))*d;}
-	public static double _bDLLaAcRMdR(double a, double b, double c, double d) {return b/((a+c)*d);}
-	public static double _LbDLaScRRAd(double a, double b, double c, double d) {return (b/(a-c))+d;}
-	public static double _LbDLaScRRSd(double a, double b, double c, double d) {return (b/(a-c))-d;}
-	public static double _LbDLaScRRMd(double a, double b, double c, double d) {return (b/(a-c))*d;}
-	public static double _bDLLaScRMdR(double a, double b, double c, double d) {return b/((a-c)*d);}
 	public static double _LbSLaMdRRAc(double a, double b, double c, double d) {return (b-(a*d))+c;}
-	public static double _LbSLaMdRRSc(double a, double b, double c, double d) {return (b-(a*d))-c;}
-	public static double _LbSLaMdRRMc(double a, double b, double c, double d) {return (b-(a*d))*c;}
-	public static double _LbSLaMdRRDc(double a, double b, double c, double d) {return (b-(a*d))/c;}
-	public static double _LbSLaDdRRAc(double a, double b, double c, double d) {return (b-(a/d))+c;}
-	public static double _LbSLaDdRRSc(double a, double b, double c, double d) {return (b-(a/d))-c;}
-	public static double _LbSLaDdRRMc(double a, double b, double c, double d) {return (b-(a/d))*c;}
-	public static double _LbSLaDdRRDc(double a, double b, double c, double d) {return (b-(a/d))/c;}
-	public static double _LbDLaAdRRAc(double a, double b, double c, double d) {return (b/(a+d))+c;}
-	public static double _LbDLaAdRRSc(double a, double b, double c, double d) {return (b/(a+d))-c;}
-	public static double _LbDLaAdRRMc(double a, double b, double c, double d) {return (b/(a+d))*c;}
-	public static double _bDLLaAdRMcR(double a, double b, double c, double d) {return b/((a+d)*c);}
-	public static double _LbDLaSdRRAc(double a, double b, double c, double d) {return (b/(a-d))+c;}
-	public static double _LbDLaSdRRSc(double a, double b, double c, double d) {return (b/(a-d))-c;}
-	public static double _LbDLaSdRRMc(double a, double b, double c, double d) {return (b/(a-d))*c;}
-	public static double _bDLLaSdRMcR(double a, double b, double c, double d) {return b/((a-d)*c);}
-	public static double _LbSLcDaRRAd(double a, double b, double c, double d) {return (b-(c/a))+d;}
-	public static double _LbSLcDaRRSd(double a, double b, double c, double d) {return (b-(c/a))-d;}
-	public static double _LbSLcDaRRMd(double a, double b, double c, double d) {return (b-(c/a))*d;}
-	public static double _LbSLcDaRRDd(double a, double b, double c, double d) {return (b-(c/a))/d;}
-	public static double _LbDLcSaRRAd(double a, double b, double c, double d) {return (b/(c-a))+d;}
-	public static double _LbDLcSaRRSd(double a, double b, double c, double d) {return (b/(c-a))-d;}
-	public static double _LbDLcSaRRMd(double a, double b, double c, double d) {return (b/(c-a))*d;}
-	public static double _bDLLcSaRMdR(double a, double b, double c, double d) {return b/((c-a)*d);}
-	public static double _LbSLcMdRRSa(double a, double b, double c, double d) {return (b-(c*d))-a;}
-	public static double _LbSLcMdRRMa(double a, double b, double c, double d) {return (b-(c*d))*a;}
-	public static double _LbSLcMdRRDa(double a, double b, double c, double d) {return (b-(c*d))/a;}
-	public static double _LbSLcDdRRSa(double a, double b, double c, double d) {return (b-(c/d))-a;}
-	public static double _LbSLcDdRRMa(double a, double b, double c, double d) {return (b-(c/d))*a;}
-	public static double _LbSLcDdRRDa(double a, double b, double c, double d) {return (b-(c/d))/a;}
-	public static double _LbDLcAdRRAa(double a, double b, double c, double d) {return (b/(c+d))+a;}
-	public static double _LbDLcAdRRSa(double a, double b, double c, double d) {return (b/(c+d))-a;}
-	public static double _bDLLcAdRMaR(double a, double b, double c, double d) {return b/((c+d)*a);}
-	public static double _LbDLcSdRRAa(double a, double b, double c, double d) {return (b/(c-d))+a;}
-	public static double _LbDLcSdRRSa(double a, double b, double c, double d) {return (b/(c-d))-a;}
-	public static double _bDLLcSdRMaR(double a, double b, double c, double d) {return b/((c-d)*a);}
-	public static double _LbSLdDaRRAc(double a, double b, double c, double d) {return (b-(d/a))+c;}
-	public static double _LbSLdDaRRSc(double a, double b, double c, double d) {return (b-(d/a))-c;}
-	public static double _LbSLdDaRRMc(double a, double b, double c, double d) {return (b-(d/a))*c;}
-	public static double _LbSLdDaRRDc(double a, double b, double c, double d) {return (b-(d/a))/c;}
-	public static double _LbDLdSaRRAc(double a, double b, double c, double d) {return (b/(d-a))+c;}
-	public static double _LbDLdSaRRSc(double a, double b, double c, double d) {return (b/(d-a))-c;}
-	public static double _LbDLdSaRRMc(double a, double b, double c, double d) {return (b/(d-a))*c;}
-	public static double _bDLLdSaRMcR(double a, double b, double c, double d) {return b/((d-a)*c);}
-	public static double _LbSLdDcRRSa(double a, double b, double c, double d) {return (b-(d/c))-a;}
-	public static double _LbSLdDcRRMa(double a, double b, double c, double d) {return (b-(d/c))*a;}
-	public static double _LbSLdDcRRDa(double a, double b, double c, double d) {return (b-(d/c))/a;}
-	public static double _LbDLdScRRAa(double a, double b, double c, double d) {return (b/(d-c))+a;}
-	public static double _LbDLdScRRSa(double a, double b, double c, double d) {return (b/(d-c))-a;}
-	public static double _bDLLdScRMaR(double a, double b, double c, double d) {return b/((d-c)*a);}
 	public static double _LcSLaMbRRAd(double a, double b, double c, double d) {return (c-(a*b))+d;}
+	public static double _LaSLbMcRRSd(double a, double b, double c, double d) {return (a-(b*c))-d;}
+	public static double _LaSLbMdRRSc(double a, double b, double c, double d) {return (a-(b*d))-c;}
+	public static double _LaSLcMdRRSb(double a, double b, double c, double d) {return (a-(c*d))-b;}
+	public static double _LbSLaMcRRSd(double a, double b, double c, double d) {return (b-(a*c))-d;}
+	public static double _LbSLaMdRRSc(double a, double b, double c, double d) {return (b-(a*d))-c;}
+	public static double _LbSLcMdRRSa(double a, double b, double c, double d) {return (b-(c*d))-a;}
 	public static double _LcSLaMbRRSd(double a, double b, double c, double d) {return (c-(a*b))-d;}
-	public static double _LcSLaMbRRMd(double a, double b, double c, double d) {return (c-(a*b))*d;}
-	public static double _LcSLaMbRRDd(double a, double b, double c, double d) {return (c-(a*b))/d;}
-	public static double _LcSLaDbRRAd(double a, double b, double c, double d) {return (c-(a/b))+d;}
-	public static double _LcSLaDbRRSd(double a, double b, double c, double d) {return (c-(a/b))-d;}
-	public static double _LcSLaDbRRMd(double a, double b, double c, double d) {return (c-(a/b))*d;}
-	public static double _LcSLaDbRRDd(double a, double b, double c, double d) {return (c-(a/b))/d;}
-	public static double _LcDLaAbRRAd(double a, double b, double c, double d) {return (c/(a+b))+d;}
-	public static double _LcDLaAbRRSd(double a, double b, double c, double d) {return (c/(a+b))-d;}
-	public static double _LcDLaAbRRMd(double a, double b, double c, double d) {return (c/(a+b))*d;}
-	public static double _cDLLaAbRMdR(double a, double b, double c, double d) {return c/((a+b)*d);}
-	public static double _LcDLaSbRRAd(double a, double b, double c, double d) {return (c/(a-b))+d;}
-	public static double _LcDLaSbRRSd(double a, double b, double c, double d) {return (c/(a-b))-d;}
-	public static double _LcDLaSbRRMd(double a, double b, double c, double d) {return (c/(a-b))*d;}
-	public static double _cDLLaSbRMdR(double a, double b, double c, double d) {return c/((a-b)*d);}
 	public static double _LcSLaMdRRSb(double a, double b, double c, double d) {return (c-(a*d))-b;}
-	public static double _LcSLaMdRRMb(double a, double b, double c, double d) {return (c-(a*d))*b;}
-	public static double _LcSLaMdRRDb(double a, double b, double c, double d) {return (c-(a*d))/b;}
-	public static double _LcSLaDdRRSb(double a, double b, double c, double d) {return (c-(a/d))-b;}
-	public static double _LcSLaDdRRMb(double a, double b, double c, double d) {return (c-(a/d))*b;}
-	public static double _LcSLaDdRRDb(double a, double b, double c, double d) {return (c-(a/d))/b;}
-	public static double _LcDLaAdRRAb(double a, double b, double c, double d) {return (c/(a+d))+b;}
-	public static double _LcDLaAdRRSb(double a, double b, double c, double d) {return (c/(a+d))-b;}
-	public static double _cDLLaAdRMbR(double a, double b, double c, double d) {return c/((a+d)*b);}
-	public static double _LcDLaSdRRAb(double a, double b, double c, double d) {return (c/(a-d))+b;}
-	public static double _LcDLaSdRRSb(double a, double b, double c, double d) {return (c/(a-d))-b;}
-	public static double _cDLLaSdRMbR(double a, double b, double c, double d) {return c/((a-d)*b);}
-	public static double _LcSLbDaRRAd(double a, double b, double c, double d) {return (c-(b/a))+d;}
-	public static double _LcSLbDaRRSd(double a, double b, double c, double d) {return (c-(b/a))-d;}
-	public static double _LcSLbDaRRMd(double a, double b, double c, double d) {return (c-(b/a))*d;}
-	public static double _LcSLbDaRRDd(double a, double b, double c, double d) {return (c-(b/a))/d;}
-	public static double _LcDLbSaRRAd(double a, double b, double c, double d) {return (c/(b-a))+d;}
-	public static double _LcDLbSaRRSd(double a, double b, double c, double d) {return (c/(b-a))-d;}
-	public static double _LcDLbSaRRMd(double a, double b, double c, double d) {return (c/(b-a))*d;}
-	public static double _cDLLbSaRMdR(double a, double b, double c, double d) {return c/((b-a)*d);}
 	public static double _LcSLbMdRRSa(double a, double b, double c, double d) {return (c-(b*d))-a;}
-	public static double _LcSLbMdRRMa(double a, double b, double c, double d) {return (c-(b*d))*a;}
-	public static double _LcSLbMdRRDa(double a, double b, double c, double d) {return (c-(b*d))/a;}
-	public static double _LcSLbDdRRSa(double a, double b, double c, double d) {return (c-(b/d))-a;}
-	public static double _LcSLbDdRRMa(double a, double b, double c, double d) {return (c-(b/d))*a;}
-	public static double _LcSLbDdRRDa(double a, double b, double c, double d) {return (c-(b/d))/a;}
-	public static double _LcDLbAdRRAa(double a, double b, double c, double d) {return (c/(b+d))+a;}
-	public static double _LcDLbAdRRSa(double a, double b, double c, double d) {return (c/(b+d))-a;}
-	public static double _cDLLbAdRMaR(double a, double b, double c, double d) {return c/((b+d)*a);}
-	public static double _LcDLbSdRRAa(double a, double b, double c, double d) {return (c/(b-d))+a;}
-	public static double _LcDLbSdRRSa(double a, double b, double c, double d) {return (c/(b-d))-a;}
-	public static double _cDLLbSdRMaR(double a, double b, double c, double d) {return c/((b-d)*a);}
-	public static double _LcSLdDaRRSb(double a, double b, double c, double d) {return (c-(d/a))-b;}
-	public static double _LcSLdDaRRMb(double a, double b, double c, double d) {return (c-(d/a))*b;}
-	public static double _LcSLdDaRRDb(double a, double b, double c, double d) {return (c-(d/a))/b;}
-	public static double _LcDLdSaRRAb(double a, double b, double c, double d) {return (c/(d-a))+b;}
-	public static double _LcDLdSaRRSb(double a, double b, double c, double d) {return (c/(d-a))-b;}
-	public static double _cDLLdSaRMbR(double a, double b, double c, double d) {return c/((d-a)*b);}
-	public static double _LcSLdDbRRSa(double a, double b, double c, double d) {return (c-(d/b))-a;}
-	public static double _LcSLdDbRRMa(double a, double b, double c, double d) {return (c-(d/b))*a;}
-	public static double _LcSLdDbRRDa(double a, double b, double c, double d) {return (c-(d/b))/a;}
-	public static double _LcDLdSbRRAa(double a, double b, double c, double d) {return (c/(d-b))+a;}
-	public static double _LcDLdSbRRSa(double a, double b, double c, double d) {return (c/(d-b))-a;}
-	public static double _cDLLdSbRMaR(double a, double b, double c, double d) {return c/((d-b)*a);}
 	public static double _LdSLaMbRRSc(double a, double b, double c, double d) {return (d-(a*b))-c;}
-	public static double _LdSLaMbRRMc(double a, double b, double c, double d) {return (d-(a*b))*c;}
-	public static double _LdSLaMbRRDc(double a, double b, double c, double d) {return (d-(a*b))/c;}
-	public static double _LdSLaDbRRSc(double a, double b, double c, double d) {return (d-(a/b))-c;}
-	public static double _LdSLaDbRRMc(double a, double b, double c, double d) {return (d-(a/b))*c;}
-	public static double _LdSLaDbRRDc(double a, double b, double c, double d) {return (d-(a/b))/c;}
-	public static double _LdDLaAbRRAc(double a, double b, double c, double d) {return (d/(a+b))+c;}
-	public static double _LdDLaAbRRSc(double a, double b, double c, double d) {return (d/(a+b))-c;}
-	public static double _dDLLaAbRMcR(double a, double b, double c, double d) {return d/((a+b)*c);}
-	public static double _LdDLaSbRRAc(double a, double b, double c, double d) {return (d/(a-b))+c;}
-	public static double _LdDLaSbRRSc(double a, double b, double c, double d) {return (d/(a-b))-c;}
-	public static double _dDLLaSbRMcR(double a, double b, double c, double d) {return d/((a-b)*c);}
 	public static double _LdSLaMcRRSb(double a, double b, double c, double d) {return (d-(a*c))-b;}
-	public static double _LdSLaMcRRMb(double a, double b, double c, double d) {return (d-(a*c))*b;}
-	public static double _LdSLaMcRRDb(double a, double b, double c, double d) {return (d-(a*c))/b;}
-	public static double _LdSLaDcRRSb(double a, double b, double c, double d) {return (d-(a/c))-b;}
-	public static double _LdSLaDcRRMb(double a, double b, double c, double d) {return (d-(a/c))*b;}
-	public static double _LdSLaDcRRDb(double a, double b, double c, double d) {return (d-(a/c))/b;}
-	public static double _LdDLaAcRRAb(double a, double b, double c, double d) {return (d/(a+c))+b;}
-	public static double _LdDLaAcRRSb(double a, double b, double c, double d) {return (d/(a+c))-b;}
-	public static double _dDLLaAcRMbR(double a, double b, double c, double d) {return d/((a+c)*b);}
-	public static double _LdDLaScRRAb(double a, double b, double c, double d) {return (d/(a-c))+b;}
-	public static double _LdDLaScRRSb(double a, double b, double c, double d) {return (d/(a-c))-b;}
-	public static double _dDLLaScRMbR(double a, double b, double c, double d) {return d/((a-c)*b);}
-	public static double _LdSLbDaRRSc(double a, double b, double c, double d) {return (d-(b/a))-c;}
-	public static double _LdSLbDaRRMc(double a, double b, double c, double d) {return (d-(b/a))*c;}
-	public static double _LdSLbDaRRDc(double a, double b, double c, double d) {return (d-(b/a))/c;}
-	public static double _LdDLbSaRRAc(double a, double b, double c, double d) {return (d/(b-a))+c;}
-	public static double _LdDLbSaRRSc(double a, double b, double c, double d) {return (d/(b-a))-c;}
-	public static double _dDLLbSaRMcR(double a, double b, double c, double d) {return d/((b-a)*c);}
 	public static double _LdSLbMcRRSa(double a, double b, double c, double d) {return (d-(b*c))-a;}
+	public static double _LaSLbMcRRMd(double a, double b, double c, double d) {return (a-(b*c))*d;}
+	public static double _LaSLbMdRRMc(double a, double b, double c, double d) {return (a-(b*d))*c;}
+	public static double _LaSLcMdRRMb(double a, double b, double c, double d) {return (a-(c*d))*b;}
+	public static double _LbSLaMcRRMd(double a, double b, double c, double d) {return (b-(a*c))*d;}
+	public static double _LbSLaMdRRMc(double a, double b, double c, double d) {return (b-(a*d))*c;}
+	public static double _LbSLcMdRRMa(double a, double b, double c, double d) {return (b-(c*d))*a;}
+	public static double _LcSLaMbRRMd(double a, double b, double c, double d) {return (c-(a*b))*d;}
+	public static double _LcSLaMdRRMb(double a, double b, double c, double d) {return (c-(a*d))*b;}
+	public static double _LcSLbMdRRMa(double a, double b, double c, double d) {return (c-(b*d))*a;}
+	public static double _LdSLaMbRRMc(double a, double b, double c, double d) {return (d-(a*b))*c;}
+	public static double _LdSLaMcRRMb(double a, double b, double c, double d) {return (d-(a*c))*b;}
 	public static double _LdSLbMcRRMa(double a, double b, double c, double d) {return (d-(b*c))*a;}
+	public static double _LaSLbMcRRDd(double a, double b, double c, double d) {return (a-(b*c))/d;}
+	public static double _LaSLbMdRRDc(double a, double b, double c, double d) {return (a-(b*d))/c;}
+	public static double _LaSLcMdRRDb(double a, double b, double c, double d) {return (a-(c*d))/b;}
+	public static double _LbSLaMcRRDd(double a, double b, double c, double d) {return (b-(a*c))/d;}
+	public static double _LbSLaMdRRDc(double a, double b, double c, double d) {return (b-(a*d))/c;}
+	public static double _LbSLcMdRRDa(double a, double b, double c, double d) {return (b-(c*d))/a;}
+	public static double _LcSLaMbRRDd(double a, double b, double c, double d) {return (c-(a*b))/d;}
+	public static double _LcSLaMdRRDb(double a, double b, double c, double d) {return (c-(a*d))/b;}
+	public static double _LcSLbMdRRDa(double a, double b, double c, double d) {return (c-(b*d))/a;}
+	public static double _LdSLaMbRRDc(double a, double b, double c, double d) {return (d-(a*b))/c;}
+	public static double _LdSLaMcRRDb(double a, double b, double c, double d) {return (d-(a*c))/b;}
 	public static double _LdSLbMcRRDa(double a, double b, double c, double d) {return (d-(b*c))/a;}
+	public static double _LaSLbDcRRAd(double a, double b, double c, double d) {return (a-(b/c))+d;}
+	public static double _LaSLbDdRRAc(double a, double b, double c, double d) {return (a-(b/d))+c;}
+	public static double _LaSLcDbRRAd(double a, double b, double c, double d) {return (a-(c/b))+d;}
+	public static double _LaSLcDdRRAb(double a, double b, double c, double d) {return (a-(c/d))+b;}
+	public static double _LaSLdDbRRAc(double a, double b, double c, double d) {return (a-(d/b))+c;}
+	public static double _LaSLdDcRRAb(double a, double b, double c, double d) {return (a-(d/c))+b;}
+	public static double _LbSLaDcRRAd(double a, double b, double c, double d) {return (b-(a/c))+d;}
+	public static double _LbSLaDdRRAc(double a, double b, double c, double d) {return (b-(a/d))+c;}
+	public static double _LbSLcDaRRAd(double a, double b, double c, double d) {return (b-(c/a))+d;}
+	public static double _LbSLdDaRRAc(double a, double b, double c, double d) {return (b-(d/a))+c;}
+	public static double _LcSLaDbRRAd(double a, double b, double c, double d) {return (c-(a/b))+d;}
+	public static double _LcSLbDaRRAd(double a, double b, double c, double d) {return (c-(b/a))+d;}
+	public static double _LaSLbDcRRSd(double a, double b, double c, double d) {return (a-(b/c))-d;}
+	public static double _LaSLbDdRRSc(double a, double b, double c, double d) {return (a-(b/d))-c;}
+	public static double _LaSLcDbRRSd(double a, double b, double c, double d) {return (a-(c/b))-d;}
+	public static double _LaSLcDdRRSb(double a, double b, double c, double d) {return (a-(c/d))-b;}
+	public static double _LaSLdDbRRSc(double a, double b, double c, double d) {return (a-(d/b))-c;}
+	public static double _LaSLdDcRRSb(double a, double b, double c, double d) {return (a-(d/c))-b;}
+	public static double _LbSLaDcRRSd(double a, double b, double c, double d) {return (b-(a/c))-d;}
+	public static double _LbSLaDdRRSc(double a, double b, double c, double d) {return (b-(a/d))-c;}
+	public static double _LbSLcDaRRSd(double a, double b, double c, double d) {return (b-(c/a))-d;}
+	public static double _LbSLcDdRRSa(double a, double b, double c, double d) {return (b-(c/d))-a;}
+	public static double _LbSLdDaRRSc(double a, double b, double c, double d) {return (b-(d/a))-c;}
+	public static double _LbSLdDcRRSa(double a, double b, double c, double d) {return (b-(d/c))-a;}
+	public static double _LcSLaDbRRSd(double a, double b, double c, double d) {return (c-(a/b))-d;}
+	public static double _LcSLaDdRRSb(double a, double b, double c, double d) {return (c-(a/d))-b;}
+	public static double _LcSLbDaRRSd(double a, double b, double c, double d) {return (c-(b/a))-d;}
+	public static double _LcSLbDdRRSa(double a, double b, double c, double d) {return (c-(b/d))-a;}
+	public static double _LcSLdDaRRSb(double a, double b, double c, double d) {return (c-(d/a))-b;}
+	public static double _LcSLdDbRRSa(double a, double b, double c, double d) {return (c-(d/b))-a;}
+	public static double _LdSLaDbRRSc(double a, double b, double c, double d) {return (d-(a/b))-c;}
+	public static double _LdSLaDcRRSb(double a, double b, double c, double d) {return (d-(a/c))-b;}
+	public static double _LdSLbDaRRSc(double a, double b, double c, double d) {return (d-(b/a))-c;}
 	public static double _LdSLbDcRRSa(double a, double b, double c, double d) {return (d-(b/c))-a;}
-	public static double _LdSLbDcRRMa(double a, double b, double c, double d) {return (d-(b/c))*a;}
-	public static double _LdSLbDcRRDa(double a, double b, double c, double d) {return (d-(b/c))/a;}
-	public static double _LdDLbAcRRAa(double a, double b, double c, double d) {return (d/(b+c))+a;}
-	public static double _LdDLbAcRRSa(double a, double b, double c, double d) {return (d/(b+c))-a;}
-	public static double _dDLLbAcRMaR(double a, double b, double c, double d) {return d/((b+c)*a);}
-	public static double _LdDLbScRRAa(double a, double b, double c, double d) {return (d/(b-c))+a;}
-	public static double _LdDLbScRRSa(double a, double b, double c, double d) {return (d/(b-c))-a;}
-	public static double _dDLLbScRMaR(double a, double b, double c, double d) {return d/((b-c)*a);}
 	public static double _LdSLcDaRRSb(double a, double b, double c, double d) {return (d-(c/a))-b;}
-	public static double _LdSLcDaRRMb(double a, double b, double c, double d) {return (d-(c/a))*b;}
-	public static double _LdSLcDaRRDb(double a, double b, double c, double d) {return (d-(c/a))/b;}
-	public static double _LdDLcSaRRAb(double a, double b, double c, double d) {return (d/(c-a))+b;}
-	public static double _LdDLcSaRRSb(double a, double b, double c, double d) {return (d/(c-a))-b;}
-	public static double _dDLLcSaRMbR(double a, double b, double c, double d) {return d/((c-a)*b);}
 	public static double _LdSLcDbRRSa(double a, double b, double c, double d) {return (d-(c/b))-a;}
+	public static double _LaSLbDcRRMd(double a, double b, double c, double d) {return (a-(b/c))*d;}
+	public static double _LaSLbDdRRMc(double a, double b, double c, double d) {return (a-(b/d))*c;}
+	public static double _LaSLcDbRRMd(double a, double b, double c, double d) {return (a-(c/b))*d;}
+	public static double _LaSLcDdRRMb(double a, double b, double c, double d) {return (a-(c/d))*b;}
+	public static double _LaSLdDbRRMc(double a, double b, double c, double d) {return (a-(d/b))*c;}
+	public static double _LaSLdDcRRMb(double a, double b, double c, double d) {return (a-(d/c))*b;}
+	public static double _LbSLaDcRRMd(double a, double b, double c, double d) {return (b-(a/c))*d;}
+	public static double _LbSLaDdRRMc(double a, double b, double c, double d) {return (b-(a/d))*c;}
+	public static double _LbSLcDaRRMd(double a, double b, double c, double d) {return (b-(c/a))*d;}
+	public static double _LbSLcDdRRMa(double a, double b, double c, double d) {return (b-(c/d))*a;}
+	public static double _LbSLdDaRRMc(double a, double b, double c, double d) {return (b-(d/a))*c;}
+	public static double _LbSLdDcRRMa(double a, double b, double c, double d) {return (b-(d/c))*a;}
+	public static double _LcSLaDbRRMd(double a, double b, double c, double d) {return (c-(a/b))*d;}
+	public static double _LcSLaDdRRMb(double a, double b, double c, double d) {return (c-(a/d))*b;}
+	public static double _LcSLbDaRRMd(double a, double b, double c, double d) {return (c-(b/a))*d;}
+	public static double _LcSLbDdRRMa(double a, double b, double c, double d) {return (c-(b/d))*a;}
+	public static double _LcSLdDaRRMb(double a, double b, double c, double d) {return (c-(d/a))*b;}
+	public static double _LcSLdDbRRMa(double a, double b, double c, double d) {return (c-(d/b))*a;}
+	public static double _LdSLaDbRRMc(double a, double b, double c, double d) {return (d-(a/b))*c;}
+	public static double _LdSLaDcRRMb(double a, double b, double c, double d) {return (d-(a/c))*b;}
+	public static double _LdSLbDaRRMc(double a, double b, double c, double d) {return (d-(b/a))*c;}
+	public static double _LdSLbDcRRMa(double a, double b, double c, double d) {return (d-(b/c))*a;}
+	public static double _LdSLcDaRRMb(double a, double b, double c, double d) {return (d-(c/a))*b;}
 	public static double _LdSLcDbRRMa(double a, double b, double c, double d) {return (d-(c/b))*a;}
+	public static double _LaSLbDcRRDd(double a, double b, double c, double d) {return (a-(b/c))/d;}
+	public static double _LaSLbDdRRDc(double a, double b, double c, double d) {return (a-(b/d))/c;}
+	public static double _LaSLcDbRRDd(double a, double b, double c, double d) {return (a-(c/b))/d;}
+	public static double _LaSLcDdRRDb(double a, double b, double c, double d) {return (a-(c/d))/b;}
+	public static double _LaSLdDbRRDc(double a, double b, double c, double d) {return (a-(d/b))/c;}
+	public static double _LaSLdDcRRDb(double a, double b, double c, double d) {return (a-(d/c))/b;}
+	public static double _LbSLaDcRRDd(double a, double b, double c, double d) {return (b-(a/c))/d;}
+	public static double _LbSLaDdRRDc(double a, double b, double c, double d) {return (b-(a/d))/c;}
+	public static double _LbSLcDaRRDd(double a, double b, double c, double d) {return (b-(c/a))/d;}
+	public static double _LbSLcDdRRDa(double a, double b, double c, double d) {return (b-(c/d))/a;}
+	public static double _LbSLdDaRRDc(double a, double b, double c, double d) {return (b-(d/a))/c;}
+	public static double _LbSLdDcRRDa(double a, double b, double c, double d) {return (b-(d/c))/a;}
+	public static double _LcSLaDbRRDd(double a, double b, double c, double d) {return (c-(a/b))/d;}
+	public static double _LcSLaDdRRDb(double a, double b, double c, double d) {return (c-(a/d))/b;}
+	public static double _LcSLbDaRRDd(double a, double b, double c, double d) {return (c-(b/a))/d;}
+	public static double _LcSLbDdRRDa(double a, double b, double c, double d) {return (c-(b/d))/a;}
+	public static double _LcSLdDaRRDb(double a, double b, double c, double d) {return (c-(d/a))/b;}
+	public static double _LcSLdDbRRDa(double a, double b, double c, double d) {return (c-(d/b))/a;}
+	public static double _LdSLaDbRRDc(double a, double b, double c, double d) {return (d-(a/b))/c;}
+	public static double _LdSLaDcRRDb(double a, double b, double c, double d) {return (d-(a/c))/b;}
+	public static double _LdSLbDaRRDc(double a, double b, double c, double d) {return (d-(b/a))/c;}
+	public static double _LdSLbDcRRDa(double a, double b, double c, double d) {return (d-(b/c))/a;}
+	public static double _LdSLcDaRRDb(double a, double b, double c, double d) {return (d-(c/a))/b;}
 	public static double _LdSLcDbRRDa(double a, double b, double c, double d) {return (d-(c/b))/a;}
+	public static double _LaDLbAcRRAd(double a, double b, double c, double d) {return (a/(b+c))+d;}
+	public static double _LaDLbAdRRAc(double a, double b, double c, double d) {return (a/(b+d))+c;}
+	public static double _LaDLcAdRRAb(double a, double b, double c, double d) {return (a/(c+d))+b;}
+	public static double _LbDLaAcRRAd(double a, double b, double c, double d) {return (b/(a+c))+d;}
+	public static double _LbDLaAdRRAc(double a, double b, double c, double d) {return (b/(a+d))+c;}
+	public static double _LbDLcAdRRAa(double a, double b, double c, double d) {return (b/(c+d))+a;}
+	public static double _LcDLaAbRRAd(double a, double b, double c, double d) {return (c/(a+b))+d;}
+	public static double _LcDLaAdRRAb(double a, double b, double c, double d) {return (c/(a+d))+b;}
+	public static double _LcDLbAdRRAa(double a, double b, double c, double d) {return (c/(b+d))+a;}
+	public static double _LdDLaAbRRAc(double a, double b, double c, double d) {return (d/(a+b))+c;}
+	public static double _LdDLaAcRRAb(double a, double b, double c, double d) {return (d/(a+c))+b;}
+	public static double _LdDLbAcRRAa(double a, double b, double c, double d) {return (d/(b+c))+a;}
+	public static double _LaDLbAcRRSd(double a, double b, double c, double d) {return (a/(b+c))-d;}
+	public static double _LaDLbAdRRSc(double a, double b, double c, double d) {return (a/(b+d))-c;}
+	public static double _LaDLcAdRRSb(double a, double b, double c, double d) {return (a/(c+d))-b;}
+	public static double _LbDLaAcRRSd(double a, double b, double c, double d) {return (b/(a+c))-d;}
+	public static double _LbDLaAdRRSc(double a, double b, double c, double d) {return (b/(a+d))-c;}
+	public static double _LbDLcAdRRSa(double a, double b, double c, double d) {return (b/(c+d))-a;}
+	public static double _LcDLaAbRRSd(double a, double b, double c, double d) {return (c/(a+b))-d;}
+	public static double _LcDLaAdRRSb(double a, double b, double c, double d) {return (c/(a+d))-b;}
+	public static double _LcDLbAdRRSa(double a, double b, double c, double d) {return (c/(b+d))-a;}
+	public static double _LdDLaAbRRSc(double a, double b, double c, double d) {return (d/(a+b))-c;}
+	public static double _LdDLaAcRRSb(double a, double b, double c, double d) {return (d/(a+c))-b;}
+	public static double _LdDLbAcRRSa(double a, double b, double c, double d) {return (d/(b+c))-a;}
+	public static double _LaDLbAcRRMd(double a, double b, double c, double d) {return (a/(b+c))*d;}
+	public static double _LaDLbAdRRMc(double a, double b, double c, double d) {return (a/(b+d))*c;}
+	public static double _LaDLcAdRRMb(double a, double b, double c, double d) {return (a/(c+d))*b;}
+	public static double _LbDLaAcRRMd(double a, double b, double c, double d) {return (b/(a+c))*d;}
+	public static double _LbDLaAdRRMc(double a, double b, double c, double d) {return (b/(a+d))*c;}
+	public static double _LcDLaAbRRMd(double a, double b, double c, double d) {return (c/(a+b))*d;}
+	public static double _aDLLbAcRMdR(double a, double b, double c, double d) {return a/((b+c)*d);}
+	public static double _aDLLbAdRMcR(double a, double b, double c, double d) {return a/((b+d)*c);}
+	public static double _aDLLcAdRMbR(double a, double b, double c, double d) {return a/((c+d)*b);}
+	public static double _bDLLaAcRMdR(double a, double b, double c, double d) {return b/((a+c)*d);}
+	public static double _bDLLaAdRMcR(double a, double b, double c, double d) {return b/((a+d)*c);}
+	public static double _bDLLcAdRMaR(double a, double b, double c, double d) {return b/((c+d)*a);}
+	public static double _cDLLaAbRMdR(double a, double b, double c, double d) {return c/((a+b)*d);}
+	public static double _cDLLaAdRMbR(double a, double b, double c, double d) {return c/((a+d)*b);}
+	public static double _cDLLbAdRMaR(double a, double b, double c, double d) {return c/((b+d)*a);}
+	public static double _dDLLaAbRMcR(double a, double b, double c, double d) {return d/((a+b)*c);}
+	public static double _dDLLaAcRMbR(double a, double b, double c, double d) {return d/((a+c)*b);}
+	public static double _dDLLbAcRMaR(double a, double b, double c, double d) {return d/((b+c)*a);}
+	public static double _LaDLbScRRAd(double a, double b, double c, double d) {return (a/(b-c))+d;}
+	public static double _LaDLbSdRRAc(double a, double b, double c, double d) {return (a/(b-d))+c;}
+	public static double _LaDLcSbRRAd(double a, double b, double c, double d) {return (a/(c-b))+d;}
+	public static double _LaDLcSdRRAb(double a, double b, double c, double d) {return (a/(c-d))+b;}
+	public static double _LaDLdSbRRAc(double a, double b, double c, double d) {return (a/(d-b))+c;}
+	public static double _LaDLdScRRAb(double a, double b, double c, double d) {return (a/(d-c))+b;}
+	public static double _LbDLaScRRAd(double a, double b, double c, double d) {return (b/(a-c))+d;}
+	public static double _LbDLaSdRRAc(double a, double b, double c, double d) {return (b/(a-d))+c;}
+	public static double _LbDLcSaRRAd(double a, double b, double c, double d) {return (b/(c-a))+d;}
+	public static double _LbDLcSdRRAa(double a, double b, double c, double d) {return (b/(c-d))+a;}
+	public static double _LbDLdSaRRAc(double a, double b, double c, double d) {return (b/(d-a))+c;}
+	public static double _LbDLdScRRAa(double a, double b, double c, double d) {return (b/(d-c))+a;}
+	public static double _LcDLaSbRRAd(double a, double b, double c, double d) {return (c/(a-b))+d;}
+	public static double _LcDLaSdRRAb(double a, double b, double c, double d) {return (c/(a-d))+b;}
+	public static double _LcDLbSaRRAd(double a, double b, double c, double d) {return (c/(b-a))+d;}
+	public static double _LcDLbSdRRAa(double a, double b, double c, double d) {return (c/(b-d))+a;}
+	public static double _LcDLdSaRRAb(double a, double b, double c, double d) {return (c/(d-a))+b;}
+	public static double _LcDLdSbRRAa(double a, double b, double c, double d) {return (c/(d-b))+a;}
+	public static double _LdDLaSbRRAc(double a, double b, double c, double d) {return (d/(a-b))+c;}
+	public static double _LdDLaScRRAb(double a, double b, double c, double d) {return (d/(a-c))+b;}
+	public static double _LdDLbSaRRAc(double a, double b, double c, double d) {return (d/(b-a))+c;}
+	public static double _LdDLbScRRAa(double a, double b, double c, double d) {return (d/(b-c))+a;}
+	public static double _LdDLcSaRRAb(double a, double b, double c, double d) {return (d/(c-a))+b;}
 	public static double _LdDLcSbRRAa(double a, double b, double c, double d) {return (d/(c-b))+a;}
+	public static double _LaDLbScRRSd(double a, double b, double c, double d) {return (a/(b-c))-d;}
+	public static double _LaDLbSdRRSc(double a, double b, double c, double d) {return (a/(b-d))-c;}
+	public static double _LaDLcSbRRSd(double a, double b, double c, double d) {return (a/(c-b))-d;}
+	public static double _LaDLcSdRRSb(double a, double b, double c, double d) {return (a/(c-d))-b;}
+	public static double _LaDLdSbRRSc(double a, double b, double c, double d) {return (a/(d-b))-c;}
+	public static double _LaDLdScRRSb(double a, double b, double c, double d) {return (a/(d-c))-b;}
+	public static double _LbDLaScRRSd(double a, double b, double c, double d) {return (b/(a-c))-d;}
+	public static double _LbDLaSdRRSc(double a, double b, double c, double d) {return (b/(a-d))-c;}
+	public static double _LbDLcSaRRSd(double a, double b, double c, double d) {return (b/(c-a))-d;}
+	public static double _LbDLcSdRRSa(double a, double b, double c, double d) {return (b/(c-d))-a;}
+	public static double _LbDLdSaRRSc(double a, double b, double c, double d) {return (b/(d-a))-c;}
+	public static double _LbDLdScRRSa(double a, double b, double c, double d) {return (b/(d-c))-a;}
+	public static double _LcDLaSbRRSd(double a, double b, double c, double d) {return (c/(a-b))-d;}
+	public static double _LcDLaSdRRSb(double a, double b, double c, double d) {return (c/(a-d))-b;}
+	public static double _LcDLbSaRRSd(double a, double b, double c, double d) {return (c/(b-a))-d;}
+	public static double _LcDLbSdRRSa(double a, double b, double c, double d) {return (c/(b-d))-a;}
+	public static double _LcDLdSaRRSb(double a, double b, double c, double d) {return (c/(d-a))-b;}
+	public static double _LcDLdSbRRSa(double a, double b, double c, double d) {return (c/(d-b))-a;}
+	public static double _LdDLaSbRRSc(double a, double b, double c, double d) {return (d/(a-b))-c;}
+	public static double _LdDLaScRRSb(double a, double b, double c, double d) {return (d/(a-c))-b;}
+	public static double _LdDLbSaRRSc(double a, double b, double c, double d) {return (d/(b-a))-c;}
+	public static double _LdDLbScRRSa(double a, double b, double c, double d) {return (d/(b-c))-a;}
+	public static double _LdDLcSaRRSb(double a, double b, double c, double d) {return (d/(c-a))-b;}
 	public static double _LdDLcSbRRSa(double a, double b, double c, double d) {return (d/(c-b))-a;}
+	public static double _LaDLbScRRMd(double a, double b, double c, double d) {return (a/(b-c))*d;}
+	public static double _LaDLbSdRRMc(double a, double b, double c, double d) {return (a/(b-d))*c;}
+	public static double _LaDLcSbRRMd(double a, double b, double c, double d) {return (a/(c-b))*d;}
+	public static double _LaDLcSdRRMb(double a, double b, double c, double d) {return (a/(c-d))*b;}
+	public static double _LaDLdSbRRMc(double a, double b, double c, double d) {return (a/(d-b))*c;}
+	public static double _LaDLdScRRMb(double a, double b, double c, double d) {return (a/(d-c))*b;}
+	public static double _LbDLaScRRMd(double a, double b, double c, double d) {return (b/(a-c))*d;}
+	public static double _LbDLaSdRRMc(double a, double b, double c, double d) {return (b/(a-d))*c;}
+	public static double _LbDLcSaRRMd(double a, double b, double c, double d) {return (b/(c-a))*d;}
+	public static double _LbDLdSaRRMc(double a, double b, double c, double d) {return (b/(d-a))*c;}
+	public static double _LcDLaSbRRMd(double a, double b, double c, double d) {return (c/(a-b))*d;}
+	public static double _LcDLbSaRRMd(double a, double b, double c, double d) {return (c/(b-a))*d;}
+	public static double _aDLLbScRMdR(double a, double b, double c, double d) {return a/((b-c)*d);}
+	public static double _aDLLbSdRMcR(double a, double b, double c, double d) {return a/((b-d)*c);}
+	public static double _aDLLcSbRMdR(double a, double b, double c, double d) {return a/((c-b)*d);}
+	public static double _aDLLcSdRMbR(double a, double b, double c, double d) {return a/((c-d)*b);}
+	public static double _aDLLdSbRMcR(double a, double b, double c, double d) {return a/((d-b)*c);}
+	public static double _aDLLdScRMbR(double a, double b, double c, double d) {return a/((d-c)*b);}
+	public static double _bDLLaScRMdR(double a, double b, double c, double d) {return b/((a-c)*d);}
+	public static double _bDLLaSdRMcR(double a, double b, double c, double d) {return b/((a-d)*c);}
+	public static double _bDLLcSaRMdR(double a, double b, double c, double d) {return b/((c-a)*d);}
+	public static double _bDLLcSdRMaR(double a, double b, double c, double d) {return b/((c-d)*a);}
+	public static double _bDLLdSaRMcR(double a, double b, double c, double d) {return b/((d-a)*c);}
+	public static double _bDLLdScRMaR(double a, double b, double c, double d) {return b/((d-c)*a);}
+	public static double _cDLLaSbRMdR(double a, double b, double c, double d) {return c/((a-b)*d);}
+	public static double _cDLLaSdRMbR(double a, double b, double c, double d) {return c/((a-d)*b);}
+	public static double _cDLLbSaRMdR(double a, double b, double c, double d) {return c/((b-a)*d);}
+	public static double _cDLLbSdRMaR(double a, double b, double c, double d) {return c/((b-d)*a);}
+	public static double _cDLLdSaRMbR(double a, double b, double c, double d) {return c/((d-a)*b);}
+	public static double _cDLLdSbRMaR(double a, double b, double c, double d) {return c/((d-b)*a);}
+	public static double _dDLLaSbRMcR(double a, double b, double c, double d) {return d/((a-b)*c);}
+	public static double _dDLLaScRMbR(double a, double b, double c, double d) {return d/((a-c)*b);}
+	public static double _dDLLbSaRMcR(double a, double b, double c, double d) {return d/((b-a)*c);}
+	public static double _dDLLbScRMaR(double a, double b, double c, double d) {return d/((b-c)*a);}
+	public static double _dDLLcSaRMbR(double a, double b, double c, double d) {return d/((c-a)*b);}
 	public static double _dDLLcSbRMaR(double a, double b, double c, double d) {return d/((c-b)*a);}
 	public static double _LaAbRMLcAdR(double a, double b, double c, double d) {return (a+b)*(c+d);}
-	public static double _LaAbRMLcSdR(double a, double b, double c, double d) {return (a+b)*(c-d);}
-	public static double _LaAbRDLcAdR(double a, double b, double c, double d) {return (a+b)/(c+d);}
-	public static double _LaAbRDLcSdR(double a, double b, double c, double d) {return (a+b)/(c-d);}
-	public static double _LaSbRMLcAdR(double a, double b, double c, double d) {return (a-b)*(c+d);}
-	public static double _LaSbRMLcSdR(double a, double b, double c, double d) {return (a-b)*(c-d);}
-	public static double _LaSbRDLcAdR(double a, double b, double c, double d) {return (a-b)/(c+d);}
-	public static double _LaSbRDLcSdR(double a, double b, double c, double d) {return (a-b)/(c-d);}
-	public static double _LaMbRALcMdR(double a, double b, double c, double d) {return (a*b)+(c*d);}
-	public static double _LaMbRALcDdR(double a, double b, double c, double d) {return (a*b)+(c/d);}
-	public static double _LaMbRSLcMdR(double a, double b, double c, double d) {return (a*b)-(c*d);}
-	public static double _LaMbRSLcDdR(double a, double b, double c, double d) {return (a*b)-(c/d);}
-	public static double _LaDbRALcMdR(double a, double b, double c, double d) {return (a/b)+(c*d);}
-	public static double _LaDbRALcDdR(double a, double b, double c, double d) {return (a/b)+(c/d);}
-	public static double _LaDbRSLcMdR(double a, double b, double c, double d) {return (a/b)-(c*d);}
-	public static double _LaDbRSLcDdR(double a, double b, double c, double d) {return (a/b)-(c/d);}
-	public static double _LaAbRMLdScR(double a, double b, double c, double d) {return (a+b)*(d-c);}
-	public static double _LaAbRDLdScR(double a, double b, double c, double d) {return (a+b)/(d-c);}
-	public static double _LaSbRMLdScR(double a, double b, double c, double d) {return (a-b)*(d-c);}
-	public static double _LaSbRDLdScR(double a, double b, double c, double d) {return (a-b)/(d-c);}
-	public static double _LaMbRALdDcR(double a, double b, double c, double d) {return (a*b)+(d/c);}
-	public static double _LaMbRSLdDcR(double a, double b, double c, double d) {return (a*b)-(d/c);}
-	public static double _LaDbRALdDcR(double a, double b, double c, double d) {return (a/b)+(d/c);}
-	public static double _LaDbRSLdDcR(double a, double b, double c, double d) {return (a/b)-(d/c);}
 	public static double _LaAcRMLbAdR(double a, double b, double c, double d) {return (a+c)*(b+d);}
-	public static double _LaAcRMLbSdR(double a, double b, double c, double d) {return (a+c)*(b-d);}
-	public static double _LaAcRDLbAdR(double a, double b, double c, double d) {return (a+c)/(b+d);}
-	public static double _LaAcRDLbSdR(double a, double b, double c, double d) {return (a+c)/(b-d);}
-	public static double _LaScRMLbAdR(double a, double b, double c, double d) {return (a-c)*(b+d);}
-	public static double _LaScRMLbSdR(double a, double b, double c, double d) {return (a-c)*(b-d);}
-	public static double _LaScRDLbAdR(double a, double b, double c, double d) {return (a-c)/(b+d);}
-	public static double _LaScRDLbSdR(double a, double b, double c, double d) {return (a-c)/(b-d);}
-	public static double _LaMcRALbMdR(double a, double b, double c, double d) {return (a*c)+(b*d);}
-	public static double _LaMcRALbDdR(double a, double b, double c, double d) {return (a*c)+(b/d);}
-	public static double _LaMcRSLbMdR(double a, double b, double c, double d) {return (a*c)-(b*d);}
-	public static double _LaMcRSLbDdR(double a, double b, double c, double d) {return (a*c)-(b/d);}
-	public static double _LaDcRALbMdR(double a, double b, double c, double d) {return (a/c)+(b*d);}
-	public static double _LaDcRALbDdR(double a, double b, double c, double d) {return (a/c)+(b/d);}
-	public static double _LaDcRSLbMdR(double a, double b, double c, double d) {return (a/c)-(b*d);}
-	public static double _LaDcRSLbDdR(double a, double b, double c, double d) {return (a/c)-(b/d);}
-	public static double _LaAcRMLdSbR(double a, double b, double c, double d) {return (a+c)*(d-b);}
-	public static double _LaAcRDLdSbR(double a, double b, double c, double d) {return (a+c)/(d-b);}
-	public static double _LaScRMLdSbR(double a, double b, double c, double d) {return (a-c)*(d-b);}
-	public static double _LaScRDLdSbR(double a, double b, double c, double d) {return (a-c)/(d-b);}
-	public static double _LaMcRALdDbR(double a, double b, double c, double d) {return (a*c)+(d/b);}
-	public static double _LaMcRSLdDbR(double a, double b, double c, double d) {return (a*c)-(d/b);}
-	public static double _LaDcRALdDbR(double a, double b, double c, double d) {return (a/c)+(d/b);}
-	public static double _LaDcRSLdDbR(double a, double b, double c, double d) {return (a/c)-(d/b);}
 	public static double _LaAdRMLbAcR(double a, double b, double c, double d) {return (a+d)*(b+c);}
+	public static double _LaAbRMLcSdR(double a, double b, double c, double d) {return (a+b)*(c-d);}
+	public static double _LaAbRMLdScR(double a, double b, double c, double d) {return (a+b)*(d-c);}
+	public static double _LaAcRMLbSdR(double a, double b, double c, double d) {return (a+c)*(b-d);}
+	public static double _LaAcRMLdSbR(double a, double b, double c, double d) {return (a+c)*(d-b);}
 	public static double _LaAdRMLbScR(double a, double b, double c, double d) {return (a+d)*(b-c);}
-	public static double _LaAdRDLbAcR(double a, double b, double c, double d) {return (a+d)/(b+c);}
-	public static double _LaAdRDLbScR(double a, double b, double c, double d) {return (a+d)/(b-c);}
-	public static double _LaSdRMLbAcR(double a, double b, double c, double d) {return (a-d)*(b+c);}
-	public static double _LaSdRMLbScR(double a, double b, double c, double d) {return (a-d)*(b-c);}
-	public static double _LaSdRDLbAcR(double a, double b, double c, double d) {return (a-d)/(b+c);}
-	public static double _LaSdRDLbScR(double a, double b, double c, double d) {return (a-d)/(b-c);}
-	public static double _LaMdRALbMcR(double a, double b, double c, double d) {return (a*d)+(b*c);}
-	public static double _LaMdRALbDcR(double a, double b, double c, double d) {return (a*d)+(b/c);}
-	public static double _LaMdRSLbMcR(double a, double b, double c, double d) {return (a*d)-(b*c);}
-	public static double _LaMdRSLbDcR(double a, double b, double c, double d) {return (a*d)-(b/c);}
-	public static double _LaDdRALbMcR(double a, double b, double c, double d) {return (a/d)+(b*c);}
-	public static double _LaDdRALbDcR(double a, double b, double c, double d) {return (a/d)+(b/c);}
-	public static double _LaDdRSLbMcR(double a, double b, double c, double d) {return (a/d)-(b*c);}
-	public static double _LaDdRSLbDcR(double a, double b, double c, double d) {return (a/d)-(b/c);}
 	public static double _LaAdRMLcSbR(double a, double b, double c, double d) {return (a+d)*(c-b);}
-	public static double _LaAdRDLcSbR(double a, double b, double c, double d) {return (a+d)/(c-b);}
-	public static double _LaSdRMLcSbR(double a, double b, double c, double d) {return (a-d)*(c-b);}
-	public static double _LaSdRDLcSbR(double a, double b, double c, double d) {return (a-d)/(c-b);}
-	public static double _LaMdRALcDbR(double a, double b, double c, double d) {return (a*d)+(c/b);}
-	public static double _LaMdRSLcDbR(double a, double b, double c, double d) {return (a*d)-(c/b);}
-	public static double _LaDdRALcDbR(double a, double b, double c, double d) {return (a/d)+(c/b);}
-	public static double _LaDdRSLcDbR(double a, double b, double c, double d) {return (a/d)-(c/b);}
-	public static double _LbSaRMLcAdR(double a, double b, double c, double d) {return (b-a)*(c+d);}
-	public static double _LbSaRDLcAdR(double a, double b, double c, double d) {return (b-a)/(c+d);}
-	public static double _LbDaRALcMdR(double a, double b, double c, double d) {return (b/a)+(c*d);}
-	public static double _LbDaRALcDdR(double a, double b, double c, double d) {return (b/a)+(c/d);}
-	public static double _LbDaRSLcMdR(double a, double b, double c, double d) {return (b/a)-(c*d);}
-	public static double _LbDaRSLcDdR(double a, double b, double c, double d) {return (b/a)-(c/d);}
-	public static double _LbDaRALdDcR(double a, double b, double c, double d) {return (b/a)+(d/c);}
-	public static double _LbDaRSLdDcR(double a, double b, double c, double d) {return (b/a)-(d/c);}
-	public static double _LbAcRDLaAdR(double a, double b, double c, double d) {return (b+c)/(a+d);}
-	public static double _LbAcRDLaSdR(double a, double b, double c, double d) {return (b+c)/(a-d);}
-	public static double _LbScRDLaAdR(double a, double b, double c, double d) {return (b-c)/(a+d);}
-	public static double _LbScRDLaSdR(double a, double b, double c, double d) {return (b-c)/(a-d);}
-	public static double _LbMcRSLaMdR(double a, double b, double c, double d) {return (b*c)-(a*d);}
-	public static double _LbMcRSLaDdR(double a, double b, double c, double d) {return (b*c)-(a/d);}
-	public static double _LbDcRSLaMdR(double a, double b, double c, double d) {return (b/c)-(a*d);}
-	public static double _LbDcRSLaDdR(double a, double b, double c, double d) {return (b/c)-(a/d);}
+	public static double _LbAcRMLaSdR(double a, double b, double c, double d) {return (b+c)*(a-d);}
 	public static double _LbAcRMLdSaR(double a, double b, double c, double d) {return (b+c)*(d-a);}
-	public static double _LbAcRDLdSaR(double a, double b, double c, double d) {return (b+c)/(d-a);}
-	public static double _LbScRDLdSaR(double a, double b, double c, double d) {return (b-c)/(d-a);}
-	public static double _LbMcRALdDaR(double a, double b, double c, double d) {return (b*c)+(d/a);}
-	public static double _LbMcRSLdDaR(double a, double b, double c, double d) {return (b*c)-(d/a);}
-	public static double _LbDcRALdDaR(double a, double b, double c, double d) {return (b/c)+(d/a);}
-	public static double _LbDcRSLdDaR(double a, double b, double c, double d) {return (b/c)-(d/a);}
-	public static double _LbAdRDLaAcR(double a, double b, double c, double d) {return (b+d)/(a+c);}
-	public static double _LbAdRDLaScR(double a, double b, double c, double d) {return (b+d)/(a-c);}
-	public static double _LbSdRDLaAcR(double a, double b, double c, double d) {return (b-d)/(a+c);}
-	public static double _LbSdRDLaScR(double a, double b, double c, double d) {return (b-d)/(a-c);}
-	public static double _LbMdRSLaMcR(double a, double b, double c, double d) {return (b*d)-(a*c);}
-	public static double _LbMdRSLaDcR(double a, double b, double c, double d) {return (b*d)-(a/c);}
-	public static double _LbDdRSLaMcR(double a, double b, double c, double d) {return (b/d)-(a*c);}
-	public static double _LbDdRSLaDcR(double a, double b, double c, double d) {return (b/d)-(a/c);}
+	public static double _LbAdRMLaScR(double a, double b, double c, double d) {return (b+d)*(a-c);}
 	public static double _LbAdRMLcSaR(double a, double b, double c, double d) {return (b+d)*(c-a);}
-	public static double _LbAdRDLcSaR(double a, double b, double c, double d) {return (b+d)/(c-a);}
-	public static double _LbSdRDLcSaR(double a, double b, double c, double d) {return (b-d)/(c-a);}
-	public static double _LbMdRALcDaR(double a, double b, double c, double d) {return (b*d)+(c/a);}
-	public static double _LbMdRSLcDaR(double a, double b, double c, double d) {return (b*d)-(c/a);}
-	public static double _LbDdRALcDaR(double a, double b, double c, double d) {return (b/d)+(c/a);}
-	public static double _LbDdRSLcDaR(double a, double b, double c, double d) {return (b/d)-(c/a);}
-	public static double _LcSaRDLbAdR(double a, double b, double c, double d) {return (c-a)/(b+d);}
-	public static double _LcDaRSLbMdR(double a, double b, double c, double d) {return (c/a)-(b*d);}
-	public static double _LcDaRSLbDdR(double a, double b, double c, double d) {return (c/a)-(b/d);}
-	public static double _LcDaRALdDbR(double a, double b, double c, double d) {return (c/a)+(d/b);}
-	public static double _LcDaRSLdDbR(double a, double b, double c, double d) {return (c/a)-(d/b);}
-	public static double _LcSbRDLaAdR(double a, double b, double c, double d) {return (c-b)/(a+d);}
-	public static double _LcDbRSLaMdR(double a, double b, double c, double d) {return (c/b)-(a*d);}
-	public static double _LcDbRSLaDdR(double a, double b, double c, double d) {return (c/b)-(a/d);}
-	public static double _LcDbRALdDaR(double a, double b, double c, double d) {return (c/b)+(d/a);}
-	public static double _LcDbRSLdDaR(double a, double b, double c, double d) {return (c/b)-(d/a);}
+	public static double _LcAdRMLaSbR(double a, double b, double c, double d) {return (c+d)*(a-b);}
+	public static double _LcAdRMLbSaR(double a, double b, double c, double d) {return (c+d)*(b-a);}
+	public static double _LaAbRDLcAdR(double a, double b, double c, double d) {return (a+b)/(c+d);}
+	public static double _LaAcRDLbAdR(double a, double b, double c, double d) {return (a+c)/(b+d);}
+	public static double _LaAdRDLbAcR(double a, double b, double c, double d) {return (a+d)/(b+c);}
+	public static double _LbAcRDLaAdR(double a, double b, double c, double d) {return (b+c)/(a+d);}
+	public static double _LbAdRDLaAcR(double a, double b, double c, double d) {return (b+d)/(a+c);}
 	public static double _LcAdRDLaAbR(double a, double b, double c, double d) {return (c+d)/(a+b);}
+	public static double _LaAbRDLcSdR(double a, double b, double c, double d) {return (a+b)/(c-d);}
+	public static double _LaAbRDLdScR(double a, double b, double c, double d) {return (a+b)/(d-c);}
+	public static double _LaAcRDLbSdR(double a, double b, double c, double d) {return (a+c)/(b-d);}
+	public static double _LaAcRDLdSbR(double a, double b, double c, double d) {return (a+c)/(d-b);}
+	public static double _LaAdRDLbScR(double a, double b, double c, double d) {return (a+d)/(b-c);}
+	public static double _LaAdRDLcSbR(double a, double b, double c, double d) {return (a+d)/(c-b);}
+	public static double _LbAcRDLaSdR(double a, double b, double c, double d) {return (b+c)/(a-d);}
+	public static double _LbAcRDLdSaR(double a, double b, double c, double d) {return (b+c)/(d-a);}
+	public static double _LbAdRDLaScR(double a, double b, double c, double d) {return (b+d)/(a-c);}
+	public static double _LbAdRDLcSaR(double a, double b, double c, double d) {return (b+d)/(c-a);}
 	public static double _LcAdRDLaSbR(double a, double b, double c, double d) {return (c+d)/(a-b);}
-	public static double _LcSdRDLaAbR(double a, double b, double c, double d) {return (c-d)/(a+b);}
-	public static double _LcSdRDLaSbR(double a, double b, double c, double d) {return (c-d)/(a-b);}
-	public static double _LcMdRSLaMbR(double a, double b, double c, double d) {return (c*d)-(a*b);}
-	public static double _LcMdRSLaDbR(double a, double b, double c, double d) {return (c*d)-(a/b);}
-	public static double _LcDdRSLaMbR(double a, double b, double c, double d) {return (c/d)-(a*b);}
-	public static double _LcDdRSLaDbR(double a, double b, double c, double d) {return (c/d)-(a/b);}
 	public static double _LcAdRDLbSaR(double a, double b, double c, double d) {return (c+d)/(b-a);}
-	public static double _LcSdRDLbSaR(double a, double b, double c, double d) {return (c-d)/(b-a);}
-	public static double _LcMdRSLbDaR(double a, double b, double c, double d) {return (c*d)-(b/a);}
-	public static double _LcDdRSLbDaR(double a, double b, double c, double d) {return (c/d)-(b/a);}
+	public static double _LaSbRMLcSdR(double a, double b, double c, double d) {return (a-b)*(c-d);}
+	public static double _LaSbRMLdScR(double a, double b, double c, double d) {return (a-b)*(d-c);}
+	public static double _LaScRMLbSdR(double a, double b, double c, double d) {return (a-c)*(b-d);}
+	public static double _LaScRMLdSbR(double a, double b, double c, double d) {return (a-c)*(d-b);}
+	public static double _LaSdRMLbScR(double a, double b, double c, double d) {return (a-d)*(b-c);}
+	public static double _LaSdRMLcSbR(double a, double b, double c, double d) {return (a-d)*(c-b);}
+	public static double _LaSbRDLcAdR(double a, double b, double c, double d) {return (a-b)/(c+d);}
+	public static double _LaScRDLbAdR(double a, double b, double c, double d) {return (a-c)/(b+d);}
+	public static double _LaSdRDLbAcR(double a, double b, double c, double d) {return (a-d)/(b+c);}
+	public static double _LbSaRDLcAdR(double a, double b, double c, double d) {return (b-a)/(c+d);}
+	public static double _LbScRDLaAdR(double a, double b, double c, double d) {return (b-c)/(a+d);}
+	public static double _LbSdRDLaAcR(double a, double b, double c, double d) {return (b-d)/(a+c);}
+	public static double _LcSaRDLbAdR(double a, double b, double c, double d) {return (c-a)/(b+d);}
+	public static double _LcSbRDLaAdR(double a, double b, double c, double d) {return (c-b)/(a+d);}
+	public static double _LcSdRDLaAbR(double a, double b, double c, double d) {return (c-d)/(a+b);}
 	public static double _LdSaRDLbAcR(double a, double b, double c, double d) {return (d-a)/(b+c);}
+	public static double _LdSbRDLaAcR(double a, double b, double c, double d) {return (d-b)/(a+c);}
+	public static double _LdScRDLaAbR(double a, double b, double c, double d) {return (d-c)/(a+b);}
+	public static double _LaSbRDLcSdR(double a, double b, double c, double d) {return (a-b)/(c-d);}
+	public static double _LaSbRDLdScR(double a, double b, double c, double d) {return (a-b)/(d-c);}
+	public static double _LaScRDLbSdR(double a, double b, double c, double d) {return (a-c)/(b-d);}
+	public static double _LaScRDLdSbR(double a, double b, double c, double d) {return (a-c)/(d-b);}
+	public static double _LaSdRDLbScR(double a, double b, double c, double d) {return (a-d)/(b-c);}
+	public static double _LaSdRDLcSbR(double a, double b, double c, double d) {return (a-d)/(c-b);}
+	public static double _LbScRDLaSdR(double a, double b, double c, double d) {return (b-c)/(a-d);}
+	public static double _LbScRDLdSaR(double a, double b, double c, double d) {return (b-c)/(d-a);}
+	public static double _LbSdRDLaScR(double a, double b, double c, double d) {return (b-d)/(a-c);}
+	public static double _LbSdRDLcSaR(double a, double b, double c, double d) {return (b-d)/(c-a);}
+	public static double _LcSdRDLaSbR(double a, double b, double c, double d) {return (c-d)/(a-b);}
+	public static double _LcSdRDLbSaR(double a, double b, double c, double d) {return (c-d)/(b-a);}
+	public static double _LaMbRALcMdR(double a, double b, double c, double d) {return (a*b)+(c*d);}
+	public static double _LaMcRALbMdR(double a, double b, double c, double d) {return (a*c)+(b*d);}
+	public static double _LaMdRALbMcR(double a, double b, double c, double d) {return (a*d)+(b*c);}
+	public static double _LaMbRALcDdR(double a, double b, double c, double d) {return (a*b)+(c/d);}
+	public static double _LaMbRALdDcR(double a, double b, double c, double d) {return (a*b)+(d/c);}
+	public static double _LaMcRALbDdR(double a, double b, double c, double d) {return (a*c)+(b/d);}
+	public static double _LaMcRALdDbR(double a, double b, double c, double d) {return (a*c)+(d/b);}
+	public static double _LaMdRALbDcR(double a, double b, double c, double d) {return (a*d)+(b/c);}
+	public static double _LaMdRALcDbR(double a, double b, double c, double d) {return (a*d)+(c/b);}
+	public static double _LbMcRALaDdR(double a, double b, double c, double d) {return (b*c)+(a/d);}
+	public static double _LbMcRALdDaR(double a, double b, double c, double d) {return (b*c)+(d/a);}
+	public static double _LbMdRALaDcR(double a, double b, double c, double d) {return (b*d)+(a/c);}
+	public static double _LbMdRALcDaR(double a, double b, double c, double d) {return (b*d)+(c/a);}
+	public static double _LcMdRALaDbR(double a, double b, double c, double d) {return (c*d)+(a/b);}
+	public static double _LcMdRALbDaR(double a, double b, double c, double d) {return (c*d)+(b/a);}
+	public static double _LaMbRSLcMdR(double a, double b, double c, double d) {return (a*b)-(c*d);}
+	public static double _LaMcRSLbMdR(double a, double b, double c, double d) {return (a*c)-(b*d);}
+	public static double _LaMdRSLbMcR(double a, double b, double c, double d) {return (a*d)-(b*c);}
+	public static double _LbMcRSLaMdR(double a, double b, double c, double d) {return (b*c)-(a*d);}
+	public static double _LbMdRSLaMcR(double a, double b, double c, double d) {return (b*d)-(a*c);}
+	public static double _LcMdRSLaMbR(double a, double b, double c, double d) {return (c*d)-(a*b);}
+	public static double _LaMbRSLcDdR(double a, double b, double c, double d) {return (a*b)-(c/d);}
+	public static double _LaMbRSLdDcR(double a, double b, double c, double d) {return (a*b)-(d/c);}
+	public static double _LaMcRSLbDdR(double a, double b, double c, double d) {return (a*c)-(b/d);}
+	public static double _LaMcRSLdDbR(double a, double b, double c, double d) {return (a*c)-(d/b);}
+	public static double _LaMdRSLbDcR(double a, double b, double c, double d) {return (a*d)-(b/c);}
+	public static double _LaMdRSLcDbR(double a, double b, double c, double d) {return (a*d)-(c/b);}
+	public static double _LbMcRSLaDdR(double a, double b, double c, double d) {return (b*c)-(a/d);}
+	public static double _LbMcRSLdDaR(double a, double b, double c, double d) {return (b*c)-(d/a);}
+	public static double _LbMdRSLaDcR(double a, double b, double c, double d) {return (b*d)-(a/c);}
+	public static double _LbMdRSLcDaR(double a, double b, double c, double d) {return (b*d)-(c/a);}
+	public static double _LcMdRSLaDbR(double a, double b, double c, double d) {return (c*d)-(a/b);}
+	public static double _LcMdRSLbDaR(double a, double b, double c, double d) {return (c*d)-(b/a);}
+	public static double _LaDbRALcDdR(double a, double b, double c, double d) {return (a/b)+(c/d);}
+	public static double _LaDbRALdDcR(double a, double b, double c, double d) {return (a/b)+(d/c);}
+	public static double _LaDcRALbDdR(double a, double b, double c, double d) {return (a/c)+(b/d);}
+	public static double _LaDcRALdDbR(double a, double b, double c, double d) {return (a/c)+(d/b);}
+	public static double _LaDdRALbDcR(double a, double b, double c, double d) {return (a/d)+(b/c);}
+	public static double _LaDdRALcDbR(double a, double b, double c, double d) {return (a/d)+(c/b);}
+	public static double _LbDaRALcDdR(double a, double b, double c, double d) {return (b/a)+(c/d);}
+	public static double _LbDaRALdDcR(double a, double b, double c, double d) {return (b/a)+(d/c);}
+	public static double _LbDcRALdDaR(double a, double b, double c, double d) {return (b/c)+(d/a);}
+	public static double _LbDdRALcDaR(double a, double b, double c, double d) {return (b/d)+(c/a);}
+	public static double _LcDaRALdDbR(double a, double b, double c, double d) {return (c/a)+(d/b);}
+	public static double _LcDbRALdDaR(double a, double b, double c, double d) {return (c/b)+(d/a);}
+	public static double _LaDbRSLcMdR(double a, double b, double c, double d) {return (a/b)-(c*d);}
+	public static double _LaDcRSLbMdR(double a, double b, double c, double d) {return (a/c)-(b*d);}
+	public static double _LaDdRSLbMcR(double a, double b, double c, double d) {return (a/d)-(b*c);}
+	public static double _LbDaRSLcMdR(double a, double b, double c, double d) {return (b/a)-(c*d);}
+	public static double _LbDcRSLaMdR(double a, double b, double c, double d) {return (b/c)-(a*d);}
+	public static double _LbDdRSLaMcR(double a, double b, double c, double d) {return (b/d)-(a*c);}
+	public static double _LcDaRSLbMdR(double a, double b, double c, double d) {return (c/a)-(b*d);}
+	public static double _LcDbRSLaMdR(double a, double b, double c, double d) {return (c/b)-(a*d);}
+	public static double _LcDdRSLaMbR(double a, double b, double c, double d) {return (c/d)-(a*b);}
 	public static double _LdDaRSLbMcR(double a, double b, double c, double d) {return (d/a)-(b*c);}
+	public static double _LdDbRSLaMcR(double a, double b, double c, double d) {return (d/b)-(a*c);}
+	public static double _LdDcRSLaMbR(double a, double b, double c, double d) {return (d/c)-(a*b);}
+	public static double _LaDbRSLcDdR(double a, double b, double c, double d) {return (a/b)-(c/d);}
+	public static double _LaDbRSLdDcR(double a, double b, double c, double d) {return (a/b)-(d/c);}
+	public static double _LaDcRSLbDdR(double a, double b, double c, double d) {return (a/c)-(b/d);}
+	public static double _LaDcRSLdDbR(double a, double b, double c, double d) {return (a/c)-(d/b);}
+	public static double _LaDdRSLbDcR(double a, double b, double c, double d) {return (a/d)-(b/c);}
+	public static double _LaDdRSLcDbR(double a, double b, double c, double d) {return (a/d)-(c/b);}
+	public static double _LbDaRSLcDdR(double a, double b, double c, double d) {return (b/a)-(c/d);}
+	public static double _LbDaRSLdDcR(double a, double b, double c, double d) {return (b/a)-(d/c);}
+	public static double _LbDcRSLaDdR(double a, double b, double c, double d) {return (b/c)-(a/d);}
+	public static double _LbDcRSLdDaR(double a, double b, double c, double d) {return (b/c)-(d/a);}
+	public static double _LbDdRSLaDcR(double a, double b, double c, double d) {return (b/d)-(a/c);}
+	public static double _LbDdRSLcDaR(double a, double b, double c, double d) {return (b/d)-(c/a);}
+	public static double _LcDaRSLbDdR(double a, double b, double c, double d) {return (c/a)-(b/d);}
+	public static double _LcDaRSLdDbR(double a, double b, double c, double d) {return (c/a)-(d/b);}
+	public static double _LcDbRSLaDdR(double a, double b, double c, double d) {return (c/b)-(a/d);}
+	public static double _LcDbRSLdDaR(double a, double b, double c, double d) {return (c/b)-(d/a);}
+	public static double _LcDdRSLaDbR(double a, double b, double c, double d) {return (c/d)-(a/b);}
+	public static double _LcDdRSLbDaR(double a, double b, double c, double d) {return (c/d)-(b/a);}
 	public static double _LdDaRSLbDcR(double a, double b, double c, double d) {return (d/a)-(b/c);}
 	public static double _LdDaRSLcDbR(double a, double b, double c, double d) {return (d/a)-(c/b);}
-	public static double _LdSbRDLaAcR(double a, double b, double c, double d) {return (d-b)/(a+c);}
-	public static double _LdDbRSLaMcR(double a, double b, double c, double d) {return (d/b)-(a*c);}
 	public static double _LdDbRSLaDcR(double a, double b, double c, double d) {return (d/b)-(a/c);}
 	public static double _LdDbRSLcDaR(double a, double b, double c, double d) {return (d/b)-(c/a);}
-	public static double _LdScRDLaAbR(double a, double b, double c, double d) {return (d-c)/(a+b);}
-	public static double _LdDcRSLaMbR(double a, double b, double c, double d) {return (d/c)-(a*b);}
 	public static double _LdDcRSLaDbR(double a, double b, double c, double d) {return (d/c)-(a/b);}
 	public static double _LdDcRSLbDaR(double a, double b, double c, double d) {return (d/c)-(b/a);}
 	public static double _aSLLbAcRMdR(double a, double b, double c, double d) {return a-((b+c)*d);}
-	public static double _aSLLbAcRDdR(double a, double b, double c, double d) {return a-((b+c)/d);}
-	public static double _aSLLbMcRMdR(double a, double b, double c, double d) {return a-((b*c)*d);}
-	public static double _aSLLbMcRDdR(double a, double b, double c, double d) {return a-((b*c)/d);}
-	public static double _aSLLbDcRMdR(double a, double b, double c, double d) {return a-((b/c)*d);}
-	public static double _aSLbDLcMdRR(double a, double b, double c, double d) {return a-(b/(c*d));}
-	public static double _aDLLbAcRAdR(double a, double b, double c, double d) {return a/((b+c)+d);}
-	public static double _aDLLbAcRSdR(double a, double b, double c, double d) {return a/((b+c)-d);}
-	public static double _aDLLbScRAdR(double a, double b, double c, double d) {return a/((b-c)+d);}
-	public static double _aDLLbScRSdR(double a, double b, double c, double d) {return a/((b-c)-d);}
-	public static double _aDLLbMcRAdR(double a, double b, double c, double d) {return a/((b*c)+d);}
-	public static double _aDLLbMcRSdR(double a, double b, double c, double d) {return a/((b*c)-d);}
-	public static double _aDLLbDcRAdR(double a, double b, double c, double d) {return a/((b/c)+d);}
-	public static double _aDLLbDcRSdR(double a, double b, double c, double d) {return a/((b/c)-d);}
 	public static double _aSLLbAdRMcR(double a, double b, double c, double d) {return a-((b+d)*c);}
-	public static double _aSLLbAdRDcR(double a, double b, double c, double d) {return a-((b+d)/c);}
-	public static double _aDLLbMdRAcR(double a, double b, double c, double d) {return a/((b*d)+c);}
-	public static double _aDLLbMdRScR(double a, double b, double c, double d) {return a/((b*d)-c);}
-	public static double _aDLLbDdRAcR(double a, double b, double c, double d) {return a/((b/d)+c);}
-	public static double _aDLLbDdRScR(double a, double b, double c, double d) {return a/((b/d)-c);}
-	public static double _aSLLcDbRMdR(double a, double b, double c, double d) {return a-((c/b)*d);}
-	public static double _aSLcDLbMdRR(double a, double b, double c, double d) {return a-(c/(b*d));}
-	public static double _aDLLcSbRAdR(double a, double b, double c, double d) {return a/((c-b)+d);}
-	public static double _aDLLcSbRSdR(double a, double b, double c, double d) {return a/((c-b)-d);}
-	public static double _aDLLcDbRAdR(double a, double b, double c, double d) {return a/((c/b)+d);}
-	public static double _aDLLcDbRSdR(double a, double b, double c, double d) {return a/((c/b)-d);}
 	public static double _aSLLcAdRMbR(double a, double b, double c, double d) {return a-((c+d)*b);}
-	public static double _aSLLcAdRDbR(double a, double b, double c, double d) {return a-((c+d)/b);}
-	public static double _aDLLcMdRAbR(double a, double b, double c, double d) {return a/((c*d)+b);}
-	public static double _aDLLcMdRSbR(double a, double b, double c, double d) {return a/((c*d)-b);}
-	public static double _aDLLcDdRAbR(double a, double b, double c, double d) {return a/((c/d)+b);}
-	public static double _aDLLcDdRSbR(double a, double b, double c, double d) {return a/((c/d)-b);}
-	public static double _aSLdDLbMcRR(double a, double b, double c, double d) {return a-(d/(b*c));}
-	public static double _aDLLdSbRScR(double a, double b, double c, double d) {return a/((d-b)-c);}
-	public static double _aDLLdDbRAcR(double a, double b, double c, double d) {return a/((d/b)+c);}
-	public static double _aDLLdDbRScR(double a, double b, double c, double d) {return a/((d/b)-c);}
-	public static double _aDLLdDcRAbR(double a, double b, double c, double d) {return a/((d/c)+b);}
-	public static double _aDLLdDcRSbR(double a, double b, double c, double d) {return a/((d/c)-b);}
 	public static double _bSLLaAcRMdR(double a, double b, double c, double d) {return b-((a+c)*d);}
-	public static double _bSLLaAcRDdR(double a, double b, double c, double d) {return b-((a+c)/d);}
-	public static double _bSLLaMcRMdR(double a, double b, double c, double d) {return b-((a*c)*d);}
-	public static double _bSLLaMcRDdR(double a, double b, double c, double d) {return b-((a*c)/d);}
-	public static double _bSLLaDcRMdR(double a, double b, double c, double d) {return b-((a/c)*d);}
-	public static double _bSLaDLcMdRR(double a, double b, double c, double d) {return b-(a/(c*d));}
-	public static double _bDLLaAcRAdR(double a, double b, double c, double d) {return b/((a+c)+d);}
-	public static double _bDLLaAcRSdR(double a, double b, double c, double d) {return b/((a+c)-d);}
-	public static double _bDLLaScRAdR(double a, double b, double c, double d) {return b/((a-c)+d);}
-	public static double _bDLLaScRSdR(double a, double b, double c, double d) {return b/((a-c)-d);}
-	public static double _bDLLaMcRAdR(double a, double b, double c, double d) {return b/((a*c)+d);}
-	public static double _bDLLaMcRSdR(double a, double b, double c, double d) {return b/((a*c)-d);}
-	public static double _bDLLaDcRAdR(double a, double b, double c, double d) {return b/((a/c)+d);}
-	public static double _bDLLaDcRSdR(double a, double b, double c, double d) {return b/((a/c)-d);}
 	public static double _bSLLaAdRMcR(double a, double b, double c, double d) {return b-((a+d)*c);}
-	public static double _bSLLaAdRDcR(double a, double b, double c, double d) {return b-((a+d)/c);}
-	public static double _bDLLaMdRAcR(double a, double b, double c, double d) {return b/((a*d)+c);}
-	public static double _bDLLaMdRScR(double a, double b, double c, double d) {return b/((a*d)-c);}
-	public static double _bDLLaDdRAcR(double a, double b, double c, double d) {return b/((a/d)+c);}
-	public static double _bDLLaDdRScR(double a, double b, double c, double d) {return b/((a/d)-c);}
-	public static double _bSLLcDaRMdR(double a, double b, double c, double d) {return b-((c/a)*d);}
-	public static double _bSLcDLaMdRR(double a, double b, double c, double d) {return b-(c/(a*d));}
-	public static double _bDLLcSaRAdR(double a, double b, double c, double d) {return b/((c-a)+d);}
-	public static double _bDLLcSaRSdR(double a, double b, double c, double d) {return b/((c-a)-d);}
-	public static double _bDLLcDaRAdR(double a, double b, double c, double d) {return b/((c/a)+d);}
-	public static double _bDLLcDaRSdR(double a, double b, double c, double d) {return b/((c/a)-d);}
 	public static double _bSLLcAdRMaR(double a, double b, double c, double d) {return b-((c+d)*a);}
-	public static double _bSLLcAdRDaR(double a, double b, double c, double d) {return b-((c+d)/a);}
-	public static double _bDLLcMdRAaR(double a, double b, double c, double d) {return b/((c*d)+a);}
-	public static double _bDLLcMdRSaR(double a, double b, double c, double d) {return b/((c*d)-a);}
-	public static double _bDLLcDdRAaR(double a, double b, double c, double d) {return b/((c/d)+a);}
-	public static double _bDLLcDdRSaR(double a, double b, double c, double d) {return b/((c/d)-a);}
-	public static double _bSLdDLaMcRR(double a, double b, double c, double d) {return b-(d/(a*c));}
-	public static double _bDLLdSaRScR(double a, double b, double c, double d) {return b/((d-a)-c);}
-	public static double _bDLLdDaRAcR(double a, double b, double c, double d) {return b/((d/a)+c);}
-	public static double _bDLLdDaRScR(double a, double b, double c, double d) {return b/((d/a)-c);}
-	public static double _bDLLdDcRAaR(double a, double b, double c, double d) {return b/((d/c)+a);}
-	public static double _bDLLdDcRSaR(double a, double b, double c, double d) {return b/((d/c)-a);}
 	public static double _cSLLaAbRMdR(double a, double b, double c, double d) {return c-((a+b)*d);}
-	public static double _cSLLaAbRDdR(double a, double b, double c, double d) {return c-((a+b)/d);}
-	public static double _cSLLaMbRMdR(double a, double b, double c, double d) {return c-((a*b)*d);}
-	public static double _cSLLaMbRDdR(double a, double b, double c, double d) {return c-((a*b)/d);}
-	public static double _cSLLaDbRMdR(double a, double b, double c, double d) {return c-((a/b)*d);}
-	public static double _cSLaDLbMdRR(double a, double b, double c, double d) {return c-(a/(b*d));}
-	public static double _cDLLaAbRAdR(double a, double b, double c, double d) {return c/((a+b)+d);}
-	public static double _cDLLaAbRSdR(double a, double b, double c, double d) {return c/((a+b)-d);}
-	public static double _cDLLaSbRAdR(double a, double b, double c, double d) {return c/((a-b)+d);}
-	public static double _cDLLaSbRSdR(double a, double b, double c, double d) {return c/((a-b)-d);}
-	public static double _cDLLaMbRAdR(double a, double b, double c, double d) {return c/((a*b)+d);}
-	public static double _cDLLaMbRSdR(double a, double b, double c, double d) {return c/((a*b)-d);}
-	public static double _cDLLaDbRAdR(double a, double b, double c, double d) {return c/((a/b)+d);}
-	public static double _cDLLaDbRSdR(double a, double b, double c, double d) {return c/((a/b)-d);}
 	public static double _cSLLaAdRMbR(double a, double b, double c, double d) {return c-((a+d)*b);}
-	public static double _cSLLaAdRDbR(double a, double b, double c, double d) {return c-((a+d)/b);}
-	public static double _cDLLaMdRAbR(double a, double b, double c, double d) {return c/((a*d)+b);}
-	public static double _cDLLaMdRSbR(double a, double b, double c, double d) {return c/((a*d)-b);}
-	public static double _cDLLaDdRAbR(double a, double b, double c, double d) {return c/((a/d)+b);}
-	public static double _cDLLaDdRSbR(double a, double b, double c, double d) {return c/((a/d)-b);}
-	public static double _cSLLbDaRMdR(double a, double b, double c, double d) {return c-((b/a)*d);}
-	public static double _cSLbDLaMdRR(double a, double b, double c, double d) {return c-(b/(a*d));}
-	public static double _cDLLbSaRAdR(double a, double b, double c, double d) {return c/((b-a)+d);}
-	public static double _cDLLbSaRSdR(double a, double b, double c, double d) {return c/((b-a)-d);}
-	public static double _cDLLbDaRAdR(double a, double b, double c, double d) {return c/((b/a)+d);}
-	public static double _cDLLbDaRSdR(double a, double b, double c, double d) {return c/((b/a)-d);}
 	public static double _cSLLbAdRMaR(double a, double b, double c, double d) {return c-((b+d)*a);}
-	public static double _cSLLbAdRDaR(double a, double b, double c, double d) {return c-((b+d)/a);}
-	public static double _cDLLbMdRAaR(double a, double b, double c, double d) {return c/((b*d)+a);}
-	public static double _cDLLbMdRSaR(double a, double b, double c, double d) {return c/((b*d)-a);}
-	public static double _cDLLbDdRAaR(double a, double b, double c, double d) {return c/((b/d)+a);}
-	public static double _cDLLbDdRSaR(double a, double b, double c, double d) {return c/((b/d)-a);}
-	public static double _cSLdDLaMbRR(double a, double b, double c, double d) {return c-(d/(a*b));}
-	public static double _cDLLdSaRSbR(double a, double b, double c, double d) {return c/((d-a)-b);}
-	public static double _cDLLdDaRAbR(double a, double b, double c, double d) {return c/((d/a)+b);}
-	public static double _cDLLdDaRSbR(double a, double b, double c, double d) {return c/((d/a)-b);}
-	public static double _cDLLdDbRAaR(double a, double b, double c, double d) {return c/((d/b)+a);}
-	public static double _cDLLdDbRSaR(double a, double b, double c, double d) {return c/((d/b)-a);}
 	public static double _dSLLaAbRMcR(double a, double b, double c, double d) {return d-((a+b)*c);}
-	public static double _dSLLaAbRDcR(double a, double b, double c, double d) {return d-((a+b)/c);}
-	public static double _dSLLaMbRMcR(double a, double b, double c, double d) {return d-((a*b)*c);}
-	public static double _dSLLaMbRDcR(double a, double b, double c, double d) {return d-((a*b)/c);}
-	public static double _dSLLaDbRMcR(double a, double b, double c, double d) {return d-((a/b)*c);}
-	public static double _dSLaDLbMcRR(double a, double b, double c, double d) {return d-(a/(b*c));}
-	public static double _dDLLaAbRAcR(double a, double b, double c, double d) {return d/((a+b)+c);}
-	public static double _dDLLaAbRScR(double a, double b, double c, double d) {return d/((a+b)-c);}
-	public static double _dDLLaSbRAcR(double a, double b, double c, double d) {return d/((a-b)+c);}
-	public static double _dDLLaSbRScR(double a, double b, double c, double d) {return d/((a-b)-c);}
-	public static double _dDLLaMbRAcR(double a, double b, double c, double d) {return d/((a*b)+c);}
-	public static double _dDLLaMbRScR(double a, double b, double c, double d) {return d/((a*b)-c);}
-	public static double _dDLLaDbRAcR(double a, double b, double c, double d) {return d/((a/b)+c);}
-	public static double _dDLLaDbRScR(double a, double b, double c, double d) {return d/((a/b)-c);}
 	public static double _dSLLaAcRMbR(double a, double b, double c, double d) {return d-((a+c)*b);}
-	public static double _dSLLaAcRDbR(double a, double b, double c, double d) {return d-((a+c)/b);}
-	public static double _dDLLaMcRAbR(double a, double b, double c, double d) {return d/((a*c)+b);}
-	public static double _dDLLaMcRSbR(double a, double b, double c, double d) {return d/((a*c)-b);}
-	public static double _dDLLaDcRAbR(double a, double b, double c, double d) {return d/((a/c)+b);}
-	public static double _dDLLaDcRSbR(double a, double b, double c, double d) {return d/((a/c)-b);}
-	public static double _dSLLbDaRMcR(double a, double b, double c, double d) {return d-((b/a)*c);}
-	public static double _dSLbDLaMcRR(double a, double b, double c, double d) {return d-(b/(a*c));}
-	public static double _dDLLbSaRAcR(double a, double b, double c, double d) {return d/((b-a)+c);}
-	public static double _dDLLbSaRScR(double a, double b, double c, double d) {return d/((b-a)-c);}
-	public static double _dDLLbDaRAcR(double a, double b, double c, double d) {return d/((b/a)+c);}
-	public static double _dDLLbDaRScR(double a, double b, double c, double d) {return d/((b/a)-c);}
 	public static double _dSLLbAcRMaR(double a, double b, double c, double d) {return d-((b+c)*a);}
+	public static double _aSLLbAcRDdR(double a, double b, double c, double d) {return a-((b+c)/d);}
+	public static double _aSLLbAdRDcR(double a, double b, double c, double d) {return a-((b+d)/c);}
+	public static double _aSLLcAdRDbR(double a, double b, double c, double d) {return a-((c+d)/b);}
+	public static double _bSLLaAcRDdR(double a, double b, double c, double d) {return b-((a+c)/d);}
+	public static double _bSLLaAdRDcR(double a, double b, double c, double d) {return b-((a+d)/c);}
+	public static double _bSLLcAdRDaR(double a, double b, double c, double d) {return b-((c+d)/a);}
+	public static double _cSLLaAbRDdR(double a, double b, double c, double d) {return c-((a+b)/d);}
+	public static double _cSLLaAdRDbR(double a, double b, double c, double d) {return c-((a+d)/b);}
+	public static double _cSLLbAdRDaR(double a, double b, double c, double d) {return c-((b+d)/a);}
+	public static double _dSLLaAbRDcR(double a, double b, double c, double d) {return d-((a+b)/c);}
+	public static double _dSLLaAcRDbR(double a, double b, double c, double d) {return d-((a+c)/b);}
 	public static double _dSLLbAcRDaR(double a, double b, double c, double d) {return d-((b+c)/a);}
-	public static double _dDLLbMcRAaR(double a, double b, double c, double d) {return d/((b*c)+a);}
-	public static double _dDLLbMcRSaR(double a, double b, double c, double d) {return d/((b*c)-a);}
-	public static double _dDLLbDcRAaR(double a, double b, double c, double d) {return d/((b/c)+a);}
-	public static double _dDLLbDcRSaR(double a, double b, double c, double d) {return d/((b/c)-a);}
+	public static double _aSLLbMcRMdR(double a, double b, double c, double d) {return a-((b*c)*d);}
+	public static double _bSLLaMcRMdR(double a, double b, double c, double d) {return b-((a*c)*d);}
+	public static double _cSLLaMbRMdR(double a, double b, double c, double d) {return c-((a*b)*d);}
+	public static double _dSLLaMbRMcR(double a, double b, double c, double d) {return d-((a*b)*c);}
+	public static double _aSLLbMcRDdR(double a, double b, double c, double d) {return a-((b*c)/d);}
+	public static double _aSLLbMdRDcR(double a, double b, double c, double d) {return a-((b*d)/c);}
+	public static double _aSLLcMdRDbR(double a, double b, double c, double d) {return a-((c*d)/b);}
+	public static double _bSLLaMcRDdR(double a, double b, double c, double d) {return b-((a*c)/d);}
+	public static double _bSLLaMdRDcR(double a, double b, double c, double d) {return b-((a*d)/c);}
+	public static double _bSLLcMdRDaR(double a, double b, double c, double d) {return b-((c*d)/a);}
+	public static double _cSLLaMbRDdR(double a, double b, double c, double d) {return c-((a*b)/d);}
+	public static double _cSLLaMdRDbR(double a, double b, double c, double d) {return c-((a*d)/b);}
+	public static double _cSLLbMdRDaR(double a, double b, double c, double d) {return c-((b*d)/a);}
+	public static double _dSLLaMbRDcR(double a, double b, double c, double d) {return d-((a*b)/c);}
+	public static double _dSLLaMcRDbR(double a, double b, double c, double d) {return d-((a*c)/b);}
+	public static double _dSLLbMcRDaR(double a, double b, double c, double d) {return d-((b*c)/a);}
+	public static double _aSLbDLcMdRR(double a, double b, double c, double d) {return a-(b/(c*d));}
+	public static double _aSLcDLbMdRR(double a, double b, double c, double d) {return a-(c/(b*d));}
+	public static double _aSLdDLbMcRR(double a, double b, double c, double d) {return a-(d/(b*c));}
+	public static double _bSLaDLcMdRR(double a, double b, double c, double d) {return b-(a/(c*d));}
+	public static double _bSLcDLaMdRR(double a, double b, double c, double d) {return b-(c/(a*d));}
+	public static double _bSLdDLaMcRR(double a, double b, double c, double d) {return b-(d/(a*c));}
+	public static double _cSLaDLbMdRR(double a, double b, double c, double d) {return c-(a/(b*d));}
+	public static double _cSLbDLaMdRR(double a, double b, double c, double d) {return c-(b/(a*d));}
+	public static double _cSLdDLaMbRR(double a, double b, double c, double d) {return c-(d/(a*b));}
+	public static double _dSLaDLbMcRR(double a, double b, double c, double d) {return d-(a/(b*c));}
+	public static double _dSLbDLaMcRR(double a, double b, double c, double d) {return d-(b/(a*c));}
 	public static double _dSLcDLaMbRR(double a, double b, double c, double d) {return d-(c/(a*b));}
+	public static double _aDLLbAcRAdR(double a, double b, double c, double d) {return a/((b+c)+d);}
+	public static double _bDLLaAcRAdR(double a, double b, double c, double d) {return b/((a+c)+d);}
+	public static double _cDLLaAbRAdR(double a, double b, double c, double d) {return c/((a+b)+d);}
+	public static double _dDLLaAbRAcR(double a, double b, double c, double d) {return d/((a+b)+c);}
+	public static double _aDLLbAcRSdR(double a, double b, double c, double d) {return a/((b+c)-d);}
+	public static double _aDLLbAdRScR(double a, double b, double c, double d) {return a/((b+d)-c);}
+	public static double _aDLLcAdRSbR(double a, double b, double c, double d) {return a/((c+d)-b);}
+	public static double _bDLLaAcRSdR(double a, double b, double c, double d) {return b/((a+c)-d);}
+	public static double _bDLLaAdRScR(double a, double b, double c, double d) {return b/((a+d)-c);}
+	public static double _bDLLcAdRSaR(double a, double b, double c, double d) {return b/((c+d)-a);}
+	public static double _cDLLaAbRSdR(double a, double b, double c, double d) {return c/((a+b)-d);}
+	public static double _cDLLaAdRSbR(double a, double b, double c, double d) {return c/((a+d)-b);}
+	public static double _cDLLbAdRSaR(double a, double b, double c, double d) {return c/((b+d)-a);}
+	public static double _dDLLaAbRScR(double a, double b, double c, double d) {return d/((a+b)-c);}
+	public static double _dDLLaAcRSbR(double a, double b, double c, double d) {return d/((a+c)-b);}
+	public static double _dDLLbAcRSaR(double a, double b, double c, double d) {return d/((b+c)-a);}
+	public static double _aDLLbScRSdR(double a, double b, double c, double d) {return a/((b-c)-d);}
+	public static double _aDLLcSbRSdR(double a, double b, double c, double d) {return a/((c-b)-d);}
+	public static double _aDLLdSbRScR(double a, double b, double c, double d) {return a/((d-b)-c);}
+	public static double _bDLLaScRSdR(double a, double b, double c, double d) {return b/((a-c)-d);}
+	public static double _bDLLcSaRSdR(double a, double b, double c, double d) {return b/((c-a)-d);}
+	public static double _bDLLdSaRScR(double a, double b, double c, double d) {return b/((d-a)-c);}
+	public static double _cDLLaSbRSdR(double a, double b, double c, double d) {return c/((a-b)-d);}
+	public static double _cDLLbSaRSdR(double a, double b, double c, double d) {return c/((b-a)-d);}
+	public static double _cDLLdSaRSbR(double a, double b, double c, double d) {return c/((d-a)-b);}
+	public static double _dDLLaSbRScR(double a, double b, double c, double d) {return d/((a-b)-c);}
+	public static double _dDLLbSaRScR(double a, double b, double c, double d) {return d/((b-a)-c);}
 	public static double _dDLLcSaRSbR(double a, double b, double c, double d) {return d/((c-a)-b);}
+	public static double _aDLLbMcRAdR(double a, double b, double c, double d) {return a/((b*c)+d);}
+	public static double _aDLLbMdRAcR(double a, double b, double c, double d) {return a/((b*d)+c);}
+	public static double _aDLLcMdRAbR(double a, double b, double c, double d) {return a/((c*d)+b);}
+	public static double _bDLLaMcRAdR(double a, double b, double c, double d) {return b/((a*c)+d);}
+	public static double _bDLLaMdRAcR(double a, double b, double c, double d) {return b/((a*d)+c);}
+	public static double _bDLLcMdRAaR(double a, double b, double c, double d) {return b/((c*d)+a);}
+	public static double _cDLLaMbRAdR(double a, double b, double c, double d) {return c/((a*b)+d);}
+	public static double _cDLLaMdRAbR(double a, double b, double c, double d) {return c/((a*d)+b);}
+	public static double _cDLLbMdRAaR(double a, double b, double c, double d) {return c/((b*d)+a);}
+	public static double _dDLLaMbRAcR(double a, double b, double c, double d) {return d/((a*b)+c);}
+	public static double _dDLLaMcRAbR(double a, double b, double c, double d) {return d/((a*c)+b);}
+	public static double _dDLLbMcRAaR(double a, double b, double c, double d) {return d/((b*c)+a);}
+	public static double _aDLLbMcRSdR(double a, double b, double c, double d) {return a/((b*c)-d);}
+	public static double _aDLLbMdRScR(double a, double b, double c, double d) {return a/((b*d)-c);}
+	public static double _aDLLcMdRSbR(double a, double b, double c, double d) {return a/((c*d)-b);}
+	public static double _bDLLaMcRSdR(double a, double b, double c, double d) {return b/((a*c)-d);}
+	public static double _bDLLaMdRScR(double a, double b, double c, double d) {return b/((a*d)-c);}
+	public static double _bDLLcMdRSaR(double a, double b, double c, double d) {return b/((c*d)-a);}
+	public static double _cDLLaMbRSdR(double a, double b, double c, double d) {return c/((a*b)-d);}
+	public static double _cDLLaMdRSbR(double a, double b, double c, double d) {return c/((a*d)-b);}
+	public static double _cDLLbMdRSaR(double a, double b, double c, double d) {return c/((b*d)-a);}
+	public static double _dDLLaMbRScR(double a, double b, double c, double d) {return d/((a*b)-c);}
+	public static double _dDLLaMcRSbR(double a, double b, double c, double d) {return d/((a*c)-b);}
+	public static double _dDLLbMcRSaR(double a, double b, double c, double d) {return d/((b*c)-a);}
+	public static double _aDLLbDcRAdR(double a, double b, double c, double d) {return a/((b/c)+d);}
+	public static double _aDLLbDdRAcR(double a, double b, double c, double d) {return a/((b/d)+c);}
+	public static double _aDLLcDbRAdR(double a, double b, double c, double d) {return a/((c/b)+d);}
+	public static double _aDLLcDdRAbR(double a, double b, double c, double d) {return a/((c/d)+b);}
+	public static double _aDLLdDbRAcR(double a, double b, double c, double d) {return a/((d/b)+c);}
+	public static double _aDLLdDcRAbR(double a, double b, double c, double d) {return a/((d/c)+b);}
+	public static double _bDLLaDcRAdR(double a, double b, double c, double d) {return b/((a/c)+d);}
+	public static double _bDLLaDdRAcR(double a, double b, double c, double d) {return b/((a/d)+c);}
+	public static double _bDLLcDaRAdR(double a, double b, double c, double d) {return b/((c/a)+d);}
+	public static double _bDLLcDdRAaR(double a, double b, double c, double d) {return b/((c/d)+a);}
+	public static double _bDLLdDaRAcR(double a, double b, double c, double d) {return b/((d/a)+c);}
+	public static double _bDLLdDcRAaR(double a, double b, double c, double d) {return b/((d/c)+a);}
+	public static double _cDLLaDbRAdR(double a, double b, double c, double d) {return c/((a/b)+d);}
+	public static double _cDLLaDdRAbR(double a, double b, double c, double d) {return c/((a/d)+b);}
+	public static double _cDLLbDaRAdR(double a, double b, double c, double d) {return c/((b/a)+d);}
+	public static double _cDLLbDdRAaR(double a, double b, double c, double d) {return c/((b/d)+a);}
+	public static double _cDLLdDaRAbR(double a, double b, double c, double d) {return c/((d/a)+b);}
+	public static double _cDLLdDbRAaR(double a, double b, double c, double d) {return c/((d/b)+a);}
+	public static double _dDLLaDbRAcR(double a, double b, double c, double d) {return d/((a/b)+c);}
+	public static double _dDLLaDcRAbR(double a, double b, double c, double d) {return d/((a/c)+b);}
+	public static double _dDLLbDaRAcR(double a, double b, double c, double d) {return d/((b/a)+c);}
+	public static double _dDLLbDcRAaR(double a, double b, double c, double d) {return d/((b/c)+a);}
 	public static double _dDLLcDaRAbR(double a, double b, double c, double d) {return d/((c/a)+b);}
-	public static double _dDLLcDaRSbR(double a, double b, double c, double d) {return d/((c/a)-b);}
 	public static double _dDLLcDbRAaR(double a, double b, double c, double d) {return d/((c/b)+a);}
+	public static double _aDLLbDcRSdR(double a, double b, double c, double d) {return a/((b/c)-d);}
+	public static double _aDLLbDdRScR(double a, double b, double c, double d) {return a/((b/d)-c);}
+	public static double _aDLLcDbRSdR(double a, double b, double c, double d) {return a/((c/b)-d);}
+	public static double _aDLLcDdRSbR(double a, double b, double c, double d) {return a/((c/d)-b);}
+	public static double _aDLLdDbRScR(double a, double b, double c, double d) {return a/((d/b)-c);}
+	public static double _aDLLdDcRSbR(double a, double b, double c, double d) {return a/((d/c)-b);}
+	public static double _bDLLaDcRSdR(double a, double b, double c, double d) {return b/((a/c)-d);}
+	public static double _bDLLaDdRScR(double a, double b, double c, double d) {return b/((a/d)-c);}
+	public static double _bDLLcDaRSdR(double a, double b, double c, double d) {return b/((c/a)-d);}
+	public static double _bDLLcDdRSaR(double a, double b, double c, double d) {return b/((c/d)-a);}
+	public static double _bDLLdDaRScR(double a, double b, double c, double d) {return b/((d/a)-c);}
+	public static double _bDLLdDcRSaR(double a, double b, double c, double d) {return b/((d/c)-a);}
+	public static double _cDLLaDbRSdR(double a, double b, double c, double d) {return c/((a/b)-d);}
+	public static double _cDLLaDdRSbR(double a, double b, double c, double d) {return c/((a/d)-b);}
+	public static double _cDLLbDaRSdR(double a, double b, double c, double d) {return c/((b/a)-d);}
+	public static double _cDLLbDdRSaR(double a, double b, double c, double d) {return c/((b/d)-a);}
+	public static double _cDLLdDaRSbR(double a, double b, double c, double d) {return c/((d/a)-b);}
+	public static double _cDLLdDbRSaR(double a, double b, double c, double d) {return c/((d/b)-a);}
+	public static double _dDLLaDbRScR(double a, double b, double c, double d) {return d/((a/b)-c);}
+	public static double _dDLLaDcRSbR(double a, double b, double c, double d) {return d/((a/c)-b);}
+	public static double _dDLLbDaRScR(double a, double b, double c, double d) {return d/((b/a)-c);}
+	public static double _dDLLbDcRSaR(double a, double b, double c, double d) {return d/((b/c)-a);}
+	public static double _dDLLcDaRSbR(double a, double b, double c, double d) {return d/((c/a)-b);}
 	public static double _dDLLcDbRSaR(double a, double b, double c, double d) {return d/((c/b)-a);}
 	public static double _aSLbDLcAdRR(double a, double b, double c, double d) {return a-(b/(c+d));}
+	public static double _aSLcDLbAdRR(double a, double b, double c, double d) {return a-(c/(b+d));}
+	public static double _aSLdDLbAcRR(double a, double b, double c, double d) {return a-(d/(b+c));}
+	public static double _bSLaDLcAdRR(double a, double b, double c, double d) {return b-(a/(c+d));}
+	public static double _bSLcDLaAdRR(double a, double b, double c, double d) {return b-(c/(a+d));}
+	public static double _bSLdDLaAcRR(double a, double b, double c, double d) {return b-(d/(a+c));}
+	public static double _cSLaDLbAdRR(double a, double b, double c, double d) {return c-(a/(b+d));}
+	public static double _cSLbDLaAdRR(double a, double b, double c, double d) {return c-(b/(a+d));}
+	public static double _cSLdDLaAbRR(double a, double b, double c, double d) {return c-(d/(a+b));}
+	public static double _dSLaDLbAcRR(double a, double b, double c, double d) {return d-(a/(b+c));}
+	public static double _dSLbDLaAcRR(double a, double b, double c, double d) {return d-(b/(a+c));}
+	public static double _dSLcDLaAbRR(double a, double b, double c, double d) {return d-(c/(a+b));}
 	public static double _aDLbSLcMdRR(double a, double b, double c, double d) {return a/(b-(c*d));}
+	public static double _aDLcSLbMdRR(double a, double b, double c, double d) {return a/(c-(b*d));}
+	public static double _aDLdSLbMcRR(double a, double b, double c, double d) {return a/(d-(b*c));}
+	public static double _bDLaSLcMdRR(double a, double b, double c, double d) {return b/(a-(c*d));}
+	public static double _bDLcSLaMdRR(double a, double b, double c, double d) {return b/(c-(a*d));}
+	public static double _bDLdSLaMcRR(double a, double b, double c, double d) {return b/(d-(a*c));}
+	public static double _cDLaSLbMdRR(double a, double b, double c, double d) {return c/(a-(b*d));}
+	public static double _cDLbSLaMdRR(double a, double b, double c, double d) {return c/(b-(a*d));}
+	public static double _cDLdSLaMbRR(double a, double b, double c, double d) {return c/(d-(a*b));}
+	public static double _dDLaSLbMcRR(double a, double b, double c, double d) {return d/(a-(b*c));}
+	public static double _dDLbSLaMcRR(double a, double b, double c, double d) {return d/(b-(a*c));}
+	public static double _dDLcSLaMbRR(double a, double b, double c, double d) {return d/(c-(a*b));}
 	public static double _aDLbSLcDdRR(double a, double b, double c, double d) {return a/(b-(c/d));}
 	public static double _aDLbSLdDcRR(double a, double b, double c, double d) {return a/(b-(d/c));}
-	public static double _aSLcDLbAdRR(double a, double b, double c, double d) {return a-(c/(b+d));}
-	public static double _aDLcSLbMdRR(double a, double b, double c, double d) {return a/(c-(b*d));}
 	public static double _aDLcSLbDdRR(double a, double b, double c, double d) {return a/(c-(b/d));}
 	public static double _aDLcSLdDbRR(double a, double b, double c, double d) {return a/(c-(d/b));}
-	public static double _aSLdDLbAcRR(double a, double b, double c, double d) {return a-(d/(b+c));}
-	public static double _aDLdSLbMcRR(double a, double b, double c, double d) {return a/(d-(b*c));}
 	public static double _aDLdSLbDcRR(double a, double b, double c, double d) {return a/(d-(b/c));}
 	public static double _aDLdSLcDbRR(double a, double b, double c, double d) {return a/(d-(c/b));}
-	public static double _bSLaDLcAdRR(double a, double b, double c, double d) {return b-(a/(c+d));}
-	public static double _bDLaSLcMdRR(double a, double b, double c, double d) {return b/(a-(c*d));}
 	public static double _bDLaSLcDdRR(double a, double b, double c, double d) {return b/(a-(c/d));}
 	public static double _bDLaSLdDcRR(double a, double b, double c, double d) {return b/(a-(d/c));}
-	public static double _bSLcDLaAdRR(double a, double b, double c, double d) {return b-(c/(a+d));}
-	public static double _bDLcSLaMdRR(double a, double b, double c, double d) {return b/(c-(a*d));}
 	public static double _bDLcSLaDdRR(double a, double b, double c, double d) {return b/(c-(a/d));}
 	public static double _bDLcSLdDaRR(double a, double b, double c, double d) {return b/(c-(d/a));}
-	public static double _bSLdDLaAcRR(double a, double b, double c, double d) {return b-(d/(a+c));}
-	public static double _bDLdSLaMcRR(double a, double b, double c, double d) {return b/(d-(a*c));}
 	public static double _bDLdSLaDcRR(double a, double b, double c, double d) {return b/(d-(a/c));}
 	public static double _bDLdSLcDaRR(double a, double b, double c, double d) {return b/(d-(c/a));}
-	public static double _cSLaDLbAdRR(double a, double b, double c, double d) {return c-(a/(b+d));}
-	public static double _cDLaSLbMdRR(double a, double b, double c, double d) {return c/(a-(b*d));}
 	public static double _cDLaSLbDdRR(double a, double b, double c, double d) {return c/(a-(b/d));}
 	public static double _cDLaSLdDbRR(double a, double b, double c, double d) {return c/(a-(d/b));}
-	public static double _cSLbDLaAdRR(double a, double b, double c, double d) {return c-(b/(a+d));}
-	public static double _cDLbSLaMdRR(double a, double b, double c, double d) {return c/(b-(a*d));}
 	public static double _cDLbSLaDdRR(double a, double b, double c, double d) {return c/(b-(a/d));}
 	public static double _cDLbSLdDaRR(double a, double b, double c, double d) {return c/(b-(d/a));}
-	public static double _cSLdDLaAbRR(double a, double b, double c, double d) {return c-(d/(a+b));}
-	public static double _cDLdSLaMbRR(double a, double b, double c, double d) {return c/(d-(a*b));}
 	public static double _cDLdSLaDbRR(double a, double b, double c, double d) {return c/(d-(a/b));}
 	public static double _cDLdSLbDaRR(double a, double b, double c, double d) {return c/(d-(b/a));}
-	public static double _dSLaDLbAcRR(double a, double b, double c, double d) {return d-(a/(b+c));}
-	public static double _dDLaSLbMcRR(double a, double b, double c, double d) {return d/(a-(b*c));}
 	public static double _dDLaSLbDcRR(double a, double b, double c, double d) {return d/(a-(b/c));}
 	public static double _dDLaSLcDbRR(double a, double b, double c, double d) {return d/(a-(c/b));}
-	public static double _dSLbDLaAcRR(double a, double b, double c, double d) {return d-(b/(a+c));}
-	public static double _dDLbSLaMcRR(double a, double b, double c, double d) {return d/(b-(a*c));}
 	public static double _dDLbSLaDcRR(double a, double b, double c, double d) {return d/(b-(a/c));}
 	public static double _dDLbSLcDaRR(double a, double b, double c, double d) {return d/(b-(c/a));}
-	public static double _dSLcDLaAbRR(double a, double b, double c, double d) {return d-(c/(a+b));}
-	public static double _dDLcSLaMbRR(double a, double b, double c, double d) {return d/(c-(a*b));}
 	public static double _dDLcSLaDbRR(double a, double b, double c, double d) {return d/(c-(a/b));}
 	public static double _dDLcSLbDaRR(double a, double b, double c, double d) {return d/(c-(b/a));}
 	public static double _LLaAaRAbRAc(double a, double b, double c, double d) {return ((a+a)+b)+c;}
 	public static double _LLaAaRAbRSc(double a, double b, double c, double d) {return ((a+a)+b)-c;}
+	public static double _LLaAaRAcRSb(double a, double b, double c, double d) {return ((a+a)+c)-b;}
+	public static double _LLaAbRAcRSa(double a, double b, double c, double d) {return ((a+b)+c)-a;}
 	public static double _LLaAaRAbRMc(double a, double b, double c, double d) {return ((a+a)+b)*c;}
+	public static double _LLaAaRAcRMb(double a, double b, double c, double d) {return ((a+a)+c)*b;}
+	public static double _LLaAbRAcRMa(double a, double b, double c, double d) {return ((a+b)+c)*a;}
 	public static double _LLaAaRAbRDc(double a, double b, double c, double d) {return ((a+a)+b)/c;}
-	public static double _LLaAaRSbRAc(double a, double b, double c, double d) {return ((a+a)-b)+c;}
+	public static double _LLaAaRAcRDb(double a, double b, double c, double d) {return ((a+a)+c)/b;}
+	public static double _LLaAbRAcRDa(double a, double b, double c, double d) {return ((a+b)+c)/a;}
 	public static double _LLaAaRSbRSc(double a, double b, double c, double d) {return ((a+a)-b)-c;}
+	public static double _LLaAbRSaRSc(double a, double b, double c, double d) {return ((a+b)-a)-c;}
+	public static double _LLaAcRSaRSb(double a, double b, double c, double d) {return ((a+c)-a)-b;}
+	public static double _LLbAcRSaRSa(double a, double b, double c, double d) {return ((b+c)-a)-a;}
 	public static double _LLaAaRSbRMc(double a, double b, double c, double d) {return ((a+a)-b)*c;}
+	public static double _LLaAaRScRMb(double a, double b, double c, double d) {return ((a+a)-c)*b;}
+	public static double _LLaAbRSaRMc(double a, double b, double c, double d) {return ((a+b)-a)*c;}
+	public static double _LLaAbRScRMa(double a, double b, double c, double d) {return ((a+b)-c)*a;}
+	public static double _LLaAcRSbRMa(double a, double b, double c, double d) {return ((a+c)-b)*a;}
+	public static double _LLbAcRSaRMa(double a, double b, double c, double d) {return ((b+c)-a)*a;}
 	public static double _LLaAaRSbRDc(double a, double b, double c, double d) {return ((a+a)-b)/c;}
+	public static double _LLaAaRScRDb(double a, double b, double c, double d) {return ((a+a)-c)/b;}
+	public static double _LLaAbRSaRDc(double a, double b, double c, double d) {return ((a+b)-a)/c;}
+	public static double _LLaAbRScRDa(double a, double b, double c, double d) {return ((a+b)-c)/a;}
+	public static double _LLaAcRSaRDb(double a, double b, double c, double d) {return ((a+c)-a)/b;}
+	public static double _LLaAcRSbRDa(double a, double b, double c, double d) {return ((a+c)-b)/a;}
+	public static double _LLbAcRSaRDa(double a, double b, double c, double d) {return ((b+c)-a)/a;}
 	public static double _LLaAaRMbRAc(double a, double b, double c, double d) {return ((a+a)*b)+c;}
+	public static double _LLaAaRMcRAb(double a, double b, double c, double d) {return ((a+a)*c)+b;}
+	public static double _LLaAbRMaRAc(double a, double b, double c, double d) {return ((a+b)*a)+c;}
+	public static double _LLaAbRMcRAa(double a, double b, double c, double d) {return ((a+b)*c)+a;}
+	public static double _LLaAcRMaRAb(double a, double b, double c, double d) {return ((a+c)*a)+b;}
+	public static double _LLaAcRMbRAa(double a, double b, double c, double d) {return ((a+c)*b)+a;}
+	public static double _LLbAcRMaRAa(double a, double b, double c, double d) {return ((b+c)*a)+a;}
 	public static double _LLaAaRMbRSc(double a, double b, double c, double d) {return ((a+a)*b)-c;}
+	public static double _LLaAaRMcRSb(double a, double b, double c, double d) {return ((a+a)*c)-b;}
+	public static double _LLaAbRMaRSc(double a, double b, double c, double d) {return ((a+b)*a)-c;}
+	public static double _LLaAbRMcRSa(double a, double b, double c, double d) {return ((a+b)*c)-a;}
+	public static double _LLaAcRMaRSb(double a, double b, double c, double d) {return ((a+c)*a)-b;}
+	public static double _LLaAcRMbRSa(double a, double b, double c, double d) {return ((a+c)*b)-a;}
+	public static double _LLbAcRMaRSa(double a, double b, double c, double d) {return ((b+c)*a)-a;}
 	public static double _LLaAaRMbRMc(double a, double b, double c, double d) {return ((a+a)*b)*c;}
+	public static double _LLaAbRMaRMc(double a, double b, double c, double d) {return ((a+b)*a)*c;}
+	public static double _LLaAcRMaRMb(double a, double b, double c, double d) {return ((a+c)*a)*b;}
+	public static double _LLbAcRMaRMa(double a, double b, double c, double d) {return ((b+c)*a)*a;}
 	public static double _LLaAaRMbRDc(double a, double b, double c, double d) {return ((a+a)*b)/c;}
+	public static double _LLaAaRMcRDb(double a, double b, double c, double d) {return ((a+a)*c)/b;}
+	public static double _LLaAbRMaRDc(double a, double b, double c, double d) {return ((a+b)*a)/c;}
+	public static double _LLaAbRMcRDa(double a, double b, double c, double d) {return ((a+b)*c)/a;}
+	public static double _LLaAcRMaRDb(double a, double b, double c, double d) {return ((a+c)*a)/b;}
+	public static double _LLaAcRMbRDa(double a, double b, double c, double d) {return ((a+c)*b)/a;}
 	public static double _LLaAaRDbRAc(double a, double b, double c, double d) {return ((a+a)/b)+c;}
+	public static double _LLaAaRDcRAb(double a, double b, double c, double d) {return ((a+a)/c)+b;}
+	public static double _LLaAbRDaRAc(double a, double b, double c, double d) {return ((a+b)/a)+c;}
+	public static double _LLaAbRDcRAa(double a, double b, double c, double d) {return ((a+b)/c)+a;}
+	public static double _LLaAcRDaRAb(double a, double b, double c, double d) {return ((a+c)/a)+b;}
+	public static double _LLaAcRDbRAa(double a, double b, double c, double d) {return ((a+c)/b)+a;}
+	public static double _LLbAcRDaRAa(double a, double b, double c, double d) {return ((b+c)/a)+a;}
 	public static double _LLaAaRDbRSc(double a, double b, double c, double d) {return ((a+a)/b)-c;}
-	public static double _LLaAaRDbRMc(double a, double b, double c, double d) {return ((a+a)/b)*c;}
+	public static double _LLaAaRDcRSb(double a, double b, double c, double d) {return ((a+a)/c)-b;}
+	public static double _LLaAbRDaRSc(double a, double b, double c, double d) {return ((a+b)/a)-c;}
+	public static double _LLaAbRDcRSa(double a, double b, double c, double d) {return ((a+b)/c)-a;}
+	public static double _LLaAcRDaRSb(double a, double b, double c, double d) {return ((a+c)/a)-b;}
+	public static double _LLaAcRDbRSa(double a, double b, double c, double d) {return ((a+c)/b)-a;}
+	public static double _LLbAcRDaRSa(double a, double b, double c, double d) {return ((b+c)/a)-a;}
 	public static double _LaAaRDLbMcR(double a, double b, double c, double d) {return (a+a)/(b*c);}
-	public static double _LLaSaRAbRAc(double a, double b, double c, double d) {return ((a-a)+b)+c;}
-	public static double _LLaSaRAbRSc(double a, double b, double c, double d) {return ((a-a)+b)-c;}
-	public static double _LLaSaRAbRMc(double a, double b, double c, double d) {return ((a-a)+b)*c;}
-	public static double _LLaSaRAbRDc(double a, double b, double c, double d) {return ((a-a)+b)/c;}
-	public static double _LLaSaRSbRAc(double a, double b, double c, double d) {return ((a-a)-b)+c;}
+	public static double _LaAbRDLaMcR(double a, double b, double c, double d) {return (a+b)/(a*c);}
+	public static double _LaAcRDLaMbR(double a, double b, double c, double d) {return (a+c)/(a*b);}
+	public static double _LbAcRDLaMaR(double a, double b, double c, double d) {return (b+c)/(a*a);}
 	public static double _LLaSaRSbRSc(double a, double b, double c, double d) {return ((a-a)-b)-c;}
+	public static double _LLbSaRSaRSc(double a, double b, double c, double d) {return ((b-a)-a)-c;}
+	public static double _LLcSaRSaRSb(double a, double b, double c, double d) {return ((c-a)-a)-b;}
 	public static double _LLaSaRSbRMc(double a, double b, double c, double d) {return ((a-a)-b)*c;}
+	public static double _LLaSbRScRMa(double a, double b, double c, double d) {return ((a-b)-c)*a;}
+	public static double _LLbSaRSaRMc(double a, double b, double c, double d) {return ((b-a)-a)*c;}
+	public static double _LLbSaRScRMa(double a, double b, double c, double d) {return ((b-a)-c)*a;}
+	public static double _LLcSaRSaRMb(double a, double b, double c, double d) {return ((c-a)-a)*b;}
+	public static double _LLcSaRSbRMa(double a, double b, double c, double d) {return ((c-a)-b)*a;}
 	public static double _LLaSaRSbRDc(double a, double b, double c, double d) {return ((a-a)-b)/c;}
+	public static double _LLaSaRScRDb(double a, double b, double c, double d) {return ((a-a)-c)/b;}
+	public static double _LLaSbRScRDa(double a, double b, double c, double d) {return ((a-b)-c)/a;}
+	public static double _LLbSaRSaRDc(double a, double b, double c, double d) {return ((b-a)-a)/c;}
+	public static double _LLbSaRScRDa(double a, double b, double c, double d) {return ((b-a)-c)/a;}
+	public static double _LLcSaRSaRDb(double a, double b, double c, double d) {return ((c-a)-a)/b;}
+	public static double _LLcSaRSbRDa(double a, double b, double c, double d) {return ((c-a)-b)/a;}
 	public static double _LLaSaRMbRAc(double a, double b, double c, double d) {return ((a-a)*b)+c;}
+	public static double _LLaSaRMcRAb(double a, double b, double c, double d) {return ((a-a)*c)+b;}
+	public static double _LLaSbRMaRAc(double a, double b, double c, double d) {return ((a-b)*a)+c;}
+	public static double _LLaSbRMcRAa(double a, double b, double c, double d) {return ((a-b)*c)+a;}
+	public static double _LLaScRMaRAb(double a, double b, double c, double d) {return ((a-c)*a)+b;}
+	public static double _LLaScRMbRAa(double a, double b, double c, double d) {return ((a-c)*b)+a;}
+	public static double _LLbSaRMaRAc(double a, double b, double c, double d) {return ((b-a)*a)+c;}
+	public static double _LLbSaRMcRAa(double a, double b, double c, double d) {return ((b-a)*c)+a;}
+	public static double _LLbScRMaRAa(double a, double b, double c, double d) {return ((b-c)*a)+a;}
+	public static double _LLcSaRMaRAb(double a, double b, double c, double d) {return ((c-a)*a)+b;}
+	public static double _LLcSaRMbRAa(double a, double b, double c, double d) {return ((c-a)*b)+a;}
+	public static double _LLcSbRMaRAa(double a, double b, double c, double d) {return ((c-b)*a)+a;}
 	public static double _LLaSaRMbRSc(double a, double b, double c, double d) {return ((a-a)*b)-c;}
+	public static double _LLaSaRMcRSb(double a, double b, double c, double d) {return ((a-a)*c)-b;}
+	public static double _LLaSbRMaRSc(double a, double b, double c, double d) {return ((a-b)*a)-c;}
+	public static double _LLaSbRMcRSa(double a, double b, double c, double d) {return ((a-b)*c)-a;}
+	public static double _LLaScRMaRSb(double a, double b, double c, double d) {return ((a-c)*a)-b;}
+	public static double _LLaScRMbRSa(double a, double b, double c, double d) {return ((a-c)*b)-a;}
+	public static double _LLbSaRMaRSc(double a, double b, double c, double d) {return ((b-a)*a)-c;}
+	public static double _LLbSaRMcRSa(double a, double b, double c, double d) {return ((b-a)*c)-a;}
+	public static double _LLbScRMaRSa(double a, double b, double c, double d) {return ((b-c)*a)-a;}
+	public static double _LLcSaRMaRSb(double a, double b, double c, double d) {return ((c-a)*a)-b;}
+	public static double _LLcSaRMbRSa(double a, double b, double c, double d) {return ((c-a)*b)-a;}
+	public static double _LLcSbRMaRSa(double a, double b, double c, double d) {return ((c-b)*a)-a;}
 	public static double _LLaSaRMbRMc(double a, double b, double c, double d) {return ((a-a)*b)*c;}
+	public static double _LLaSbRMaRMc(double a, double b, double c, double d) {return ((a-b)*a)*c;}
+	public static double _LLaScRMaRMb(double a, double b, double c, double d) {return ((a-c)*a)*b;}
+	public static double _LLbSaRMaRMc(double a, double b, double c, double d) {return ((b-a)*a)*c;}
+	public static double _LLbScRMaRMa(double a, double b, double c, double d) {return ((b-c)*a)*a;}
+	public static double _LLcSaRMaRMb(double a, double b, double c, double d) {return ((c-a)*a)*b;}
+	public static double _LLcSbRMaRMa(double a, double b, double c, double d) {return ((c-b)*a)*a;}
+	public static double _LLaSbRMaRDc(double a, double b, double c, double d) {return ((a-b)*a)/c;}
+	public static double _LLaSbRMcRDa(double a, double b, double c, double d) {return ((a-b)*c)/a;}
+	public static double _LLaScRMaRDb(double a, double b, double c, double d) {return ((a-c)*a)/b;}
+	public static double _LLaScRMbRDa(double a, double b, double c, double d) {return ((a-c)*b)/a;}
+	public static double _LLbSaRMaRDc(double a, double b, double c, double d) {return ((b-a)*a)/c;}
+	public static double _LLbSaRMcRDa(double a, double b, double c, double d) {return ((b-a)*c)/a;}
+	public static double _LLcSaRMaRDb(double a, double b, double c, double d) {return ((c-a)*a)/b;}
+	public static double _LLcSaRMbRDa(double a, double b, double c, double d) {return ((c-a)*b)/a;}
+	public static double _LLaSbRDaRAc(double a, double b, double c, double d) {return ((a-b)/a)+c;}
+	public static double _LLaSbRDcRAa(double a, double b, double c, double d) {return ((a-b)/c)+a;}
+	public static double _LLaScRDaRAb(double a, double b, double c, double d) {return ((a-c)/a)+b;}
+	public static double _LLaScRDbRAa(double a, double b, double c, double d) {return ((a-c)/b)+a;}
+	public static double _LLbSaRDaRAc(double a, double b, double c, double d) {return ((b-a)/a)+c;}
+	public static double _LLbSaRDcRAa(double a, double b, double c, double d) {return ((b-a)/c)+a;}
+	public static double _LLbScRDaRAa(double a, double b, double c, double d) {return ((b-c)/a)+a;}
+	public static double _LLcSaRDaRAb(double a, double b, double c, double d) {return ((c-a)/a)+b;}
+	public static double _LLcSaRDbRAa(double a, double b, double c, double d) {return ((c-a)/b)+a;}
+	public static double _LLcSbRDaRAa(double a, double b, double c, double d) {return ((c-b)/a)+a;}
+	public static double _LLaSbRDaRSc(double a, double b, double c, double d) {return ((a-b)/a)-c;}
+	public static double _LLaSbRDcRSa(double a, double b, double c, double d) {return ((a-b)/c)-a;}
+	public static double _LLaScRDaRSb(double a, double b, double c, double d) {return ((a-c)/a)-b;}
+	public static double _LLaScRDbRSa(double a, double b, double c, double d) {return ((a-c)/b)-a;}
+	public static double _LLbSaRDaRSc(double a, double b, double c, double d) {return ((b-a)/a)-c;}
+	public static double _LLbSaRDcRSa(double a, double b, double c, double d) {return ((b-a)/c)-a;}
+	public static double _LLbScRDaRSa(double a, double b, double c, double d) {return ((b-c)/a)-a;}
+	public static double _LLcSaRDaRSb(double a, double b, double c, double d) {return ((c-a)/a)-b;}
+	public static double _LLcSaRDbRSa(double a, double b, double c, double d) {return ((c-a)/b)-a;}
+	public static double _LLcSbRDaRSa(double a, double b, double c, double d) {return ((c-b)/a)-a;}
+	public static double _LaSbRDLaMcR(double a, double b, double c, double d) {return (a-b)/(a*c);}
+	public static double _LaScRDLaMbR(double a, double b, double c, double d) {return (a-c)/(a*b);}
+	public static double _LbSaRDLaMcR(double a, double b, double c, double d) {return (b-a)/(a*c);}
+	public static double _LbScRDLaMaR(double a, double b, double c, double d) {return (b-c)/(a*a);}
+	public static double _LcSaRDLaMbR(double a, double b, double c, double d) {return (c-a)/(a*b);}
+	public static double _LcSbRDLaMaR(double a, double b, double c, double d) {return (c-b)/(a*a);}
 	public static double _LLaMaRAbRAc(double a, double b, double c, double d) {return ((a*a)+b)+c;}
+	public static double _LLaMbRAaRAc(double a, double b, double c, double d) {return ((a*b)+a)+c;}
+	public static double _LLaMcRAaRAb(double a, double b, double c, double d) {return ((a*c)+a)+b;}
+	public static double _LLbMcRAaRAa(double a, double b, double c, double d) {return ((b*c)+a)+a;}
 	public static double _LLaMaRAbRSc(double a, double b, double c, double d) {return ((a*a)+b)-c;}
+	public static double _LLaMaRAcRSb(double a, double b, double c, double d) {return ((a*a)+c)-b;}
+	public static double _LLaMbRAaRSc(double a, double b, double c, double d) {return ((a*b)+a)-c;}
+	public static double _LLaMbRAcRSa(double a, double b, double c, double d) {return ((a*b)+c)-a;}
+	public static double _LLaMcRAaRSb(double a, double b, double c, double d) {return ((a*c)+a)-b;}
+	public static double _LLaMcRAbRSa(double a, double b, double c, double d) {return ((a*c)+b)-a;}
 	public static double _LLaMaRAbRMc(double a, double b, double c, double d) {return ((a*a)+b)*c;}
+	public static double _LLaMaRAcRMb(double a, double b, double c, double d) {return ((a*a)+c)*b;}
+	public static double _LLaMbRAaRMc(double a, double b, double c, double d) {return ((a*b)+a)*c;}
+	public static double _LLaMbRAcRMa(double a, double b, double c, double d) {return ((a*b)+c)*a;}
+	public static double _LLaMcRAaRMb(double a, double b, double c, double d) {return ((a*c)+a)*b;}
+	public static double _LLaMcRAbRMa(double a, double b, double c, double d) {return ((a*c)+b)*a;}
+	public static double _LLbMcRAaRMa(double a, double b, double c, double d) {return ((b*c)+a)*a;}
 	public static double _LLaMaRAbRDc(double a, double b, double c, double d) {return ((a*a)+b)/c;}
-	public static double _LLaMaRSbRAc(double a, double b, double c, double d) {return ((a*a)-b)+c;}
+	public static double _LLaMaRAcRDb(double a, double b, double c, double d) {return ((a*a)+c)/b;}
+	public static double _LLaMbRAaRDc(double a, double b, double c, double d) {return ((a*b)+a)/c;}
+	public static double _LLaMbRAcRDa(double a, double b, double c, double d) {return ((a*b)+c)/a;}
+	public static double _LLaMcRAaRDb(double a, double b, double c, double d) {return ((a*c)+a)/b;}
+	public static double _LLaMcRAbRDa(double a, double b, double c, double d) {return ((a*c)+b)/a;}
+	public static double _LLbMcRAaRDa(double a, double b, double c, double d) {return ((b*c)+a)/a;}
 	public static double _LLaMaRSbRSc(double a, double b, double c, double d) {return ((a*a)-b)-c;}
+	public static double _LLaMbRSaRSc(double a, double b, double c, double d) {return ((a*b)-a)-c;}
+	public static double _LLaMcRSaRSb(double a, double b, double c, double d) {return ((a*c)-a)-b;}
+	public static double _LLbMcRSaRSa(double a, double b, double c, double d) {return ((b*c)-a)-a;}
 	public static double _LLaMaRSbRMc(double a, double b, double c, double d) {return ((a*a)-b)*c;}
+	public static double _LLaMaRScRMb(double a, double b, double c, double d) {return ((a*a)-c)*b;}
+	public static double _LLaMbRSaRMc(double a, double b, double c, double d) {return ((a*b)-a)*c;}
+	public static double _LLaMbRScRMa(double a, double b, double c, double d) {return ((a*b)-c)*a;}
+	public static double _LLaMcRSaRMb(double a, double b, double c, double d) {return ((a*c)-a)*b;}
+	public static double _LLaMcRSbRMa(double a, double b, double c, double d) {return ((a*c)-b)*a;}
+	public static double _LLbMcRSaRMa(double a, double b, double c, double d) {return ((b*c)-a)*a;}
 	public static double _LLaMaRSbRDc(double a, double b, double c, double d) {return ((a*a)-b)/c;}
+	public static double _LLaMaRScRDb(double a, double b, double c, double d) {return ((a*a)-c)/b;}
+	public static double _LLaMbRSaRDc(double a, double b, double c, double d) {return ((a*b)-a)/c;}
+	public static double _LLaMbRScRDa(double a, double b, double c, double d) {return ((a*b)-c)/a;}
+	public static double _LLaMcRSaRDb(double a, double b, double c, double d) {return ((a*c)-a)/b;}
+	public static double _LLaMcRSbRDa(double a, double b, double c, double d) {return ((a*c)-b)/a;}
+	public static double _LLbMcRSaRDa(double a, double b, double c, double d) {return ((b*c)-a)/a;}
 	public static double _LLaMaRMbRAc(double a, double b, double c, double d) {return ((a*a)*b)+c;}
+	public static double _LLaMaRMcRAb(double a, double b, double c, double d) {return ((a*a)*c)+b;}
+	public static double _LLaMbRMcRAa(double a, double b, double c, double d) {return ((a*b)*c)+a;}
 	public static double _LLaMaRMbRSc(double a, double b, double c, double d) {return ((a*a)*b)-c;}
+	public static double _LLaMaRMcRSb(double a, double b, double c, double d) {return ((a*a)*c)-b;}
+	public static double _LLaMbRMcRSa(double a, double b, double c, double d) {return ((a*b)*c)-a;}
 	public static double _LLaMaRMbRMc(double a, double b, double c, double d) {return ((a*a)*b)*c;}
 	public static double _LLaMaRMbRDc(double a, double b, double c, double d) {return ((a*a)*b)/c;}
+	public static double _LLaMaRMcRDb(double a, double b, double c, double d) {return ((a*a)*c)/b;}
 	public static double _LLaMaRDbRAc(double a, double b, double c, double d) {return ((a*a)/b)+c;}
-	public static double _LLaMaRDbRSc(double a, double b, double c, double d) {return ((a*a)/b)-c;}
-	public static double _LLaMaRDbRMc(double a, double b, double c, double d) {return ((a*a)/b)*c;}
-	public static double _LaDLbMcRRMa(double a, double b, double c, double d) {return (a/(b*c))*a;}
-	public static double _LLaDaRAbRAc(double a, double b, double c, double d) {return ((a/a)+b)+c;}
-	public static double _LLaDaRAbRSc(double a, double b, double c, double d) {return ((a/a)+b)-c;}
-	public static double _LLaDaRAbRMc(double a, double b, double c, double d) {return ((a/a)+b)*c;}
-	public static double _LLaDaRAbRDc(double a, double b, double c, double d) {return ((a/a)+b)/c;}
-	public static double _LLaDaRSbRAc(double a, double b, double c, double d) {return ((a/a)-b)+c;}
-	public static double _LLaDaRSbRSc(double a, double b, double c, double d) {return ((a/a)-b)-c;}
-	public static double _LLaDaRSbRMc(double a, double b, double c, double d) {return ((a/a)-b)*c;}
-	public static double _LLaDaRSbRDc(double a, double b, double c, double d) {return ((a/a)-b)/c;}
-	public static double _LaDLaMbRRAc(double a, double b, double c, double d) {return (a/(a*b))+c;}
-	public static double _LaDLaMbRRSc(double a, double b, double c, double d) {return (a/(a*b))-c;}
-	public static double _LLaSaRAcRDb(double a, double b, double c, double d) {return ((a-a)+c)/b;}
-	public static double _aDLLaMbRMcR(double a, double b, double c, double d) {return a/((a*b)*c);}
-	public static double _LLaAaRAcRMb(double a, double b, double c, double d) {return ((a+a)+c)*b;}
-	public static double _LLaAaRAcRDb(double a, double b, double c, double d) {return ((a+a)+c)/b;}
-	public static double _LLaAaRScRMb(double a, double b, double c, double d) {return ((a+a)-c)*b;}
-	public static double _LLaAaRScRDb(double a, double b, double c, double d) {return ((a+a)-c)/b;}
-	public static double _LLaAaRMcRAb(double a, double b, double c, double d) {return ((a+a)*c)+b;}
-	public static double _LLaAaRMcRSb(double a, double b, double c, double d) {return ((a+a)*c)-b;}
-	public static double _LLaAaRDcRAb(double a, double b, double c, double d) {return ((a+a)/c)+b;}
-	public static double _LLaAaRDcRSb(double a, double b, double c, double d) {return ((a+a)/c)-b;}
-	public static double _LLaSaRScRDb(double a, double b, double c, double d) {return ((a-a)-c)/b;}
-	public static double _LLaSaRMcRAb(double a, double b, double c, double d) {return ((a-a)*c)+b;}
-	public static double _LLaSaRMcRSb(double a, double b, double c, double d) {return ((a-a)*c)-b;}
-	public static double _LLaMaRAcRMb(double a, double b, double c, double d) {return ((a*a)+c)*b;}
-	public static double _LLaMaRAcRDb(double a, double b, double c, double d) {return ((a*a)+c)/b;}
-	public static double _LLaMaRScRMb(double a, double b, double c, double d) {return ((a*a)-c)*b;}
-	public static double _LLaMaRScRDb(double a, double b, double c, double d) {return ((a*a)-c)/b;}
-	public static double _LLaMaRMcRAb(double a, double b, double c, double d) {return ((a*a)*c)+b;}
-	public static double _LLaMaRMcRSb(double a, double b, double c, double d) {return ((a*a)*c)-b;}
 	public static double _LLaMaRDcRAb(double a, double b, double c, double d) {return ((a*a)/c)+b;}
-	public static double _LLaMaRDcRSb(double a, double b, double c, double d) {return ((a*a)/c)-b;}
-	public static double _LLaDaRAcRMb(double a, double b, double c, double d) {return ((a/a)+c)*b;}
-	public static double _LLaDaRAcRDb(double a, double b, double c, double d) {return ((a/a)+c)/b;}
-	public static double _LLaDaRScRMb(double a, double b, double c, double d) {return ((a/a)-c)*b;}
-	public static double _LLaDaRScRDb(double a, double b, double c, double d) {return ((a/a)-c)/b;}
-	public static double _LaDLaMcRRAb(double a, double b, double c, double d) {return (a/(a*c))+b;}
-	public static double _LaDLaMcRRSb(double a, double b, double c, double d) {return (a/(a*c))-b;}
-	public static double _LLaAbRMaRAc(double a, double b, double c, double d) {return ((a+b)*a)+c;}
-	public static double _LLaAbRMaRSc(double a, double b, double c, double d) {return ((a+b)*a)-c;}
-	public static double _LLaAbRMaRMc(double a, double b, double c, double d) {return ((a+b)*a)*c;}
-	public static double _LLaAbRMaRDc(double a, double b, double c, double d) {return ((a+b)*a)/c;}
-	public static double _LLaAbRDaRAc(double a, double b, double c, double d) {return ((a+b)/a)+c;}
-	public static double _LLaAbRDaRSc(double a, double b, double c, double d) {return ((a+b)/a)-c;}
-	public static double _LLaAbRDaRMc(double a, double b, double c, double d) {return ((a+b)/a)*c;}
-	public static double _LaAbRDLaMcR(double a, double b, double c, double d) {return (a+b)/(a*c);}
-	public static double _LLaSbRMaRAc(double a, double b, double c, double d) {return ((a-b)*a)+c;}
-	public static double _LLaSbRMaRSc(double a, double b, double c, double d) {return ((a-b)*a)-c;}
-	public static double _LLaSbRMaRMc(double a, double b, double c, double d) {return ((a-b)*a)*c;}
-	public static double _LLaSbRMaRDc(double a, double b, double c, double d) {return ((a-b)*a)/c;}
-	public static double _LLaSbRDaRAc(double a, double b, double c, double d) {return ((a-b)/a)+c;}
-	public static double _LLaSbRDaRSc(double a, double b, double c, double d) {return ((a-b)/a)-c;}
-	public static double _LLaSbRDaRMc(double a, double b, double c, double d) {return ((a-b)/a)*c;}
-	public static double _LaSbRDLaMcR(double a, double b, double c, double d) {return (a-b)/(a*c);}
-	public static double _LLaMbRAaRAc(double a, double b, double c, double d) {return ((a*b)+a)+c;}
-	public static double _LLaMbRAaRSc(double a, double b, double c, double d) {return ((a*b)+a)-c;}
-	public static double _LLaMbRAaRMc(double a, double b, double c, double d) {return ((a*b)+a)*c;}
-	public static double _LLaMbRAaRDc(double a, double b, double c, double d) {return ((a*b)+a)/c;}
-	public static double _LLaMbRSaRAc(double a, double b, double c, double d) {return ((a*b)-a)+c;}
-	public static double _LLaMbRSaRSc(double a, double b, double c, double d) {return ((a*b)-a)-c;}
-	public static double _LLaMbRSaRMc(double a, double b, double c, double d) {return ((a*b)-a)*c;}
-	public static double _LLaMbRSaRDc(double a, double b, double c, double d) {return ((a*b)-a)/c;}
-	public static double _LLaDbRAaRAc(double a, double b, double c, double d) {return ((a/b)+a)+c;}
-	public static double _LLaDbRAaRSc(double a, double b, double c, double d) {return ((a/b)+a)-c;}
-	public static double _LLaDbRAaRMc(double a, double b, double c, double d) {return ((a/b)+a)*c;}
-	public static double _LLaDbRAaRDc(double a, double b, double c, double d) {return ((a/b)+a)/c;}
-	public static double _LLaDbRSaRAc(double a, double b, double c, double d) {return ((a/b)-a)+c;}
-	public static double _LLaDbRSaRSc(double a, double b, double c, double d) {return ((a/b)-a)-c;}
-	public static double _LLaDbRSaRMc(double a, double b, double c, double d) {return ((a/b)-a)*c;}
-	public static double _LLaDbRSaRDc(double a, double b, double c, double d) {return ((a/b)-a)/c;}
-	public static double _LLaAbRAcRMa(double a, double b, double c, double d) {return ((a+b)+c)*a;}
-	public static double _LLaAbRAcRDa(double a, double b, double c, double d) {return ((a+b)+c)/a;}
-	public static double _LLaAbRScRMa(double a, double b, double c, double d) {return ((a+b)-c)*a;}
-	public static double _LLaAbRScRDa(double a, double b, double c, double d) {return ((a+b)-c)/a;}
-	public static double _LLaAbRMcRAa(double a, double b, double c, double d) {return ((a+b)*c)+a;}
-	public static double _LLaAbRMcRSa(double a, double b, double c, double d) {return ((a+b)*c)-a;}
-	public static double _LLaAbRDcRAa(double a, double b, double c, double d) {return ((a+b)/c)+a;}
-	public static double _LLaAbRDcRSa(double a, double b, double c, double d) {return ((a+b)/c)-a;}
-	public static double _LLaSbRAcRMa(double a, double b, double c, double d) {return ((a-b)+c)*a;}
-	public static double _LLaSbRAcRDa(double a, double b, double c, double d) {return ((a-b)+c)/a;}
-	public static double _LLaSbRScRMa(double a, double b, double c, double d) {return ((a-b)-c)*a;}
-	public static double _LLaSbRScRDa(double a, double b, double c, double d) {return ((a-b)-c)/a;}
-	public static double _LLaSbRMcRAa(double a, double b, double c, double d) {return ((a-b)*c)+a;}
-	public static double _LLaSbRMcRSa(double a, double b, double c, double d) {return ((a-b)*c)-a;}
-	public static double _LLaSbRDcRAa(double a, double b, double c, double d) {return ((a-b)/c)+a;}
-	public static double _LLaSbRDcRSa(double a, double b, double c, double d) {return ((a-b)/c)-a;}
-	public static double _LLaMbRAcRMa(double a, double b, double c, double d) {return ((a*b)+c)*a;}
-	public static double _LLaMbRAcRDa(double a, double b, double c, double d) {return ((a*b)+c)/a;}
-	public static double _LLaMbRScRMa(double a, double b, double c, double d) {return ((a*b)-c)*a;}
-	public static double _LLaMbRScRDa(double a, double b, double c, double d) {return ((a*b)-c)/a;}
-	public static double _LLaMbRMcRAa(double a, double b, double c, double d) {return ((a*b)*c)+a;}
-	public static double _LLaMbRMcRSa(double a, double b, double c, double d) {return ((a*b)*c)-a;}
 	public static double _LLaMbRDcRAa(double a, double b, double c, double d) {return ((a*b)/c)+a;}
+	public static double _LLaMcRDbRAa(double a, double b, double c, double d) {return ((a*c)/b)+a;}
+	public static double _LLbMcRDaRAa(double a, double b, double c, double d) {return ((b*c)/a)+a;}
+	public static double _LLaMaRDbRSc(double a, double b, double c, double d) {return ((a*a)/b)-c;}
+	public static double _LLaMaRDcRSb(double a, double b, double c, double d) {return ((a*a)/c)-b;}
 	public static double _LLaMbRDcRSa(double a, double b, double c, double d) {return ((a*b)/c)-a;}
-	public static double _LLaDbRAcRMa(double a, double b, double c, double d) {return ((a/b)+c)*a;}
-	public static double _LLaDbRAcRDa(double a, double b, double c, double d) {return ((a/b)+c)/a;}
-	public static double _LLaDbRScRMa(double a, double b, double c, double d) {return ((a/b)-c)*a;}
-	public static double _LLaDbRScRDa(double a, double b, double c, double d) {return ((a/b)-c)/a;}
-	public static double _LLaDbRMcRAa(double a, double b, double c, double d) {return ((a/b)*c)+a;}
-	public static double _LLaDbRMcRSa(double a, double b, double c, double d) {return ((a/b)*c)-a;}
-	public static double _LaDLbMcRRAa(double a, double b, double c, double d) {return (a/(b*c))+a;}
-	public static double _LaDLbMcRRSa(double a, double b, double c, double d) {return (a/(b*c))-a;}
-	public static double _LLaAcRMaRAb(double a, double b, double c, double d) {return ((a+c)*a)+b;}
-	public static double _LLaAcRMaRSb(double a, double b, double c, double d) {return ((a+c)*a)-b;}
-	public static double _LLaAcRMaRMb(double a, double b, double c, double d) {return ((a+c)*a)*b;}
-	public static double _LLaAcRMaRDb(double a, double b, double c, double d) {return ((a+c)*a)/b;}
-	public static double _LLaAcRDaRAb(double a, double b, double c, double d) {return ((a+c)/a)+b;}
-	public static double _LLaAcRDaRSb(double a, double b, double c, double d) {return ((a+c)/a)-b;}
-	public static double _LLaAcRDaRMb(double a, double b, double c, double d) {return ((a+c)/a)*b;}
-	public static double _LaAcRDLaMbR(double a, double b, double c, double d) {return (a+c)/(a*b);}
-	public static double _LLaScRMaRAb(double a, double b, double c, double d) {return ((a-c)*a)+b;}
-	public static double _LLaScRMaRSb(double a, double b, double c, double d) {return ((a-c)*a)-b;}
-	public static double _LLaScRMaRMb(double a, double b, double c, double d) {return ((a-c)*a)*b;}
-	public static double _LLaScRMaRDb(double a, double b, double c, double d) {return ((a-c)*a)/b;}
-	public static double _LLaScRDaRAb(double a, double b, double c, double d) {return ((a-c)/a)+b;}
-	public static double _LLaScRDaRSb(double a, double b, double c, double d) {return ((a-c)/a)-b;}
-	public static double _LLaScRDaRMb(double a, double b, double c, double d) {return ((a-c)/a)*b;}
-	public static double _LaScRDLaMbR(double a, double b, double c, double d) {return (a-c)/(a*b);}
-	public static double _LLaMcRAaRAb(double a, double b, double c, double d) {return ((a*c)+a)+b;}
-	public static double _LLaMcRAaRSb(double a, double b, double c, double d) {return ((a*c)+a)-b;}
-	public static double _LLaMcRAaRMb(double a, double b, double c, double d) {return ((a*c)+a)*b;}
-	public static double _LLaMcRAaRDb(double a, double b, double c, double d) {return ((a*c)+a)/b;}
-	public static double _LLaMcRSaRAb(double a, double b, double c, double d) {return ((a*c)-a)+b;}
-	public static double _LLaMcRSaRSb(double a, double b, double c, double d) {return ((a*c)-a)-b;}
-	public static double _LLaMcRSaRMb(double a, double b, double c, double d) {return ((a*c)-a)*b;}
-	public static double _LLaMcRSaRDb(double a, double b, double c, double d) {return ((a*c)-a)/b;}
-	public static double _LLaDcRAaRAb(double a, double b, double c, double d) {return ((a/c)+a)+b;}
-	public static double _LLaDcRAaRSb(double a, double b, double c, double d) {return ((a/c)+a)-b;}
-	public static double _LLaDcRAaRMb(double a, double b, double c, double d) {return ((a/c)+a)*b;}
-	public static double _LLaDcRAaRDb(double a, double b, double c, double d) {return ((a/c)+a)/b;}
-	public static double _LLaDcRSaRAb(double a, double b, double c, double d) {return ((a/c)-a)+b;}
-	public static double _LLaDcRSaRSb(double a, double b, double c, double d) {return ((a/c)-a)-b;}
-	public static double _LLaDcRSaRMb(double a, double b, double c, double d) {return ((a/c)-a)*b;}
-	public static double _LLaDcRSaRDb(double a, double b, double c, double d) {return ((a/c)-a)/b;}
-	public static double _LLaAcRMbRAa(double a, double b, double c, double d) {return ((a+c)*b)+a;}
-	public static double _LLaAcRMbRSa(double a, double b, double c, double d) {return ((a+c)*b)-a;}
-	public static double _LLaAcRDbRAa(double a, double b, double c, double d) {return ((a+c)/b)+a;}
-	public static double _LLaAcRDbRSa(double a, double b, double c, double d) {return ((a+c)/b)-a;}
-	public static double _LLaScRMbRAa(double a, double b, double c, double d) {return ((a-c)*b)+a;}
-	public static double _LLaScRMbRSa(double a, double b, double c, double d) {return ((a-c)*b)-a;}
-	public static double _LLaScRDbRAa(double a, double b, double c, double d) {return ((a-c)/b)+a;}
-	public static double _LLaScRDbRSa(double a, double b, double c, double d) {return ((a-c)/b)-a;}
-	public static double _LLaMcRAbRMa(double a, double b, double c, double d) {return ((a*c)+b)*a;}
-	public static double _LLaMcRAbRDa(double a, double b, double c, double d) {return ((a*c)+b)/a;}
-	public static double _LLaMcRSbRMa(double a, double b, double c, double d) {return ((a*c)-b)*a;}
-	public static double _LLaMcRSbRDa(double a, double b, double c, double d) {return ((a*c)-b)/a;}
-	public static double _LLaDcRAbRMa(double a, double b, double c, double d) {return ((a/c)+b)*a;}
-	public static double _LLaDcRAbRDa(double a, double b, double c, double d) {return ((a/c)+b)/a;}
-	public static double _LLaDcRSbRMa(double a, double b, double c, double d) {return ((a/c)-b)*a;}
-	public static double _LLaDcRSbRDa(double a, double b, double c, double d) {return ((a/c)-b)/a;}
-	public static double _LLbSaRSaRAc(double a, double b, double c, double d) {return ((b-a)-a)+c;}
-	public static double _LLbSaRSaRSc(double a, double b, double c, double d) {return ((b-a)-a)-c;}
-	public static double _LLbSaRSaRMc(double a, double b, double c, double d) {return ((b-a)-a)*c;}
-	public static double _LLbSaRSaRDc(double a, double b, double c, double d) {return ((b-a)-a)/c;}
-	public static double _LLbSaRMaRAc(double a, double b, double c, double d) {return ((b-a)*a)+c;}
-	public static double _LLbSaRMaRSc(double a, double b, double c, double d) {return ((b-a)*a)-c;}
-	public static double _LLbSaRMaRMc(double a, double b, double c, double d) {return ((b-a)*a)*c;}
-	public static double _LLbSaRMaRDc(double a, double b, double c, double d) {return ((b-a)*a)/c;}
-	public static double _LLbSaRDaRAc(double a, double b, double c, double d) {return ((b-a)/a)+c;}
-	public static double _LLbSaRDaRSc(double a, double b, double c, double d) {return ((b-a)/a)-c;}
-	public static double _LLbSaRDaRMc(double a, double b, double c, double d) {return ((b-a)/a)*c;}
-	public static double _LbSaRDLaMcR(double a, double b, double c, double d) {return (b-a)/(a*c);}
-	public static double _LLbDaRAaRAc(double a, double b, double c, double d) {return ((b/a)+a)+c;}
-	public static double _LLbDaRAaRSc(double a, double b, double c, double d) {return ((b/a)+a)-c;}
-	public static double _LLbDaRAaRMc(double a, double b, double c, double d) {return ((b/a)+a)*c;}
-	public static double _LLbDaRAaRDc(double a, double b, double c, double d) {return ((b/a)+a)/c;}
-	public static double _LLbDaRSaRAc(double a, double b, double c, double d) {return ((b/a)-a)+c;}
-	public static double _LLbDaRSaRSc(double a, double b, double c, double d) {return ((b/a)-a)-c;}
-	public static double _LLbDaRSaRMc(double a, double b, double c, double d) {return ((b/a)-a)*c;}
-	public static double _LLbDaRSaRDc(double a, double b, double c, double d) {return ((b/a)-a)/c;}
-	public static double _LbDLaMaRRAc(double a, double b, double c, double d) {return (b/(a*a))+c;}
-	public static double _LbDLaMaRRSc(double a, double b, double c, double d) {return (b/(a*a))-c;}
+	public static double _LLaMcRDbRSa(double a, double b, double c, double d) {return ((a*c)/b)-a;}
+	public static double _LLbMcRDaRSa(double a, double b, double c, double d) {return ((b*c)/a)-a;}
+	public static double _LaDLbMcRRMa(double a, double b, double c, double d) {return (a/(b*c))*a;}
 	public static double _LbDLaMaRRMc(double a, double b, double c, double d) {return (b/(a*a))*c;}
-	public static double _bDLLaMaRMcR(double a, double b, double c, double d) {return b/((a*a)*c);}
-	public static double _LLbSaRAcRMa(double a, double b, double c, double d) {return ((b-a)+c)*a;}
-	public static double _LLbSaRAcRDa(double a, double b, double c, double d) {return ((b-a)+c)/a;}
-	public static double _LLbSaRScRMa(double a, double b, double c, double d) {return ((b-a)-c)*a;}
-	public static double _LLbSaRScRDa(double a, double b, double c, double d) {return ((b-a)-c)/a;}
-	public static double _LLbSaRMcRAa(double a, double b, double c, double d) {return ((b-a)*c)+a;}
-	public static double _LLbSaRMcRSa(double a, double b, double c, double d) {return ((b-a)*c)-a;}
-	public static double _LLbSaRDcRAa(double a, double b, double c, double d) {return ((b-a)/c)+a;}
-	public static double _LLbSaRDcRSa(double a, double b, double c, double d) {return ((b-a)/c)-a;}
-	public static double _LLbDaRAcRMa(double a, double b, double c, double d) {return ((b/a)+c)*a;}
-	public static double _LLbDaRAcRDa(double a, double b, double c, double d) {return ((b/a)+c)/a;}
-	public static double _LLbDaRScRMa(double a, double b, double c, double d) {return ((b/a)-c)*a;}
-	public static double _LLbDaRScRDa(double a, double b, double c, double d) {return ((b/a)-c)/a;}
-	public static double _LLbDaRMcRAa(double a, double b, double c, double d) {return ((b/a)*c)+a;}
-	public static double _LLbDaRMcRSa(double a, double b, double c, double d) {return ((b/a)*c)-a;}
-	public static double _LbDLaMcRRAa(double a, double b, double c, double d) {return (b/(a*c))+a;}
-	public static double _LbDLaMcRRSa(double a, double b, double c, double d) {return (b/(a*c))-a;}
-	public static double _LLbAcRMaRAa(double a, double b, double c, double d) {return ((b+c)*a)+a;}
-	public static double _LLbAcRMaRSa(double a, double b, double c, double d) {return ((b+c)*a)-a;}
-	public static double _LLbAcRMaRMa(double a, double b, double c, double d) {return ((b+c)*a)*a;}
-	public static double _LLbAcRDaRAa(double a, double b, double c, double d) {return ((b+c)/a)+a;}
-	public static double _LLbAcRDaRSa(double a, double b, double c, double d) {return ((b+c)/a)-a;}
-	public static double _LbAcRDLaMaR(double a, double b, double c, double d) {return (b+c)/(a*a);}
-	public static double _LLbScRMaRAa(double a, double b, double c, double d) {return ((b-c)*a)+a;}
-	public static double _LLbScRMaRSa(double a, double b, double c, double d) {return ((b-c)*a)-a;}
-	public static double _LLbScRMaRMa(double a, double b, double c, double d) {return ((b-c)*a)*a;}
-	public static double _LLbScRDaRAa(double a, double b, double c, double d) {return ((b-c)/a)+a;}
-	public static double _LLbScRDaRSa(double a, double b, double c, double d) {return ((b-c)/a)-a;}
-	public static double _LbScRDLaMaR(double a, double b, double c, double d) {return (b-c)/(a*a);}
-	public static double _LLbMcRAaRAa(double a, double b, double c, double d) {return ((b*c)+a)+a;}
-	public static double _LLbMcRAaRMa(double a, double b, double c, double d) {return ((b*c)+a)*a;}
-	public static double _LLbMcRAaRDa(double a, double b, double c, double d) {return ((b*c)+a)/a;}
-	public static double _LLbMcRSaRSa(double a, double b, double c, double d) {return ((b*c)-a)-a;}
-	public static double _LLbMcRSaRMa(double a, double b, double c, double d) {return ((b*c)-a)*a;}
-	public static double _LLbMcRSaRDa(double a, double b, double c, double d) {return ((b*c)-a)/a;}
+	public static double _LLaDaRAbRAc(double a, double b, double c, double d) {return ((a/a)+b)+c;}
+	public static double _LLaDbRAaRAc(double a, double b, double c, double d) {return ((a/b)+a)+c;}
+	public static double _LLaDcRAaRAb(double a, double b, double c, double d) {return ((a/c)+a)+b;}
+	public static double _LLbDaRAaRAc(double a, double b, double c, double d) {return ((b/a)+a)+c;}
 	public static double _LLbDcRAaRAa(double a, double b, double c, double d) {return ((b/c)+a)+a;}
-	public static double _LLbDcRAaRMa(double a, double b, double c, double d) {return ((b/c)+a)*a;}
-	public static double _LLbDcRAaRDa(double a, double b, double c, double d) {return ((b/c)+a)/a;}
-	public static double _LLbDcRSaRSa(double a, double b, double c, double d) {return ((b/c)-a)-a;}
-	public static double _LLbDcRSaRMa(double a, double b, double c, double d) {return ((b/c)-a)*a;}
-	public static double _LLbDcRSaRDa(double a, double b, double c, double d) {return ((b/c)-a)/a;}
-	public static double _LLcSaRSaRSb(double a, double b, double c, double d) {return ((c-a)-a)-b;}
-	public static double _LLcSaRSaRMb(double a, double b, double c, double d) {return ((c-a)-a)*b;}
-	public static double _LLcSaRSaRDb(double a, double b, double c, double d) {return ((c-a)-a)/b;}
-	public static double _LLcSaRMaRAb(double a, double b, double c, double d) {return ((c-a)*a)+b;}
-	public static double _LLcSaRMaRSb(double a, double b, double c, double d) {return ((c-a)*a)-b;}
-	public static double _LLcSaRMaRMb(double a, double b, double c, double d) {return ((c-a)*a)*b;}
-	public static double _LLcSaRMaRDb(double a, double b, double c, double d) {return ((c-a)*a)/b;}
-	public static double _LLcSaRDaRAb(double a, double b, double c, double d) {return ((c-a)/a)+b;}
-	public static double _LLcSaRDaRSb(double a, double b, double c, double d) {return ((c-a)/a)-b;}
-	public static double _LLcSaRDaRMb(double a, double b, double c, double d) {return ((c-a)/a)*b;}
-	public static double _LcSaRDLaMbR(double a, double b, double c, double d) {return (c-a)/(a*b);}
 	public static double _LLcDaRAaRAb(double a, double b, double c, double d) {return ((c/a)+a)+b;}
-	public static double _LLcDaRAaRSb(double a, double b, double c, double d) {return ((c/a)+a)-b;}
-	public static double _LLcDaRAaRMb(double a, double b, double c, double d) {return ((c/a)+a)*b;}
-	public static double _LLcDaRAaRDb(double a, double b, double c, double d) {return ((c/a)+a)/b;}
-	public static double _LLcDaRSaRAb(double a, double b, double c, double d) {return ((c/a)-a)+b;}
-	public static double _LLcDaRSaRSb(double a, double b, double c, double d) {return ((c/a)-a)-b;}
-	public static double _LLcDaRSaRMb(double a, double b, double c, double d) {return ((c/a)-a)*b;}
-	public static double _LLcDaRSaRDb(double a, double b, double c, double d) {return ((c/a)-a)/b;}
-	public static double _LcDLaMaRRAb(double a, double b, double c, double d) {return (c/(a*a))+b;}
-	public static double _LcDLaMaRRSb(double a, double b, double c, double d) {return (c/(a*a))-b;}
-	public static double _cDLLaMaRMbR(double a, double b, double c, double d) {return c/((a*a)*b);}
-	public static double _LLcSaRSbRMa(double a, double b, double c, double d) {return ((c-a)-b)*a;}
-	public static double _LLcSaRSbRDa(double a, double b, double c, double d) {return ((c-a)-b)/a;}
-	public static double _LLcSaRMbRAa(double a, double b, double c, double d) {return ((c-a)*b)+a;}
-	public static double _LLcSaRMbRSa(double a, double b, double c, double d) {return ((c-a)*b)-a;}
-	public static double _LLcSaRDbRAa(double a, double b, double c, double d) {return ((c-a)/b)+a;}
-	public static double _LLcSaRDbRSa(double a, double b, double c, double d) {return ((c-a)/b)-a;}
-	public static double _LLcDaRAbRMa(double a, double b, double c, double d) {return ((c/a)+b)*a;}
-	public static double _LLcDaRAbRDa(double a, double b, double c, double d) {return ((c/a)+b)/a;}
-	public static double _LLcDaRSbRMa(double a, double b, double c, double d) {return ((c/a)-b)*a;}
-	public static double _LLcDaRSbRDa(double a, double b, double c, double d) {return ((c/a)-b)/a;}
-	public static double _LcDLaMbRRAa(double a, double b, double c, double d) {return (c/(a*b))+a;}
-	public static double _LcDLaMbRRSa(double a, double b, double c, double d) {return (c/(a*b))-a;}
-	public static double _LLcSbRMaRAa(double a, double b, double c, double d) {return ((c-b)*a)+a;}
-	public static double _LLcSbRMaRSa(double a, double b, double c, double d) {return ((c-b)*a)-a;}
-	public static double _LLcSbRMaRMa(double a, double b, double c, double d) {return ((c-b)*a)*a;}
-	public static double _LLcSbRDaRAa(double a, double b, double c, double d) {return ((c-b)/a)+a;}
-	public static double _LLcSbRDaRSa(double a, double b, double c, double d) {return ((c-b)/a)-a;}
-	public static double _LcSbRDLaMaR(double a, double b, double c, double d) {return (c-b)/(a*a);}
 	public static double _LLcDbRAaRAa(double a, double b, double c, double d) {return ((c/b)+a)+a;}
+	public static double _LLaDaRAbRSc(double a, double b, double c, double d) {return ((a/a)+b)-c;}
+	public static double _LLaDaRAcRSb(double a, double b, double c, double d) {return ((a/a)+c)-b;}
+	public static double _LLaDbRAaRSc(double a, double b, double c, double d) {return ((a/b)+a)-c;}
+	public static double _LLaDbRAcRSa(double a, double b, double c, double d) {return ((a/b)+c)-a;}
+	public static double _LLaDcRAaRSb(double a, double b, double c, double d) {return ((a/c)+a)-b;}
+	public static double _LLaDcRAbRSa(double a, double b, double c, double d) {return ((a/c)+b)-a;}
+	public static double _LLbDaRAaRSc(double a, double b, double c, double d) {return ((b/a)+a)-c;}
+	public static double _LLbDaRAcRSa(double a, double b, double c, double d) {return ((b/a)+c)-a;}
+	public static double _LLcDaRAaRSb(double a, double b, double c, double d) {return ((c/a)+a)-b;}
+	public static double _LLcDaRAbRSa(double a, double b, double c, double d) {return ((c/a)+b)-a;}
+	public static double _LLaDaRAbRMc(double a, double b, double c, double d) {return ((a/a)+b)*c;}
+	public static double _LLaDaRAcRMb(double a, double b, double c, double d) {return ((a/a)+c)*b;}
+	public static double _LLaDbRAaRMc(double a, double b, double c, double d) {return ((a/b)+a)*c;}
+	public static double _LLaDbRAcRMa(double a, double b, double c, double d) {return ((a/b)+c)*a;}
+	public static double _LLaDcRAaRMb(double a, double b, double c, double d) {return ((a/c)+a)*b;}
+	public static double _LLaDcRAbRMa(double a, double b, double c, double d) {return ((a/c)+b)*a;}
+	public static double _LLbDaRAaRMc(double a, double b, double c, double d) {return ((b/a)+a)*c;}
+	public static double _LLbDaRAcRMa(double a, double b, double c, double d) {return ((b/a)+c)*a;}
+	public static double _LLbDcRAaRMa(double a, double b, double c, double d) {return ((b/c)+a)*a;}
+	public static double _LLcDaRAaRMb(double a, double b, double c, double d) {return ((c/a)+a)*b;}
+	public static double _LLcDaRAbRMa(double a, double b, double c, double d) {return ((c/a)+b)*a;}
 	public static double _LLcDbRAaRMa(double a, double b, double c, double d) {return ((c/b)+a)*a;}
+	public static double _LLaDaRAbRDc(double a, double b, double c, double d) {return ((a/a)+b)/c;}
+	public static double _LLaDaRAcRDb(double a, double b, double c, double d) {return ((a/a)+c)/b;}
+	public static double _LLaDbRAaRDc(double a, double b, double c, double d) {return ((a/b)+a)/c;}
+	public static double _LLaDbRAcRDa(double a, double b, double c, double d) {return ((a/b)+c)/a;}
+	public static double _LLaDcRAaRDb(double a, double b, double c, double d) {return ((a/c)+a)/b;}
+	public static double _LLaDcRAbRDa(double a, double b, double c, double d) {return ((a/c)+b)/a;}
+	public static double _LLbDaRAaRDc(double a, double b, double c, double d) {return ((b/a)+a)/c;}
+	public static double _LLbDaRAcRDa(double a, double b, double c, double d) {return ((b/a)+c)/a;}
+	public static double _LLbDcRAaRDa(double a, double b, double c, double d) {return ((b/c)+a)/a;}
+	public static double _LLcDaRAaRDb(double a, double b, double c, double d) {return ((c/a)+a)/b;}
+	public static double _LLcDaRAbRDa(double a, double b, double c, double d) {return ((c/a)+b)/a;}
 	public static double _LLcDbRAaRDa(double a, double b, double c, double d) {return ((c/b)+a)/a;}
+	public static double _LLaDaRSbRSc(double a, double b, double c, double d) {return ((a/a)-b)-c;}
+	public static double _LLaDbRSaRSc(double a, double b, double c, double d) {return ((a/b)-a)-c;}
+	public static double _LLaDcRSaRSb(double a, double b, double c, double d) {return ((a/c)-a)-b;}
+	public static double _LLbDaRSaRSc(double a, double b, double c, double d) {return ((b/a)-a)-c;}
+	public static double _LLbDcRSaRSa(double a, double b, double c, double d) {return ((b/c)-a)-a;}
+	public static double _LLcDaRSaRSb(double a, double b, double c, double d) {return ((c/a)-a)-b;}
 	public static double _LLcDbRSaRSa(double a, double b, double c, double d) {return ((c/b)-a)-a;}
+	public static double _LLaDaRSbRMc(double a, double b, double c, double d) {return ((a/a)-b)*c;}
+	public static double _LLaDaRScRMb(double a, double b, double c, double d) {return ((a/a)-c)*b;}
+	public static double _LLaDbRSaRMc(double a, double b, double c, double d) {return ((a/b)-a)*c;}
+	public static double _LLaDbRScRMa(double a, double b, double c, double d) {return ((a/b)-c)*a;}
+	public static double _LLaDcRSaRMb(double a, double b, double c, double d) {return ((a/c)-a)*b;}
+	public static double _LLaDcRSbRMa(double a, double b, double c, double d) {return ((a/c)-b)*a;}
+	public static double _LLbDaRSaRMc(double a, double b, double c, double d) {return ((b/a)-a)*c;}
+	public static double _LLbDaRScRMa(double a, double b, double c, double d) {return ((b/a)-c)*a;}
+	public static double _LLbDcRSaRMa(double a, double b, double c, double d) {return ((b/c)-a)*a;}
+	public static double _LLcDaRSaRMb(double a, double b, double c, double d) {return ((c/a)-a)*b;}
+	public static double _LLcDaRSbRMa(double a, double b, double c, double d) {return ((c/a)-b)*a;}
 	public static double _LLcDbRSaRMa(double a, double b, double c, double d) {return ((c/b)-a)*a;}
+	public static double _LLaDaRSbRDc(double a, double b, double c, double d) {return ((a/a)-b)/c;}
+	public static double _LLaDaRScRDb(double a, double b, double c, double d) {return ((a/a)-c)/b;}
+	public static double _LLaDbRSaRDc(double a, double b, double c, double d) {return ((a/b)-a)/c;}
+	public static double _LLaDbRScRDa(double a, double b, double c, double d) {return ((a/b)-c)/a;}
+	public static double _LLaDcRSaRDb(double a, double b, double c, double d) {return ((a/c)-a)/b;}
+	public static double _LLaDcRSbRDa(double a, double b, double c, double d) {return ((a/c)-b)/a;}
+	public static double _LLbDaRSaRDc(double a, double b, double c, double d) {return ((b/a)-a)/c;}
+	public static double _LLbDaRScRDa(double a, double b, double c, double d) {return ((b/a)-c)/a;}
+	public static double _LLbDcRSaRDa(double a, double b, double c, double d) {return ((b/c)-a)/a;}
+	public static double _LLcDaRSaRDb(double a, double b, double c, double d) {return ((c/a)-a)/b;}
+	public static double _LLcDaRSbRDa(double a, double b, double c, double d) {return ((c/a)-b)/a;}
 	public static double _LLcDbRSaRDa(double a, double b, double c, double d) {return ((c/b)-a)/a;}
+	public static double _LaDLaMbRRAc(double a, double b, double c, double d) {return (a/(a*b))+c;}
+	public static double _LaDLaMcRRAb(double a, double b, double c, double d) {return (a/(a*c))+b;}
+	public static double _LaDLbMcRRAa(double a, double b, double c, double d) {return (a/(b*c))+a;}
+	public static double _LbDLaMaRRAc(double a, double b, double c, double d) {return (b/(a*a))+c;}
+	public static double _LbDLaMcRRAa(double a, double b, double c, double d) {return (b/(a*c))+a;}
+	public static double _LcDLaMaRRAb(double a, double b, double c, double d) {return (c/(a*a))+b;}
+	public static double _LcDLaMbRRAa(double a, double b, double c, double d) {return (c/(a*b))+a;}
+	public static double _LaDLaMbRRSc(double a, double b, double c, double d) {return (a/(a*b))-c;}
+	public static double _LaDLaMcRRSb(double a, double b, double c, double d) {return (a/(a*c))-b;}
+	public static double _LaDLbMcRRSa(double a, double b, double c, double d) {return (a/(b*c))-a;}
+	public static double _LbDLaMaRRSc(double a, double b, double c, double d) {return (b/(a*a))-c;}
+	public static double _LbDLaMcRRSa(double a, double b, double c, double d) {return (b/(a*c))-a;}
+	public static double _LcDLaMaRRSb(double a, double b, double c, double d) {return (c/(a*a))-b;}
+	public static double _LcDLaMbRRSa(double a, double b, double c, double d) {return (c/(a*b))-a;}
+	public static double _aDLLaMbRMcR(double a, double b, double c, double d) {return a/((a*b)*c);}
+	public static double _bDLLaMaRMcR(double a, double b, double c, double d) {return b/((a*a)*c);}
+	public static double _cDLLaMaRMbR(double a, double b, double c, double d) {return c/((a*a)*b);}
 	public static double _LaSLaMbRRAc(double a, double b, double c, double d) {return (a-(a*b))+c;}
-	public static double _LaSLaMbRRSc(double a, double b, double c, double d) {return (a-(a*b))-c;}
-	public static double _LaSLaMbRRMc(double a, double b, double c, double d) {return (a-(a*b))*c;}
-	public static double _LaSLaMbRRDc(double a, double b, double c, double d) {return (a-(a*b))/c;}
-	public static double _LaSLaDbRRAc(double a, double b, double c, double d) {return (a-(a/b))+c;}
-	public static double _LaSLaDbRRSc(double a, double b, double c, double d) {return (a-(a/b))-c;}
-	public static double _LaSLaDbRRMc(double a, double b, double c, double d) {return (a-(a/b))*c;}
-	public static double _LaSLaDbRRDc(double a, double b, double c, double d) {return (a-(a/b))/c;}
-	public static double _LaDLaAbRRAc(double a, double b, double c, double d) {return (a/(a+b))+c;}
-	public static double _LaDLaAbRRSc(double a, double b, double c, double d) {return (a/(a+b))-c;}
-	public static double _LaDLaAbRRMc(double a, double b, double c, double d) {return (a/(a+b))*c;}
-	public static double _aDLLaAbRMcR(double a, double b, double c, double d) {return a/((a+b)*c);}
-	public static double _LaDLaSbRRAc(double a, double b, double c, double d) {return (a/(a-b))+c;}
-	public static double _LaDLaSbRRSc(double a, double b, double c, double d) {return (a/(a-b))-c;}
-	public static double _LaDLaSbRRMc(double a, double b, double c, double d) {return (a/(a-b))*c;}
-	public static double _aDLLaSbRMcR(double a, double b, double c, double d) {return a/((a-b)*c);}
 	public static double _LaSLaMcRRAb(double a, double b, double c, double d) {return (a-(a*c))+b;}
-	public static double _LaSLaMcRRSb(double a, double b, double c, double d) {return (a-(a*c))-b;}
-	public static double _LaSLaMcRRMb(double a, double b, double c, double d) {return (a-(a*c))*b;}
-	public static double _LaSLaMcRRDb(double a, double b, double c, double d) {return (a-(a*c))/b;}
-	public static double _LaSLaDcRRAb(double a, double b, double c, double d) {return (a-(a/c))+b;}
-	public static double _LaSLaDcRRSb(double a, double b, double c, double d) {return (a-(a/c))-b;}
-	public static double _LaSLaDcRRMb(double a, double b, double c, double d) {return (a-(a/c))*b;}
-	public static double _LaSLaDcRRDb(double a, double b, double c, double d) {return (a-(a/c))/b;}
-	public static double _LaDLaAcRRAb(double a, double b, double c, double d) {return (a/(a+c))+b;}
-	public static double _LaDLaAcRRSb(double a, double b, double c, double d) {return (a/(a+c))-b;}
-	public static double _LaDLaAcRRMb(double a, double b, double c, double d) {return (a/(a+c))*b;}
-	public static double _aDLLaAcRMbR(double a, double b, double c, double d) {return a/((a+c)*b);}
-	public static double _LaDLaScRRAb(double a, double b, double c, double d) {return (a/(a-c))+b;}
-	public static double _LaDLaScRRSb(double a, double b, double c, double d) {return (a/(a-c))-b;}
-	public static double _LaDLaScRRMb(double a, double b, double c, double d) {return (a/(a-c))*b;}
-	public static double _aDLLaScRMbR(double a, double b, double c, double d) {return a/((a-c)*b);}
-	public static double _LaSLbDaRRAc(double a, double b, double c, double d) {return (a-(b/a))+c;}
-	public static double _LaSLbDaRRSc(double a, double b, double c, double d) {return (a-(b/a))-c;}
-	public static double _LaSLbDaRRMc(double a, double b, double c, double d) {return (a-(b/a))*c;}
-	public static double _LaSLbDaRRDc(double a, double b, double c, double d) {return (a-(b/a))/c;}
-	public static double _LaDLbSaRRAc(double a, double b, double c, double d) {return (a/(b-a))+c;}
-	public static double _LaDLbSaRRSc(double a, double b, double c, double d) {return (a/(b-a))-c;}
-	public static double _LaDLbSaRRMc(double a, double b, double c, double d) {return (a/(b-a))*c;}
-	public static double _aDLLbSaRMcR(double a, double b, double c, double d) {return a/((b-a)*c);}
 	public static double _LaSLbMcRRAa(double a, double b, double c, double d) {return (a-(b*c))+a;}
-	public static double _LaSLbMcRRMa(double a, double b, double c, double d) {return (a-(b*c))*a;}
-	public static double _LaSLbMcRRDa(double a, double b, double c, double d) {return (a-(b*c))/a;}
-	public static double _LaSLbDcRRAa(double a, double b, double c, double d) {return (a-(b/c))+a;}
-	public static double _LaSLbDcRRMa(double a, double b, double c, double d) {return (a-(b/c))*a;}
-	public static double _LaSLbDcRRDa(double a, double b, double c, double d) {return (a-(b/c))/a;}
-	public static double _LaDLbAcRRAa(double a, double b, double c, double d) {return (a/(b+c))+a;}
-	public static double _LaDLbAcRRSa(double a, double b, double c, double d) {return (a/(b+c))-a;}
-	public static double _LaDLbAcRRMa(double a, double b, double c, double d) {return (a/(b+c))*a;}
-	public static double _aDLLbAcRMaR(double a, double b, double c, double d) {return a/((b+c)*a);}
-	public static double _LaDLbScRRAa(double a, double b, double c, double d) {return (a/(b-c))+a;}
-	public static double _LaDLbScRRSa(double a, double b, double c, double d) {return (a/(b-c))-a;}
-	public static double _LaDLbScRRMa(double a, double b, double c, double d) {return (a/(b-c))*a;}
-	public static double _aDLLbScRMaR(double a, double b, double c, double d) {return a/((b-c)*a);}
-	public static double _LaSLcDaRRAb(double a, double b, double c, double d) {return (a-(c/a))+b;}
-	public static double _LaSLcDaRRSb(double a, double b, double c, double d) {return (a-(c/a))-b;}
-	public static double _LaSLcDaRRMb(double a, double b, double c, double d) {return (a-(c/a))*b;}
-	public static double _LaSLcDaRRDb(double a, double b, double c, double d) {return (a-(c/a))/b;}
-	public static double _LaDLcSaRRAb(double a, double b, double c, double d) {return (a/(c-a))+b;}
-	public static double _LaDLcSaRRSb(double a, double b, double c, double d) {return (a/(c-a))-b;}
-	public static double _LaDLcSaRRMb(double a, double b, double c, double d) {return (a/(c-a))*b;}
-	public static double _aDLLcSaRMbR(double a, double b, double c, double d) {return a/((c-a)*b);}
-	public static double _LaSLcDbRRAa(double a, double b, double c, double d) {return (a-(c/b))+a;}
-	public static double _LaSLcDbRRMa(double a, double b, double c, double d) {return (a-(c/b))*a;}
-	public static double _LaSLcDbRRDa(double a, double b, double c, double d) {return (a-(c/b))/a;}
-	public static double _LaDLcSbRRAa(double a, double b, double c, double d) {return (a/(c-b))+a;}
-	public static double _LaDLcSbRRSa(double a, double b, double c, double d) {return (a/(c-b))-a;}
-	public static double _LaDLcSbRRMa(double a, double b, double c, double d) {return (a/(c-b))*a;}
-	public static double _aDLLcSbRMaR(double a, double b, double c, double d) {return a/((c-b)*a);}
 	public static double _LbSLaMaRRAc(double a, double b, double c, double d) {return (b-(a*a))+c;}
+	public static double _LaSLaMbRRSc(double a, double b, double c, double d) {return (a-(a*b))-c;}
+	public static double _LaSLaMcRRSb(double a, double b, double c, double d) {return (a-(a*c))-b;}
 	public static double _LbSLaMaRRSc(double a, double b, double c, double d) {return (b-(a*a))-c;}
-	public static double _LbSLaMaRRMc(double a, double b, double c, double d) {return (b-(a*a))*c;}
-	public static double _LbSLaMaRRDc(double a, double b, double c, double d) {return (b-(a*a))/c;}
-	public static double _LbSLaDaRRAc(double a, double b, double c, double d) {return (b-(a/a))+c;}
-	public static double _LbSLaDaRRSc(double a, double b, double c, double d) {return (b-(a/a))-c;}
-	public static double _LbSLaDaRRMc(double a, double b, double c, double d) {return (b-(a/a))*c;}
-	public static double _LbSLaDaRRDc(double a, double b, double c, double d) {return (b-(a/a))/c;}
-	public static double _LbDLaAaRRAc(double a, double b, double c, double d) {return (b/(a+a))+c;}
-	public static double _LbDLaAaRRSc(double a, double b, double c, double d) {return (b/(a+a))-c;}
-	public static double _LbDLaAaRRMc(double a, double b, double c, double d) {return (b/(a+a))*c;}
-	public static double _bDLLaAaRMcR(double a, double b, double c, double d) {return b/((a+a)*c);}
 	public static double _LbSLaMcRRSa(double a, double b, double c, double d) {return (b-(a*c))-a;}
-	public static double _LbSLaMcRRMa(double a, double b, double c, double d) {return (b-(a*c))*a;}
-	public static double _LbSLaMcRRDa(double a, double b, double c, double d) {return (b-(a*c))/a;}
-	public static double _LbSLaDcRRSa(double a, double b, double c, double d) {return (b-(a/c))-a;}
-	public static double _LbSLaDcRRMa(double a, double b, double c, double d) {return (b-(a/c))*a;}
-	public static double _LbSLaDcRRDa(double a, double b, double c, double d) {return (b-(a/c))/a;}
-	public static double _LbDLaAcRRAa(double a, double b, double c, double d) {return (b/(a+c))+a;}
-	public static double _LbDLaAcRRSa(double a, double b, double c, double d) {return (b/(a+c))-a;}
-	public static double _bDLLaAcRMaR(double a, double b, double c, double d) {return b/((a+c)*a);}
-	public static double _LbDLaScRRAa(double a, double b, double c, double d) {return (b/(a-c))+a;}
-	public static double _LbDLaScRRSa(double a, double b, double c, double d) {return (b/(a-c))-a;}
-	public static double _bDLLaScRMaR(double a, double b, double c, double d) {return b/((a-c)*a);}
-	public static double _LbSLcDaRRSa(double a, double b, double c, double d) {return (b-(c/a))-a;}
-	public static double _LbSLcDaRRMa(double a, double b, double c, double d) {return (b-(c/a))*a;}
-	public static double _LbSLcDaRRDa(double a, double b, double c, double d) {return (b-(c/a))/a;}
-	public static double _LbDLcSaRRAa(double a, double b, double c, double d) {return (b/(c-a))+a;}
-	public static double _LbDLcSaRRSa(double a, double b, double c, double d) {return (b/(c-a))-a;}
-	public static double _bDLLcSaRMaR(double a, double b, double c, double d) {return b/((c-a)*a);}
 	public static double _LcSLaMaRRSb(double a, double b, double c, double d) {return (c-(a*a))-b;}
-	public static double _LcSLaMaRRMb(double a, double b, double c, double d) {return (c-(a*a))*b;}
-	public static double _LcSLaMaRRDb(double a, double b, double c, double d) {return (c-(a*a))/b;}
-	public static double _LcSLaDaRRSb(double a, double b, double c, double d) {return (c-(a/a))-b;}
-	public static double _LcSLaDaRRMb(double a, double b, double c, double d) {return (c-(a/a))*b;}
-	public static double _LcSLaDaRRDb(double a, double b, double c, double d) {return (c-(a/a))/b;}
-	public static double _LcDLaAaRRAb(double a, double b, double c, double d) {return (c/(a+a))+b;}
-	public static double _LcDLaAaRRSb(double a, double b, double c, double d) {return (c/(a+a))-b;}
-	public static double _cDLLaAaRMbR(double a, double b, double c, double d) {return c/((a+a)*b);}
 	public static double _LcSLaMbRRSa(double a, double b, double c, double d) {return (c-(a*b))-a;}
+	public static double _LaSLaMbRRMc(double a, double b, double c, double d) {return (a-(a*b))*c;}
+	public static double _LaSLaMcRRMb(double a, double b, double c, double d) {return (a-(a*c))*b;}
+	public static double _LaSLbMcRRMa(double a, double b, double c, double d) {return (a-(b*c))*a;}
+	public static double _LbSLaMaRRMc(double a, double b, double c, double d) {return (b-(a*a))*c;}
+	public static double _LbSLaMcRRMa(double a, double b, double c, double d) {return (b-(a*c))*a;}
+	public static double _LcSLaMaRRMb(double a, double b, double c, double d) {return (c-(a*a))*b;}
 	public static double _LcSLaMbRRMa(double a, double b, double c, double d) {return (c-(a*b))*a;}
+	public static double _LaSLaMbRRDc(double a, double b, double c, double d) {return (a-(a*b))/c;}
+	public static double _LaSLaMcRRDb(double a, double b, double c, double d) {return (a-(a*c))/b;}
+	public static double _LaSLbMcRRDa(double a, double b, double c, double d) {return (a-(b*c))/a;}
+	public static double _LbSLaMaRRDc(double a, double b, double c, double d) {return (b-(a*a))/c;}
+	public static double _LbSLaMcRRDa(double a, double b, double c, double d) {return (b-(a*c))/a;}
+	public static double _LcSLaMaRRDb(double a, double b, double c, double d) {return (c-(a*a))/b;}
 	public static double _LcSLaMbRRDa(double a, double b, double c, double d) {return (c-(a*b))/a;}
+	public static double _LaSLaDbRRAc(double a, double b, double c, double d) {return (a-(a/b))+c;}
+	public static double _LaSLaDcRRAb(double a, double b, double c, double d) {return (a-(a/c))+b;}
+	public static double _LaSLbDaRRAc(double a, double b, double c, double d) {return (a-(b/a))+c;}
+	public static double _LaSLbDcRRAa(double a, double b, double c, double d) {return (a-(b/c))+a;}
+	public static double _LaSLcDaRRAb(double a, double b, double c, double d) {return (a-(c/a))+b;}
+	public static double _LaSLcDbRRAa(double a, double b, double c, double d) {return (a-(c/b))+a;}
+	public static double _LbSLaDaRRAc(double a, double b, double c, double d) {return (b-(a/a))+c;}
+	public static double _LaSLaDbRRSc(double a, double b, double c, double d) {return (a-(a/b))-c;}
+	public static double _LaSLaDcRRSb(double a, double b, double c, double d) {return (a-(a/c))-b;}
+	public static double _LaSLbDaRRSc(double a, double b, double c, double d) {return (a-(b/a))-c;}
+	public static double _LaSLcDaRRSb(double a, double b, double c, double d) {return (a-(c/a))-b;}
+	public static double _LbSLaDaRRSc(double a, double b, double c, double d) {return (b-(a/a))-c;}
+	public static double _LbSLaDcRRSa(double a, double b, double c, double d) {return (b-(a/c))-a;}
+	public static double _LbSLcDaRRSa(double a, double b, double c, double d) {return (b-(c/a))-a;}
+	public static double _LcSLaDaRRSb(double a, double b, double c, double d) {return (c-(a/a))-b;}
 	public static double _LcSLaDbRRSa(double a, double b, double c, double d) {return (c-(a/b))-a;}
-	public static double _LcSLaDbRRMa(double a, double b, double c, double d) {return (c-(a/b))*a;}
-	public static double _LcSLaDbRRDa(double a, double b, double c, double d) {return (c-(a/b))/a;}
-	public static double _LcDLaAbRRAa(double a, double b, double c, double d) {return (c/(a+b))+a;}
-	public static double _LcDLaAbRRSa(double a, double b, double c, double d) {return (c/(a+b))-a;}
-	public static double _cDLLaAbRMaR(double a, double b, double c, double d) {return c/((a+b)*a);}
-	public static double _LcDLaSbRRAa(double a, double b, double c, double d) {return (c/(a-b))+a;}
-	public static double _LcDLaSbRRSa(double a, double b, double c, double d) {return (c/(a-b))-a;}
-	public static double _cDLLaSbRMaR(double a, double b, double c, double d) {return c/((a-b)*a);}
 	public static double _LcSLbDaRRSa(double a, double b, double c, double d) {return (c-(b/a))-a;}
+	public static double _LaSLaDbRRMc(double a, double b, double c, double d) {return (a-(a/b))*c;}
+	public static double _LaSLaDcRRMb(double a, double b, double c, double d) {return (a-(a/c))*b;}
+	public static double _LaSLbDaRRMc(double a, double b, double c, double d) {return (a-(b/a))*c;}
+	public static double _LaSLbDcRRMa(double a, double b, double c, double d) {return (a-(b/c))*a;}
+	public static double _LaSLcDaRRMb(double a, double b, double c, double d) {return (a-(c/a))*b;}
+	public static double _LaSLcDbRRMa(double a, double b, double c, double d) {return (a-(c/b))*a;}
+	public static double _LbSLaDaRRMc(double a, double b, double c, double d) {return (b-(a/a))*c;}
+	public static double _LbSLaDcRRMa(double a, double b, double c, double d) {return (b-(a/c))*a;}
+	public static double _LbSLcDaRRMa(double a, double b, double c, double d) {return (b-(c/a))*a;}
+	public static double _LcSLaDaRRMb(double a, double b, double c, double d) {return (c-(a/a))*b;}
+	public static double _LcSLaDbRRMa(double a, double b, double c, double d) {return (c-(a/b))*a;}
 	public static double _LcSLbDaRRMa(double a, double b, double c, double d) {return (c-(b/a))*a;}
+	public static double _LaSLaDbRRDc(double a, double b, double c, double d) {return (a-(a/b))/c;}
+	public static double _LaSLaDcRRDb(double a, double b, double c, double d) {return (a-(a/c))/b;}
+	public static double _LaSLbDaRRDc(double a, double b, double c, double d) {return (a-(b/a))/c;}
+	public static double _LaSLbDcRRDa(double a, double b, double c, double d) {return (a-(b/c))/a;}
+	public static double _LaSLcDaRRDb(double a, double b, double c, double d) {return (a-(c/a))/b;}
+	public static double _LaSLcDbRRDa(double a, double b, double c, double d) {return (a-(c/b))/a;}
+	public static double _LbSLaDaRRDc(double a, double b, double c, double d) {return (b-(a/a))/c;}
+	public static double _LbSLaDcRRDa(double a, double b, double c, double d) {return (b-(a/c))/a;}
+	public static double _LbSLcDaRRDa(double a, double b, double c, double d) {return (b-(c/a))/a;}
+	public static double _LcSLaDaRRDb(double a, double b, double c, double d) {return (c-(a/a))/b;}
+	public static double _LcSLaDbRRDa(double a, double b, double c, double d) {return (c-(a/b))/a;}
 	public static double _LcSLbDaRRDa(double a, double b, double c, double d) {return (c-(b/a))/a;}
+	public static double _LaDLaAbRRAc(double a, double b, double c, double d) {return (a/(a+b))+c;}
+	public static double _LaDLaAcRRAb(double a, double b, double c, double d) {return (a/(a+c))+b;}
+	public static double _LaDLbAcRRAa(double a, double b, double c, double d) {return (a/(b+c))+a;}
+	public static double _LbDLaAaRRAc(double a, double b, double c, double d) {return (b/(a+a))+c;}
+	public static double _LbDLaAcRRAa(double a, double b, double c, double d) {return (b/(a+c))+a;}
+	public static double _LcDLaAaRRAb(double a, double b, double c, double d) {return (c/(a+a))+b;}
+	public static double _LcDLaAbRRAa(double a, double b, double c, double d) {return (c/(a+b))+a;}
+	public static double _LaDLaAbRRSc(double a, double b, double c, double d) {return (a/(a+b))-c;}
+	public static double _LaDLaAcRRSb(double a, double b, double c, double d) {return (a/(a+c))-b;}
+	public static double _LaDLbAcRRSa(double a, double b, double c, double d) {return (a/(b+c))-a;}
+	public static double _LbDLaAaRRSc(double a, double b, double c, double d) {return (b/(a+a))-c;}
+	public static double _LbDLaAcRRSa(double a, double b, double c, double d) {return (b/(a+c))-a;}
+	public static double _LcDLaAaRRSb(double a, double b, double c, double d) {return (c/(a+a))-b;}
+	public static double _LcDLaAbRRSa(double a, double b, double c, double d) {return (c/(a+b))-a;}
+	public static double _LaDLaAbRRMc(double a, double b, double c, double d) {return (a/(a+b))*c;}
+	public static double _LaDLaAcRRMb(double a, double b, double c, double d) {return (a/(a+c))*b;}
+	public static double _LaDLbAcRRMa(double a, double b, double c, double d) {return (a/(b+c))*a;}
+	public static double _LbDLaAaRRMc(double a, double b, double c, double d) {return (b/(a+a))*c;}
+	public static double _aDLLaAbRMcR(double a, double b, double c, double d) {return a/((a+b)*c);}
+	public static double _aDLLaAcRMbR(double a, double b, double c, double d) {return a/((a+c)*b);}
+	public static double _aDLLbAcRMaR(double a, double b, double c, double d) {return a/((b+c)*a);}
+	public static double _bDLLaAaRMcR(double a, double b, double c, double d) {return b/((a+a)*c);}
+	public static double _bDLLaAcRMaR(double a, double b, double c, double d) {return b/((a+c)*a);}
+	public static double _cDLLaAaRMbR(double a, double b, double c, double d) {return c/((a+a)*b);}
+	public static double _cDLLaAbRMaR(double a, double b, double c, double d) {return c/((a+b)*a);}
+	public static double _LaDLaSbRRAc(double a, double b, double c, double d) {return (a/(a-b))+c;}
+	public static double _LaDLaScRRAb(double a, double b, double c, double d) {return (a/(a-c))+b;}
+	public static double _LaDLbSaRRAc(double a, double b, double c, double d) {return (a/(b-a))+c;}
+	public static double _LaDLbScRRAa(double a, double b, double c, double d) {return (a/(b-c))+a;}
+	public static double _LaDLcSaRRAb(double a, double b, double c, double d) {return (a/(c-a))+b;}
+	public static double _LaDLcSbRRAa(double a, double b, double c, double d) {return (a/(c-b))+a;}
+	public static double _LbDLaScRRAa(double a, double b, double c, double d) {return (b/(a-c))+a;}
+	public static double _LbDLcSaRRAa(double a, double b, double c, double d) {return (b/(c-a))+a;}
+	public static double _LcDLaSbRRAa(double a, double b, double c, double d) {return (c/(a-b))+a;}
 	public static double _LcDLbSaRRAa(double a, double b, double c, double d) {return (c/(b-a))+a;}
+	public static double _LaDLaSbRRSc(double a, double b, double c, double d) {return (a/(a-b))-c;}
+	public static double _LaDLaScRRSb(double a, double b, double c, double d) {return (a/(a-c))-b;}
+	public static double _LaDLbSaRRSc(double a, double b, double c, double d) {return (a/(b-a))-c;}
+	public static double _LaDLbScRRSa(double a, double b, double c, double d) {return (a/(b-c))-a;}
+	public static double _LaDLcSaRRSb(double a, double b, double c, double d) {return (a/(c-a))-b;}
+	public static double _LaDLcSbRRSa(double a, double b, double c, double d) {return (a/(c-b))-a;}
+	public static double _LbDLaScRRSa(double a, double b, double c, double d) {return (b/(a-c))-a;}
+	public static double _LbDLcSaRRSa(double a, double b, double c, double d) {return (b/(c-a))-a;}
+	public static double _LcDLaSbRRSa(double a, double b, double c, double d) {return (c/(a-b))-a;}
 	public static double _LcDLbSaRRSa(double a, double b, double c, double d) {return (c/(b-a))-a;}
+	public static double _LaDLaSbRRMc(double a, double b, double c, double d) {return (a/(a-b))*c;}
+	public static double _LaDLaScRRMb(double a, double b, double c, double d) {return (a/(a-c))*b;}
+	public static double _LaDLbSaRRMc(double a, double b, double c, double d) {return (a/(b-a))*c;}
+	public static double _LaDLbScRRMa(double a, double b, double c, double d) {return (a/(b-c))*a;}
+	public static double _LaDLcSaRRMb(double a, double b, double c, double d) {return (a/(c-a))*b;}
+	public static double _LaDLcSbRRMa(double a, double b, double c, double d) {return (a/(c-b))*a;}
+	public static double _aDLLaSbRMcR(double a, double b, double c, double d) {return a/((a-b)*c);}
+	public static double _aDLLaScRMbR(double a, double b, double c, double d) {return a/((a-c)*b);}
+	public static double _aDLLbSaRMcR(double a, double b, double c, double d) {return a/((b-a)*c);}
+	public static double _aDLLbScRMaR(double a, double b, double c, double d) {return a/((b-c)*a);}
+	public static double _aDLLcSaRMbR(double a, double b, double c, double d) {return a/((c-a)*b);}
+	public static double _aDLLcSbRMaR(double a, double b, double c, double d) {return a/((c-b)*a);}
+	public static double _bDLLaScRMaR(double a, double b, double c, double d) {return b/((a-c)*a);}
+	public static double _bDLLcSaRMaR(double a, double b, double c, double d) {return b/((c-a)*a);}
+	public static double _cDLLaSbRMaR(double a, double b, double c, double d) {return c/((a-b)*a);}
 	public static double _cDLLbSaRMaR(double a, double b, double c, double d) {return c/((b-a)*a);}
 	public static double _LaAaRMLbAcR(double a, double b, double c, double d) {return (a+a)*(b+c);}
-	public static double _LaAaRMLbScR(double a, double b, double c, double d) {return (a+a)*(b-c);}
-	public static double _LaAaRDLbAcR(double a, double b, double c, double d) {return (a+a)/(b+c);}
-	public static double _LaAaRDLbScR(double a, double b, double c, double d) {return (a+a)/(b-c);}
-	public static double _LaMaRALbMcR(double a, double b, double c, double d) {return (a*a)+(b*c);}
-	public static double _LaMaRALbDcR(double a, double b, double c, double d) {return (a*a)+(b/c);}
-	public static double _LaMaRSLbMcR(double a, double b, double c, double d) {return (a*a)-(b*c);}
-	public static double _LaMaRSLbDcR(double a, double b, double c, double d) {return (a*a)-(b/c);}
-	public static double _LaDaRALbMcR(double a, double b, double c, double d) {return (a/a)+(b*c);}
-	public static double _LaDaRALbDcR(double a, double b, double c, double d) {return (a/a)+(b/c);}
-	public static double _LaDaRSLbMcR(double a, double b, double c, double d) {return (a/a)-(b*c);}
-	public static double _LaDaRSLbDcR(double a, double b, double c, double d) {return (a/a)-(b/c);}
-	public static double _LaAaRMLcSbR(double a, double b, double c, double d) {return (a+a)*(c-b);}
-	public static double _LaAaRDLcSbR(double a, double b, double c, double d) {return (a+a)/(c-b);}
-	public static double _LaMaRALcDbR(double a, double b, double c, double d) {return (a*a)+(c/b);}
-	public static double _LaMaRSLcDbR(double a, double b, double c, double d) {return (a*a)-(c/b);}
-	public static double _LaDaRALcDbR(double a, double b, double c, double d) {return (a/a)+(c/b);}
-	public static double _LaDaRSLcDbR(double a, double b, double c, double d) {return (a/a)-(c/b);}
 	public static double _LaAbRMLaAcR(double a, double b, double c, double d) {return (a+b)*(a+c);}
+	public static double _LaAaRMLbScR(double a, double b, double c, double d) {return (a+a)*(b-c);}
+	public static double _LaAaRMLcSbR(double a, double b, double c, double d) {return (a+a)*(c-b);}
 	public static double _LaAbRMLaScR(double a, double b, double c, double d) {return (a+b)*(a-c);}
-	public static double _LaAbRDLaAcR(double a, double b, double c, double d) {return (a+b)/(a+c);}
-	public static double _LaAbRDLaScR(double a, double b, double c, double d) {return (a+b)/(a-c);}
-	public static double _LaSbRMLaAcR(double a, double b, double c, double d) {return (a-b)*(a+c);}
-	public static double _LaSbRMLaScR(double a, double b, double c, double d) {return (a-b)*(a-c);}
-	public static double _LaSbRDLaAcR(double a, double b, double c, double d) {return (a-b)/(a+c);}
-	public static double _LaSbRDLaScR(double a, double b, double c, double d) {return (a-b)/(a-c);}
-	public static double _LaMbRALaMcR(double a, double b, double c, double d) {return (a*b)+(a*c);}
-	public static double _LaMbRALaDcR(double a, double b, double c, double d) {return (a*b)+(a/c);}
-	public static double _LaMbRSLaMcR(double a, double b, double c, double d) {return (a*b)-(a*c);}
-	public static double _LaMbRSLaDcR(double a, double b, double c, double d) {return (a*b)-(a/c);}
-	public static double _LaDbRALaMcR(double a, double b, double c, double d) {return (a/b)+(a*c);}
-	public static double _LaDbRALaDcR(double a, double b, double c, double d) {return (a/b)+(a/c);}
-	public static double _LaDbRSLaMcR(double a, double b, double c, double d) {return (a/b)-(a*c);}
-	public static double _LaDbRSLaDcR(double a, double b, double c, double d) {return (a/b)-(a/c);}
 	public static double _LaAbRMLcSaR(double a, double b, double c, double d) {return (a+b)*(c-a);}
-	public static double _LaAbRDLcSaR(double a, double b, double c, double d) {return (a+b)/(c-a);}
-	public static double _LaSbRMLcSaR(double a, double b, double c, double d) {return (a-b)*(c-a);}
-	public static double _LaSbRDLcSaR(double a, double b, double c, double d) {return (a-b)/(c-a);}
-	public static double _LaMbRALcDaR(double a, double b, double c, double d) {return (a*b)+(c/a);}
-	public static double _LaMbRSLcDaR(double a, double b, double c, double d) {return (a*b)-(c/a);}
-	public static double _LaDbRALcDaR(double a, double b, double c, double d) {return (a/b)+(c/a);}
-	public static double _LaDbRSLcDaR(double a, double b, double c, double d) {return (a/b)-(c/a);}
-	public static double _LaAcRDLaAbR(double a, double b, double c, double d) {return (a+c)/(a+b);}
-	public static double _LaAcRDLaSbR(double a, double b, double c, double d) {return (a+c)/(a-b);}
-	public static double _LaScRDLaAbR(double a, double b, double c, double d) {return (a-c)/(a+b);}
-	public static double _LaScRDLaSbR(double a, double b, double c, double d) {return (a-c)/(a-b);}
-	public static double _LaMcRSLaMbR(double a, double b, double c, double d) {return (a*c)-(a*b);}
-	public static double _LaMcRSLaDbR(double a, double b, double c, double d) {return (a*c)-(a/b);}
-	public static double _LaDcRSLaMbR(double a, double b, double c, double d) {return (a/c)-(a*b);}
-	public static double _LaDcRSLaDbR(double a, double b, double c, double d) {return (a/c)-(a/b);}
+	public static double _LaAcRMLaSbR(double a, double b, double c, double d) {return (a+c)*(a-b);}
 	public static double _LaAcRMLbSaR(double a, double b, double c, double d) {return (a+c)*(b-a);}
-	public static double _LaAcRDLbSaR(double a, double b, double c, double d) {return (a+c)/(b-a);}
-	public static double _LaScRDLbSaR(double a, double b, double c, double d) {return (a-c)/(b-a);}
-	public static double _LaMcRALbDaR(double a, double b, double c, double d) {return (a*c)+(b/a);}
-	public static double _LaMcRSLbDaR(double a, double b, double c, double d) {return (a*c)-(b/a);}
-	public static double _LaDcRALbDaR(double a, double b, double c, double d) {return (a/c)+(b/a);}
-	public static double _LaDcRSLbDaR(double a, double b, double c, double d) {return (a/c)-(b/a);}
-	public static double _LbSaRDLaAcR(double a, double b, double c, double d) {return (b-a)/(a+c);}
-	public static double _LbDaRSLaMcR(double a, double b, double c, double d) {return (b/a)-(a*c);}
-	public static double _LbDaRSLaDcR(double a, double b, double c, double d) {return (b/a)-(a/c);}
-	public static double _LbDaRALcDaR(double a, double b, double c, double d) {return (b/a)+(c/a);}
-	public static double _LbDaRSLcDaR(double a, double b, double c, double d) {return (b/a)-(c/a);}
+	public static double _LaAaRDLbAcR(double a, double b, double c, double d) {return (a+a)/(b+c);}
+	public static double _LaAbRDLaAcR(double a, double b, double c, double d) {return (a+b)/(a+c);}
+	public static double _LaAcRDLaAbR(double a, double b, double c, double d) {return (a+c)/(a+b);}
 	public static double _LbAcRDLaAaR(double a, double b, double c, double d) {return (b+c)/(a+a);}
+	public static double _LaAaRDLbScR(double a, double b, double c, double d) {return (a+a)/(b-c);}
+	public static double _LaAaRDLcSbR(double a, double b, double c, double d) {return (a+a)/(c-b);}
+	public static double _LaAbRDLaScR(double a, double b, double c, double d) {return (a+b)/(a-c);}
+	public static double _LaAbRDLcSaR(double a, double b, double c, double d) {return (a+b)/(c-a);}
+	public static double _LaAcRDLaSbR(double a, double b, double c, double d) {return (a+c)/(a-b);}
+	public static double _LaAcRDLbSaR(double a, double b, double c, double d) {return (a+c)/(b-a);}
+	public static double _LaSbRMLaScR(double a, double b, double c, double d) {return (a-b)*(a-c);}
+	public static double _LaSbRMLcSaR(double a, double b, double c, double d) {return (a-b)*(c-a);}
+	public static double _LaSbRDLaAcR(double a, double b, double c, double d) {return (a-b)/(a+c);}
+	public static double _LaScRDLaAbR(double a, double b, double c, double d) {return (a-c)/(a+b);}
+	public static double _LbSaRDLaAcR(double a, double b, double c, double d) {return (b-a)/(a+c);}
 	public static double _LbScRDLaAaR(double a, double b, double c, double d) {return (b-c)/(a+a);}
-	public static double _LbMcRSLaMaR(double a, double b, double c, double d) {return (b*c)-(a*a);}
-	public static double _LbMcRSLaDaR(double a, double b, double c, double d) {return (b*c)-(a/a);}
-	public static double _LbDcRSLaMaR(double a, double b, double c, double d) {return (b/c)-(a*a);}
-	public static double _LbDcRSLaDaR(double a, double b, double c, double d) {return (b/c)-(a/a);}
 	public static double _LcSaRDLaAbR(double a, double b, double c, double d) {return (c-a)/(a+b);}
+	public static double _LcSbRDLaAaR(double a, double b, double c, double d) {return (c-b)/(a+a);}
+	public static double _LaSbRDLaScR(double a, double b, double c, double d) {return (a-b)/(a-c);}
+	public static double _LaSbRDLcSaR(double a, double b, double c, double d) {return (a-b)/(c-a);}
+	public static double _LaScRDLaSbR(double a, double b, double c, double d) {return (a-c)/(a-b);}
+	public static double _LaScRDLbSaR(double a, double b, double c, double d) {return (a-c)/(b-a);}
+	public static double _LaMaRALbMcR(double a, double b, double c, double d) {return (a*a)+(b*c);}
+	public static double _LaMbRALaMcR(double a, double b, double c, double d) {return (a*b)+(a*c);}
+	public static double _LaMaRALbDcR(double a, double b, double c, double d) {return (a*a)+(b/c);}
+	public static double _LaMaRALcDbR(double a, double b, double c, double d) {return (a*a)+(c/b);}
+	public static double _LaMbRALaDcR(double a, double b, double c, double d) {return (a*b)+(a/c);}
+	public static double _LaMbRALcDaR(double a, double b, double c, double d) {return (a*b)+(c/a);}
+	public static double _LaMcRALaDbR(double a, double b, double c, double d) {return (a*c)+(a/b);}
+	public static double _LaMcRALbDaR(double a, double b, double c, double d) {return (a*c)+(b/a);}
+	public static double _LbMcRALaDaR(double a, double b, double c, double d) {return (b*c)+(a/a);}
+	public static double _LaMaRSLbMcR(double a, double b, double c, double d) {return (a*a)-(b*c);}
+	public static double _LaMbRSLaMcR(double a, double b, double c, double d) {return (a*b)-(a*c);}
+	public static double _LaMcRSLaMbR(double a, double b, double c, double d) {return (a*c)-(a*b);}
+	public static double _LbMcRSLaMaR(double a, double b, double c, double d) {return (b*c)-(a*a);}
+	public static double _LaMaRSLbDcR(double a, double b, double c, double d) {return (a*a)-(b/c);}
+	public static double _LaMaRSLcDbR(double a, double b, double c, double d) {return (a*a)-(c/b);}
+	public static double _LaMbRSLaDcR(double a, double b, double c, double d) {return (a*b)-(a/c);}
+	public static double _LaMbRSLcDaR(double a, double b, double c, double d) {return (a*b)-(c/a);}
+	public static double _LaMcRSLaDbR(double a, double b, double c, double d) {return (a*c)-(a/b);}
+	public static double _LaMcRSLbDaR(double a, double b, double c, double d) {return (a*c)-(b/a);}
+	public static double _LbMcRSLaDaR(double a, double b, double c, double d) {return (b*c)-(a/a);}
+	public static double _LaDaRALbDcR(double a, double b, double c, double d) {return (a/a)+(b/c);}
+	public static double _LaDaRALcDbR(double a, double b, double c, double d) {return (a/a)+(c/b);}
+	public static double _LaDbRALaDcR(double a, double b, double c, double d) {return (a/b)+(a/c);}
+	public static double _LaDbRALcDaR(double a, double b, double c, double d) {return (a/b)+(c/a);}
+	public static double _LaDcRALbDaR(double a, double b, double c, double d) {return (a/c)+(b/a);}
+	public static double _LbDaRALcDaR(double a, double b, double c, double d) {return (b/a)+(c/a);}
+	public static double _LaDaRSLbMcR(double a, double b, double c, double d) {return (a/a)-(b*c);}
+	public static double _LaDbRSLaMcR(double a, double b, double c, double d) {return (a/b)-(a*c);}
+	public static double _LaDcRSLaMbR(double a, double b, double c, double d) {return (a/c)-(a*b);}
+	public static double _LbDaRSLaMcR(double a, double b, double c, double d) {return (b/a)-(a*c);}
+	public static double _LbDcRSLaMaR(double a, double b, double c, double d) {return (b/c)-(a*a);}
 	public static double _LcDaRSLaMbR(double a, double b, double c, double d) {return (c/a)-(a*b);}
+	public static double _LcDbRSLaMaR(double a, double b, double c, double d) {return (c/b)-(a*a);}
+	public static double _LaDaRSLbDcR(double a, double b, double c, double d) {return (a/a)-(b/c);}
+	public static double _LaDaRSLcDbR(double a, double b, double c, double d) {return (a/a)-(c/b);}
+	public static double _LaDbRSLaDcR(double a, double b, double c, double d) {return (a/b)-(a/c);}
+	public static double _LaDbRSLcDaR(double a, double b, double c, double d) {return (a/b)-(c/a);}
+	public static double _LaDcRSLaDbR(double a, double b, double c, double d) {return (a/c)-(a/b);}
+	public static double _LaDcRSLbDaR(double a, double b, double c, double d) {return (a/c)-(b/a);}
+	public static double _LbDaRSLaDcR(double a, double b, double c, double d) {return (b/a)-(a/c);}
+	public static double _LbDaRSLcDaR(double a, double b, double c, double d) {return (b/a)-(c/a);}
+	public static double _LbDcRSLaDaR(double a, double b, double c, double d) {return (b/c)-(a/a);}
 	public static double _LcDaRSLaDbR(double a, double b, double c, double d) {return (c/a)-(a/b);}
 	public static double _LcDaRSLbDaR(double a, double b, double c, double d) {return (c/a)-(b/a);}
-	public static double _LcSbRDLaAaR(double a, double b, double c, double d) {return (c-b)/(a+a);}
-	public static double _LcDbRSLaMaR(double a, double b, double c, double d) {return (c/b)-(a*a);}
 	public static double _LcDbRSLaDaR(double a, double b, double c, double d) {return (c/b)-(a/a);}
 	public static double _aSLLaAbRMcR(double a, double b, double c, double d) {return a-((a+b)*c);}
-	public static double _aSLLaAbRDcR(double a, double b, double c, double d) {return a-((a+b)/c);}
-	public static double _aSLLaMbRMcR(double a, double b, double c, double d) {return a-((a*b)*c);}
-	public static double _aSLLaMbRDcR(double a, double b, double c, double d) {return a-((a*b)/c);}
-	public static double _aSLLaDbRMcR(double a, double b, double c, double d) {return a-((a/b)*c);}
-	public static double _aSLaDLbMcRR(double a, double b, double c, double d) {return a-(a/(b*c));}
-	public static double _aDLLaAbRAcR(double a, double b, double c, double d) {return a/((a+b)+c);}
-	public static double _aDLLaAbRScR(double a, double b, double c, double d) {return a/((a+b)-c);}
-	public static double _aDLLaSbRAcR(double a, double b, double c, double d) {return a/((a-b)+c);}
-	public static double _aDLLaSbRScR(double a, double b, double c, double d) {return a/((a-b)-c);}
-	public static double _aDLLaMbRAcR(double a, double b, double c, double d) {return a/((a*b)+c);}
-	public static double _aDLLaMbRScR(double a, double b, double c, double d) {return a/((a*b)-c);}
-	public static double _aDLLaDbRAcR(double a, double b, double c, double d) {return a/((a/b)+c);}
-	public static double _aDLLaDbRScR(double a, double b, double c, double d) {return a/((a/b)-c);}
 	public static double _aSLLaAcRMbR(double a, double b, double c, double d) {return a-((a+c)*b);}
-	public static double _aSLLaAcRDbR(double a, double b, double c, double d) {return a-((a+c)/b);}
-	public static double _aDLLaMcRAbR(double a, double b, double c, double d) {return a/((a*c)+b);}
-	public static double _aDLLaMcRSbR(double a, double b, double c, double d) {return a/((a*c)-b);}
-	public static double _aDLLaDcRAbR(double a, double b, double c, double d) {return a/((a/c)+b);}
-	public static double _aDLLaDcRSbR(double a, double b, double c, double d) {return a/((a/c)-b);}
-	public static double _aSLLbDaRMcR(double a, double b, double c, double d) {return a-((b/a)*c);}
-	public static double _aSLbDLaMcRR(double a, double b, double c, double d) {return a-(b/(a*c));}
-	public static double _aDLLbSaRAcR(double a, double b, double c, double d) {return a/((b-a)+c);}
-	public static double _aDLLbSaRScR(double a, double b, double c, double d) {return a/((b-a)-c);}
-	public static double _aDLLbDaRAcR(double a, double b, double c, double d) {return a/((b/a)+c);}
-	public static double _aDLLbDaRScR(double a, double b, double c, double d) {return a/((b/a)-c);}
 	public static double _aSLLbAcRMaR(double a, double b, double c, double d) {return a-((b+c)*a);}
-	public static double _aSLLbAcRDaR(double a, double b, double c, double d) {return a-((b+c)/a);}
-	public static double _aDLLbMcRAaR(double a, double b, double c, double d) {return a/((b*c)+a);}
-	public static double _aDLLbMcRSaR(double a, double b, double c, double d) {return a/((b*c)-a);}
-	public static double _aDLLbDcRAaR(double a, double b, double c, double d) {return a/((b/c)+a);}
-	public static double _aDLLbDcRSaR(double a, double b, double c, double d) {return a/((b/c)-a);}
-	public static double _aSLcDLaMbRR(double a, double b, double c, double d) {return a-(c/(a*b));}
-	public static double _aDLLcSaRSbR(double a, double b, double c, double d) {return a/((c-a)-b);}
-	public static double _aDLLcDaRAbR(double a, double b, double c, double d) {return a/((c/a)+b);}
-	public static double _aDLLcDaRSbR(double a, double b, double c, double d) {return a/((c/a)-b);}
-	public static double _aDLLcDbRAaR(double a, double b, double c, double d) {return a/((c/b)+a);}
-	public static double _aDLLcDbRSaR(double a, double b, double c, double d) {return a/((c/b)-a);}
 	public static double _bSLLaAaRMcR(double a, double b, double c, double d) {return b-((a+a)*c);}
-	public static double _bSLLaAaRDcR(double a, double b, double c, double d) {return b-((a+a)/c);}
-	public static double _bSLLaMaRMcR(double a, double b, double c, double d) {return b-((a*a)*c);}
-	public static double _bSLLaMaRDcR(double a, double b, double c, double d) {return b-((a*a)/c);}
-	public static double _bSLaDLaMcRR(double a, double b, double c, double d) {return b-(a/(a*c));}
-	public static double _bDLLaAaRAcR(double a, double b, double c, double d) {return b/((a+a)+c);}
-	public static double _bDLLaAaRScR(double a, double b, double c, double d) {return b/((a+a)-c);}
-	public static double _bDLLaMaRAcR(double a, double b, double c, double d) {return b/((a*a)+c);}
-	public static double _bDLLaMaRScR(double a, double b, double c, double d) {return b/((a*a)-c);}
-	public static double _bDLLaDaRAcR(double a, double b, double c, double d) {return b/((a/a)+c);}
-	public static double _bDLLaDaRScR(double a, double b, double c, double d) {return b/((a/a)-c);}
 	public static double _bSLLaAcRMaR(double a, double b, double c, double d) {return b-((a+c)*a);}
-	public static double _bSLLaAcRDaR(double a, double b, double c, double d) {return b-((a+c)/a);}
-	public static double _bDLLaMcRAaR(double a, double b, double c, double d) {return b/((a*c)+a);}
-	public static double _bDLLaMcRSaR(double a, double b, double c, double d) {return b/((a*c)-a);}
-	public static double _bDLLaDcRAaR(double a, double b, double c, double d) {return b/((a/c)+a);}
-	public static double _bDLLaDcRSaR(double a, double b, double c, double d) {return b/((a/c)-a);}
-	public static double _bSLcDLaMaRR(double a, double b, double c, double d) {return b-(c/(a*a));}
-	public static double _bDLLcSaRSaR(double a, double b, double c, double d) {return b/((c-a)-a);}
-	public static double _bDLLcDaRAaR(double a, double b, double c, double d) {return b/((c/a)+a);}
-	public static double _bDLLcDaRSaR(double a, double b, double c, double d) {return b/((c/a)-a);}
 	public static double _cSLLaAaRMbR(double a, double b, double c, double d) {return c-((a+a)*b);}
-	public static double _cSLLaAaRDbR(double a, double b, double c, double d) {return c-((a+a)/b);}
-	public static double _cSLLaMaRMbR(double a, double b, double c, double d) {return c-((a*a)*b);}
-	public static double _cSLLaMaRDbR(double a, double b, double c, double d) {return c-((a*a)/b);}
-	public static double _cSLaDLaMbRR(double a, double b, double c, double d) {return c-(a/(a*b));}
-	public static double _cDLLaAaRAbR(double a, double b, double c, double d) {return c/((a+a)+b);}
-	public static double _cDLLaAaRSbR(double a, double b, double c, double d) {return c/((a+a)-b);}
-	public static double _cDLLaMaRAbR(double a, double b, double c, double d) {return c/((a*a)+b);}
-	public static double _cDLLaMaRSbR(double a, double b, double c, double d) {return c/((a*a)-b);}
-	public static double _cDLLaDaRAbR(double a, double b, double c, double d) {return c/((a/a)+b);}
-	public static double _cDLLaDaRSbR(double a, double b, double c, double d) {return c/((a/a)-b);}
 	public static double _cSLLaAbRMaR(double a, double b, double c, double d) {return c-((a+b)*a);}
+	public static double _aSLLaAbRDcR(double a, double b, double c, double d) {return a-((a+b)/c);}
+	public static double _aSLLaAcRDbR(double a, double b, double c, double d) {return a-((a+c)/b);}
+	public static double _aSLLbAcRDaR(double a, double b, double c, double d) {return a-((b+c)/a);}
+	public static double _bSLLaAaRDcR(double a, double b, double c, double d) {return b-((a+a)/c);}
+	public static double _bSLLaAcRDaR(double a, double b, double c, double d) {return b-((a+c)/a);}
+	public static double _cSLLaAaRDbR(double a, double b, double c, double d) {return c-((a+a)/b);}
 	public static double _cSLLaAbRDaR(double a, double b, double c, double d) {return c-((a+b)/a);}
-	public static double _cDLLaMbRAaR(double a, double b, double c, double d) {return c/((a*b)+a);}
-	public static double _cDLLaMbRSaR(double a, double b, double c, double d) {return c/((a*b)-a);}
-	public static double _cDLLaDbRAaR(double a, double b, double c, double d) {return c/((a/b)+a);}
-	public static double _cDLLaDbRSaR(double a, double b, double c, double d) {return c/((a/b)-a);}
+	public static double _aSLLaMbRMcR(double a, double b, double c, double d) {return a-((a*b)*c);}
+	public static double _bSLLaMaRMcR(double a, double b, double c, double d) {return b-((a*a)*c);}
+	public static double _cSLLaMaRMbR(double a, double b, double c, double d) {return c-((a*a)*b);}
+	public static double _aSLLaMbRDcR(double a, double b, double c, double d) {return a-((a*b)/c);}
+	public static double _aSLLaMcRDbR(double a, double b, double c, double d) {return a-((a*c)/b);}
+	public static double _aSLLbMcRDaR(double a, double b, double c, double d) {return a-((b*c)/a);}
+	public static double _bSLLaMaRDcR(double a, double b, double c, double d) {return b-((a*a)/c);}
+	public static double _cSLLaMaRDbR(double a, double b, double c, double d) {return c-((a*a)/b);}
+	public static double _aSLaDLbMcRR(double a, double b, double c, double d) {return a-(a/(b*c));}
+	public static double _aSLbDLaMcRR(double a, double b, double c, double d) {return a-(b/(a*c));}
+	public static double _aSLcDLaMbRR(double a, double b, double c, double d) {return a-(c/(a*b));}
+	public static double _bSLaDLaMcRR(double a, double b, double c, double d) {return b-(a/(a*c));}
+	public static double _bSLcDLaMaRR(double a, double b, double c, double d) {return b-(c/(a*a));}
+	public static double _cSLaDLaMbRR(double a, double b, double c, double d) {return c-(a/(a*b));}
 	public static double _cSLbDLaMaRR(double a, double b, double c, double d) {return c-(b/(a*a));}
+	public static double _aDLLaAbRAcR(double a, double b, double c, double d) {return a/((a+b)+c);}
+	public static double _bDLLaAaRAcR(double a, double b, double c, double d) {return b/((a+a)+c);}
+	public static double _cDLLaAaRAbR(double a, double b, double c, double d) {return c/((a+a)+b);}
+	public static double _aDLLaAbRScR(double a, double b, double c, double d) {return a/((a+b)-c);}
+	public static double _aDLLaAcRSbR(double a, double b, double c, double d) {return a/((a+c)-b);}
+	public static double _aDLLbAcRSaR(double a, double b, double c, double d) {return a/((b+c)-a);}
+	public static double _bDLLaAaRScR(double a, double b, double c, double d) {return b/((a+a)-c);}
+	public static double _cDLLaAaRSbR(double a, double b, double c, double d) {return c/((a+a)-b);}
+	public static double _aDLLaSbRScR(double a, double b, double c, double d) {return a/((a-b)-c);}
+	public static double _aDLLbSaRScR(double a, double b, double c, double d) {return a/((b-a)-c);}
+	public static double _aDLLcSaRSbR(double a, double b, double c, double d) {return a/((c-a)-b);}
+	public static double _bDLLcSaRSaR(double a, double b, double c, double d) {return b/((c-a)-a);}
 	public static double _cDLLbSaRSaR(double a, double b, double c, double d) {return c/((b-a)-a);}
+	public static double _aDLLaMbRAcR(double a, double b, double c, double d) {return a/((a*b)+c);}
+	public static double _aDLLaMcRAbR(double a, double b, double c, double d) {return a/((a*c)+b);}
+	public static double _aDLLbMcRAaR(double a, double b, double c, double d) {return a/((b*c)+a);}
+	public static double _bDLLaMaRAcR(double a, double b, double c, double d) {return b/((a*a)+c);}
+	public static double _bDLLaMcRAaR(double a, double b, double c, double d) {return b/((a*c)+a);}
+	public static double _cDLLaMaRAbR(double a, double b, double c, double d) {return c/((a*a)+b);}
+	public static double _cDLLaMbRAaR(double a, double b, double c, double d) {return c/((a*b)+a);}
+	public static double _aDLLaMbRScR(double a, double b, double c, double d) {return a/((a*b)-c);}
+	public static double _aDLLaMcRSbR(double a, double b, double c, double d) {return a/((a*c)-b);}
+	public static double _aDLLbMcRSaR(double a, double b, double c, double d) {return a/((b*c)-a);}
+	public static double _bDLLaMaRScR(double a, double b, double c, double d) {return b/((a*a)-c);}
+	public static double _bDLLaMcRSaR(double a, double b, double c, double d) {return b/((a*c)-a);}
+	public static double _cDLLaMaRSbR(double a, double b, double c, double d) {return c/((a*a)-b);}
+	public static double _cDLLaMbRSaR(double a, double b, double c, double d) {return c/((a*b)-a);}
+	public static double _aDLLaDbRAcR(double a, double b, double c, double d) {return a/((a/b)+c);}
+	public static double _aDLLaDcRAbR(double a, double b, double c, double d) {return a/((a/c)+b);}
+	public static double _aDLLbDaRAcR(double a, double b, double c, double d) {return a/((b/a)+c);}
+	public static double _aDLLbDcRAaR(double a, double b, double c, double d) {return a/((b/c)+a);}
+	public static double _aDLLcDaRAbR(double a, double b, double c, double d) {return a/((c/a)+b);}
+	public static double _aDLLcDbRAaR(double a, double b, double c, double d) {return a/((c/b)+a);}
+	public static double _bDLLaDaRAcR(double a, double b, double c, double d) {return b/((a/a)+c);}
+	public static double _bDLLaDcRAaR(double a, double b, double c, double d) {return b/((a/c)+a);}
+	public static double _bDLLcDaRAaR(double a, double b, double c, double d) {return b/((c/a)+a);}
+	public static double _cDLLaDaRAbR(double a, double b, double c, double d) {return c/((a/a)+b);}
+	public static double _cDLLaDbRAaR(double a, double b, double c, double d) {return c/((a/b)+a);}
 	public static double _cDLLbDaRAaR(double a, double b, double c, double d) {return c/((b/a)+a);}
+	public static double _aDLLaDbRScR(double a, double b, double c, double d) {return a/((a/b)-c);}
+	public static double _aDLLaDcRSbR(double a, double b, double c, double d) {return a/((a/c)-b);}
+	public static double _aDLLbDaRScR(double a, double b, double c, double d) {return a/((b/a)-c);}
+	public static double _aDLLbDcRSaR(double a, double b, double c, double d) {return a/((b/c)-a);}
+	public static double _aDLLcDaRSbR(double a, double b, double c, double d) {return a/((c/a)-b);}
+	public static double _aDLLcDbRSaR(double a, double b, double c, double d) {return a/((c/b)-a);}
+	public static double _bDLLaDaRScR(double a, double b, double c, double d) {return b/((a/a)-c);}
+	public static double _bDLLaDcRSaR(double a, double b, double c, double d) {return b/((a/c)-a);}
+	public static double _bDLLcDaRSaR(double a, double b, double c, double d) {return b/((c/a)-a);}
+	public static double _cDLLaDaRSbR(double a, double b, double c, double d) {return c/((a/a)-b);}
+	public static double _cDLLaDbRSaR(double a, double b, double c, double d) {return c/((a/b)-a);}
 	public static double _cDLLbDaRSaR(double a, double b, double c, double d) {return c/((b/a)-a);}
 	public static double _aSLaDLbAcRR(double a, double b, double c, double d) {return a-(a/(b+c));}
+	public static double _aSLbDLaAcRR(double a, double b, double c, double d) {return a-(b/(a+c));}
+	public static double _aSLcDLaAbRR(double a, double b, double c, double d) {return a-(c/(a+b));}
+	public static double _bSLaDLaAcRR(double a, double b, double c, double d) {return b-(a/(a+c));}
+	public static double _bSLcDLaAaRR(double a, double b, double c, double d) {return b-(c/(a+a));}
+	public static double _cSLaDLaAbRR(double a, double b, double c, double d) {return c-(a/(a+b));}
+	public static double _cSLbDLaAaRR(double a, double b, double c, double d) {return c-(b/(a+a));}
 	public static double _aDLaSLbMcRR(double a, double b, double c, double d) {return a/(a-(b*c));}
+	public static double _aDLbSLaMcRR(double a, double b, double c, double d) {return a/(b-(a*c));}
+	public static double _aDLcSLaMbRR(double a, double b, double c, double d) {return a/(c-(a*b));}
+	public static double _bDLaSLaMcRR(double a, double b, double c, double d) {return b/(a-(a*c));}
+	public static double _bDLcSLaMaRR(double a, double b, double c, double d) {return b/(c-(a*a));}
+	public static double _cDLaSLaMbRR(double a, double b, double c, double d) {return c/(a-(a*b));}
+	public static double _cDLbSLaMaRR(double a, double b, double c, double d) {return c/(b-(a*a));}
 	public static double _aDLaSLbDcRR(double a, double b, double c, double d) {return a/(a-(b/c));}
 	public static double _aDLaSLcDbRR(double a, double b, double c, double d) {return a/(a-(c/b));}
-	public static double _aSLbDLaAcRR(double a, double b, double c, double d) {return a-(b/(a+c));}
-	public static double _aDLbSLaMcRR(double a, double b, double c, double d) {return a/(b-(a*c));}
 	public static double _aDLbSLaDcRR(double a, double b, double c, double d) {return a/(b-(a/c));}
 	public static double _aDLbSLcDaRR(double a, double b, double c, double d) {return a/(b-(c/a));}
-	public static double _aSLcDLaAbRR(double a, double b, double c, double d) {return a-(c/(a+b));}
-	public static double _aDLcSLaMbRR(double a, double b, double c, double d) {return a/(c-(a*b));}
 	public static double _aDLcSLaDbRR(double a, double b, double c, double d) {return a/(c-(a/b));}
 	public static double _aDLcSLbDaRR(double a, double b, double c, double d) {return a/(c-(b/a));}
-	public static double _bSLaDLaAcRR(double a, double b, double c, double d) {return b-(a/(a+c));}
-	public static double _bDLaSLaMcRR(double a, double b, double c, double d) {return b/(a-(a*c));}
 	public static double _bDLaSLaDcRR(double a, double b, double c, double d) {return b/(a-(a/c));}
 	public static double _bDLaSLcDaRR(double a, double b, double c, double d) {return b/(a-(c/a));}
-	public static double _bSLcDLaAaRR(double a, double b, double c, double d) {return b-(c/(a+a));}
-	public static double _bDLcSLaMaRR(double a, double b, double c, double d) {return b/(c-(a*a));}
 	public static double _bDLcSLaDaRR(double a, double b, double c, double d) {return b/(c-(a/a));}
-	public static double _cSLaDLaAbRR(double a, double b, double c, double d) {return c-(a/(a+b));}
-	public static double _cDLaSLaMbRR(double a, double b, double c, double d) {return c/(a-(a*b));}
 	public static double _cDLaSLaDbRR(double a, double b, double c, double d) {return c/(a-(a/b));}
 	public static double _cDLaSLbDaRR(double a, double b, double c, double d) {return c/(a-(b/a));}
-	public static double _cSLbDLaAaRR(double a, double b, double c, double d) {return c-(b/(a+a));}
-	public static double _cDLbSLaMaRR(double a, double b, double c, double d) {return c/(b-(a*a));}
 	public static double _cDLbSLaDaRR(double a, double b, double c, double d) {return c/(b-(a/a));}
 	public static double _LLaAaRAbRAb(double a, double b, double c, double d) {return ((a+a)+b)+b;}
 	public static double _LLaAaRAbRSb(double a, double b, double c, double d) {return ((a+a)+b)-b;}
+	public static double _LLaAbRAbRSa(double a, double b, double c, double d) {return ((a+b)+b)-a;}
 	public static double _LLaAaRAbRMb(double a, double b, double c, double d) {return ((a+a)+b)*b;}
+	public static double _LLaAbRAbRMa(double a, double b, double c, double d) {return ((a+b)+b)*a;}
 	public static double _LLaAaRAbRDb(double a, double b, double c, double d) {return ((a+a)+b)/b;}
+	public static double _LLaAbRAbRDa(double a, double b, double c, double d) {return ((a+b)+b)/a;}
 	public static double _LLaAaRSbRSb(double a, double b, double c, double d) {return ((a+a)-b)-b;}
+	public static double _LLaAbRSaRSb(double a, double b, double c, double d) {return ((a+b)-a)-b;}
+	public static double _LLbAbRSaRSa(double a, double b, double c, double d) {return ((b+b)-a)-a;}
 	public static double _LLaAaRSbRMb(double a, double b, double c, double d) {return ((a+a)-b)*b;}
+	public static double _LLaAbRSaRMb(double a, double b, double c, double d) {return ((a+b)-a)*b;}
+	public static double _LLaAbRSbRMa(double a, double b, double c, double d) {return ((a+b)-b)*a;}
+	public static double _LLbAbRSaRMa(double a, double b, double c, double d) {return ((b+b)-a)*a;}
 	public static double _LLaAaRSbRDb(double a, double b, double c, double d) {return ((a+a)-b)/b;}
+	public static double _LLaAbRSaRDb(double a, double b, double c, double d) {return ((a+b)-a)/b;}
+	public static double _LLbAbRSaRDa(double a, double b, double c, double d) {return ((b+b)-a)/a;}
 	public static double _LLaAaRMbRAb(double a, double b, double c, double d) {return ((a+a)*b)+b;}
+	public static double _LLaAbRMaRAb(double a, double b, double c, double d) {return ((a+b)*a)+b;}
+	public static double _LLaAbRMbRAa(double a, double b, double c, double d) {return ((a+b)*b)+a;}
+	public static double _LLbAbRMaRAa(double a, double b, double c, double d) {return ((b+b)*a)+a;}
 	public static double _LLaAaRMbRSb(double a, double b, double c, double d) {return ((a+a)*b)-b;}
+	public static double _LLaAbRMaRSb(double a, double b, double c, double d) {return ((a+b)*a)-b;}
+	public static double _LLaAbRMbRSa(double a, double b, double c, double d) {return ((a+b)*b)-a;}
+	public static double _LLbAbRMaRSa(double a, double b, double c, double d) {return ((b+b)*a)-a;}
 	public static double _LLaAaRMbRMb(double a, double b, double c, double d) {return ((a+a)*b)*b;}
+	public static double _LLaAbRMaRMb(double a, double b, double c, double d) {return ((a+b)*a)*b;}
+	public static double _LLbAbRMaRMa(double a, double b, double c, double d) {return ((b+b)*a)*a;}
+	public static double _LLaAbRMaRDb(double a, double b, double c, double d) {return ((a+b)*a)/b;}
+	public static double _LLaAbRMbRDa(double a, double b, double c, double d) {return ((a+b)*b)/a;}
 	public static double _LLaAaRDbRAb(double a, double b, double c, double d) {return ((a+a)/b)+b;}
+	public static double _LLaAbRDaRAb(double a, double b, double c, double d) {return ((a+b)/a)+b;}
+	public static double _LLaAbRDbRAa(double a, double b, double c, double d) {return ((a+b)/b)+a;}
+	public static double _LLbAbRDaRAa(double a, double b, double c, double d) {return ((b+b)/a)+a;}
 	public static double _LLaAaRDbRSb(double a, double b, double c, double d) {return ((a+a)/b)-b;}
+	public static double _LLaAbRDaRSb(double a, double b, double c, double d) {return ((a+b)/a)-b;}
+	public static double _LLaAbRDbRSa(double a, double b, double c, double d) {return ((a+b)/b)-a;}
+	public static double _LLbAbRDaRSa(double a, double b, double c, double d) {return ((b+b)/a)-a;}
 	public static double _LaAaRDLbMbR(double a, double b, double c, double d) {return (a+a)/(b*b);}
-	public static double _LLaSaRAbRAb(double a, double b, double c, double d) {return ((a-a)+b)+b;}
-	public static double _LLaSaRAbRSb(double a, double b, double c, double d) {return ((a-a)+b)-b;}
-	public static double _LLaSaRAbRMb(double a, double b, double c, double d) {return ((a-a)+b)*b;}
-	public static double _LLaSaRAbRDb(double a, double b, double c, double d) {return ((a-a)+b)/b;}
+	public static double _LaAbRDLaMbR(double a, double b, double c, double d) {return (a+b)/(a*b);}
+	public static double _LbAbRDLaMaR(double a, double b, double c, double d) {return (b+b)/(a*a);}
 	public static double _LLaSaRSbRSb(double a, double b, double c, double d) {return ((a-a)-b)-b;}
+	public static double _LLbSaRSaRSb(double a, double b, double c, double d) {return ((b-a)-a)-b;}
 	public static double _LLaSaRSbRMb(double a, double b, double c, double d) {return ((a-a)-b)*b;}
+	public static double _LLaSbRSbRMa(double a, double b, double c, double d) {return ((a-b)-b)*a;}
+	public static double _LLbSaRSaRMb(double a, double b, double c, double d) {return ((b-a)-a)*b;}
+	public static double _LLbSaRSbRMa(double a, double b, double c, double d) {return ((b-a)-b)*a;}
 	public static double _LLaSaRSbRDb(double a, double b, double c, double d) {return ((a-a)-b)/b;}
+	public static double _LLaSbRSbRDa(double a, double b, double c, double d) {return ((a-b)-b)/a;}
+	public static double _LLbSaRSaRDb(double a, double b, double c, double d) {return ((b-a)-a)/b;}
 	public static double _LLaSaRMbRAb(double a, double b, double c, double d) {return ((a-a)*b)+b;}
+	public static double _LLaSbRMaRAb(double a, double b, double c, double d) {return ((a-b)*a)+b;}
+	public static double _LLaSbRMbRAa(double a, double b, double c, double d) {return ((a-b)*b)+a;}
+	public static double _LLbSaRMaRAb(double a, double b, double c, double d) {return ((b-a)*a)+b;}
+	public static double _LLbSaRMbRAa(double a, double b, double c, double d) {return ((b-a)*b)+a;}
+	public static double _LLbSbRMaRAa(double a, double b, double c, double d) {return ((b-b)*a)+a;}
 	public static double _LLaSaRMbRSb(double a, double b, double c, double d) {return ((a-a)*b)-b;}
+	public static double _LLaSbRMaRSb(double a, double b, double c, double d) {return ((a-b)*a)-b;}
+	public static double _LLaSbRMbRSa(double a, double b, double c, double d) {return ((a-b)*b)-a;}
+	public static double _LLbSaRMaRSb(double a, double b, double c, double d) {return ((b-a)*a)-b;}
+	public static double _LLbSaRMbRSa(double a, double b, double c, double d) {return ((b-a)*b)-a;}
+	public static double _LLbSbRMaRSa(double a, double b, double c, double d) {return ((b-b)*a)-a;}
+	public static double _LLaSbRMaRMb(double a, double b, double c, double d) {return ((a-b)*a)*b;}
+	public static double _LLbSaRMaRMb(double a, double b, double c, double d) {return ((b-a)*a)*b;}
+	public static double _LLaSbRMaRDb(double a, double b, double c, double d) {return ((a-b)*a)/b;}
+	public static double _LLaSbRMbRDa(double a, double b, double c, double d) {return ((a-b)*b)/a;}
+	public static double _LLbSaRMaRDb(double a, double b, double c, double d) {return ((b-a)*a)/b;}
+	public static double _LLbSaRMbRDa(double a, double b, double c, double d) {return ((b-a)*b)/a;}
+	public static double _LLaSbRDaRAb(double a, double b, double c, double d) {return ((a-b)/a)+b;}
+	public static double _LLaSbRDbRAa(double a, double b, double c, double d) {return ((a-b)/b)+a;}
+	public static double _LLbSaRDaRAb(double a, double b, double c, double d) {return ((b-a)/a)+b;}
+	public static double _LLbSaRDbRAa(double a, double b, double c, double d) {return ((b-a)/b)+a;}
+	public static double _LLaSbRDaRSb(double a, double b, double c, double d) {return ((a-b)/a)-b;}
+	public static double _LLaSbRDbRSa(double a, double b, double c, double d) {return ((a-b)/b)-a;}
+	public static double _LLbSaRDaRSb(double a, double b, double c, double d) {return ((b-a)/a)-b;}
+	public static double _LLbSaRDbRSa(double a, double b, double c, double d) {return ((b-a)/b)-a;}
+	public static double _LaSbRDLaMbR(double a, double b, double c, double d) {return (a-b)/(a*b);}
+	public static double _LbSaRDLaMbR(double a, double b, double c, double d) {return (b-a)/(a*b);}
 	public static double _LLaMaRAbRAb(double a, double b, double c, double d) {return ((a*a)+b)+b;}
-	public static double _LLaMaRAbRSb(double a, double b, double c, double d) {return ((a*a)+b)-b;}
+	public static double _LLaMbRAaRAb(double a, double b, double c, double d) {return ((a*b)+a)+b;}
+	public static double _LLbMbRAaRAa(double a, double b, double c, double d) {return ((b*b)+a)+a;}
+	public static double _LLaMbRAaRSb(double a, double b, double c, double d) {return ((a*b)+a)-b;}
+	public static double _LLaMbRAbRSa(double a, double b, double c, double d) {return ((a*b)+b)-a;}
 	public static double _LLaMaRAbRMb(double a, double b, double c, double d) {return ((a*a)+b)*b;}
+	public static double _LLaMbRAaRMb(double a, double b, double c, double d) {return ((a*b)+a)*b;}
+	public static double _LLaMbRAbRMa(double a, double b, double c, double d) {return ((a*b)+b)*a;}
+	public static double _LLbMbRAaRMa(double a, double b, double c, double d) {return ((b*b)+a)*a;}
 	public static double _LLaMaRAbRDb(double a, double b, double c, double d) {return ((a*a)+b)/b;}
+	public static double _LLaMbRAaRDb(double a, double b, double c, double d) {return ((a*b)+a)/b;}
+	public static double _LLaMbRAbRDa(double a, double b, double c, double d) {return ((a*b)+b)/a;}
+	public static double _LLbMbRAaRDa(double a, double b, double c, double d) {return ((b*b)+a)/a;}
 	public static double _LLaMaRSbRSb(double a, double b, double c, double d) {return ((a*a)-b)-b;}
+	public static double _LLaMbRSaRSb(double a, double b, double c, double d) {return ((a*b)-a)-b;}
+	public static double _LLbMbRSaRSa(double a, double b, double c, double d) {return ((b*b)-a)-a;}
 	public static double _LLaMaRSbRMb(double a, double b, double c, double d) {return ((a*a)-b)*b;}
+	public static double _LLaMbRSaRMb(double a, double b, double c, double d) {return ((a*b)-a)*b;}
+	public static double _LLaMbRSbRMa(double a, double b, double c, double d) {return ((a*b)-b)*a;}
+	public static double _LLbMbRSaRMa(double a, double b, double c, double d) {return ((b*b)-a)*a;}
 	public static double _LLaMaRSbRDb(double a, double b, double c, double d) {return ((a*a)-b)/b;}
+	public static double _LLaMbRSaRDb(double a, double b, double c, double d) {return ((a*b)-a)/b;}
+	public static double _LLaMbRSbRDa(double a, double b, double c, double d) {return ((a*b)-b)/a;}
+	public static double _LLbMbRSaRDa(double a, double b, double c, double d) {return ((b*b)-a)/a;}
 	public static double _LLaMaRMbRAb(double a, double b, double c, double d) {return ((a*a)*b)+b;}
+	public static double _LLaMbRMbRAa(double a, double b, double c, double d) {return ((a*b)*b)+a;}
 	public static double _LLaMaRMbRSb(double a, double b, double c, double d) {return ((a*a)*b)-b;}
+	public static double _LLaMbRMbRSa(double a, double b, double c, double d) {return ((a*b)*b)-a;}
 	public static double _LLaMaRMbRMb(double a, double b, double c, double d) {return ((a*a)*b)*b;}
 	public static double _LLaMaRDbRAb(double a, double b, double c, double d) {return ((a*a)/b)+b;}
+	public static double _LLbMbRDaRAa(double a, double b, double c, double d) {return ((b*b)/a)+a;}
 	public static double _LLaMaRDbRSb(double a, double b, double c, double d) {return ((a*a)/b)-b;}
+	public static double _LLbMbRDaRSa(double a, double b, double c, double d) {return ((b*b)/a)-a;}
 	public static double _LaDLbMbRRMa(double a, double b, double c, double d) {return (a/(b*b))*a;}
-	public static double _LLaDaRAbRAb(double a, double b, double c, double d) {return ((a/a)+b)+b;}
-	public static double _LLaDaRAbRMb(double a, double b, double c, double d) {return ((a/a)+b)*b;}
-	public static double _LLaDaRAbRDb(double a, double b, double c, double d) {return ((a/a)+b)/b;}
-	public static double _LLaDaRSbRSb(double a, double b, double c, double d) {return ((a/a)-b)-b;}
-	public static double _LLaDaRSbRMb(double a, double b, double c, double d) {return ((a/a)-b)*b;}
-	public static double _LLaDaRSbRDb(double a, double b, double c, double d) {return ((a/a)-b)/b;}
-	public static double _LaDLaMbRRAb(double a, double b, double c, double d) {return (a/(a*b))+b;}
-	public static double _LaDLaMbRRSb(double a, double b, double c, double d) {return (a/(a*b))-b;}
-	public static double _aDLLaMbRMbR(double a, double b, double c, double d) {return a/((a*b)*b);}
-	public static double _LLaAbRMaRAb(double a, double b, double c, double d) {return ((a+b)*a)+b;}
-	public static double _LLaAbRMaRSb(double a, double b, double c, double d) {return ((a+b)*a)-b;}
-	public static double _LLaAbRMaRMb(double a, double b, double c, double d) {return ((a+b)*a)*b;}
-	public static double _LLaAbRMaRDb(double a, double b, double c, double d) {return ((a+b)*a)/b;}
-	public static double _LLaAbRDaRAb(double a, double b, double c, double d) {return ((a+b)/a)+b;}
-	public static double _LLaAbRDaRSb(double a, double b, double c, double d) {return ((a+b)/a)-b;}
-	public static double _LLaAbRDaRMb(double a, double b, double c, double d) {return ((a+b)/a)*b;}
-	public static double _LaAbRDLaMbR(double a, double b, double c, double d) {return (a+b)/(a*b);}
-	public static double _LLaSbRMaRAb(double a, double b, double c, double d) {return ((a-b)*a)+b;}
-	public static double _LLaSbRMaRSb(double a, double b, double c, double d) {return ((a-b)*a)-b;}
-	public static double _LLaSbRMaRMb(double a, double b, double c, double d) {return ((a-b)*a)*b;}
-	public static double _LLaSbRMaRDb(double a, double b, double c, double d) {return ((a-b)*a)/b;}
-	public static double _LLaSbRDaRAb(double a, double b, double c, double d) {return ((a-b)/a)+b;}
-	public static double _LLaSbRDaRSb(double a, double b, double c, double d) {return ((a-b)/a)-b;}
-	public static double _LLaSbRDaRMb(double a, double b, double c, double d) {return ((a-b)/a)*b;}
-	public static double _LaSbRDLaMbR(double a, double b, double c, double d) {return (a-b)/(a*b);}
-	public static double _LLaMbRAaRAb(double a, double b, double c, double d) {return ((a*b)+a)+b;}
-	public static double _LLaMbRAaRSb(double a, double b, double c, double d) {return ((a*b)+a)-b;}
-	public static double _LLaMbRAaRMb(double a, double b, double c, double d) {return ((a*b)+a)*b;}
-	public static double _LLaMbRAaRDb(double a, double b, double c, double d) {return ((a*b)+a)/b;}
-	public static double _LLaMbRSaRAb(double a, double b, double c, double d) {return ((a*b)-a)+b;}
-	public static double _LLaMbRSaRSb(double a, double b, double c, double d) {return ((a*b)-a)-b;}
-	public static double _LLaMbRSaRMb(double a, double b, double c, double d) {return ((a*b)-a)*b;}
-	public static double _LLaMbRSaRDb(double a, double b, double c, double d) {return ((a*b)-a)/b;}
-	public static double _LLaDbRAaRAb(double a, double b, double c, double d) {return ((a/b)+a)+b;}
-	public static double _LLaDbRAaRSb(double a, double b, double c, double d) {return ((a/b)+a)-b;}
-	public static double _LLaDbRAaRMb(double a, double b, double c, double d) {return ((a/b)+a)*b;}
-	public static double _LLaDbRAaRDb(double a, double b, double c, double d) {return ((a/b)+a)/b;}
-	public static double _LLaDbRSaRAb(double a, double b, double c, double d) {return ((a/b)-a)+b;}
-	public static double _LLaDbRSaRSb(double a, double b, double c, double d) {return ((a/b)-a)-b;}
-	public static double _LLaDbRSaRMb(double a, double b, double c, double d) {return ((a/b)-a)*b;}
-	public static double _LLaDbRSaRDb(double a, double b, double c, double d) {return ((a/b)-a)/b;}
-	public static double _LLaAbRAbRMa(double a, double b, double c, double d) {return ((a+b)+b)*a;}
-	public static double _LLaAbRAbRDa(double a, double b, double c, double d) {return ((a+b)+b)/a;}
-	public static double _LLaAbRMbRAa(double a, double b, double c, double d) {return ((a+b)*b)+a;}
-	public static double _LLaAbRMbRSa(double a, double b, double c, double d) {return ((a+b)*b)-a;}
-	public static double _LLaAbRDbRAa(double a, double b, double c, double d) {return ((a+b)/b)+a;}
-	public static double _LLaAbRDbRSa(double a, double b, double c, double d) {return ((a+b)/b)-a;}
-	public static double _LLaSbRSbRMa(double a, double b, double c, double d) {return ((a-b)-b)*a;}
-	public static double _LLaSbRSbRDa(double a, double b, double c, double d) {return ((a-b)-b)/a;}
-	public static double _LLaSbRMbRAa(double a, double b, double c, double d) {return ((a-b)*b)+a;}
-	public static double _LLaSbRMbRSa(double a, double b, double c, double d) {return ((a-b)*b)-a;}
-	public static double _LLaSbRDbRAa(double a, double b, double c, double d) {return ((a-b)/b)+a;}
-	public static double _LLaSbRDbRSa(double a, double b, double c, double d) {return ((a-b)/b)-a;}
-	public static double _LLaMbRAbRMa(double a, double b, double c, double d) {return ((a*b)+b)*a;}
-	public static double _LLaMbRAbRDa(double a, double b, double c, double d) {return ((a*b)+b)/a;}
-	public static double _LLaMbRSbRMa(double a, double b, double c, double d) {return ((a*b)-b)*a;}
-	public static double _LLaMbRSbRDa(double a, double b, double c, double d) {return ((a*b)-b)/a;}
-	public static double _LLaMbRMbRAa(double a, double b, double c, double d) {return ((a*b)*b)+a;}
-	public static double _LLaMbRMbRSa(double a, double b, double c, double d) {return ((a*b)*b)-a;}
-	public static double _LLaDbRAbRMa(double a, double b, double c, double d) {return ((a/b)+b)*a;}
-	public static double _LLaDbRAbRDa(double a, double b, double c, double d) {return ((a/b)+b)/a;}
-	public static double _LLaDbRSbRMa(double a, double b, double c, double d) {return ((a/b)-b)*a;}
-	public static double _LLaDbRSbRDa(double a, double b, double c, double d) {return ((a/b)-b)/a;}
-	public static double _LaDLbMbRRAa(double a, double b, double c, double d) {return (a/(b*b))+a;}
-	public static double _LaDLbMbRRSa(double a, double b, double c, double d) {return (a/(b*b))-a;}
-	public static double _LLbSaRSaRAb(double a, double b, double c, double d) {return ((b-a)-a)+b;}
-	public static double _LLbSaRSaRSb(double a, double b, double c, double d) {return ((b-a)-a)-b;}
-	public static double _LLbSaRSaRMb(double a, double b, double c, double d) {return ((b-a)-a)*b;}
-	public static double _LLbSaRSaRDb(double a, double b, double c, double d) {return ((b-a)-a)/b;}
-	public static double _LLbSaRMaRAb(double a, double b, double c, double d) {return ((b-a)*a)+b;}
-	public static double _LLbSaRMaRSb(double a, double b, double c, double d) {return ((b-a)*a)-b;}
-	public static double _LLbSaRMaRMb(double a, double b, double c, double d) {return ((b-a)*a)*b;}
-	public static double _LLbSaRMaRDb(double a, double b, double c, double d) {return ((b-a)*a)/b;}
-	public static double _LLbSaRDaRAb(double a, double b, double c, double d) {return ((b-a)/a)+b;}
-	public static double _LLbSaRDaRSb(double a, double b, double c, double d) {return ((b-a)/a)-b;}
-	public static double _LLbSaRDaRMb(double a, double b, double c, double d) {return ((b-a)/a)*b;}
-	public static double _LbSaRDLaMbR(double a, double b, double c, double d) {return (b-a)/(a*b);}
-	public static double _LLbDaRAaRAb(double a, double b, double c, double d) {return ((b/a)+a)+b;}
-	public static double _LLbDaRAaRSb(double a, double b, double c, double d) {return ((b/a)+a)-b;}
-	public static double _LLbDaRAaRMb(double a, double b, double c, double d) {return ((b/a)+a)*b;}
-	public static double _LLbDaRAaRDb(double a, double b, double c, double d) {return ((b/a)+a)/b;}
-	public static double _LLbDaRSaRAb(double a, double b, double c, double d) {return ((b/a)-a)+b;}
-	public static double _LLbDaRSaRSb(double a, double b, double c, double d) {return ((b/a)-a)-b;}
-	public static double _LLbDaRSaRMb(double a, double b, double c, double d) {return ((b/a)-a)*b;}
-	public static double _LLbDaRSaRDb(double a, double b, double c, double d) {return ((b/a)-a)/b;}
-	public static double _LbDLaMaRRAb(double a, double b, double c, double d) {return (b/(a*a))+b;}
-	public static double _LbDLaMaRRSb(double a, double b, double c, double d) {return (b/(a*a))-b;}
 	public static double _LbDLaMaRRMb(double a, double b, double c, double d) {return (b/(a*a))*b;}
-	public static double _bDLLaMaRMbR(double a, double b, double c, double d) {return b/((a*a)*b);}
-	public static double _LLbSaRAbRMa(double a, double b, double c, double d) {return ((b-a)+b)*a;}
-	public static double _LLbSaRAbRDa(double a, double b, double c, double d) {return ((b-a)+b)/a;}
-	public static double _LLbSaRSbRMa(double a, double b, double c, double d) {return ((b-a)-b)*a;}
-	public static double _LLbSaRMbRAa(double a, double b, double c, double d) {return ((b-a)*b)+a;}
-	public static double _LLbSaRMbRSa(double a, double b, double c, double d) {return ((b-a)*b)-a;}
-	public static double _LLbSaRDbRAa(double a, double b, double c, double d) {return ((b-a)/b)+a;}
-	public static double _LLbSaRDbRSa(double a, double b, double c, double d) {return ((b-a)/b)-a;}
-	public static double _LLbDaRAbRMa(double a, double b, double c, double d) {return ((b/a)+b)*a;}
-	public static double _LLbDaRAbRDa(double a, double b, double c, double d) {return ((b/a)+b)/a;}
-	public static double _LLbDaRSbRMa(double a, double b, double c, double d) {return ((b/a)-b)*a;}
-	public static double _LLbDaRSbRDa(double a, double b, double c, double d) {return ((b/a)-b)/a;}
-	public static double _LLbDaRMbRAa(double a, double b, double c, double d) {return ((b/a)*b)+a;}
-	public static double _LLbDaRMbRSa(double a, double b, double c, double d) {return ((b/a)*b)-a;}
-	public static double _LbDLaMbRRAa(double a, double b, double c, double d) {return (b/(a*b))+a;}
-	public static double _LbDLaMbRRSa(double a, double b, double c, double d) {return (b/(a*b))-a;}
-	public static double _LLbAbRMaRAa(double a, double b, double c, double d) {return ((b+b)*a)+a;}
-	public static double _LLbAbRMaRSa(double a, double b, double c, double d) {return ((b+b)*a)-a;}
-	public static double _LLbAbRMaRMa(double a, double b, double c, double d) {return ((b+b)*a)*a;}
-	public static double _LLbAbRDaRAa(double a, double b, double c, double d) {return ((b+b)/a)+a;}
-	public static double _LLbAbRDaRSa(double a, double b, double c, double d) {return ((b+b)/a)-a;}
-	public static double _LbAbRDLaMaR(double a, double b, double c, double d) {return (b+b)/(a*a);}
-	public static double _LLbSbRMaRAa(double a, double b, double c, double d) {return ((b-b)*a)+a;}
-	public static double _LLbSbRMaRSa(double a, double b, double c, double d) {return ((b-b)*a)-a;}
-	public static double _LLbMbRAaRAa(double a, double b, double c, double d) {return ((b*b)+a)+a;}
-	public static double _LLbMbRAaRMa(double a, double b, double c, double d) {return ((b*b)+a)*a;}
-	public static double _LLbMbRAaRDa(double a, double b, double c, double d) {return ((b*b)+a)/a;}
-	public static double _LLbMbRSaRSa(double a, double b, double c, double d) {return ((b*b)-a)-a;}
-	public static double _LLbMbRSaRMa(double a, double b, double c, double d) {return ((b*b)-a)*a;}
-	public static double _LLbMbRSaRDa(double a, double b, double c, double d) {return ((b*b)-a)/a;}
+	public static double _LLaDaRAbRAb(double a, double b, double c, double d) {return ((a/a)+b)+b;}
+	public static double _LLaDbRAaRAb(double a, double b, double c, double d) {return ((a/b)+a)+b;}
+	public static double _LLbDaRAaRAb(double a, double b, double c, double d) {return ((b/a)+a)+b;}
 	public static double _LLbDbRAaRAa(double a, double b, double c, double d) {return ((b/b)+a)+a;}
+	public static double _LLaDbRAaRSb(double a, double b, double c, double d) {return ((a/b)+a)-b;}
+	public static double _LLaDbRAbRSa(double a, double b, double c, double d) {return ((a/b)+b)-a;}
+	public static double _LLbDaRAaRSb(double a, double b, double c, double d) {return ((b/a)+a)-b;}
+	public static double _LLbDaRAbRSa(double a, double b, double c, double d) {return ((b/a)+b)-a;}
+	public static double _LLaDaRAbRMb(double a, double b, double c, double d) {return ((a/a)+b)*b;}
+	public static double _LLaDbRAaRMb(double a, double b, double c, double d) {return ((a/b)+a)*b;}
+	public static double _LLaDbRAbRMa(double a, double b, double c, double d) {return ((a/b)+b)*a;}
+	public static double _LLbDaRAaRMb(double a, double b, double c, double d) {return ((b/a)+a)*b;}
+	public static double _LLbDaRAbRMa(double a, double b, double c, double d) {return ((b/a)+b)*a;}
 	public static double _LLbDbRAaRMa(double a, double b, double c, double d) {return ((b/b)+a)*a;}
+	public static double _LLaDaRAbRDb(double a, double b, double c, double d) {return ((a/a)+b)/b;}
+	public static double _LLaDbRAaRDb(double a, double b, double c, double d) {return ((a/b)+a)/b;}
+	public static double _LLaDbRAbRDa(double a, double b, double c, double d) {return ((a/b)+b)/a;}
+	public static double _LLbDaRAaRDb(double a, double b, double c, double d) {return ((b/a)+a)/b;}
+	public static double _LLbDaRAbRDa(double a, double b, double c, double d) {return ((b/a)+b)/a;}
 	public static double _LLbDbRAaRDa(double a, double b, double c, double d) {return ((b/b)+a)/a;}
+	public static double _LLaDaRSbRSb(double a, double b, double c, double d) {return ((a/a)-b)-b;}
+	public static double _LLaDbRSaRSb(double a, double b, double c, double d) {return ((a/b)-a)-b;}
+	public static double _LLbDaRSaRSb(double a, double b, double c, double d) {return ((b/a)-a)-b;}
 	public static double _LLbDbRSaRSa(double a, double b, double c, double d) {return ((b/b)-a)-a;}
+	public static double _LLaDaRSbRMb(double a, double b, double c, double d) {return ((a/a)-b)*b;}
+	public static double _LLaDbRSaRMb(double a, double b, double c, double d) {return ((a/b)-a)*b;}
+	public static double _LLaDbRSbRMa(double a, double b, double c, double d) {return ((a/b)-b)*a;}
+	public static double _LLbDaRSaRMb(double a, double b, double c, double d) {return ((b/a)-a)*b;}
+	public static double _LLbDaRSbRMa(double a, double b, double c, double d) {return ((b/a)-b)*a;}
 	public static double _LLbDbRSaRMa(double a, double b, double c, double d) {return ((b/b)-a)*a;}
+	public static double _LLaDaRSbRDb(double a, double b, double c, double d) {return ((a/a)-b)/b;}
+	public static double _LLaDbRSaRDb(double a, double b, double c, double d) {return ((a/b)-a)/b;}
+	public static double _LLaDbRSbRDa(double a, double b, double c, double d) {return ((a/b)-b)/a;}
+	public static double _LLbDaRSaRDb(double a, double b, double c, double d) {return ((b/a)-a)/b;}
+	public static double _LLbDaRSbRDa(double a, double b, double c, double d) {return ((b/a)-b)/a;}
 	public static double _LLbDbRSaRDa(double a, double b, double c, double d) {return ((b/b)-a)/a;}
+	public static double _LaDLaMbRRAb(double a, double b, double c, double d) {return (a/(a*b))+b;}
+	public static double _LaDLbMbRRAa(double a, double b, double c, double d) {return (a/(b*b))+a;}
+	public static double _LbDLaMaRRAb(double a, double b, double c, double d) {return (b/(a*a))+b;}
+	public static double _LbDLaMbRRAa(double a, double b, double c, double d) {return (b/(a*b))+a;}
+	public static double _LaDLaMbRRSb(double a, double b, double c, double d) {return (a/(a*b))-b;}
+	public static double _LaDLbMbRRSa(double a, double b, double c, double d) {return (a/(b*b))-a;}
+	public static double _LbDLaMaRRSb(double a, double b, double c, double d) {return (b/(a*a))-b;}
+	public static double _LbDLaMbRRSa(double a, double b, double c, double d) {return (b/(a*b))-a;}
+	public static double _aDLLaMbRMbR(double a, double b, double c, double d) {return a/((a*b)*b);}
+	public static double _bDLLaMaRMbR(double a, double b, double c, double d) {return b/((a*a)*b);}
 	public static double _LaSLaMbRRAb(double a, double b, double c, double d) {return (a-(a*b))+b;}
-	public static double _LaSLaMbRRSb(double a, double b, double c, double d) {return (a-(a*b))-b;}
-	public static double _LaSLaMbRRMb(double a, double b, double c, double d) {return (a-(a*b))*b;}
-	public static double _LaSLaMbRRDb(double a, double b, double c, double d) {return (a-(a*b))/b;}
-	public static double _LaSLaDbRRAb(double a, double b, double c, double d) {return (a-(a/b))+b;}
-	public static double _LaSLaDbRRSb(double a, double b, double c, double d) {return (a-(a/b))-b;}
-	public static double _LaSLaDbRRMb(double a, double b, double c, double d) {return (a-(a/b))*b;}
-	public static double _LaSLaDbRRDb(double a, double b, double c, double d) {return (a-(a/b))/b;}
-	public static double _LaDLaAbRRAb(double a, double b, double c, double d) {return (a/(a+b))+b;}
-	public static double _LaDLaAbRRSb(double a, double b, double c, double d) {return (a/(a+b))-b;}
-	public static double _LaDLaAbRRMb(double a, double b, double c, double d) {return (a/(a+b))*b;}
-	public static double _aDLLaAbRMbR(double a, double b, double c, double d) {return a/((a+b)*b);}
-	public static double _LaDLaSbRRAb(double a, double b, double c, double d) {return (a/(a-b))+b;}
-	public static double _LaDLaSbRRSb(double a, double b, double c, double d) {return (a/(a-b))-b;}
-	public static double _LaDLaSbRRMb(double a, double b, double c, double d) {return (a/(a-b))*b;}
-	public static double _aDLLaSbRMbR(double a, double b, double c, double d) {return a/((a-b)*b);}
-	public static double _LaSLbDaRRAb(double a, double b, double c, double d) {return (a-(b/a))+b;}
-	public static double _LaSLbDaRRSb(double a, double b, double c, double d) {return (a-(b/a))-b;}
-	public static double _LaSLbDaRRMb(double a, double b, double c, double d) {return (a-(b/a))*b;}
-	public static double _LaSLbDaRRDb(double a, double b, double c, double d) {return (a-(b/a))/b;}
-	public static double _LaDLbSaRRAb(double a, double b, double c, double d) {return (a/(b-a))+b;}
-	public static double _LaDLbSaRRSb(double a, double b, double c, double d) {return (a/(b-a))-b;}
-	public static double _LaDLbSaRRMb(double a, double b, double c, double d) {return (a/(b-a))*b;}
-	public static double _aDLLbSaRMbR(double a, double b, double c, double d) {return a/((b-a)*b);}
 	public static double _LaSLbMbRRAa(double a, double b, double c, double d) {return (a-(b*b))+a;}
-	public static double _LaSLbMbRRMa(double a, double b, double c, double d) {return (a-(b*b))*a;}
-	public static double _LaSLbMbRRDa(double a, double b, double c, double d) {return (a-(b*b))/a;}
-	public static double _LaSLbDbRRAa(double a, double b, double c, double d) {return (a-(b/b))+a;}
-	public static double _LaSLbDbRRMa(double a, double b, double c, double d) {return (a-(b/b))*a;}
-	public static double _LaSLbDbRRDa(double a, double b, double c, double d) {return (a-(b/b))/a;}
-	public static double _LaDLbAbRRAa(double a, double b, double c, double d) {return (a/(b+b))+a;}
-	public static double _LaDLbAbRRSa(double a, double b, double c, double d) {return (a/(b+b))-a;}
-	public static double _LaDLbAbRRMa(double a, double b, double c, double d) {return (a/(b+b))*a;}
-	public static double _aDLLbAbRMaR(double a, double b, double c, double d) {return a/((b+b)*a);}
 	public static double _LbSLaMaRRAb(double a, double b, double c, double d) {return (b-(a*a))+b;}
-	public static double _LbSLaMaRRMb(double a, double b, double c, double d) {return (b-(a*a))*b;}
-	public static double _LbSLaMaRRDb(double a, double b, double c, double d) {return (b-(a*a))/b;}
-	public static double _LbSLaDaRRAb(double a, double b, double c, double d) {return (b-(a/a))+b;}
-	public static double _LbSLaDaRRMb(double a, double b, double c, double d) {return (b-(a/a))*b;}
-	public static double _LbSLaDaRRDb(double a, double b, double c, double d) {return (b-(a/a))/b;}
-	public static double _LbDLaAaRRAb(double a, double b, double c, double d) {return (b/(a+a))+b;}
-	public static double _LbDLaAaRRSb(double a, double b, double c, double d) {return (b/(a+a))-b;}
-	public static double _LbDLaAaRRMb(double a, double b, double c, double d) {return (b/(a+a))*b;}
-	public static double _bDLLaAaRMbR(double a, double b, double c, double d) {return b/((a+a)*b);}
+	public static double _LaSLaMbRRSb(double a, double b, double c, double d) {return (a-(a*b))-b;}
 	public static double _LbSLaMbRRSa(double a, double b, double c, double d) {return (b-(a*b))-a;}
+	public static double _LaSLaMbRRMb(double a, double b, double c, double d) {return (a-(a*b))*b;}
+	public static double _LaSLbMbRRMa(double a, double b, double c, double d) {return (a-(b*b))*a;}
+	public static double _LbSLaMaRRMb(double a, double b, double c, double d) {return (b-(a*a))*b;}
 	public static double _LbSLaMbRRMa(double a, double b, double c, double d) {return (b-(a*b))*a;}
+	public static double _LaSLaMbRRDb(double a, double b, double c, double d) {return (a-(a*b))/b;}
+	public static double _LaSLbMbRRDa(double a, double b, double c, double d) {return (a-(b*b))/a;}
+	public static double _LbSLaMaRRDb(double a, double b, double c, double d) {return (b-(a*a))/b;}
 	public static double _LbSLaMbRRDa(double a, double b, double c, double d) {return (b-(a*b))/a;}
+	public static double _LaSLaDbRRAb(double a, double b, double c, double d) {return (a-(a/b))+b;}
+	public static double _LaSLbDaRRAb(double a, double b, double c, double d) {return (a-(b/a))+b;}
+	public static double _LaSLbDbRRAa(double a, double b, double c, double d) {return (a-(b/b))+a;}
+	public static double _LbSLaDaRRAb(double a, double b, double c, double d) {return (b-(a/a))+b;}
+	public static double _LaSLaDbRRSb(double a, double b, double c, double d) {return (a-(a/b))-b;}
+	public static double _LaSLbDaRRSb(double a, double b, double c, double d) {return (a-(b/a))-b;}
 	public static double _LbSLaDbRRSa(double a, double b, double c, double d) {return (b-(a/b))-a;}
-	public static double _LbSLaDbRRMa(double a, double b, double c, double d) {return (b-(a/b))*a;}
-	public static double _LbSLaDbRRDa(double a, double b, double c, double d) {return (b-(a/b))/a;}
-	public static double _LbDLaAbRRAa(double a, double b, double c, double d) {return (b/(a+b))+a;}
-	public static double _LbDLaAbRRSa(double a, double b, double c, double d) {return (b/(a+b))-a;}
-	public static double _bDLLaAbRMaR(double a, double b, double c, double d) {return b/((a+b)*a);}
-	public static double _LbDLaSbRRAa(double a, double b, double c, double d) {return (b/(a-b))+a;}
-	public static double _LbDLaSbRRSa(double a, double b, double c, double d) {return (b/(a-b))-a;}
-	public static double _bDLLaSbRMaR(double a, double b, double c, double d) {return b/((a-b)*a);}
 	public static double _LbSLbDaRRSa(double a, double b, double c, double d) {return (b-(b/a))-a;}
+	public static double _LaSLaDbRRMb(double a, double b, double c, double d) {return (a-(a/b))*b;}
+	public static double _LaSLbDaRRMb(double a, double b, double c, double d) {return (a-(b/a))*b;}
+	public static double _LaSLbDbRRMa(double a, double b, double c, double d) {return (a-(b/b))*a;}
+	public static double _LbSLaDaRRMb(double a, double b, double c, double d) {return (b-(a/a))*b;}
+	public static double _LbSLaDbRRMa(double a, double b, double c, double d) {return (b-(a/b))*a;}
 	public static double _LbSLbDaRRMa(double a, double b, double c, double d) {return (b-(b/a))*a;}
+	public static double _LaSLaDbRRDb(double a, double b, double c, double d) {return (a-(a/b))/b;}
+	public static double _LaSLbDaRRDb(double a, double b, double c, double d) {return (a-(b/a))/b;}
+	public static double _LaSLbDbRRDa(double a, double b, double c, double d) {return (a-(b/b))/a;}
+	public static double _LbSLaDaRRDb(double a, double b, double c, double d) {return (b-(a/a))/b;}
+	public static double _LbSLaDbRRDa(double a, double b, double c, double d) {return (b-(a/b))/a;}
 	public static double _LbSLbDaRRDa(double a, double b, double c, double d) {return (b-(b/a))/a;}
+	public static double _LaDLaAbRRAb(double a, double b, double c, double d) {return (a/(a+b))+b;}
+	public static double _LaDLbAbRRAa(double a, double b, double c, double d) {return (a/(b+b))+a;}
+	public static double _LbDLaAaRRAb(double a, double b, double c, double d) {return (b/(a+a))+b;}
+	public static double _LbDLaAbRRAa(double a, double b, double c, double d) {return (b/(a+b))+a;}
+	public static double _LaDLaAbRRSb(double a, double b, double c, double d) {return (a/(a+b))-b;}
+	public static double _LaDLbAbRRSa(double a, double b, double c, double d) {return (a/(b+b))-a;}
+	public static double _LbDLaAaRRSb(double a, double b, double c, double d) {return (b/(a+a))-b;}
+	public static double _LbDLaAbRRSa(double a, double b, double c, double d) {return (b/(a+b))-a;}
+	public static double _LaDLaAbRRMb(double a, double b, double c, double d) {return (a/(a+b))*b;}
+	public static double _LaDLbAbRRMa(double a, double b, double c, double d) {return (a/(b+b))*a;}
+	public static double _LbDLaAaRRMb(double a, double b, double c, double d) {return (b/(a+a))*b;}
+	public static double _aDLLaAbRMbR(double a, double b, double c, double d) {return a/((a+b)*b);}
+	public static double _aDLLbAbRMaR(double a, double b, double c, double d) {return a/((b+b)*a);}
+	public static double _bDLLaAaRMbR(double a, double b, double c, double d) {return b/((a+a)*b);}
+	public static double _bDLLaAbRMaR(double a, double b, double c, double d) {return b/((a+b)*a);}
+	public static double _LaDLaSbRRAb(double a, double b, double c, double d) {return (a/(a-b))+b;}
+	public static double _LaDLbSaRRAb(double a, double b, double c, double d) {return (a/(b-a))+b;}
+	public static double _LbDLaSbRRAa(double a, double b, double c, double d) {return (b/(a-b))+a;}
 	public static double _LbDLbSaRRAa(double a, double b, double c, double d) {return (b/(b-a))+a;}
+	public static double _LaDLaSbRRSb(double a, double b, double c, double d) {return (a/(a-b))-b;}
+	public static double _LaDLbSaRRSb(double a, double b, double c, double d) {return (a/(b-a))-b;}
+	public static double _LbDLaSbRRSa(double a, double b, double c, double d) {return (b/(a-b))-a;}
 	public static double _LbDLbSaRRSa(double a, double b, double c, double d) {return (b/(b-a))-a;}
+	public static double _LaDLaSbRRMb(double a, double b, double c, double d) {return (a/(a-b))*b;}
+	public static double _LaDLbSaRRMb(double a, double b, double c, double d) {return (a/(b-a))*b;}
+	public static double _aDLLaSbRMbR(double a, double b, double c, double d) {return a/((a-b)*b);}
+	public static double _aDLLbSaRMbR(double a, double b, double c, double d) {return a/((b-a)*b);}
+	public static double _bDLLaSbRMaR(double a, double b, double c, double d) {return b/((a-b)*a);}
 	public static double _bDLLbSaRMaR(double a, double b, double c, double d) {return b/((b-a)*a);}
 	public static double _LaAaRMLbAbR(double a, double b, double c, double d) {return (a+a)*(b+b);}
-	public static double _LaAaRDLbAbR(double a, double b, double c, double d) {return (a+a)/(b+b);}
-	public static double _LaMaRALbMbR(double a, double b, double c, double d) {return (a*a)+(b*b);}
-	public static double _LaMaRALbDbR(double a, double b, double c, double d) {return (a*a)+(b/b);}
-	public static double _LaMaRSLbMbR(double a, double b, double c, double d) {return (a*a)-(b*b);}
-	public static double _LaMaRSLbDbR(double a, double b, double c, double d) {return (a*a)-(b/b);}
-	public static double _LaDaRALbMbR(double a, double b, double c, double d) {return (a/a)+(b*b);}
-	public static double _LaDaRALbDbR(double a, double b, double c, double d) {return (a/a)+(b/b);}
-	public static double _LaDaRSLbMbR(double a, double b, double c, double d) {return (a/a)-(b*b);}
 	public static double _LaAbRMLaAbR(double a, double b, double c, double d) {return (a+b)*(a+b);}
-	public static double _LaAbRDLaSbR(double a, double b, double c, double d) {return (a+b)/(a-b);}
-	public static double _LaSbRMLaSbR(double a, double b, double c, double d) {return (a-b)*(a-b);}
-	public static double _LaSbRDLaAbR(double a, double b, double c, double d) {return (a-b)/(a+b);}
-	public static double _LaMbRALaMbR(double a, double b, double c, double d) {return (a*b)+(a*b);}
-	public static double _LaMbRALaDbR(double a, double b, double c, double d) {return (a*b)+(a/b);}
-	public static double _LaMbRSLaDbR(double a, double b, double c, double d) {return (a*b)-(a/b);}
-	public static double _LaDbRALaDbR(double a, double b, double c, double d) {return (a/b)+(a/b);}
-	public static double _LaDbRSLaMbR(double a, double b, double c, double d) {return (a/b)-(a*b);}
+	public static double _LaAbRMLaSbR(double a, double b, double c, double d) {return (a+b)*(a-b);}
 	public static double _LaAbRMLbSaR(double a, double b, double c, double d) {return (a+b)*(b-a);}
-	public static double _LaAbRDLbSaR(double a, double b, double c, double d) {return (a+b)/(b-a);}
-	public static double _LaSbRMLbSaR(double a, double b, double c, double d) {return (a-b)*(b-a);}
-	public static double _LaMbRALbDaR(double a, double b, double c, double d) {return (a*b)+(b/a);}
-	public static double _LaMbRSLbDaR(double a, double b, double c, double d) {return (a*b)-(b/a);}
-	public static double _LaDbRALbDaR(double a, double b, double c, double d) {return (a/b)+(b/a);}
-	public static double _LaDbRSLbDaR(double a, double b, double c, double d) {return (a/b)-(b/a);}
-	public static double _LbSaRDLaAbR(double a, double b, double c, double d) {return (b-a)/(a+b);}
-	public static double _LbDaRSLaMbR(double a, double b, double c, double d) {return (b/a)-(a*b);}
-	public static double _LbDaRSLaDbR(double a, double b, double c, double d) {return (b/a)-(a/b);}
-	public static double _LbDaRALbDaR(double a, double b, double c, double d) {return (b/a)+(b/a);}
+	public static double _LaAaRDLbAbR(double a, double b, double c, double d) {return (a+a)/(b+b);}
 	public static double _LbAbRDLaAaR(double a, double b, double c, double d) {return (b+b)/(a+a);}
+	public static double _LaAbRDLaSbR(double a, double b, double c, double d) {return (a+b)/(a-b);}
+	public static double _LaAbRDLbSaR(double a, double b, double c, double d) {return (a+b)/(b-a);}
+	public static double _LaSbRMLaSbR(double a, double b, double c, double d) {return (a-b)*(a-b);}
+	public static double _LaSbRMLbSaR(double a, double b, double c, double d) {return (a-b)*(b-a);}
+	public static double _LaSbRDLaAbR(double a, double b, double c, double d) {return (a-b)/(a+b);}
+	public static double _LbSaRDLaAbR(double a, double b, double c, double d) {return (b-a)/(a+b);}
+	public static double _LaMaRALbMbR(double a, double b, double c, double d) {return (a*a)+(b*b);}
+	public static double _LaMbRALaMbR(double a, double b, double c, double d) {return (a*b)+(a*b);}
+	public static double _LaMaRALbDbR(double a, double b, double c, double d) {return (a*a)+(b/b);}
+	public static double _LaMbRALaDbR(double a, double b, double c, double d) {return (a*b)+(a/b);}
+	public static double _LaMbRALbDaR(double a, double b, double c, double d) {return (a*b)+(b/a);}
+	public static double _LbMbRALaDaR(double a, double b, double c, double d) {return (b*b)+(a/a);}
+	public static double _LaMaRSLbDbR(double a, double b, double c, double d) {return (a*a)-(b/b);}
+	public static double _LaMbRSLaDbR(double a, double b, double c, double d) {return (a*b)-(a/b);}
+	public static double _LaMbRSLbDaR(double a, double b, double c, double d) {return (a*b)-(b/a);}
 	public static double _LbMbRSLaDaR(double a, double b, double c, double d) {return (b*b)-(a/a);}
+	public static double _LaDaRALbDbR(double a, double b, double c, double d) {return (a/a)+(b/b);}
+	public static double _LaDbRALaDbR(double a, double b, double c, double d) {return (a/b)+(a/b);}
+	public static double _LaDbRALbDaR(double a, double b, double c, double d) {return (a/b)+(b/a);}
+	public static double _LbDaRALbDaR(double a, double b, double c, double d) {return (b/a)+(b/a);}
+	public static double _LaDaRSLbMbR(double a, double b, double c, double d) {return (a/a)-(b*b);}
+	public static double _LaDbRSLaMbR(double a, double b, double c, double d) {return (a/b)-(a*b);}
+	public static double _LbDaRSLaMbR(double a, double b, double c, double d) {return (b/a)-(a*b);}
 	public static double _LbDbRSLaMaR(double a, double b, double c, double d) {return (b/b)-(a*a);}
+	public static double _LaDbRSLbDaR(double a, double b, double c, double d) {return (a/b)-(b/a);}
+	public static double _LbDaRSLaDbR(double a, double b, double c, double d) {return (b/a)-(a/b);}
 	public static double _aSLLaAbRMbR(double a, double b, double c, double d) {return a-((a+b)*b);}
-	public static double _aSLLaAbRDbR(double a, double b, double c, double d) {return a-((a+b)/b);}
-	public static double _aSLLaMbRMbR(double a, double b, double c, double d) {return a-((a*b)*b);}
-	public static double _aSLaDLbMbRR(double a, double b, double c, double d) {return a-(a/(b*b));}
-	public static double _aDLLaAbRAbR(double a, double b, double c, double d) {return a/((a+b)+b);}
-	public static double _aDLLaSbRSbR(double a, double b, double c, double d) {return a/((a-b)-b);}
-	public static double _aDLLaMbRAbR(double a, double b, double c, double d) {return a/((a*b)+b);}
-	public static double _aDLLaMbRSbR(double a, double b, double c, double d) {return a/((a*b)-b);}
-	public static double _aDLLaDbRAbR(double a, double b, double c, double d) {return a/((a/b)+b);}
-	public static double _aDLLaDbRSbR(double a, double b, double c, double d) {return a/((a/b)-b);}
-	public static double _aSLLbDaRMbR(double a, double b, double c, double d) {return a-((b/a)*b);}
-	public static double _aSLbDLaMbRR(double a, double b, double c, double d) {return a-(b/(a*b));}
-	public static double _aDLLbSaRAbR(double a, double b, double c, double d) {return a/((b-a)+b);}
-	public static double _aDLLbDaRAbR(double a, double b, double c, double d) {return a/((b/a)+b);}
-	public static double _aDLLbDaRSbR(double a, double b, double c, double d) {return a/((b/a)-b);}
 	public static double _aSLLbAbRMaR(double a, double b, double c, double d) {return a-((b+b)*a);}
-	public static double _aSLLbAbRDaR(double a, double b, double c, double d) {return a-((b+b)/a);}
-	public static double _aDLLbMbRAaR(double a, double b, double c, double d) {return a/((b*b)+a);}
-	public static double _aDLLbMbRSaR(double a, double b, double c, double d) {return a/((b*b)-a);}
-	public static double _aDLLbDbRAaR(double a, double b, double c, double d) {return a/((b/b)+a);}
-	public static double _aDLLbDbRSaR(double a, double b, double c, double d) {return a/((b/b)-a);}
 	public static double _bSLLaAaRMbR(double a, double b, double c, double d) {return b-((a+a)*b);}
-	public static double _bSLLaAaRDbR(double a, double b, double c, double d) {return b-((a+a)/b);}
-	public static double _bSLLaMaRMbR(double a, double b, double c, double d) {return b-((a*a)*b);}
-	public static double _bSLLaMaRDbR(double a, double b, double c, double d) {return b-((a*a)/b);}
-	public static double _bSLaDLaMbRR(double a, double b, double c, double d) {return b-(a/(a*b));}
-	public static double _bDLLaAaRAbR(double a, double b, double c, double d) {return b/((a+a)+b);}
-	public static double _bDLLaAaRSbR(double a, double b, double c, double d) {return b/((a+a)-b);}
-	public static double _bDLLaMaRAbR(double a, double b, double c, double d) {return b/((a*a)+b);}
-	public static double _bDLLaMaRSbR(double a, double b, double c, double d) {return b/((a*a)-b);}
-	public static double _bDLLaDaRAbR(double a, double b, double c, double d) {return b/((a/a)+b);}
-	public static double _bDLLaDaRSbR(double a, double b, double c, double d) {return b/((a/a)-b);}
 	public static double _bSLLaAbRMaR(double a, double b, double c, double d) {return b-((a+b)*a);}
+	public static double _aSLLaAbRDbR(double a, double b, double c, double d) {return a-((a+b)/b);}
+	public static double _aSLLbAbRDaR(double a, double b, double c, double d) {return a-((b+b)/a);}
+	public static double _bSLLaAaRDbR(double a, double b, double c, double d) {return b-((a+a)/b);}
 	public static double _bSLLaAbRDaR(double a, double b, double c, double d) {return b-((a+b)/a);}
-	public static double _bDLLaMbRAaR(double a, double b, double c, double d) {return b/((a*b)+a);}
-	public static double _bDLLaMbRSaR(double a, double b, double c, double d) {return b/((a*b)-a);}
-	public static double _bDLLaDbRAaR(double a, double b, double c, double d) {return b/((a/b)+a);}
-	public static double _bDLLaDbRSaR(double a, double b, double c, double d) {return b/((a/b)-a);}
+	public static double _aSLLaMbRMbR(double a, double b, double c, double d) {return a-((a*b)*b);}
+	public static double _bSLLaMaRMbR(double a, double b, double c, double d) {return b-((a*a)*b);}
+	public static double _aSLLbMbRDaR(double a, double b, double c, double d) {return a-((b*b)/a);}
+	public static double _bSLLaMaRDbR(double a, double b, double c, double d) {return b-((a*a)/b);}
+	public static double _aSLaDLbMbRR(double a, double b, double c, double d) {return a-(a/(b*b));}
+	public static double _aSLbDLaMbRR(double a, double b, double c, double d) {return a-(b/(a*b));}
+	public static double _bSLaDLaMbRR(double a, double b, double c, double d) {return b-(a/(a*b));}
 	public static double _bSLbDLaMaRR(double a, double b, double c, double d) {return b-(b/(a*a));}
+	public static double _aDLLaAbRAbR(double a, double b, double c, double d) {return a/((a+b)+b);}
+	public static double _bDLLaAaRAbR(double a, double b, double c, double d) {return b/((a+a)+b);}
+	public static double _aDLLbAbRSaR(double a, double b, double c, double d) {return a/((b+b)-a);}
+	public static double _bDLLaAaRSbR(double a, double b, double c, double d) {return b/((a+a)-b);}
+	public static double _aDLLaSbRSbR(double a, double b, double c, double d) {return a/((a-b)-b);}
 	public static double _bDLLbSaRSaR(double a, double b, double c, double d) {return b/((b-a)-a);}
+	public static double _aDLLaMbRAbR(double a, double b, double c, double d) {return a/((a*b)+b);}
+	public static double _aDLLbMbRAaR(double a, double b, double c, double d) {return a/((b*b)+a);}
+	public static double _bDLLaMaRAbR(double a, double b, double c, double d) {return b/((a*a)+b);}
+	public static double _bDLLaMbRAaR(double a, double b, double c, double d) {return b/((a*b)+a);}
+	public static double _aDLLaMbRSbR(double a, double b, double c, double d) {return a/((a*b)-b);}
+	public static double _aDLLbMbRSaR(double a, double b, double c, double d) {return a/((b*b)-a);}
+	public static double _bDLLaMaRSbR(double a, double b, double c, double d) {return b/((a*a)-b);}
+	public static double _bDLLaMbRSaR(double a, double b, double c, double d) {return b/((a*b)-a);}
+	public static double _aDLLaDbRAbR(double a, double b, double c, double d) {return a/((a/b)+b);}
+	public static double _aDLLbDaRAbR(double a, double b, double c, double d) {return a/((b/a)+b);}
+	public static double _aDLLbDbRAaR(double a, double b, double c, double d) {return a/((b/b)+a);}
+	public static double _bDLLaDaRAbR(double a, double b, double c, double d) {return b/((a/a)+b);}
+	public static double _bDLLaDbRAaR(double a, double b, double c, double d) {return b/((a/b)+a);}
 	public static double _bDLLbDaRAaR(double a, double b, double c, double d) {return b/((b/a)+a);}
+	public static double _aDLLaDbRSbR(double a, double b, double c, double d) {return a/((a/b)-b);}
+	public static double _aDLLbDaRSbR(double a, double b, double c, double d) {return a/((b/a)-b);}
+	public static double _aDLLbDbRSaR(double a, double b, double c, double d) {return a/((b/b)-a);}
+	public static double _bDLLaDaRSbR(double a, double b, double c, double d) {return b/((a/a)-b);}
+	public static double _bDLLaDbRSaR(double a, double b, double c, double d) {return b/((a/b)-a);}
 	public static double _bDLLbDaRSaR(double a, double b, double c, double d) {return b/((b/a)-a);}
 	public static double _aSLaDLbAbRR(double a, double b, double c, double d) {return a-(a/(b+b));}
-	public static double _aDLaSLbMbRR(double a, double b, double c, double d) {return a/(a-(b*b));}
-	public static double _aDLaSLbDbRR(double a, double b, double c, double d) {return a/(a-(b/b));}
 	public static double _aSLbDLaAbRR(double a, double b, double c, double d) {return a-(b/(a+b));}
+	public static double _bSLaDLaAbRR(double a, double b, double c, double d) {return b-(a/(a+b));}
+	public static double _bSLbDLaAaRR(double a, double b, double c, double d) {return b-(b/(a+a));}
+	public static double _aDLaSLbMbRR(double a, double b, double c, double d) {return a/(a-(b*b));}
 	public static double _aDLbSLaMbRR(double a, double b, double c, double d) {return a/(b-(a*b));}
+	public static double _bDLaSLaMbRR(double a, double b, double c, double d) {return b/(a-(a*b));}
+	public static double _bDLbSLaMaRR(double a, double b, double c, double d) {return b/(b-(a*a));}
+	public static double _aDLaSLbDbRR(double a, double b, double c, double d) {return a/(a-(b/b));}
 	public static double _aDLbSLaDbRR(double a, double b, double c, double d) {return a/(b-(a/b));}
 	public static double _aDLbSLbDaRR(double a, double b, double c, double d) {return a/(b-(b/a));}
-	public static double _bSLaDLaAbRR(double a, double b, double c, double d) {return b-(a/(a+b));}
-	public static double _bDLaSLaMbRR(double a, double b, double c, double d) {return b/(a-(a*b));}
 	public static double _bDLaSLaDbRR(double a, double b, double c, double d) {return b/(a-(a/b));}
 	public static double _bDLaSLbDaRR(double a, double b, double c, double d) {return b/(a-(b/a));}
-	public static double _bSLbDLaAaRR(double a, double b, double c, double d) {return b-(b/(a+a));}
-	public static double _bDLbSLaMaRR(double a, double b, double c, double d) {return b/(b-(a*a));}
 	public static double _bDLbSLaDaRR(double a, double b, double c, double d) {return b/(b-(a/a));}
 	public static double _LLaAaRAaRAb(double a, double b, double c, double d) {return ((a+a)+a)+b;}
 	public static double _LLaAaRAaRSb(double a, double b, double c, double d) {return ((a+a)+a)-b;}
+	public static double _LLaAaRAbRSa(double a, double b, double c, double d) {return ((a+a)+b)-a;}
 	public static double _LLaAaRAaRMb(double a, double b, double c, double d) {return ((a+a)+a)*b;}
+	public static double _LLaAaRAbRMa(double a, double b, double c, double d) {return ((a+a)+b)*a;}
 	public static double _LLaAaRAaRDb(double a, double b, double c, double d) {return ((a+a)+a)/b;}
-	public static double _LLaAaRSaRAb(double a, double b, double c, double d) {return ((a+a)-a)+b;}
+	public static double _LLaAaRAbRDa(double a, double b, double c, double d) {return ((a+a)+b)/a;}
 	public static double _LLaAaRSaRSb(double a, double b, double c, double d) {return ((a+a)-a)-b;}
+	public static double _LLaAbRSaRSa(double a, double b, double c, double d) {return ((a+b)-a)-a;}
 	public static double _LLaAaRSaRMb(double a, double b, double c, double d) {return ((a+a)-a)*b;}
+	public static double _LLaAaRSbRMa(double a, double b, double c, double d) {return ((a+a)-b)*a;}
 	public static double _LLaAaRSaRDb(double a, double b, double c, double d) {return ((a+a)-a)/b;}
+	public static double _LLaAaRSbRDa(double a, double b, double c, double d) {return ((a+a)-b)/a;}
+	public static double _LLaAbRSaRDa(double a, double b, double c, double d) {return ((a+b)-a)/a;}
 	public static double _LLaAaRMaRAb(double a, double b, double c, double d) {return ((a+a)*a)+b;}
+	public static double _LLaAaRMbRAa(double a, double b, double c, double d) {return ((a+a)*b)+a;}
+	public static double _LLaAbRMaRAa(double a, double b, double c, double d) {return ((a+b)*a)+a;}
 	public static double _LLaAaRMaRSb(double a, double b, double c, double d) {return ((a+a)*a)-b;}
+	public static double _LLaAaRMbRSa(double a, double b, double c, double d) {return ((a+a)*b)-a;}
+	public static double _LLaAbRMaRSa(double a, double b, double c, double d) {return ((a+b)*a)-a;}
 	public static double _LLaAaRMaRMb(double a, double b, double c, double d) {return ((a+a)*a)*b;}
+	public static double _LLaAbRMaRMa(double a, double b, double c, double d) {return ((a+b)*a)*a;}
 	public static double _LLaAaRMaRDb(double a, double b, double c, double d) {return ((a+a)*a)/b;}
+	public static double _LLaAaRMbRDa(double a, double b, double c, double d) {return ((a+a)*b)/a;}
 	public static double _LLaAaRDaRAb(double a, double b, double c, double d) {return ((a+a)/a)+b;}
+	public static double _LLaAaRDbRAa(double a, double b, double c, double d) {return ((a+a)/b)+a;}
+	public static double _LLaAbRDaRAa(double a, double b, double c, double d) {return ((a+b)/a)+a;}
 	public static double _LLaAaRDaRSb(double a, double b, double c, double d) {return ((a+a)/a)-b;}
-	public static double _LLaAaRDaRMb(double a, double b, double c, double d) {return ((a+a)/a)*b;}
+	public static double _LLaAaRDbRSa(double a, double b, double c, double d) {return ((a+a)/b)-a;}
+	public static double _LLaAbRDaRSa(double a, double b, double c, double d) {return ((a+b)/a)-a;}
 	public static double _LaAaRDLaMbR(double a, double b, double c, double d) {return (a+a)/(a*b);}
-	public static double _LLaSaRSaRAb(double a, double b, double c, double d) {return ((a-a)-a)+b;}
+	public static double _LaAbRDLaMaR(double a, double b, double c, double d) {return (a+b)/(a*a);}
 	public static double _LLaSaRSaRSb(double a, double b, double c, double d) {return ((a-a)-a)-b;}
+	public static double _LLbSaRSaRSa(double a, double b, double c, double d) {return ((b-a)-a)-a;}
 	public static double _LLaSaRSaRMb(double a, double b, double c, double d) {return ((a-a)-a)*b;}
+	public static double _LLbSaRSaRMa(double a, double b, double c, double d) {return ((b-a)-a)*a;}
 	public static double _LLaSaRSaRDb(double a, double b, double c, double d) {return ((a-a)-a)/b;}
+	public static double _LLaSaRSbRDa(double a, double b, double c, double d) {return ((a-a)-b)/a;}
+	public static double _LLbSaRSaRDa(double a, double b, double c, double d) {return ((b-a)-a)/a;}
 	public static double _LLaSaRMaRAb(double a, double b, double c, double d) {return ((a-a)*a)+b;}
+	public static double _LLaSaRMbRAa(double a, double b, double c, double d) {return ((a-a)*b)+a;}
+	public static double _LLaSbRMaRAa(double a, double b, double c, double d) {return ((a-b)*a)+a;}
+	public static double _LLbSaRMaRAa(double a, double b, double c, double d) {return ((b-a)*a)+a;}
 	public static double _LLaSaRMaRSb(double a, double b, double c, double d) {return ((a-a)*a)-b;}
+	public static double _LLaSaRMbRSa(double a, double b, double c, double d) {return ((a-a)*b)-a;}
+	public static double _LLaSbRMaRSa(double a, double b, double c, double d) {return ((a-b)*a)-a;}
+	public static double _LLbSaRMaRSa(double a, double b, double c, double d) {return ((b-a)*a)-a;}
 	public static double _LLaSaRMaRMb(double a, double b, double c, double d) {return ((a-a)*a)*b;}
+	public static double _LLaSbRMaRMa(double a, double b, double c, double d) {return ((a-b)*a)*a;}
+	public static double _LLbSaRMaRMa(double a, double b, double c, double d) {return ((b-a)*a)*a;}
+	public static double _LLaSbRDaRAa(double a, double b, double c, double d) {return ((a-b)/a)+a;}
+	public static double _LLbSaRDaRAa(double a, double b, double c, double d) {return ((b-a)/a)+a;}
+	public static double _LLaSbRDaRSa(double a, double b, double c, double d) {return ((a-b)/a)-a;}
+	public static double _LLbSaRDaRSa(double a, double b, double c, double d) {return ((b-a)/a)-a;}
+	public static double _LaSbRDLaMaR(double a, double b, double c, double d) {return (a-b)/(a*a);}
+	public static double _LbSaRDLaMaR(double a, double b, double c, double d) {return (b-a)/(a*a);}
 	public static double _LLaMaRAaRAb(double a, double b, double c, double d) {return ((a*a)+a)+b;}
+	public static double _LLaMbRAaRAa(double a, double b, double c, double d) {return ((a*b)+a)+a;}
 	public static double _LLaMaRAaRSb(double a, double b, double c, double d) {return ((a*a)+a)-b;}
+	public static double _LLaMaRAbRSa(double a, double b, double c, double d) {return ((a*a)+b)-a;}
 	public static double _LLaMaRAaRMb(double a, double b, double c, double d) {return ((a*a)+a)*b;}
+	public static double _LLaMaRAbRMa(double a, double b, double c, double d) {return ((a*a)+b)*a;}
+	public static double _LLaMbRAaRMa(double a, double b, double c, double d) {return ((a*b)+a)*a;}
 	public static double _LLaMaRAaRDb(double a, double b, double c, double d) {return ((a*a)+a)/b;}
-	public static double _LLaMaRSaRAb(double a, double b, double c, double d) {return ((a*a)-a)+b;}
+	public static double _LLaMaRAbRDa(double a, double b, double c, double d) {return ((a*a)+b)/a;}
+	public static double _LLaMbRAaRDa(double a, double b, double c, double d) {return ((a*b)+a)/a;}
 	public static double _LLaMaRSaRSb(double a, double b, double c, double d) {return ((a*a)-a)-b;}
+	public static double _LLaMbRSaRSa(double a, double b, double c, double d) {return ((a*b)-a)-a;}
 	public static double _LLaMaRSaRMb(double a, double b, double c, double d) {return ((a*a)-a)*b;}
+	public static double _LLaMaRSbRMa(double a, double b, double c, double d) {return ((a*a)-b)*a;}
+	public static double _LLaMbRSaRMa(double a, double b, double c, double d) {return ((a*b)-a)*a;}
 	public static double _LLaMaRSaRDb(double a, double b, double c, double d) {return ((a*a)-a)/b;}
+	public static double _LLaMaRSbRDa(double a, double b, double c, double d) {return ((a*a)-b)/a;}
+	public static double _LLaMbRSaRDa(double a, double b, double c, double d) {return ((a*b)-a)/a;}
 	public static double _LLaMaRMaRAb(double a, double b, double c, double d) {return ((a*a)*a)+b;}
+	public static double _LLaMaRMbRAa(double a, double b, double c, double d) {return ((a*a)*b)+a;}
 	public static double _LLaMaRMaRSb(double a, double b, double c, double d) {return ((a*a)*a)-b;}
+	public static double _LLaMaRMbRSa(double a, double b, double c, double d) {return ((a*a)*b)-a;}
 	public static double _LLaMaRMaRMb(double a, double b, double c, double d) {return ((a*a)*a)*b;}
 	public static double _LLaMaRMaRDb(double a, double b, double c, double d) {return ((a*a)*a)/b;}
-	public static double _LLaDaRAaRAb(double a, double b, double c, double d) {return ((a/a)+a)+b;}
-	public static double _LLaDaRAaRSb(double a, double b, double c, double d) {return ((a/a)+a)-b;}
-	public static double _LLaDaRAaRMb(double a, double b, double c, double d) {return ((a/a)+a)*b;}
-	public static double _LLaDaRAaRDb(double a, double b, double c, double d) {return ((a/a)+a)/b;}
-	public static double _LLaDaRSaRAb(double a, double b, double c, double d) {return ((a/a)-a)+b;}
-	public static double _LLaDaRSaRSb(double a, double b, double c, double d) {return ((a/a)-a)-b;}
-	public static double _LLaDaRSaRMb(double a, double b, double c, double d) {return ((a/a)-a)*b;}
-	public static double _LLaDaRSaRDb(double a, double b, double c, double d) {return ((a/a)-a)/b;}
-	public static double _LaDLaMaRRAb(double a, double b, double c, double d) {return (a/(a*a))+b;}
-	public static double _LaDLaMaRRSb(double a, double b, double c, double d) {return (a/(a*a))-b;}
-	public static double _LLaSaRAbRDa(double a, double b, double c, double d) {return ((a-a)+b)/a;}
-	public static double _aDLLaMaRMbR(double a, double b, double c, double d) {return a/((a*a)*b);}
-	public static double _LLaAaRAbRMa(double a, double b, double c, double d) {return ((a+a)+b)*a;}
-	public static double _LLaAaRAbRDa(double a, double b, double c, double d) {return ((a+a)+b)/a;}
-	public static double _LLaAaRSbRMa(double a, double b, double c, double d) {return ((a+a)-b)*a;}
-	public static double _LLaAaRSbRDa(double a, double b, double c, double d) {return ((a+a)-b)/a;}
-	public static double _LLaAaRMbRAa(double a, double b, double c, double d) {return ((a+a)*b)+a;}
-	public static double _LLaAaRMbRSa(double a, double b, double c, double d) {return ((a+a)*b)-a;}
-	public static double _LLaAaRDbRAa(double a, double b, double c, double d) {return ((a+a)/b)+a;}
-	public static double _LLaAaRDbRSa(double a, double b, double c, double d) {return ((a+a)/b)-a;}
-	public static double _LLaSaRSbRDa(double a, double b, double c, double d) {return ((a-a)-b)/a;}
-	public static double _LLaSaRMbRAa(double a, double b, double c, double d) {return ((a-a)*b)+a;}
-	public static double _LLaSaRMbRSa(double a, double b, double c, double d) {return ((a-a)*b)-a;}
-	public static double _LLaMaRAbRMa(double a, double b, double c, double d) {return ((a*a)+b)*a;}
-	public static double _LLaMaRAbRDa(double a, double b, double c, double d) {return ((a*a)+b)/a;}
-	public static double _LLaMaRSbRMa(double a, double b, double c, double d) {return ((a*a)-b)*a;}
-	public static double _LLaMaRSbRDa(double a, double b, double c, double d) {return ((a*a)-b)/a;}
-	public static double _LLaMaRMbRAa(double a, double b, double c, double d) {return ((a*a)*b)+a;}
-	public static double _LLaMaRMbRSa(double a, double b, double c, double d) {return ((a*a)*b)-a;}
 	public static double _LLaMaRDbRAa(double a, double b, double c, double d) {return ((a*a)/b)+a;}
 	public static double _LLaMaRDbRSa(double a, double b, double c, double d) {return ((a*a)/b)-a;}
-	public static double _LLaDaRAbRMa(double a, double b, double c, double d) {return ((a/a)+b)*a;}
-	public static double _LLaDaRAbRDa(double a, double b, double c, double d) {return ((a/a)+b)/a;}
-	public static double _LLaDaRSbRMa(double a, double b, double c, double d) {return ((a/a)-b)*a;}
-	public static double _LLaDaRSbRDa(double a, double b, double c, double d) {return ((a/a)-b)/a;}
-	public static double _LaDLaMbRRAa(double a, double b, double c, double d) {return (a/(a*b))+a;}
-	public static double _LaDLaMbRRSa(double a, double b, double c, double d) {return (a/(a*b))-a;}
-	public static double _LLaAbRMaRAa(double a, double b, double c, double d) {return ((a+b)*a)+a;}
-	public static double _LLaAbRMaRSa(double a, double b, double c, double d) {return ((a+b)*a)-a;}
-	public static double _LLaAbRMaRMa(double a, double b, double c, double d) {return ((a+b)*a)*a;}
-	public static double _LLaAbRDaRAa(double a, double b, double c, double d) {return ((a+b)/a)+a;}
-	public static double _LLaAbRDaRSa(double a, double b, double c, double d) {return ((a+b)/a)-a;}
-	public static double _LaAbRDLaMaR(double a, double b, double c, double d) {return (a+b)/(a*a);}
-	public static double _LLaSbRMaRAa(double a, double b, double c, double d) {return ((a-b)*a)+a;}
-	public static double _LLaSbRMaRSa(double a, double b, double c, double d) {return ((a-b)*a)-a;}
-	public static double _LLaSbRMaRMa(double a, double b, double c, double d) {return ((a-b)*a)*a;}
-	public static double _LLaSbRDaRAa(double a, double b, double c, double d) {return ((a-b)/a)+a;}
-	public static double _LLaSbRDaRSa(double a, double b, double c, double d) {return ((a-b)/a)-a;}
-	public static double _LaSbRDLaMaR(double a, double b, double c, double d) {return (a-b)/(a*a);}
-	public static double _LLaMbRAaRAa(double a, double b, double c, double d) {return ((a*b)+a)+a;}
-	public static double _LLaMbRAaRMa(double a, double b, double c, double d) {return ((a*b)+a)*a;}
-	public static double _LLaMbRAaRDa(double a, double b, double c, double d) {return ((a*b)+a)/a;}
-	public static double _LLaMbRSaRSa(double a, double b, double c, double d) {return ((a*b)-a)-a;}
-	public static double _LLaMbRSaRMa(double a, double b, double c, double d) {return ((a*b)-a)*a;}
-	public static double _LLaMbRSaRDa(double a, double b, double c, double d) {return ((a*b)-a)/a;}
+	public static double _LLaDaRAaRAb(double a, double b, double c, double d) {return ((a/a)+a)+b;}
 	public static double _LLaDbRAaRAa(double a, double b, double c, double d) {return ((a/b)+a)+a;}
-	public static double _LLaDbRAaRMa(double a, double b, double c, double d) {return ((a/b)+a)*a;}
-	public static double _LLaDbRAaRDa(double a, double b, double c, double d) {return ((a/b)+a)/a;}
-	public static double _LLaDbRSaRSa(double a, double b, double c, double d) {return ((a/b)-a)-a;}
-	public static double _LLaDbRSaRMa(double a, double b, double c, double d) {return ((a/b)-a)*a;}
-	public static double _LLaDbRSaRDa(double a, double b, double c, double d) {return ((a/b)-a)/a;}
-	public static double _LLbSaRSaRSa(double a, double b, double c, double d) {return ((b-a)-a)-a;}
-	public static double _LLbSaRSaRMa(double a, double b, double c, double d) {return ((b-a)-a)*a;}
-	public static double _LLbSaRSaRDa(double a, double b, double c, double d) {return ((b-a)-a)/a;}
-	public static double _LLbSaRMaRAa(double a, double b, double c, double d) {return ((b-a)*a)+a;}
-	public static double _LLbSaRMaRSa(double a, double b, double c, double d) {return ((b-a)*a)-a;}
-	public static double _LLbSaRMaRMa(double a, double b, double c, double d) {return ((b-a)*a)*a;}
-	public static double _LLbSaRDaRAa(double a, double b, double c, double d) {return ((b-a)/a)+a;}
-	public static double _LLbSaRDaRSa(double a, double b, double c, double d) {return ((b-a)/a)-a;}
-	public static double _LbSaRDLaMaR(double a, double b, double c, double d) {return (b-a)/(a*a);}
 	public static double _LLbDaRAaRAa(double a, double b, double c, double d) {return ((b/a)+a)+a;}
+	public static double _LLaDaRAaRSb(double a, double b, double c, double d) {return ((a/a)+a)-b;}
+	public static double _LLaDaRAbRSa(double a, double b, double c, double d) {return ((a/a)+b)-a;}
+	public static double _LLaDaRAaRMb(double a, double b, double c, double d) {return ((a/a)+a)*b;}
+	public static double _LLaDaRAbRMa(double a, double b, double c, double d) {return ((a/a)+b)*a;}
+	public static double _LLaDbRAaRMa(double a, double b, double c, double d) {return ((a/b)+a)*a;}
 	public static double _LLbDaRAaRMa(double a, double b, double c, double d) {return ((b/a)+a)*a;}
+	public static double _LLaDaRAaRDb(double a, double b, double c, double d) {return ((a/a)+a)/b;}
+	public static double _LLaDaRAbRDa(double a, double b, double c, double d) {return ((a/a)+b)/a;}
+	public static double _LLaDbRAaRDa(double a, double b, double c, double d) {return ((a/b)+a)/a;}
 	public static double _LLbDaRAaRDa(double a, double b, double c, double d) {return ((b/a)+a)/a;}
+	public static double _LLaDaRSaRSb(double a, double b, double c, double d) {return ((a/a)-a)-b;}
+	public static double _LLaDbRSaRSa(double a, double b, double c, double d) {return ((a/b)-a)-a;}
 	public static double _LLbDaRSaRSa(double a, double b, double c, double d) {return ((b/a)-a)-a;}
+	public static double _LLaDaRSaRMb(double a, double b, double c, double d) {return ((a/a)-a)*b;}
+	public static double _LLaDaRSbRMa(double a, double b, double c, double d) {return ((a/a)-b)*a;}
+	public static double _LLaDbRSaRMa(double a, double b, double c, double d) {return ((a/b)-a)*a;}
 	public static double _LLbDaRSaRMa(double a, double b, double c, double d) {return ((b/a)-a)*a;}
+	public static double _LLaDaRSaRDb(double a, double b, double c, double d) {return ((a/a)-a)/b;}
+	public static double _LLaDaRSbRDa(double a, double b, double c, double d) {return ((a/a)-b)/a;}
+	public static double _LLaDbRSaRDa(double a, double b, double c, double d) {return ((a/b)-a)/a;}
 	public static double _LLbDaRSaRDa(double a, double b, double c, double d) {return ((b/a)-a)/a;}
+	public static double _LaDLaMaRRAb(double a, double b, double c, double d) {return (a/(a*a))+b;}
+	public static double _LaDLaMbRRAa(double a, double b, double c, double d) {return (a/(a*b))+a;}
 	public static double _LbDLaMaRRAa(double a, double b, double c, double d) {return (b/(a*a))+a;}
+	public static double _LaDLaMaRRSb(double a, double b, double c, double d) {return (a/(a*a))-b;}
+	public static double _LaDLaMbRRSa(double a, double b, double c, double d) {return (a/(a*b))-a;}
 	public static double _LbDLaMaRRSa(double a, double b, double c, double d) {return (b/(a*a))-a;}
+	public static double _aDLLaMaRMbR(double a, double b, double c, double d) {return a/((a*a)*b);}
 	public static double _bDLLaMaRMaR(double a, double b, double c, double d) {return b/((a*a)*a);}
 	public static double _LaSLaMaRRAb(double a, double b, double c, double d) {return (a-(a*a))+b;}
-	public static double _LaSLaMaRRSb(double a, double b, double c, double d) {return (a-(a*a))-b;}
-	public static double _LaSLaMaRRMb(double a, double b, double c, double d) {return (a-(a*a))*b;}
-	public static double _LaSLaMaRRDb(double a, double b, double c, double d) {return (a-(a*a))/b;}
-	public static double _LaSLaDaRRAb(double a, double b, double c, double d) {return (a-(a/a))+b;}
-	public static double _LaSLaDaRRSb(double a, double b, double c, double d) {return (a-(a/a))-b;}
-	public static double _LaSLaDaRRMb(double a, double b, double c, double d) {return (a-(a/a))*b;}
-	public static double _LaSLaDaRRDb(double a, double b, double c, double d) {return (a-(a/a))/b;}
-	public static double _LaDLaAaRRAb(double a, double b, double c, double d) {return (a/(a+a))+b;}
-	public static double _LaDLaAaRRSb(double a, double b, double c, double d) {return (a/(a+a))-b;}
-	public static double _LaDLaAaRRMb(double a, double b, double c, double d) {return (a/(a+a))*b;}
-	public static double _aDLLaAaRMbR(double a, double b, double c, double d) {return a/((a+a)*b);}
 	public static double _LaSLaMbRRAa(double a, double b, double c, double d) {return (a-(a*b))+a;}
-	public static double _LaSLaMbRRMa(double a, double b, double c, double d) {return (a-(a*b))*a;}
-	public static double _LaSLaMbRRDa(double a, double b, double c, double d) {return (a-(a*b))/a;}
-	public static double _LaSLaDbRRAa(double a, double b, double c, double d) {return (a-(a/b))+a;}
-	public static double _LaSLaDbRRMa(double a, double b, double c, double d) {return (a-(a/b))*a;}
-	public static double _LaSLaDbRRDa(double a, double b, double c, double d) {return (a-(a/b))/a;}
-	public static double _LaDLaAbRRAa(double a, double b, double c, double d) {return (a/(a+b))+a;}
-	public static double _LaDLaAbRRSa(double a, double b, double c, double d) {return (a/(a+b))-a;}
-	public static double _LaDLaAbRRMa(double a, double b, double c, double d) {return (a/(a+b))*a;}
-	public static double _aDLLaAbRMaR(double a, double b, double c, double d) {return a/((a+b)*a);}
-	public static double _LaDLaSbRRAa(double a, double b, double c, double d) {return (a/(a-b))+a;}
-	public static double _LaDLaSbRRSa(double a, double b, double c, double d) {return (a/(a-b))-a;}
-	public static double _LaDLaSbRRMa(double a, double b, double c, double d) {return (a/(a-b))*a;}
-	public static double _aDLLaSbRMaR(double a, double b, double c, double d) {return a/((a-b)*a);}
-	public static double _LaSLbDaRRAa(double a, double b, double c, double d) {return (a-(b/a))+a;}
-	public static double _LaSLbDaRRMa(double a, double b, double c, double d) {return (a-(b/a))*a;}
-	public static double _LaSLbDaRRDa(double a, double b, double c, double d) {return (a-(b/a))/a;}
-	public static double _LaDLbSaRRAa(double a, double b, double c, double d) {return (a/(b-a))+a;}
-	public static double _LaDLbSaRRSa(double a, double b, double c, double d) {return (a/(b-a))-a;}
-	public static double _LaDLbSaRRMa(double a, double b, double c, double d) {return (a/(b-a))*a;}
-	public static double _aDLLbSaRMaR(double a, double b, double c, double d) {return a/((b-a)*a);}
+	public static double _LaSLaMaRRSb(double a, double b, double c, double d) {return (a-(a*a))-b;}
 	public static double _LbSLaMaRRSa(double a, double b, double c, double d) {return (b-(a*a))-a;}
+	public static double _LaSLaMaRRMb(double a, double b, double c, double d) {return (a-(a*a))*b;}
+	public static double _LaSLaMbRRMa(double a, double b, double c, double d) {return (a-(a*b))*a;}
 	public static double _LbSLaMaRRMa(double a, double b, double c, double d) {return (b-(a*a))*a;}
+	public static double _LaSLaMaRRDb(double a, double b, double c, double d) {return (a-(a*a))/b;}
+	public static double _LaSLaMbRRDa(double a, double b, double c, double d) {return (a-(a*b))/a;}
 	public static double _LbSLaMaRRDa(double a, double b, double c, double d) {return (b-(a*a))/a;}
+	public static double _LaSLaDaRRAb(double a, double b, double c, double d) {return (a-(a/a))+b;}
+	public static double _LaSLaDbRRAa(double a, double b, double c, double d) {return (a-(a/b))+a;}
+	public static double _LaSLbDaRRAa(double a, double b, double c, double d) {return (a-(b/a))+a;}
+	public static double _LaSLaDaRRSb(double a, double b, double c, double d) {return (a-(a/a))-b;}
 	public static double _LbSLaDaRRSa(double a, double b, double c, double d) {return (b-(a/a))-a;}
+	public static double _LaSLaDaRRMb(double a, double b, double c, double d) {return (a-(a/a))*b;}
+	public static double _LaSLaDbRRMa(double a, double b, double c, double d) {return (a-(a/b))*a;}
+	public static double _LaSLbDaRRMa(double a, double b, double c, double d) {return (a-(b/a))*a;}
 	public static double _LbSLaDaRRMa(double a, double b, double c, double d) {return (b-(a/a))*a;}
+	public static double _LaSLaDaRRDb(double a, double b, double c, double d) {return (a-(a/a))/b;}
+	public static double _LaSLaDbRRDa(double a, double b, double c, double d) {return (a-(a/b))/a;}
+	public static double _LaSLbDaRRDa(double a, double b, double c, double d) {return (a-(b/a))/a;}
 	public static double _LbSLaDaRRDa(double a, double b, double c, double d) {return (b-(a/a))/a;}
+	public static double _LaDLaAaRRAb(double a, double b, double c, double d) {return (a/(a+a))+b;}
+	public static double _LaDLaAbRRAa(double a, double b, double c, double d) {return (a/(a+b))+a;}
 	public static double _LbDLaAaRRAa(double a, double b, double c, double d) {return (b/(a+a))+a;}
+	public static double _LaDLaAaRRSb(double a, double b, double c, double d) {return (a/(a+a))-b;}
+	public static double _LaDLaAbRRSa(double a, double b, double c, double d) {return (a/(a+b))-a;}
 	public static double _LbDLaAaRRSa(double a, double b, double c, double d) {return (b/(a+a))-a;}
+	public static double _LaDLaAaRRMb(double a, double b, double c, double d) {return (a/(a+a))*b;}
+	public static double _LaDLaAbRRMa(double a, double b, double c, double d) {return (a/(a+b))*a;}
+	public static double _aDLLaAaRMbR(double a, double b, double c, double d) {return a/((a+a)*b);}
+	public static double _aDLLaAbRMaR(double a, double b, double c, double d) {return a/((a+b)*a);}
 	public static double _bDLLaAaRMaR(double a, double b, double c, double d) {return b/((a+a)*a);}
+	public static double _LaDLaSbRRAa(double a, double b, double c, double d) {return (a/(a-b))+a;}
+	public static double _LaDLbSaRRAa(double a, double b, double c, double d) {return (a/(b-a))+a;}
+	public static double _LaDLaSbRRSa(double a, double b, double c, double d) {return (a/(a-b))-a;}
+	public static double _LaDLbSaRRSa(double a, double b, double c, double d) {return (a/(b-a))-a;}
+	public static double _LaDLaSbRRMa(double a, double b, double c, double d) {return (a/(a-b))*a;}
+	public static double _LaDLbSaRRMa(double a, double b, double c, double d) {return (a/(b-a))*a;}
+	public static double _aDLLaSbRMaR(double a, double b, double c, double d) {return a/((a-b)*a);}
+	public static double _aDLLbSaRMaR(double a, double b, double c, double d) {return a/((b-a)*a);}
 	public static double _LaAaRMLaAbR(double a, double b, double c, double d) {return (a+a)*(a+b);}
 	public static double _LaAaRMLaSbR(double a, double b, double c, double d) {return (a+a)*(a-b);}
+	public static double _LaAaRMLbSaR(double a, double b, double c, double d) {return (a+a)*(b-a);}
 	public static double _LaAaRDLaAbR(double a, double b, double c, double d) {return (a+a)/(a+b);}
+	public static double _LaAbRDLaAaR(double a, double b, double c, double d) {return (a+b)/(a+a);}
 	public static double _LaAaRDLaSbR(double a, double b, double c, double d) {return (a+a)/(a-b);}
+	public static double _LaAaRDLbSaR(double a, double b, double c, double d) {return (a+a)/(b-a);}
+	public static double _LaSbRDLaAaR(double a, double b, double c, double d) {return (a-b)/(a+a);}
+	public static double _LbSaRDLaAaR(double a, double b, double c, double d) {return (b-a)/(a+a);}
 	public static double _LaMaRALaMbR(double a, double b, double c, double d) {return (a*a)+(a*b);}
 	public static double _LaMaRALaDbR(double a, double b, double c, double d) {return (a*a)+(a/b);}
-	public static double _LaMaRSLaMbR(double a, double b, double c, double d) {return (a*a)-(a*b);}
-	public static double _LaMaRSLaDbR(double a, double b, double c, double d) {return (a*a)-(a/b);}
-	public static double _LaDaRALaMbR(double a, double b, double c, double d) {return (a/a)+(a*b);}
-	public static double _LaDaRALaDbR(double a, double b, double c, double d) {return (a/a)+(a/b);}
-	public static double _LaDaRSLaMbR(double a, double b, double c, double d) {return (a/a)-(a*b);}
-	public static double _LaDaRSLaDbR(double a, double b, double c, double d) {return (a/a)-(a/b);}
-	public static double _LaAaRMLbSaR(double a, double b, double c, double d) {return (a+a)*(b-a);}
-	public static double _LaAaRDLbSaR(double a, double b, double c, double d) {return (a+a)/(b-a);}
 	public static double _LaMaRALbDaR(double a, double b, double c, double d) {return (a*a)+(b/a);}
-	public static double _LaMaRSLbDaR(double a, double b, double c, double d) {return (a*a)-(b/a);}
-	public static double _LaDaRALbDaR(double a, double b, double c, double d) {return (a/a)+(b/a);}
-	public static double _LaDaRSLbDaR(double a, double b, double c, double d) {return (a/a)-(b/a);}
-	public static double _LaAbRDLaAaR(double a, double b, double c, double d) {return (a+b)/(a+a);}
-	public static double _LaSbRDLaAaR(double a, double b, double c, double d) {return (a-b)/(a+a);}
+	public static double _LaMbRALaDaR(double a, double b, double c, double d) {return (a*b)+(a/a);}
+	public static double _LaMaRSLaMbR(double a, double b, double c, double d) {return (a*a)-(a*b);}
 	public static double _LaMbRSLaMaR(double a, double b, double c, double d) {return (a*b)-(a*a);}
+	public static double _LaMaRSLaDbR(double a, double b, double c, double d) {return (a*a)-(a/b);}
+	public static double _LaMaRSLbDaR(double a, double b, double c, double d) {return (a*a)-(b/a);}
 	public static double _LaMbRSLaDaR(double a, double b, double c, double d) {return (a*b)-(a/a);}
+	public static double _LaDaRALaDbR(double a, double b, double c, double d) {return (a/a)+(a/b);}
+	public static double _LaDaRALbDaR(double a, double b, double c, double d) {return (a/a)+(b/a);}
+	public static double _LaDaRSLaMbR(double a, double b, double c, double d) {return (a/a)-(a*b);}
 	public static double _LaDbRSLaMaR(double a, double b, double c, double d) {return (a/b)-(a*a);}
-	public static double _LaDbRSLaDaR(double a, double b, double c, double d) {return (a/b)-(a/a);}
-	public static double _LbSaRDLaAaR(double a, double b, double c, double d) {return (b-a)/(a+a);}
 	public static double _LbDaRSLaMaR(double a, double b, double c, double d) {return (b/a)-(a*a);}
+	public static double _LaDaRSLaDbR(double a, double b, double c, double d) {return (a/a)-(a/b);}
+	public static double _LaDaRSLbDaR(double a, double b, double c, double d) {return (a/a)-(b/a);}
+	public static double _LaDbRSLaDaR(double a, double b, double c, double d) {return (a/b)-(a/a);}
 	public static double _LbDaRSLaDaR(double a, double b, double c, double d) {return (b/a)-(a/a);}
 	public static double _aSLLaAaRMbR(double a, double b, double c, double d) {return a-((a+a)*b);}
+	public static double _aSLLaAbRMaR(double a, double b, double c, double d) {return a-((a+b)*a);}
+	public static double _bSLLaAaRMaR(double a, double b, double c, double d) {return b-((a+a)*a);}
 	public static double _aSLLaAaRDbR(double a, double b, double c, double d) {return a-((a+a)/b);}
+	public static double _aSLLaAbRDaR(double a, double b, double c, double d) {return a-((a+b)/a);}
+	public static double _bSLLaAaRDaR(double a, double b, double c, double d) {return b-((a+a)/a);}
 	public static double _aSLLaMaRMbR(double a, double b, double c, double d) {return a-((a*a)*b);}
+	public static double _bSLLaMaRMaR(double a, double b, double c, double d) {return b-((a*a)*a);}
 	public static double _aSLLaMaRDbR(double a, double b, double c, double d) {return a-((a*a)/b);}
 	public static double _aSLaDLaMbRR(double a, double b, double c, double d) {return a-(a/(a*b));}
-	public static double _aDLLaAaRAbR(double a, double b, double c, double d) {return a/((a+a)+b);}
-	public static double _aDLLaAaRSbR(double a, double b, double c, double d) {return a/((a+a)-b);}
-	public static double _aDLLaMaRAbR(double a, double b, double c, double d) {return a/((a*a)+b);}
-	public static double _aDLLaMaRSbR(double a, double b, double c, double d) {return a/((a*a)-b);}
-	public static double _aDLLaDaRAbR(double a, double b, double c, double d) {return a/((a/a)+b);}
-	public static double _aDLLaDaRSbR(double a, double b, double c, double d) {return a/((a/a)-b);}
-	public static double _aSLLaAbRMaR(double a, double b, double c, double d) {return a-((a+b)*a);}
-	public static double _aSLLaAbRDaR(double a, double b, double c, double d) {return a-((a+b)/a);}
-	public static double _aDLLaMbRAaR(double a, double b, double c, double d) {return a/((a*b)+a);}
-	public static double _aDLLaMbRSaR(double a, double b, double c, double d) {return a/((a*b)-a);}
-	public static double _aDLLaDbRAaR(double a, double b, double c, double d) {return a/((a/b)+a);}
-	public static double _aDLLaDbRSaR(double a, double b, double c, double d) {return a/((a/b)-a);}
 	public static double _aSLbDLaMaRR(double a, double b, double c, double d) {return a-(b/(a*a));}
-	public static double _aDLLbSaRSaR(double a, double b, double c, double d) {return a/((b-a)-a);}
-	public static double _aDLLbDaRAaR(double a, double b, double c, double d) {return a/((b/a)+a);}
-	public static double _aDLLbDaRSaR(double a, double b, double c, double d) {return a/((b/a)-a);}
-	public static double _bSLLaAaRMaR(double a, double b, double c, double d) {return b-((a+a)*a);}
-	public static double _bSLLaAaRDaR(double a, double b, double c, double d) {return b-((a+a)/a);}
-	public static double _bSLLaMaRMaR(double a, double b, double c, double d) {return b-((a*a)*a);}
 	public static double _bSLaDLaMaRR(double a, double b, double c, double d) {return b-(a/(a*a));}
+	public static double _aDLLaAaRAbR(double a, double b, double c, double d) {return a/((a+a)+b);}
 	public static double _bDLLaAaRAaR(double a, double b, double c, double d) {return b/((a+a)+a);}
+	public static double _aDLLaAaRSbR(double a, double b, double c, double d) {return a/((a+a)-b);}
+	public static double _aDLLbSaRSaR(double a, double b, double c, double d) {return a/((b-a)-a);}
+	public static double _aDLLaMaRAbR(double a, double b, double c, double d) {return a/((a*a)+b);}
+	public static double _aDLLaMbRAaR(double a, double b, double c, double d) {return a/((a*b)+a);}
 	public static double _bDLLaMaRAaR(double a, double b, double c, double d) {return b/((a*a)+a);}
+	public static double _aDLLaMaRSbR(double a, double b, double c, double d) {return a/((a*a)-b);}
+	public static double _aDLLaMbRSaR(double a, double b, double c, double d) {return a/((a*b)-a);}
 	public static double _bDLLaMaRSaR(double a, double b, double c, double d) {return b/((a*a)-a);}
+	public static double _aDLLaDaRAbR(double a, double b, double c, double d) {return a/((a/a)+b);}
+	public static double _aDLLaDbRAaR(double a, double b, double c, double d) {return a/((a/b)+a);}
+	public static double _aDLLbDaRAaR(double a, double b, double c, double d) {return a/((b/a)+a);}
 	public static double _bDLLaDaRAaR(double a, double b, double c, double d) {return b/((a/a)+a);}
+	public static double _aDLLaDaRSbR(double a, double b, double c, double d) {return a/((a/a)-b);}
+	public static double _aDLLaDbRSaR(double a, double b, double c, double d) {return a/((a/b)-a);}
+	public static double _aDLLbDaRSaR(double a, double b, double c, double d) {return a/((b/a)-a);}
 	public static double _bDLLaDaRSaR(double a, double b, double c, double d) {return b/((a/a)-a);}
 	public static double _aSLaDLaAbRR(double a, double b, double c, double d) {return a-(a/(a+b));}
+	public static double _aSLbDLaAaRR(double a, double b, double c, double d) {return a-(b/(a+a));}
+	public static double _bSLaDLaAaRR(double a, double b, double c, double d) {return b-(a/(a+a));}
 	public static double _aDLaSLaMbRR(double a, double b, double c, double d) {return a/(a-(a*b));}
+	public static double _aDLbSLaMaRR(double a, double b, double c, double d) {return a/(b-(a*a));}
+	public static double _bDLaSLaMaRR(double a, double b, double c, double d) {return b/(a-(a*a));}
 	public static double _aDLaSLaDbRR(double a, double b, double c, double d) {return a/(a-(a/b));}
 	public static double _aDLaSLbDaRR(double a, double b, double c, double d) {return a/(a-(b/a));}
-	public static double _aSLbDLaAaRR(double a, double b, double c, double d) {return a-(b/(a+a));}
-	public static double _aDLbSLaMaRR(double a, double b, double c, double d) {return a/(b-(a*a));}
 	public static double _aDLbSLaDaRR(double a, double b, double c, double d) {return a/(b-(a/a));}
-	public static double _bSLaDLaAaRR(double a, double b, double c, double d) {return b-(a/(a+a));}
-	public static double _bDLaSLaMaRR(double a, double b, double c, double d) {return b/(a-(a*a));}
 	public static double _bDLaSLaDaRR(double a, double b, double c, double d) {return b/(a-(a/a));}
 	public static double _LLaAaRAaRAa(double a, double b, double c, double d) {return ((a+a)+a)+a;}
 	public static double _LLaAaRAaRSa(double a, double b, double c, double d) {return ((a+a)+a)-a;}
@@ -2376,109 +2376,109 @@ public class Methods {
 	public static double _aDLaSLaDaRR(double a, double b, double c, double d) {return a/(a-(a/a));}
 	public static double _LaAbRAc(double a, double b, double c, double d) {return (a+b)+c;}
 	public static double _LaAbRSc(double a, double b, double c, double d) {return (a+b)-c;}
+	public static double _LaAcRSb(double a, double b, double c, double d) {return (a+c)-b;}
+	public static double _LbAcRSa(double a, double b, double c, double d) {return (b+c)-a;}
 	public static double _LaAbRMc(double a, double b, double c, double d) {return (a+b)*c;}
+	public static double _LaAcRMb(double a, double b, double c, double d) {return (a+c)*b;}
+	public static double _LbAcRMa(double a, double b, double c, double d) {return (b+c)*a;}
 	public static double _LaAbRDc(double a, double b, double c, double d) {return (a+b)/c;}
-	public static double _LaSbRAc(double a, double b, double c, double d) {return (a-b)+c;}
+	public static double _LaAcRDb(double a, double b, double c, double d) {return (a+c)/b;}
+	public static double _LbAcRDa(double a, double b, double c, double d) {return (b+c)/a;}
 	public static double _LaSbRSc(double a, double b, double c, double d) {return (a-b)-c;}
+	public static double _LbSaRSc(double a, double b, double c, double d) {return (b-a)-c;}
+	public static double _LcSaRSb(double a, double b, double c, double d) {return (c-a)-b;}
 	public static double _LaSbRMc(double a, double b, double c, double d) {return (a-b)*c;}
+	public static double _LaScRMb(double a, double b, double c, double d) {return (a-c)*b;}
+	public static double _LbSaRMc(double a, double b, double c, double d) {return (b-a)*c;}
+	public static double _LbScRMa(double a, double b, double c, double d) {return (b-c)*a;}
+	public static double _LcSaRMb(double a, double b, double c, double d) {return (c-a)*b;}
+	public static double _LcSbRMa(double a, double b, double c, double d) {return (c-b)*a;}
 	public static double _LaSbRDc(double a, double b, double c, double d) {return (a-b)/c;}
+	public static double _LaScRDb(double a, double b, double c, double d) {return (a-c)/b;}
+	public static double _LbSaRDc(double a, double b, double c, double d) {return (b-a)/c;}
+	public static double _LbScRDa(double a, double b, double c, double d) {return (b-c)/a;}
+	public static double _LcSaRDb(double a, double b, double c, double d) {return (c-a)/b;}
+	public static double _LcSbRDa(double a, double b, double c, double d) {return (c-b)/a;}
 	public static double _LaMbRAc(double a, double b, double c, double d) {return (a*b)+c;}
+	public static double _LaMcRAb(double a, double b, double c, double d) {return (a*c)+b;}
+	public static double _LbMcRAa(double a, double b, double c, double d) {return (b*c)+a;}
 	public static double _LaMbRSc(double a, double b, double c, double d) {return (a*b)-c;}
+	public static double _LaMcRSb(double a, double b, double c, double d) {return (a*c)-b;}
+	public static double _LbMcRSa(double a, double b, double c, double d) {return (b*c)-a;}
 	public static double _LaMbRMc(double a, double b, double c, double d) {return (a*b)*c;}
 	public static double _LaMbRDc(double a, double b, double c, double d) {return (a*b)/c;}
+	public static double _LaMcRDb(double a, double b, double c, double d) {return (a*c)/b;}
+	public static double _LbMcRDa(double a, double b, double c, double d) {return (b*c)/a;}
 	public static double _LaDbRAc(double a, double b, double c, double d) {return (a/b)+c;}
-	public static double _LaDbRSc(double a, double b, double c, double d) {return (a/b)-c;}
-	public static double _LaDbRMc(double a, double b, double c, double d) {return (a/b)*c;}
-	public static double _aDLbMcR(double a, double b, double c, double d) {return a/(b*c);}
-	public static double _LaAcRMb(double a, double b, double c, double d) {return (a+c)*b;}
-	public static double _LaAcRDb(double a, double b, double c, double d) {return (a+c)/b;}
-	public static double _LaScRMb(double a, double b, double c, double d) {return (a-c)*b;}
-	public static double _LaScRDb(double a, double b, double c, double d) {return (a-c)/b;}
-	public static double _LaMcRAb(double a, double b, double c, double d) {return (a*c)+b;}
-	public static double _LaMcRSb(double a, double b, double c, double d) {return (a*c)-b;}
 	public static double _LaDcRAb(double a, double b, double c, double d) {return (a/c)+b;}
-	public static double _LaDcRSb(double a, double b, double c, double d) {return (a/c)-b;}
-	public static double _LbSaRAc(double a, double b, double c, double d) {return (b-a)+c;}
-	public static double _LbSaRSc(double a, double b, double c, double d) {return (b-a)-c;}
-	public static double _LbSaRMc(double a, double b, double c, double d) {return (b-a)*c;}
-	public static double _LbSaRDc(double a, double b, double c, double d) {return (b-a)/c;}
 	public static double _LbDaRAc(double a, double b, double c, double d) {return (b/a)+c;}
-	public static double _LbDaRSc(double a, double b, double c, double d) {return (b/a)-c;}
-	public static double _LbDaRMc(double a, double b, double c, double d) {return (b/a)*c;}
-	public static double _bDLaMcR(double a, double b, double c, double d) {return b/(a*c);}
-	public static double _LbAcRMa(double a, double b, double c, double d) {return (b+c)*a;}
-	public static double _LbAcRDa(double a, double b, double c, double d) {return (b+c)/a;}
-	public static double _LbScRMa(double a, double b, double c, double d) {return (b-c)*a;}
-	public static double _LbScRDa(double a, double b, double c, double d) {return (b-c)/a;}
-	public static double _LbMcRAa(double a, double b, double c, double d) {return (b*c)+a;}
-	public static double _LbMcRSa(double a, double b, double c, double d) {return (b*c)-a;}
 	public static double _LbDcRAa(double a, double b, double c, double d) {return (b/c)+a;}
-	public static double _LbDcRSa(double a, double b, double c, double d) {return (b/c)-a;}
-	public static double _LcSaRSb(double a, double b, double c, double d) {return (c-a)-b;}
-	public static double _LcSaRMb(double a, double b, double c, double d) {return (c-a)*b;}
-	public static double _LcSaRDb(double a, double b, double c, double d) {return (c-a)/b;}
 	public static double _LcDaRAb(double a, double b, double c, double d) {return (c/a)+b;}
-	public static double _LcDaRSb(double a, double b, double c, double d) {return (c/a)-b;}
-	public static double _cDLaMbR(double a, double b, double c, double d) {return c/(a*b);}
-	public static double _LcSbRMa(double a, double b, double c, double d) {return (c-b)*a;}
-	public static double _LcSbRDa(double a, double b, double c, double d) {return (c-b)/a;}
 	public static double _LcDbRAa(double a, double b, double c, double d) {return (c/b)+a;}
+	public static double _LaDbRSc(double a, double b, double c, double d) {return (a/b)-c;}
+	public static double _LaDcRSb(double a, double b, double c, double d) {return (a/c)-b;}
+	public static double _LbDaRSc(double a, double b, double c, double d) {return (b/a)-c;}
+	public static double _LbDcRSa(double a, double b, double c, double d) {return (b/c)-a;}
+	public static double _LcDaRSb(double a, double b, double c, double d) {return (c/a)-b;}
 	public static double _LcDbRSa(double a, double b, double c, double d) {return (c/b)-a;}
+	public static double _aDLbMcR(double a, double b, double c, double d) {return a/(b*c);}
+	public static double _bDLaMcR(double a, double b, double c, double d) {return b/(a*c);}
+	public static double _cDLaMbR(double a, double b, double c, double d) {return c/(a*b);}
 	public static double _aSLbMcR(double a, double b, double c, double d) {return a-(b*c);}
-	public static double _aSLbDcR(double a, double b, double c, double d) {return a-(b/c);}
-	public static double _aDLbAcR(double a, double b, double c, double d) {return a/(b+c);}
-	public static double _aDLbScR(double a, double b, double c, double d) {return a/(b-c);}
-	public static double _aSLcDbR(double a, double b, double c, double d) {return a-(c/b);}
-	public static double _aDLcSbR(double a, double b, double c, double d) {return a/(c-b);}
 	public static double _bSLaMcR(double a, double b, double c, double d) {return b-(a*c);}
-	public static double _bSLaDcR(double a, double b, double c, double d) {return b-(a/c);}
-	public static double _bDLaAcR(double a, double b, double c, double d) {return b/(a+c);}
-	public static double _bDLaScR(double a, double b, double c, double d) {return b/(a-c);}
-	public static double _bSLcDaR(double a, double b, double c, double d) {return b-(c/a);}
-	public static double _bDLcSaR(double a, double b, double c, double d) {return b/(c-a);}
 	public static double _cSLaMbR(double a, double b, double c, double d) {return c-(a*b);}
+	public static double _aSLbDcR(double a, double b, double c, double d) {return a-(b/c);}
+	public static double _aSLcDbR(double a, double b, double c, double d) {return a-(c/b);}
+	public static double _bSLaDcR(double a, double b, double c, double d) {return b-(a/c);}
+	public static double _bSLcDaR(double a, double b, double c, double d) {return b-(c/a);}
 	public static double _cSLaDbR(double a, double b, double c, double d) {return c-(a/b);}
-	public static double _cDLaAbR(double a, double b, double c, double d) {return c/(a+b);}
-	public static double _cDLaSbR(double a, double b, double c, double d) {return c/(a-b);}
 	public static double _cSLbDaR(double a, double b, double c, double d) {return c-(b/a);}
+	public static double _aDLbAcR(double a, double b, double c, double d) {return a/(b+c);}
+	public static double _bDLaAcR(double a, double b, double c, double d) {return b/(a+c);}
+	public static double _cDLaAbR(double a, double b, double c, double d) {return c/(a+b);}
+	public static double _aDLbScR(double a, double b, double c, double d) {return a/(b-c);}
+	public static double _aDLcSbR(double a, double b, double c, double d) {return a/(c-b);}
+	public static double _bDLaScR(double a, double b, double c, double d) {return b/(a-c);}
+	public static double _bDLcSaR(double a, double b, double c, double d) {return b/(c-a);}
+	public static double _cDLaSbR(double a, double b, double c, double d) {return c/(a-b);}
 	public static double _cDLbSaR(double a, double b, double c, double d) {return c/(b-a);}
 	public static double _LaAaRAb(double a, double b, double c, double d) {return (a+a)+b;}
 	public static double _LaAaRSb(double a, double b, double c, double d) {return (a+a)-b;}
+	public static double _LaAbRSa(double a, double b, double c, double d) {return (a+b)-a;}
 	public static double _LaAaRMb(double a, double b, double c, double d) {return (a+a)*b;}
+	public static double _LaAbRMa(double a, double b, double c, double d) {return (a+b)*a;}
 	public static double _LaAaRDb(double a, double b, double c, double d) {return (a+a)/b;}
-	public static double _LaSaRAb(double a, double b, double c, double d) {return (a-a)+b;}
+	public static double _LaAbRDa(double a, double b, double c, double d) {return (a+b)/a;}
 	public static double _LaSaRSb(double a, double b, double c, double d) {return (a-a)-b;}
+	public static double _LbSaRSa(double a, double b, double c, double d) {return (b-a)-a;}
 	public static double _LaSaRMb(double a, double b, double c, double d) {return (a-a)*b;}
+	public static double _LaSbRMa(double a, double b, double c, double d) {return (a-b)*a;}
+	public static double _LbSaRMa(double a, double b, double c, double d) {return (b-a)*a;}
+	public static double _LaSbRDa(double a, double b, double c, double d) {return (a-b)/a;}
+	public static double _LbSaRDa(double a, double b, double c, double d) {return (b-a)/a;}
 	public static double _LaMaRAb(double a, double b, double c, double d) {return (a*a)+b;}
+	public static double _LaMbRAa(double a, double b, double c, double d) {return (a*b)+a;}
 	public static double _LaMaRSb(double a, double b, double c, double d) {return (a*a)-b;}
+	public static double _LaMbRSa(double a, double b, double c, double d) {return (a*b)-a;}
 	public static double _LaMaRMb(double a, double b, double c, double d) {return (a*a)*b;}
 	public static double _LaMaRDb(double a, double b, double c, double d) {return (a*a)/b;}
 	public static double _LaDaRAb(double a, double b, double c, double d) {return (a/a)+b;}
-	public static double _LaDaRSb(double a, double b, double c, double d) {return (a/a)-b;}
-	public static double _aDLaMbR(double a, double b, double c, double d) {return a/(a*b);}
-	public static double _LaAbRMa(double a, double b, double c, double d) {return (a+b)*a;}
-	public static double _LaAbRDa(double a, double b, double c, double d) {return (a+b)/a;}
-	public static double _LaSbRMa(double a, double b, double c, double d) {return (a-b)*a;}
-	public static double _LaSbRDa(double a, double b, double c, double d) {return (a-b)/a;}
-	public static double _LaMbRAa(double a, double b, double c, double d) {return (a*b)+a;}
-	public static double _LaMbRSa(double a, double b, double c, double d) {return (a*b)-a;}
 	public static double _LaDbRAa(double a, double b, double c, double d) {return (a/b)+a;}
-	public static double _LaDbRSa(double a, double b, double c, double d) {return (a/b)-a;}
-	public static double _LbSaRSa(double a, double b, double c, double d) {return (b-a)-a;}
-	public static double _LbSaRMa(double a, double b, double c, double d) {return (b-a)*a;}
-	public static double _LbSaRDa(double a, double b, double c, double d) {return (b-a)/a;}
 	public static double _LbDaRAa(double a, double b, double c, double d) {return (b/a)+a;}
+	public static double _LaDaRSb(double a, double b, double c, double d) {return (a/a)-b;}
+	public static double _LaDbRSa(double a, double b, double c, double d) {return (a/b)-a;}
 	public static double _LbDaRSa(double a, double b, double c, double d) {return (b/a)-a;}
+	public static double _aDLaMbR(double a, double b, double c, double d) {return a/(a*b);}
 	public static double _bDLaMaR(double a, double b, double c, double d) {return b/(a*a);}
 	public static double _aSLaMbR(double a, double b, double c, double d) {return a-(a*b);}
-	public static double _aSLaDbR(double a, double b, double c, double d) {return a-(a/b);}
-	public static double _aDLaAbR(double a, double b, double c, double d) {return a/(a+b);}
-	public static double _aDLaSbR(double a, double b, double c, double d) {return a/(a-b);}
-	public static double _aSLbDaR(double a, double b, double c, double d) {return a-(b/a);}
-	public static double _aDLbSaR(double a, double b, double c, double d) {return a/(b-a);}
 	public static double _bSLaMaR(double a, double b, double c, double d) {return b-(a*a);}
+	public static double _aSLaDbR(double a, double b, double c, double d) {return a-(a/b);}
+	public static double _aSLbDaR(double a, double b, double c, double d) {return a-(b/a);}
 	public static double _bSLaDaR(double a, double b, double c, double d) {return b-(a/a);}
+	public static double _aDLaAbR(double a, double b, double c, double d) {return a/(a+b);}
 	public static double _bDLaAaR(double a, double b, double c, double d) {return b/(a+a);}
+	public static double _aDLaSbR(double a, double b, double c, double d) {return a/(a-b);}
+	public static double _aDLbSaR(double a, double b, double c, double d) {return a/(b-a);}
 	public static double _LaAaRAa(double a, double b, double c, double d) {return (a+a)+a;}
 	public static double _LaAaRSa(double a, double b, double c, double d) {return (a+a)-a;}
 	public static double _LaAaRMa(double a, double b, double c, double d) {return (a+a)*a;}

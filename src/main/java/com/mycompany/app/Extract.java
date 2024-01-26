@@ -24,21 +24,22 @@ public class Extract {
 			int order;
 			int[] numbers = new int[4];
 			double score;
+			double delay = 2.4-0.001;
 			while (idx <= 1362) {
 				order = scanner.nextInt();
 				for (int i = 0; i < 4; ++i) {
 					numbers[i] = scanner.nextInt();
 				}
-				score = scanner.nextDouble();
-				for (int i = 0; i < 3; ++i) {
-					scanin = scanner.next();
-				}
+				scanin = scanner.next();
+				scanin = scanner.next();
+				score = Math.floor((scanner.nextDouble()-delay)*100)/100;
+				scanin = scanner.next();
 				out.println("		new Task("+order+", new int[]"+
 					Arrays.toString(numbers).replaceAll("\\[","{").replaceAll("\\]","}")+
-					", "+score+"),");
+					", 24, "+score+"),");
 				++idx;
 			}
-			out.print("	}\n}");
+			out.print("	};\n}");
 		}
 	}
 }

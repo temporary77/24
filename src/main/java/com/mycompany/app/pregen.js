@@ -25,15 +25,15 @@ function writeExpression4(name, a, b, c, d) {
 	var valmp = {};
 	for (var i = 0; i < PARENTHESES4.length; ++i) {
 		var parenthese = PARENTHESES4[i];
-		for (var set1 in mp) {
-			var arr = set1.split(",");
-			var positions = parenthese;
-			for (var j = 0; j < 4; ++j) {
-				positions = positions.replace("o",arr[j]);
-			}
-			for (var j of OPERATORS) {
-				for (var k of OPERATORS) {
-					for (var l of OPERATORS) {
+		for (var j of OPERATORS) {
+			for (var k of OPERATORS) {
+				for (var l of OPERATORS) {
+					for (var set1 in mp) {
+						var arr = set1.split(",");
+						var positions = parenthese;
+						for (var m = 0; m < 4; ++m) {
+							positions = positions.replace("o",arr[m]);
+						}
 						var expression = positions;
 						expression = expression.replace("x",j);
 						expression = expression.replace("x",k);
@@ -84,14 +84,14 @@ function writeExpression3(name, a, b, c) {
 	var valmp = {};
 	for (var i = 0; i < PARENTHESES3.length; ++i) {
 		var parenthese = PARENTHESES3[i];
-		for (var set1 in mp) {
-			var arr = set1.split(",");
-			var positions = parenthese;
-			for (var j = 0; j < 3; ++j) {
-				positions = positions.replace("o",arr[j]);
-			}
-			for (var j of OPERATORS) {
-				for (var k of OPERATORS) {
+		for (var j of OPERATORS) {
+			for (var k of OPERATORS) {
+				for (var set1 in mp) {
+					var arr = set1.split(",");
+					var positions = parenthese;
+					for (var m = 0; m < 3; ++m) {
+						positions = positions.replace("o",arr[m]);
+					}
 					var expression = positions;
 					expression = expression.replace("x",j);
 					expression = expression.replace("x",k);
@@ -124,7 +124,7 @@ function writeExpression3(name, a, b, c) {
 	document.write("&nbsp;&nbsp;&nbsp;&nbsp;public static final String[] "+name+" = {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\""+expressions.join("\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\"")+"\"<br>&nbsp;&nbsp;&nbsp;&nbsp;};<br><br>");
 }
 
-document.write("public class Expressions extends Expressions2{<br>");
+document.write("public class Expressions extends Expressions2 {<br>");
 
 writeExpression4("EXP_ABCD","a","b","c","d");
 writeExpression4("EXP_AABC","a","a","b","c");
@@ -135,27 +135,6 @@ writeExpression4("EXP_AAAA","a","a","a","a");
 writeExpression3("EXP_ABC","a","b","c");
 writeExpression3("EXP_AAB","a","a","b");
 writeExpression3("EXP_AAA","a","a","a");
-
-// a + 0 == a - 0
-// writeExpression("EXP_0ABC","0","a","b","c");
-// writeExpression("EXP_0AAB","0","a","a","b");
-// writeExpression("EXP_0AAA","0","a","a","a");
-// writeExpression("EXP_00AB","0","0","a","b");
-// writeExpression("EXP_00AA","0","0","a","a");
-// writeExpression("EXP_000A","0","0","0","a");
-
-// // a * 1 == a / 1
-// writeExpression("EXP_1ABC","1","a","b","c");
-// writeExpression("EXP_1AAB","1","a","a","b");
-// writeExpression("EXP_1AAA","1","a","a","a");
-// writeExpression("EXP_11AB","1","1","a","b");
-// writeExpression("EXP_11AA","1","1","a","a");
-// writeExpression("EXP_111A","1","1","1","a"); // 1+1-1 = 1*1*1
-
-// writeExpression("EXP_01AB","0","1","a","b");
-// writeExpression("EXP_01AA","0","1","a","a");
-// writeExpression("EXP_001A","0","0","1","a");
-// writeExpression("EXP_011A","0","1","1","a");
 
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;public static final String[] EXP_AB = {\"a+b\",\"a*b\",\"a-b\",\"b-a\",\"a/b\",\"b/a\"};<br><br>");
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;public static final String[] EXP_AA = {\"a+a\",\"a*a\",\"a-a\",\"a/a\"};<br><br>");

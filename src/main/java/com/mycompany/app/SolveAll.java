@@ -4,16 +4,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
 import java.text.DecimalFormat;
 
 class Task {
 	int order;
 	int[] numbers;
+	double trgt;
 	double time;
 
-    public Task(int order, int[] numbers, double time) {
+    public Task(int order, int[] numbers, double trgt, double time) {
         this.order = order;
         this.numbers = numbers;
+        this.trgt = trgt;
         this.time = time;
     }
 }
@@ -21,6 +27,7 @@ class Task {
 
 class Answer {
 	int[] numbers;
+	double trgt;
 	List<Solution> solutions;
 	List<Solution> partials;
 	double minlarge;
@@ -29,13 +36,7 @@ class Answer {
 
 public class SolveAll {
 
-	public static final double trgt = 24;
-
-	public static final double largecap = trgt*1.5;
-
-	public static final int start = 1;
-
-	public static final int end = 13;
+	private static ScriptEngine engine = new ScriptEngineManager().getEngineByName("graal.js");
 
 	private static <K,V> void put(TreeMap<K,List<V>> mp, K key, V value) {
 		List<V> values = mp.get(key);
@@ -60,41 +61,49 @@ public class SolveAll {
 
 		long t = System.currentTimeMillis();
 
-		for (int i = start; i <= end; ++i) {
+		for (int i = Constants.start; i <= Constants.end; ++i) {
 			System.out.println("solving i = "+i+" ...");
-			for (int j = i; j <= end; ++j) {
-				for (int k = j; k <= end; ++k) {
-					for (int l = k; l <= end; ++l) {
+			for (int j = i; j <= Constants.end; ++j) {
+				for (int k = j; k <= Constants.end; ++k) {
+					for (int l = k; l <= Constants.end; ++l) {
 						// if ((i == j && j == k) || (j == k && k == l))continue;
 						// if (i == 0 && j == 0)continue;
 						++ttlqueries;
 						Answer ans = new Answer();
 						ans.numbers = new int[]{i,j,k,l};
-						EqnPackage rawsols = Solver.solve4(ans.numbers,trgt);
+						ans.trgt = Constants.trgt;
+						EqnPackage rawsols = Solver.solve4(ans.numbers,Constants.trgt);
 						ans.solutions = new ArrayList<>();
 						ans.partials = new ArrayList<>();
 						ans.minlarge = Double.MAX_VALUE;
 						ans.score = 0;
+						int cnt = rawsols.solutions.size();
+						int fracts = 0;
 						for (Equation eqn : rawsols.solutions) {
-							Solution sol = Solver.Convert(eqn);
+							Solution sol = Solver.Convert(eqn,Constants.largedet);
 							ans.solutions.add(sol);
-							ans.score += sol.score;
 							ans.minlarge = Math.min(ans.minlarge,sol.largest);
+							ans.score += Math.pow(sol.score,Constants.INIT_DET);
+							if (sol.isfract)++fracts;
 						}
+						ans.score /= cnt;
+						ans.score = Math.pow(ans.score,1/Constants.INIT_DET);
+						ans.score *= Math.pow(cnt,Constants.CNT_WEIGHT_DET);
 						for (Equation eqn : rawsols.partials) {
-							Solution sol = Solver.Convert(eqn);
+							Solution sol = Solver.Convert(eqn,Constants.largedet);
 							ans.partials.add(sol);
 						}
-						if (ans.score == 0)ans.minlarge = -1;
-						put(countMap,Integer.valueOf(ans.solutions.size()),ans);
+						if (ans.minlarge == Double.MAX_VALUE)ans.minlarge = -1;
+						// if (ans.score == 0)ans.minlarge = -1;
+						put(countMap,Integer.valueOf(cnt),ans);
 						put(scoreMap,Double.valueOf(ans.score),ans);
 						put(largestMap,Double.valueOf(ans.minlarge),ans);
-						if (ans.score > 0 && ans.score == ans.solutions.size()*0.2) {
-							put(fractMap,Integer.valueOf(ans.solutions.size()),ans);
+						if (fracts == cnt) {
+							put(fractMap,Integer.valueOf(cnt),ans);
 							++fractcnt;
 						}
 						put(partialMap,Integer.valueOf(ans.partials.size()),ans);
-						if (ans.solutions.size() == 0 && ans.partials.size() > 0) {
+						if (cnt == 0 && ans.partials.size() > 0) {
 							put(partialOnlyMap,Integer.valueOf(ans.partials.size()),ans);
 							++partcnt;
 						}
@@ -103,7 +112,7 @@ public class SolveAll {
 			}
 			System.out.println("done in "+(System.currentTimeMillis()-t)+" ms");
 		}
-		DecimalFormat sf = new DecimalFormat("###0.00");
+		DecimalFormat sf = new DecimalFormat("###0.00000");
 		System.out.println("\nout of all "+ttlqueries+" queries");
 		System.out.println(ttlqueries-countMap.firstEntry().getValue().size()+" have solutions,");
 		System.out.println(countMap.firstEntry().getValue().size()+" dont");
@@ -114,7 +123,7 @@ public class SolveAll {
 		for (Answer ans : countMap.lastEntry().getValue()) {
 			System.out.println(Arrays.toString(ans.numbers)+" has "+ans.solutions.size()+" solution(s)");
 			for (Solution sol : ans.solutions) {
-				System.out.println(sol.exp+"="+trgt);
+				System.out.println(sol.exp+"="+Constants.trgt);
 			}
 		}
 		System.out.println();
@@ -123,7 +132,7 @@ public class SolveAll {
 				String fscr = sf.format(ans.score);
 				System.out.println(Arrays.toString(ans.numbers)+" has "+fscr+" score");
 				for (Solution sol : ans.solutions) {
-					System.out.println(sol.exp+"="+trgt);
+					System.out.println(sol.exp+"="+Constants.trgt);
 				}
 			}
 			System.out.println();
@@ -147,7 +156,7 @@ public class SolveAll {
 		for (Answer ans : entry.getValue()) {
 			System.out.println(Arrays.toString(ans.numbers)+" has "+entry.getKey()+" solution(s)");
 			for (Solution sol : ans.solutions) {
-				System.out.println(sol.exp+"="+trgt);
+				System.out.println(sol.exp+"="+Constants.trgt);
 			}
 		}
 		System.out.println(fractcnt+" queries have fractional solutions only");
@@ -156,19 +165,19 @@ public class SolveAll {
 			for (Answer ans : fractMap.get(cnt)) {
 				System.out.println(Arrays.toString(ans.numbers));//+" have "+cnt+" solution(s)");
 				for (Solution sol : ans.solutions) {
-					System.out.println(sol.exp+"="+trgt);
+					System.out.println(sol.exp+"="+Constants.trgt);
 				}
 			}
 		}
 		System.out.println();
 		for (Double k : largestMap.descendingKeySet()) {
-			if (k <= largecap) {
+			if (k <= Constants.largedet) {
 				break;
 			}
 			for (Answer ans : largestMap.get(k)) {
 				System.out.println(Arrays.toString(ans.numbers)+" approaches "+k);
 				for (Solution sol : ans.solutions) {
-					System.out.println(sol.exp+"="+trgt);
+					System.out.println(sol.exp+"="+Constants.trgt);
 				}
 			}
 		}

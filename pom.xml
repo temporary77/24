@@ -35,11 +35,6 @@
       <artifactId>js-scriptengine</artifactId>
       <version>23.1.2</version>
     </dependency>
-    <dependency>
-        <groupId>org.javatuples</groupId>
-        <artifactId>javatuples</artifactId>
-        <version>1.2</version>
-    </dependency>
   </dependencies>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
