@@ -387,7 +387,8 @@ public class Interactive {
 						System.out.println(numbers[0]+" "+numbers[1]+" "+numbers[2]+" "+numbers[3]+" = "+Constants.trgt);
 						while(true) {
 							cmd = scanner.next();
-							if (cmd == "done")break;
+							System.out.println(">> "+cmd);
+							if (cmd.equals("done"))break;
 							else {
 								double res = calculate(cmd);
 								if (Solver.fsEquals(res,Double.MAX_VALUE))continue;

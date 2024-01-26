@@ -4,9 +4,9 @@ public class Constants {
 
 	public static double largedet = trgt*1.5;
 
-	public static int start = 0;
+	public static int start = 1;
 
-	public static int end = 9;
+	public static int end = 13;
 
 	public static final double EPSILON = 1e-10;
 
