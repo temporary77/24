@@ -6,8 +6,6 @@ public class Executor {
         try {
             String currentDirectory = System.getProperty("user.dir");
 
-            // String fpath = "C:\\Users\\Asus\\Desktop\\24\\src\\main\\java\\com\\mycompany\\app\\Interactive.java";
-
             String command = "cmd /c start cmd.exe /K \"java -cp . Interactive && exit\"";
 
             ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s+"));
