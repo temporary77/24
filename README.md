@@ -3,8 +3,8 @@ had to learn more java after ftc
 inspiration from another project  
 reference: https://github.com/auntyellow/24  
   
-solves 4 numbers game for all non negative integers  
-4 number format, + - * / only  
+solves 24 game for all non negative integers  
+4 number format, any target, + - * / only  
   
 generates dissimiliar unique solutions with filters only  
 - filters duplicate solutions for duplicate numbers ((x,x,y,y), etc...)
