@@ -336,7 +336,8 @@ public class Interactive {
 				while(true) {
 					System.out.println("current target: "+Constants.trgt+", current largedet: "+Constants.largedet);
 					System.out.println("current range: "+Constants.start+" through "+Constants.end);
-					System.out.println("type \"done\" to continue");
+					System.out.println("select difficulty score 1-5");
+					System.out.println("when task is generated, type \"done\" to continue");
 					System.out.println("available prompts: 1, 2, 3, 4, 5, back, quit");
 					cmd = scanner.next();
 					if (cmd.equals("back")) {
