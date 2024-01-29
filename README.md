@@ -19,8 +19,8 @@ generates dissimiliar unique solutions with filters only
   - filters useless made 1's (a-b when b = a-1, ...)
   - filters useless made 2's and 4's for 2\*2 and 4/2
 - filters clones
-  - doubles ((2\*x)-x) as = (x+x)/2
-  - triples (((3\*x)-x)-x) as = (x+(x+x))/3
+  - filters doubles ((2\*x)-x) as = (x+x)/2
+  - filters triples (((3\*x)-x)-x) as = (x+(x+x))/3
 - filters cases where x+y=z or x\*y=z
   - x+y=z makes +((x+y)-z) and \*((x+y)/z) the same
   - x\*y=z makes \*((x\*y)/z) and +((x\*y)-z) the same
