@@ -1228,5 +1228,3 @@ public class Solver extends Expressions {
 
 // (a+b)/c, c/(a+b), (c-b)/a, (c-a)/b, a/(c-b), b/(c-a) for a+b = c being the same
 // -x+y, *x/y for x = y being the same
-// will remain unresolved (for now)
-// (implementing it would just be case work)
